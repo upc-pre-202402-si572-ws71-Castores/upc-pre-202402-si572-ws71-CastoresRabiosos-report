@@ -27,13 +27,13 @@
   
 
 
-| Integrantes                        | Codigo     |
-| ---------------------------------- | ---------- |
-| Abanto Vicente, Edery Renzo        | U201822832 |
-| Castro Soto, Sebastian Enrique     | U20181C241 |
-| Conde Isla, Camila Alessandra      | U202114309 |
-| Portales Ortiz, Diego Alejandro    | U202123501 |
-| Sabino Ramírez, Rodrigo Alexander  | U20201B801 |
+| Integrantes                       | Codigo     |
+| --------------------------------- | ---------- |
+| Abanto Vicente, Edery Renzo       | U201822832 |
+| Castro Soto, Sebastian Enrique    | U20181C241 |
+| Conde Isla, Camila Alessandra     | U202114309 |
+| Portales Ortiz, Diego Alejandro   | U202123501 |
+| Sabino Ramírez, Rodrigo Alexander | U20201B801 |
 
 
 
@@ -112,3 +112,48 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+
+Somos un grupo de estudiantes de la Universidad Peruana de Ciencias Aplicadas que, al identificar una oportunidad en el sector transporte, hemos decidido enfocarnos en mejorar el proceso de transporte de mercadería y bienes diversos a través de soluciones tecnológicas avanzadas.
+
+Nos dimos cuenta de que, para los clientes que requieren servicios de transporte, como el envío de mercadería, mudanzas, o el transporte de productos sensibles, encontrar un servicio confiable y adecuado no es una tarea sencilla. Las dificultades incluyen la falta de contactos, la inseguridad sobre la confiabilidad del servicio, y la falta de opciones adecuadas. Este problema se agrava para clientes que necesitan monitoreo en tiempo real de las condiciones de transporte, como la temperatura, el peso o la ubicación del envío.
+
+Por otro lado, sabemos que existen transportistas independientes y pequeñas empresas que brindan estos servicios, pero a menudo tienen dificultades para expandir su base de clientes más allá de su entorno inmediato. Esto limita sus oportunidades de negocio y reduce la eficiencia operativa, ya que muchos no cuentan con las herramientas necesarias para ofrecer un servicio que cumpla con las expectativas de un mercado cada vez más exigente.
+
+Por lo tanto, hemos creado **TransportApp**, una plataforma que conecta a transportistas con personas o empresas que requieren servicios de transporte especializado. A través de TransportApp, los transportistas pueden registrarse, completar su perfil con información detallada sobre sus servicios, vehículos, permisos, y área de operación. También podrán beneficiarse de la integración de soluciones IoT, como el monitoreo de temperatura, peso, y la ubicación en tiempo real, que les permitirá ofrecer un servicio más confiable y adaptado a las necesidades de sus clientes.
+
+Por su parte, los clientes pueden buscar transportistas según sus necesidades específicas, visualizar la disponibilidad de vehículos, revisar reseñas de otros usuarios, y asegurar que el servicio contratado cumpla con los requisitos necesarios, como el control de temperatura para productos sensibles. Además, la plataforma facilita el proceso de pago de manera segura y eficiente, permitiendo a ambas partes realizar transacciones de manera rápida y confiable.
+
+#### MISIÓN
+
+Facilitar y hacer confiable el proceso de búsqueda y contratación de servicios de transporte especializado para mercadería y bienes, brindando soluciones tecnológicas que aseguren la seguridad y eficiencia en cada envío.
+
+#### VISIÓN
+
+Convertirnos en la plataforma preferida en Perú para la búsqueda y gestión de servicios de transporte especializado, superando constantemente las expectativas de nuestros clientes y contribuyendo al crecimiento del sector transporte a través de la innovación tecnológica.
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+
+| Integrante  | Abanto Vicente, Edery Renzo                              |
+| ----------- | -------------------------------------------------------- |
+| Descripcion | ![Edery Perfil](resources/images/integrantes/Edery.jpeg) |
+
+| Integrante  | Castro Soto, Sebastian Enrique                                   |
+| ----------- | ---------------------------------------------------------------- |
+| Descripcion | ![Sebastian Perfil](resources/images/integrantes/Sebastian.jpeg) |
+
+| Integrante  | Conde Isla, Camila Alessandra                              |
+| ----------- | ---------------------------------------------------------- |
+| Descripcion | ![Camila Perfil](resources/images/integrantes/Camila.jpeg) |
+
+| Integrante  | Portales Ortiz, Diego Alejandro                          |
+| ----------- | -------------------------------------------------------- |
+| Descripcion | ![Diego Perfil](resources/images/integrantes/Diego.jpeg) |
+
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                   | Sabino Ramírez, Rodrigo Alexander                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Soy estudiante de octavo ciclo de Ingeniería de Software, con experiencia en desarrollo web, mobile con Flutter, y backend con Java Spring Boot. Me considero proactivo y estratégico, con habilidades en programación y un gran espíritu investigador. Puedo contribuir al proyecto aplicando mis conocimientos técnicos y apoyando al equipo con habilidades blandas como el trabajo en equipo y la comunicación efectiva. | ![Rodrigo Perfil](resources/images/integrantes/rodrigo.jpeg) |
+
+## 1.2. Solution Profile
+
+El producto que proponemos como equipo es **TransportApp**, una aplicación que conecta a transportistas con personas o empresas que requieren de servicios de transporte especializado. Esta solución permite a los usuarios acceder de manera sencilla, segura y eficiente a transportistas que ofrecen monitoreo en tiempo real de condiciones críticas como la temperatura, el peso de la carga. Con TransportApp, tanto clientes como transportistas pueden gestionar sus necesidades de transporte con total confianza, optimizando el proceso y garantizando la integridad de los productos durante todo el trayecto.
