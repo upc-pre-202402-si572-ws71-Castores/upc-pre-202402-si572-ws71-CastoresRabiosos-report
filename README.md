@@ -352,3 +352,58 @@ Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios 
 - Capacitación y soporte para mantenerse al día con las nuevas tecnologías y dispositivos IoT.
 - Herramientas y recursos adecuados para realizar su trabajo de manera eficiente.
 - Seguridad en las condiciones laborales y pago justo por los servicios prestados.
+
+
+
+---
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis Competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+
+#### Preguntas al Segmento Cliente:
+
+1. ¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+2. ¿Qué opinas de los servicios de transporte de mercadería en el Perú?
+3. ¿Alguna vez has utilizado un servicio de transporte de productos que requiera monitoreo especial, como refrigeración y control de peso para asegurar que toda la mercadería llegue al destino?
+	- SÍ: ¿Qué tecnología se utilizó para este monitoreo? ¿Tuviste algún problema con el servicio? ¿Cómo lo resolviste?
+	- NO: ¿Por qué razón no has utilizado este tipo de servicio? ¿Te parecería útil en algún contexto específico?
+4. ¿Qué tan complicado te resulta encontrar un servicio de transporte que ofrezca seguimiento en tiempo real y control de condiciones, como la temperatura y peso?
+5. ¿Qué tan a menudo necesitas un servicio de transporte que pueda monitorear las condiciones de tus productos durante el traslado?
+6. ¿A quién recurres actualmente cuando necesitas un servicio de transporte especializado para tus productos?
+7. ¿Qué tan importante consideras poder monitorear en tiempo real la ubicación y las condiciones (como la temperatura y peso) de tu producto durante el transporte?
+8. ¿Te parece relevante conocer el tipo de tecnología que usa el vehículo que transportará tus productos, como sensores de temperatura y sensor de peso?
+9. ¿Qué opinas de una aplicación que no solo te facilite encontrar un servicio de transporte, sino que también te permita monitorear las condiciones de tus productos?
+
+- El entrevistador explica acerca de la aplicación y las capacidades IoT integradas.
+
+10. ¿Estarías dispuesto a probarla? ¿Por qué?
+11. ¿Qué características o mejoras piensas que podríamos añadir a nuestra propuesta para que sea más útil para ti?
+#### Preguntas al Segmento Transportista:
+
+1. ¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+2. ¿Cuánto tiempo llevas trabajando en este empleo o de esta forma?
+3. ¿Qué opinas de los servicios de transporte de mercadería en el Perú?
+4. ¿Con qué frecuencia recibes pedidos para transportar productos que requieren un monitoreo especial, como refrigeración o rastreo en tiempo real?
+5. ¿Hacer servicios de transporte es tu única forma de ingresos o tienes otras fuentes de ingreso?
+6. ¿Cuánto es lo que ganas normalmente en un día de trabajo? ¿Varía dependiendo de si el servicio incluye tecnologías avanzadas como sensores de temperatura?
+7. ¿Cómo das a conocer tus servicios de transporte, especialmente si incluyen tecnologías avanzadas como GPS o monitoreo de temperatura?
+8. ¿Has tenido inconvenientes con los clientes debido a la falta de monitoreo en tiempo real o control de condiciones como la temperatura? ¿Cómo se solucionó el problema?
+9. ¿Qué opinas de la posibilidad de utilizar una aplicación que no solo te conecte con más clientes, sino que también te permita ofrecer servicios de transporte con monitoreo en tiempo real y control de condiciones, usando sensores IoT?
+
+* El entrevistador explica acerca de la aplicación y cómo integra tecnologías IoT.
+
+10. ¿Estarías dispuesto a probar nuestra aplicación? ¿Por qué?
+11. ¿Qué características adicionales o mejoras sugieres para que la aplicación sea más útil para transportistas como tú?
+### 2.2.2. Registro de entrevistas
+
+### 2.2.3. Análisis de entrevistas
+
+## 2.3 Needfinding
+
+### 2.3.1 User Persona
+### 2.3.2 User Task Matrix
+### 2.3.3 User Journey Mapping
