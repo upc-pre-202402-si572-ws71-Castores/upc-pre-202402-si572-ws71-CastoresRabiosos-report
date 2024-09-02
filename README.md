@@ -106,7 +106,7 @@
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
-
+En esta sección se presenta el perfil de la startup que está desarrollando TransportApp. Se describen los orígenes de la empresa, su visión, misión y los objetivos principales que busca alcanzar. El perfil de la startup ofrece una visión general del entorno en el que se desarrolla el proyecto, proporcionando contexto sobre la estructura organizacional y las metas estratégicas de la empresa.
 ### 1.1.1. Descripción de la Startup
 
 Somos un grupo de estudiantes de la Universidad Peruana de Ciencias Aplicadas que, al identificar una oportunidad en el sector transporte, hemos decidido enfocarnos en mejorar el proceso de transporte de mercadería y bienes diversos a través de soluciones tecnológicas avanzadas.
@@ -129,6 +129,7 @@ Convertirnos en la plataforma preferida en Perú para la búsqueda y gestión de
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+Aquí se describen los perfiles de los miembros clave del equipo involucrado en el desarrollo de TransportApp. Se incluye información sobre sus roles, habilidades, experiencia previa y cómo contribuyen al éxito del proyecto. Esta información es vital para demostrar que el equipo cuenta con las competencias necesarias para llevar a cabo el desarrollo de la solución propuesta.
 
 | Integrante  | Abanto Vicente, Edery Renzo                              |
 | ----------- | -------------------------------------------------------- |
@@ -153,9 +154,9 @@ Convertirnos en la plataforma preferida en Perú para la búsqueda y gestión de
 ## 1.2. Solution Profile
 
 El producto que proponemos como equipo es **TransportApp**, una aplicación que conecta a transportistas con personas o empresas que requieren de servicios de transporte especializado. Esta solución permite a los usuarios acceder de manera sencilla, segura y eficiente a transportistas que ofrecen monitoreo en tiempo real de condiciones críticas como la temperatura, el peso de la carga. Con TransportApp, tanto clientes como transportistas pueden gestionar sus necesidades de transporte con total confianza, optimizando el proceso y garantizando la integridad de los productos durante todo el trayecto.
-
 ### 1.2.1. Antecedentes y Problemática
 
+Esta subsección ofrece una visión general de los antecedentes que llevaron a la identificación del problema que TransportApp pretende solucionar. Se exploran los desafíos actuales en el mercado de transporte y monitoreo de vehículos, y cómo estos afectan a los clientes potenciales. La descripción de la problemática es fundamental para justificar la necesidad de la solución y para guiar el enfoque del desarrollo.
 ##### ANTECEDENTES:
 
 En el contexto del transporte de carga y mercadería, la evolución de la tecnología ha permitido el surgimiento de diversas plataformas que buscan optimizar la gestión y el monitoreo de estos servicios. A continuación, se presentan los antecedentes de TransportApp en relación con tres empresas relevantes en el sector: 
@@ -184,7 +185,7 @@ En el contexto del transporte de carga y mercadería, la evolución de la tecnol
 - **How Much (Cuánto)** En el Perú, hay pocas aplicaciones que compitan directamente con TransportApp en el ámbito del transporte de carga con capacidades de monitoreo IoT. TransportApp cubrirá una amplia gama de necesidades, desde pequeñas cargas hasta envíos de mercadería que requieren un manejo especializado y monitoreo constante.
 
 ### 1.2.2. Lean UX Process
-
+En esta subsección se describe el proceso de Lean UX aplicado durante el desarrollo de TransportApp. Lean UX es una metodología que enfatiza la colaboración y el enfoque en el usuario final a través de ciclos iterativos de diseño y validación. Se detallan las diferentes etapas del proceso y cómo contribuyen a crear una solución que realmente resuelva los problemas identificados.
 #### 1.2.2.1. Lean UX Problem Statements
 
 El transporte de mercadería y carga es una actividad fundamental tanto para empresarios como para personas naturales que necesitan trasladar productos de manera segura y eficiente. Aunque existen plataformas para servicios de transporte, estas suelen estar enfocadas en el ámbito urbano y en el transporte de personas, dejando desatendidas las necesidades específicas del transporte de carga que requiere monitoreo de condiciones como temperatura, peso, y ubicación. Además, la confianza y seguridad en la información proporcionada por estas plataformas es una preocupación constante. ¿Cómo podemos desarrollar una plataforma integral que aborde las necesidades del transporte de carga, proporcionando a empresarios y personas naturales acceso a servicios especializados con monitoreo en tiempo real? ¿Cómo garantizamos la seguridad y confiabilidad de la información y el servicio ofrecido en esta plataforma?
@@ -192,6 +193,7 @@ El transporte de mercadería y carga es una actividad fundamental tanto para emp
 Por otro lado, los trabajadores del sector transporte, como transportistas independientes y pequeños empresarios, juegan un papel clave en la economía, pero a menudo se enfrentan a la falta de oportunidades para expandir su negocio y conectarse con un público más amplio. No existe un lugar confiable donde estos trabajadores puedan ofrecer sus servicios de transporte especializado, aumentar su visibilidad, y generar ingresos adicionales. ¿Cómo podemos empoderar a los transportistas independientes para que ofrezcan sus servicios de manera confiable y expandan su negocio mediante una plataforma que integre tecnología IoT, asegurando al mismo tiempo la calidad y seguridad en los servicios ofrecidos? ¿Qué herramientas podemos desarrollar para facilitar esta conexión y mejorar la eficiencia operativa en el transporte de carga?
 
 #### 1.2.2.2. Lean UX Assumptions
+En esta subsección se documentan las suposiciones clave realizadas durante el proceso de diseño. Estas suposiciones incluyen creencias sobre las necesidades de los usuarios, sus comportamientos, y cómo la solución propuesta podría satisfacer esas necesidades. Las suposiciones sirven como base para las hipótesis que serán validadas o refutadas durante el proceso de desarrollo.
 
 ##### CARACTERÍSTICAS
 
@@ -250,6 +252,8 @@ Por otro lado, los trabajadores del sector transporte, como transportistas indep
 	Debe tener una interfaz amigable, intuitiva, con colores que transmitan confianza, seriedad y seguridad, y debe ofrecer una experiencia de usuario que combine simplicidad con tecnología avanzada.
 	
 #### 1.2.2.3. Lean UX Hypothesis Statements
+Aquí se presentan las hipótesis formuladas a partir de las suposiciones previamente definidas. Estas hipótesis son afirmaciones que pueden ser probadas a lo largo del desarrollo del producto para confirmar si la solución propuesta efectivamente resuelve los problemas identificados. Validar estas hipótesis es crucial para iterar en el diseño y asegurar que el producto final es efectivo.
+
 
 **Creemos** que proporcionar una plataforma donde los transportistas puedan ofrecer servicios de transporte con monitoreo en tiempo real de peso y temperatura, puede aumentar la demanda de transportistas que actualmente cuentan con poca visibilidad y ampliar su zona de trabajo.
 **Sabremos** que hemos tenido éxito 
@@ -290,6 +294,7 @@ Por otro lado, los trabajadores del sector transporte, como transportistas indep
 **Sabremos** que hemos tenido éxito 
 **Cuando** la encuesta de satisfacción del usuario muestre un aumento del 20% en la puntuación de satisfacción en los dos meses siguientes a la implementación de estas mejoras, con mención específica a la facilidad de uso y la confianza en la tecnología IoT.
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas es una herramienta visual que resume todo el proceso de Lean UX, desde las declaraciones de problemas hasta las hipótesis y los resultados esperados. En esta subsección, se presenta el Lean UX Canvas utilizado para TransportApp, proporcionando una vista global de cómo las diferentes piezas del proceso se interconectan para guiar el desarrollo de la solución.
 
 | **LEAN UX CANVAS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Lean UX Canvas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | *Fecha: 04/04/2024* *Iteración: 1*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -300,8 +305,8 @@ Por otro lado, los trabajadores del sector transporte, como transportistas indep
 
 ## 1.3. Segmentos Objetivo
 
-Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios distintos:
-### Segmento Clientes
+Esta sección identifica los principales segmentos de mercado a los que TransportApp está dirigido. Se describe quiénes son los clientes potenciales, qué características los definen, y por qué TransportApp es una solución adecuada para ellos. Definir claramente los segmentos objetivo es fundamental para enfocar las estrategias de marketing y asegurar que el producto atiende las necesidades de los usuarios correctos. Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios distintos:
+#### Segmento Clientes:
 
 - Personas que residen en todo el territorio peruano, tanto en Lima como en provincias, que necesitan servicios de transporte de mercadería, carga pesada, y otros bienes.
 - Se dirige tanto a hombres como a mujeres cuyas edades están en el rango de 20 a 40 años.
@@ -319,7 +324,7 @@ Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios 
 - Facilidad en el proceso de reserva y pago.
 - Información detallada sobre los transportistas y sus servicios, incluyendo calificaciones y comentarios.
 
-### Segmento Transportistas
+#### Segmento Transportistas:
 
 - Personas mayores de 25 años que ofrecen servicios de transporte de forma independiente y cumplen con los requisitos legales para operar.
 
@@ -336,7 +341,7 @@ Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios 
 - Mecanismos para asegurar el pago oportuno por sus servicios.
 - Exposición a una base de clientes más amplia y oportunidades de crecimiento.
 
-### Segmento Soporte
+#### Segmento Soporte
 
 - Profesionales técnicos encargados de la instalación y mantenimiento de los sensores IoT (temperatura, peso, GPS) en los vehículos de los transportistas.
 
@@ -359,11 +364,17 @@ Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios 
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+Esta sección se enfoca en identificar y analizar a los principales competidores en el mercado que ofrecen servicios similares a TransportApp. Al comprender quiénes son nuestros competidores y qué ofrecen, podemos evaluar nuestra posición en el mercado y diseñar estrategias para destacar nuestras ventajas competitivas. El análisis de competidores es fundamental para conocer el entorno en el que operaremos y para anticipar los desafíos que podríamos enfrentar.
 ### 2.1.1. Análisis Competitivo
+En esta sección, se realiza un análisis detallado de los principales competidores en el mercado que ofrecen servicios similares a los que pretende desarrollar TransportApp. Este análisis nos permite identificar las fortalezas y debilidades de nuestros competidores, así como las oportunidades y amenazas que existen en el entorno competitivo. Al entender el panorama del mercado, podemos formular estrategias más efectivas para posicionar nuestro producto y superar los desafíos que se presenten.
+![Analisis competitivo](resources/images/capitulo_2/competidores/Competidores.png)
 ### 2.1.2. Estrategias y tácticas frente a competidores
+En esta subsección se presentan las estrategias y tácticas que se han diseñado para competir eficazmente en el mercado. Estas estrategias se basan en los hallazgos del análisis competitivo y están alineadas con las fortalezas internas del proyecto y las oportunidades externas. Se detallan las acciones específicas que se llevarán a cabo para diferenciar TransportApp de sus competidores y para maximizar su impacto en el mercado objetivo.
+![Estrategias y tacticas](resources/images/capitulo_2/competidores/FODA.png)
 ## 2.2. Entrevistas
+Las entrevistas son una técnica clave en la etapa de elicitation de requerimientos. En esta sección, se describen las entrevistas realizadas con usuarios y stakeholders para obtener una comprensión profunda de sus necesidades, expectativas y problemas actuales. Las entrevistas proporcionan información valiosa que guía el desarrollo de TransportApp, asegurando que el producto final esté alineado con las demandas del mercado y resuelva los problemas reales de los usuarios.
 ### 2.2.1. Diseño de entrevistas
-
+Esta sección describe el proceso de diseño de las entrevistas que se llevarán a cabo para recabar información clave de los usuarios y stakeholders. Se detallan los objetivos de las entrevistas, las preguntas diseñadas y la metodología que se utilizará para asegurar que se obtenga información relevante y útil para el proyecto. El diseño de las entrevistas es un paso crítico en la etapa de elicitation de requerimientos, ya que nos permite capturar las necesidades y expectativas del usuario.
 #### Preguntas al Segmento Cliente:
 
 1. ¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
@@ -399,11 +410,52 @@ Dentro de nuestro segmento objetivo, hemos identificado tres grupos de usuarios 
 10. ¿Estarías dispuesto a probar nuestra aplicación? ¿Por qué?
 11. ¿Qué características adicionales o mejoras sugieres para que la aplicación sea más útil para transportistas como tú?
 ### 2.2.2. Registro de entrevistas
+Aquí se documenta el registro completo de las entrevistas realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
+#### Segmento Cliente
+*Entrevista 1*
+![Entrevista 1](resources/images/capitulo_2/entrevistas/Clientes_1.png)
+*Entrevista 2*
+*Entrevista 3*
+#### Segmento Transportista
+*Entrevista 1*
+![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_1.png)
+*Entrevista 2*
+![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_2.png)
+*Entrevista 3*
+![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_3.png)
 
 ### 2.2.3. Análisis de entrevistas
-
+En esta subsección se presenta el análisis de los datos obtenidos durante las entrevistas. El análisis se enfoca en identificar patrones, necesidades no satisfechas, y puntos de dolor de los usuarios, que luego se traducirán en requisitos funcionales y no funcionales para el desarrollo de TransportApp. Este análisis es crucial para asegurar que el producto final cumpla con las expectativas y necesidades del mercado objetivo.
+![Analisis de entrevistas](resources/images/capitulo_2/entrevistas/Analisis.png)
 ## 2.3 Needfinding
-
+El proceso de Needfinding se centra en descubrir las necesidades reales de los usuarios y cómo el producto puede satisfacerlas. Esta sección explora diferentes métodos utilizados para identificar esas necesidades, tales como la creación de User Personas, la matriz de tareas del usuario (User Task Matrix) y el mapeo del recorrido del usuario (User Journey Mapping). Needfinding es esencial para diseñar una solución que no solo sea funcional, sino que también ofrezca un valor significativo a sus usuarios.
 ### 2.3.1 User Persona
+Esta sección introduce las User Personas, que son representaciones semi-ficticias de los usuarios finales basadas en la información recopilada durante las entrevistas y otras investigaciones. Las User Personas ayudan al equipo de desarrollo a mantener un enfoque centrado en el usuario durante todo el proceso de diseño y desarrollo, asegurando que se aborden las necesidades reales de los usuarios.
 ### 2.3.2 User Task Matrix
+La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tareas específicas que los usuarios necesitan realizar con el producto. Esta herramienta permite identificar qué funcionalidades son esenciales para el éxito de la aplicación y cómo se alinean con las necesidades de las User Personas. La matriz también ayuda a priorizar las características durante el desarrollo.
+
+#### Segmento Transportista
+
+| Tarea                      | Descripción                                                                                                                                                                       | Importancia | Frecuencia |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| Registro y Configuración   | Juan debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo la información de su vehículo y los servicios que ofrece.                                        | Alta        | Media      |
+| Búsqueda de Pedidos        | Juan necesita encontrar pedidos disponibles que requieran servicios de transporte con monitoreo especializado, como control de temperatura.                                       | Alta        | Media      |
+| Comunicación con Clientes  | Juan debe comunicarse con los clientes para confirmar los detalles del pedido y coordinar la entrega.                                                                             | Alta        | Media      |
+| Monitoreo en Tiempo Real   | Juan necesita monitorear en tiempo real las condiciones de la carga durante el transporte, asegurando que se mantengan las especificaciones requeridas (temperatura, peso, etc.). | Muy Alta    | Media      |
+| Generación de Reportes     | Juan debe generar reportes de las condiciones del transporte y entregarlos a los clientes al final del servicio.                                                                  | Media       | Baja       |
+| Cobro y Facturación        | Juan necesita gestionar el cobro por sus servicios y emitir facturas para sus clientes.                                                                                           | Alta        | Baja       |
+| Actualización de Servicios | Juan debe actualizar regularmente la información sobre los servicios que ofrece y las tarifas en la app.                                                                          | Media       | Baja       |
+
+#### Segmento Cliente
+
+| Tarea                      | Descripción                                                                                                                                                                       | Importancia | Frecuencia |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| Registro y Configuración   | Juan debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo la información de su vehículo y los servicios que ofrece.                                        | Alta        | Media      |
+| Búsqueda de Pedidos        | Juan necesita encontrar pedidos disponibles que requieran servicios de transporte con monitoreo especializado, como control de temperatura.                                       | Alta        | Media      |
+| Comunicación con Clientes  | Juan debe comunicarse con los clientes para confirmar los detalles del pedido y coordinar la entrega.                                                                             | Alta        | Media      |
+| Monitoreo en Tiempo Real   | Juan necesita monitorear en tiempo real las condiciones de la carga durante el transporte, asegurando que se mantengan las especificaciones requeridas (temperatura, peso, etc.). | Muy Alta    | Media      |
+| Generación de Reportes     | Juan debe generar reportes de las condiciones del transporte y entregarlos a los clientes al final del servicio.                                                                  | Media       | Baja       |
+| Cobro y Facturación        | Juan necesita gestionar el cobro por sus servicios y emitir facturas para sus clientes.                                                                                           | Alta        | Baja       |
+| Actualización de Servicios | Juan debe actualizar regularmente la información sobre los servicios que ofrece y las tarifas en la app.                                                                          | Media       | Baja       |
 ### 2.3.3 User Journey Mapping
+El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
