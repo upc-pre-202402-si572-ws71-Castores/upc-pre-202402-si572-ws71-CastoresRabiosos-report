@@ -431,6 +431,15 @@ En esta subsección se presenta el análisis de los datos obtenidos durante las 
 El proceso de Needfinding se centra en descubrir las necesidades reales de los usuarios y cómo el producto puede satisfacerlas. Esta sección explora diferentes métodos utilizados para identificar esas necesidades, tales como la creación de User Personas, la matriz de tareas del usuario (User Task Matrix) y el mapeo del recorrido del usuario (User Journey Mapping). Needfinding es esencial para diseñar una solución que no solo sea funcional, sino que también ofrezca un valor significativo a sus usuarios.
 ### 2.3.1 User Persona
 Esta sección introduce las User Personas, que son representaciones semi-ficticias de los usuarios finales basadas en la información recopilada durante las entrevistas y otras investigaciones. Las User Personas ayudan al equipo de desarrollo a mantener un enfoque centrado en el usuario durante todo el proceso de diseño y desarrollo, asegurando que se aborden las necesidades reales de los usuarios.
+#### Segmento Transportista
+
+![User Persona Transportista](resources/images/capitulo_2/needfinding/Juan_Pérez.png)
+
+#### Segmento Clientes
+
+![User Persona Cliente](resources/images/capitulo_2/needfinding/María_López.png)
+
+
 ### 2.3.2 User Task Matrix
 La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tareas específicas que los usuarios necesitan realizar con el producto. Esta herramienta permite identificar qué funcionalidades son esenciales para el éxito de la aplicación y cómo se alinean con las necesidades de las User Personas. La matriz también ayuda a priorizar las características durante el desarrollo.
 
@@ -438,7 +447,7 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 
 | Tarea                      | Descripción                                                                                                                                                                       | Importancia | Frecuencia |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| Registro y Configuración   | Juan debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo la información de su vehículo y los servicios que ofrece.                                        | Alta        | Media      |
+| Registro y Configuración   | Debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo la información de su vehículo y los servicios que ofrece.                                             | Alta        | Media      |
 | Búsqueda de Pedidos        | Juan necesita encontrar pedidos disponibles que requieran servicios de transporte con monitoreo especializado, como control de temperatura.                                       | Alta        | Media      |
 | Comunicación con Clientes  | Juan debe comunicarse con los clientes para confirmar los detalles del pedido y coordinar la entrega.                                                                             | Alta        | Media      |
 | Monitoreo en Tiempo Real   | Juan necesita monitorear en tiempo real las condiciones de la carga durante el transporte, asegurando que se mantengan las especificaciones requeridas (temperatura, peso, etc.). | Muy Alta    | Media      |
@@ -448,14 +457,19 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 
 #### Segmento Cliente
 
-| Tarea                      | Descripción                                                                                                                                                                       | Importancia | Frecuencia |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| Registro y Configuración   | Juan debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo la información de su vehículo y los servicios que ofrece.                                        | Alta        | Media      |
-| Búsqueda de Pedidos        | Juan necesita encontrar pedidos disponibles que requieran servicios de transporte con monitoreo especializado, como control de temperatura.                                       | Alta        | Media      |
-| Comunicación con Clientes  | Juan debe comunicarse con los clientes para confirmar los detalles del pedido y coordinar la entrega.                                                                             | Alta        | Media      |
-| Monitoreo en Tiempo Real   | Juan necesita monitorear en tiempo real las condiciones de la carga durante el transporte, asegurando que se mantengan las especificaciones requeridas (temperatura, peso, etc.). | Muy Alta    | Media      |
-| Generación de Reportes     | Juan debe generar reportes de las condiciones del transporte y entregarlos a los clientes al final del servicio.                                                                  | Media       | Baja       |
-| Cobro y Facturación        | Juan necesita gestionar el cobro por sus servicios y emitir facturas para sus clientes.                                                                                           | Alta        | Baja       |
-| Actualización de Servicios | Juan debe actualizar regularmente la información sobre los servicios que ofrece y las tarifas en la app.                                                                          | Media       | Baja       |
+| Tarea                      | Descripción                                                                                                                                   | Importancia | Frecuencia |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| Registro y Configuración   | debe crear su cuenta y configurar su perfil en **TransportApp**, incluyendo las preferencias para el monitoreo de sus productos.              | Alta        | Media      |
+| Búsqueda de Transportistas | Necesita buscar y seleccionar transportistas que ofrezcan monitoreo en tiempo real y condiciones específicas (como control de temperatura).   | Muy Alta    | Media      |
+| Coordinación del Pedido    | Debe coordinar con el transportista los detalles del envío, incluyendo horarios y requisitos específicos.                                     | Alta        | Alta       |
+| Monitoreo en Tiempo Real   | Necesita monitorear en tiempo real las condiciones de sus productos durante el transporte para asegurarse de que se mantengan en buen estado. | Muy Alta    | Alta       |
+| Recepción de Reportes      | Debe recibir y revisar los reportes de las condiciones del transporte al final del servicio.                                                  | Alta        | Media      |
+| Pago y Facturación         | Necesita realizar el pago por los servicios de transporte y recibir la factura correspondiente.                                               | Alta        | Alta       |
+| Evaluación del Servicio    | Debe evaluar el servicio recibido y proporcionar feedback a través de la app.                                                                 | Media       | Alta       |
 ### 2.3.3 User Journey Mapping
 El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
+#### Segmento Transportista
+
+![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
+#### Segmento Cliente
+![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
