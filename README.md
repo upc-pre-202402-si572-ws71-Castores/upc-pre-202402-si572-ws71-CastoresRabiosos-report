@@ -465,15 +465,44 @@ El User Journey Mapping es un método visual que describe la experiencia del usu
 
 El Empathy Mapping permite obtener una visión más clara y profunda de los usuarios de TransportApp, específicamente transportistas y clientes. A través de esta herramienta, se analizan las emociones, pensamientos, preocupaciones y comportamientos de los usuarios al interactuar con la plataforma. Esto nos ayuda a comprender mejor sus necesidades y expectativas, asegurando que la solución propuesta realmente resuelva sus problemas y mejore su experiencia con el transporte y monitoreo de mercancías.
 
-##### Segmento Clientes
+##### Segmento Cliente
 ![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap1.png)
+
+##### Segmento Transportista
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap2.jpg)
+
 ### 2.3.5 As-Is Scenario Mapping
 
 El As-is Scenario Mapping describe cómo los transportistas y clientes actualmente gestionan y contratan servicios de transporte sin el uso de TransportApp. Este análisis examina los puntos débiles, ineficiencias y frustraciones dentro del proceso actual de transporte, como la falta de monitoreo en tiempo real y la dificultad para encontrar transportistas adecuados. Con esta información, podemos identificar las áreas clave que TransportApp debe abordar para transformar estos procesos.
 
+##### Segmento Cliente
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingCliente.jpg)
+##### Segmento Transportista
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingTransportista.jpg)
+
 ### 2.4 Ubiquitous Language
 
 El Ubiquitous Language define un vocabulario compartido por todo el equipo que trabaja en TransportApp, asegurando que tanto los desarrolladores, los transportistas y los clientes utilicen los mismos términos y conceptos. Esto es especialmente importante en un proyecto de este tipo, ya que términos como “monitoreo en tiempo real”, “sensores IoT” y “carga perecedera” deben estar bien definidos y comprendidos para evitar malentendidos durante el desarrollo y la implementación del sistema.
+
+A continuación, se presentan algunos términos clave que usaremos durante el desarrollo del proyecto:
+
+·         **TransportApp:** Nombre del producto, una plataforma para conectar transportistas y clientes con monitoreo IoT.
+
+·         **Transportista:** Persona que ofrece servicios de transporte utilizando la plataforma.
+
+·         **Cliente:** Persona o empresa que requiere servicios de transporte.
+
+·         **Monitoreo en Tiempo Real:** Capacidad de seguir las condiciones de la carga (peso, temperatura) durante el transporte.
+
+·         **Sensores IoT:** Dispositivos integrados en los vehículos para monitorear las condiciones de la carga.
+
+·         **Pedidos:** Solicitudes de servicios de transporte hechas por los clientes.
+
+·         **Perfil de Transportista:** Información detallada sobre los transportistas, incluyendo sus capacidades tecnológicas y calificaciones.
+
+·         **Plataforma:** Aplicación web y móvil donde se gestionan los servicios de transporte y monitoreo.
 
 ---
 
@@ -483,6 +512,7 @@ Este capítulo está dedicado a la especificación de los requisitos de Transpor
 ## 3.1. To-Be Scenario Mapping
 
 El To-Be Scenario Mapping presenta el escenario futuro ideal después de la implementación de TransportApp. En este escenario, tanto transportistas como clientes podrán interactuar con la plataforma para gestionar el transporte de mercancías de manera eficiente, con acceso a monitoreo en tiempo real y comunicación directa. Este mapa muestra cómo la plataforma transformará el proceso actual, resolviendo los problemas previamente identificados y optimizando la experiencia para ambos segmentos.
+
 
 ## 3.2. User Stories
 
