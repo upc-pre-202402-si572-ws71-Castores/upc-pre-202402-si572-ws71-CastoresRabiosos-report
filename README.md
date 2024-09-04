@@ -473,3 +473,96 @@ El User Journey Mapping es un método visual que describe la experiencia del usu
 ![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
 #### Segmento Cliente
 ![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
+
+
+---
+### 4.2.4. Bounded Context: Iot Process
+Este Bounded Context está diseñado para gestionar los procesos de monitoreo de activos IoT, especialmente en relación con la gestión de sensores que monitorizan el peso y la temperatura, y la notificación de alertas cuando los valores monitoreados exceden ciertos límites predefinidos.
+#### 4.2.4.1. Domain Layer
+En la Domain Layer, vamos a definir las entidades clave que representan el núcleo de las reglas de negocio del sistema. Aquí se incluyen las entidades del dominio como **Vehículo**, **Sensor**, **Alerta**, y servicios de dominio que gestionan las reglas de negocio.
+
+**Entities**
+	Vehículo:
+		Representa un vehículo en la flota de transporte, el cual contiene sensores que monitorean variables como el peso y la temperatura.
+		- **Atributos**:
+			- `matricula: String`
+		    - `modelo: String`
+		    - `capacidad: int`
+		    - `sensores: List<Sensor>`
+		- **Métodos**:
+		    - `agregarSensor(sensor: Sensor): void`
+		    - `eliminarSensor(sensorId: int): void`
+		    - `obtenerCondicionesActuales(): List<Sensor>`
+	Sensor:
+		Representa un sensor en el vehículo, que monitorea una variable específica como temperatura o peso.
+		- **Atributos**:
+			- `id: int`
+			- `tipo: String` (por ejemplo: "temperatura", "peso")
+			- `parametrosConfigurados: Map<String, Object>`
+			- `valorActual: float`
+		- **Métodos**:
+			- `actualizarValor(nuevoValor: float): void`
+			- `generarAlerta(): void`
+	Alerta:
+		Almacena las alertas generadas por valores fuera de rango, tanto de temperatura como de peso.
+		- **Atributos**:
+			- `mensaje: String`
+			- `tipoAlerta: String` (por ejemplo: "peso", "temperatura")
+		- **Métodos**:
+			- `enviarAlerta(): void`
+
+#### 4.2.4.2. Interface Layer
+En la Interface Layer, se encuentran las clases que sirven como la capa de presentación o interfaz con los usuarios y sistemas externos. Estas clases incluyen los controladores que manejan las solicitudes HTTP, así como los listeners que procesan eventos IoT.
+
+**Controller**
+	IoTController:
+		Controlador que maneja las solicitudes de monitoreo de los usuarios, como el registro de vehículos y sensores, y la visualización de datos en tiempo real.
+
+**Event Listener**
+	IoTEventListener:
+		Escucha y procesa los eventos IoT en tiempo real provenientes de los sensores.
+#### 4.2.4.3. Application Layer
+En la Application Layer, se encuentran las clases que manejan los flujos de los procesos de negocio, como el procesamiento de comandos y eventos. Aquí se implementan los _command handlers_ y _event handlers_ que gestionan los procesos de monitoreo de los activos IoT.
+
+**Command Handler**
+	MonitoreoCommandHandler:
+		Maneja los comandos que inician procesos de monitoreo para los sensores de peso y temperatura.
+		- **Métodos**:
+			- `manejarComandoMonitoreo(command: IniciarMonitoreoCommand)`: Inicia el proceso de monitoreo según los parámetros dados.
+
+**Event Handler**
+	MonitoreoEventHandler:
+		Escucha y responde a los eventos generados durante el monitoreo.
+		- **Métodos**:
+			- `manejarEventoMonitoreo(event: MonitoreoIniciadoEvent)`: Procesa el evento de inicio de monitoreo.
+			- `manejarEventoAlertaGenerada(event: AlertaGeneradaEvent)`: Procesa las alertas generadas durante el monitoreo.
+#### 4.2.4.4. Infrastructure Layer
+En la Infrastructure Layer, se ubican las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería y servicios de terceros. Aquí también se encuentran las implementaciones de repositorios definidos en el _Domain Layer_.
+
+**Repositorio**
+	VehiculoRepository:
+		Acceso a la base de datos para las operaciones CRUD de vehículos.
+		- **Métodos**:
+			- `guardar(vehiculo: Vehiculo): void`
+	        - `obtenerPorId(vehiculoId: int): Vehiculo`
+	SensorRepository:
+		Acceso a la base de datos para las operaciones CRUD de sensores.
+		- **Métodos**:
+			- `guardar(sensor: Sensor): void`
+			- `obtenerPorId(sensorId: int): Sensor`
+**Integración IoT**
+	IoTService:
+		Interfaz para comunicarse con los dispositivos IoT y obtener los datos de sensores.
+		- **Métodos**:
+			- `recibirDatosIoT(): Sensor`
+			- `enviarComandoIoT(command: ComandoIoT): void`
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema, tales como el _Controller_, los _Services_ y los Repositories, así como su conexión con sistemas externos como la base de datos y los dispositivos IoT.
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/Iot_process/layout.png)
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama de clases describe todas las clases del _Domain Layer_, incluyendo entidades, servicios y repositorios, con todos sus atributos y métodos.
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/Iot_process/Iot_CD.png)
+#### 4.2.4.6.2. Bounded Context Database Design Diagram
+El diagrama de base de datos representa las tablas y las relaciones necesarias para almacenar los objetos del dominio en una base de datos relacional. Aquí se incluirían tablas como `Vehiculo`, `Sensor`, `Alerta`, y las claves primarias y foráneas que conectan estas entidades.
+![Database](resources/images/capitulo_4/bounded_contexts/Iot_process/Iot_DB.png)
