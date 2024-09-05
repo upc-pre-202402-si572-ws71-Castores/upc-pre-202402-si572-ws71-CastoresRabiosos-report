@@ -601,7 +601,7 @@ Las User Stories representan los requisitos funcionales de TransportApp desde la
 
 ### EPICS
 
-###Las Epics que identificamos son las siguientes:
+Las Epics que identificamos son las siguientes:
 
  **Desarrollo de las Epics**
 
