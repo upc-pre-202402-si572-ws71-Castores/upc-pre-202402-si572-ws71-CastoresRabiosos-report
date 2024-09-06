@@ -612,3 +612,90 @@ Las Epics que identificamos son las siguientes:
 | EP-03       | Conexión con Dispositivos IoT    | Enfocado en la integración de dispositivos IoT y sensores con la aplicación para la captura de datos en tiempo real.  |
 | EP-04       | Funcionalidades de la App Móvil  | Abarca la implementación de la aplicación móvil con las características necesarias para clientes y transportistas.    |
 | EP-05       | Funcionalidades del Frontend Web | Se refiere al desarrollo de la interfaz web para la interacción con los usuarios, tanto clientes como transportistas. |
+
+## 4.2.1 Bounded Context: Transport Access
+
+#### 4.2.X.1 Domain Layer
+
+Define las entidades principales que formarán la lógica de negocio en este contexto. Por ejemplo:
+
+1.    **Vehículo**: Representa un vehículo dentro del sistema. Contiene atributos como:
+
+- `id`: Identificador único.
+- `matricula`: Número de placa.
+- `modelo`: Modelo del vehículo.
+- `capacidad`: Capacidad del vehículo.
+- `sensores`: Lista de sensores asociados.
+
+Métodos:
+
+- `agregarSensor(sensor: Sensor): void`
+- `eliminarSensor(sensorId: int): void`
+- `obtenerCondicionesActuales(): List<Sensor>`
+
+2.    **Sensor**: Representa un sensor de monitoreo dentro del vehículo.
+
+- Atributos:
+
+- `id`: Identificador único.
+- `tipo`: Tipo de sensor (temperatura, peso, etc.).
+- `valorActual`: Valor actual del sensor.
+
+- Métodos:
+
+- `actualizarValor(nuevoValor: float): void`
+- `generarAlerta(): void`
+
+3.    **Alerta**: Almacena alertas generadas por sensores cuando los valores exceden ciertos límites.
+
+- Atributos:
+
+- `mensaje`: Detalle de la alerta.
+- `tipoAlerta`: Tipo de alerta (peso, temperatura, etc.).
+
+- Métodos:
+
+- `enviarAlerta(): void`
+
+#### 4.2.X.2 Interface Layer
+
+Define la capa de presentación que interactúa con los usuarios y otros sistemas:
+
+1.    **Controller**:
+
+- **TransportController**: Maneja solicitudes relacionadas con los transportes. Permite registrar, actualizar y visualizar vehículos y sensores.
+
+2.    **Event Listener**:
+
+- **TransportEventListener**: Procesa eventos relacionados con el transporte, como el registro de nuevos sensores o la emisión de alertas.
+
+#### 4.2.X.3 Application Layer
+
+Gestiona la lógica de aplicación y la coordinación entre diferentes componentes:
+
+1.    **Command Handler**:
+
+- **TransportCommandHandler**: Procesa comandos relacionados con la gestión de vehículos y sensores, por ejemplo, el inicio de un monitoreo.
+
+2.    **Event Handler**:
+
+- **TransportEventHandler**: Responde a eventos de monitoreo, como la generación de alertas.
+
+#### 4.2.X.4 Infrastructure Layer
+
+Accede a servicios externos, bases de datos y APIs:
+
+1.    **Repositorio**:
+
+- **VehiculoRepository**: Gestiona la persistencia de los vehículos en la base de datos.
+- **SensorRepository**: Gestiona la persistencia de los sensores en la base de datos.
+
+2.    **Integración IoT**:
+
+- **IoTService**: Interactúa con los dispositivos IoT, gestionando la comunicación y los datos.
+
+### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema TransportApp, como los contenedores de la aplicación (Single Page Application, Web Application, Mobile App, Web API, entre otros) y sus componentes específicos dentro de contextos delimitados como IoT Process e Identity and Access Management. Además, se muestra la conexión con sistemas externos como el servicio de correo electrónico y la pasarela de pago, así como con dispositivos IoT para el monitoreo en tiempo real.
+
+![Diagrama de Componentes Transport Access](resources/images/capitulo_2/needfinding/ComponentDiagramTransportAccess.png)
