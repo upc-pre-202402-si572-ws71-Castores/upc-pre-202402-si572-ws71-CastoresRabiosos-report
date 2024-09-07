@@ -485,7 +485,11 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 | Evaluación del Servicio    | Debe evaluar el servicio recibido y proporcionar feedback a través de la app.                                                                 | Media       | Alta       |
 ### 2.3.3 User Journey Mapping
 El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
+#### Segmento Transportista
 
+![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
+#### Segmento Cliente
+![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
 
 ### 2.3.4 Empathy Mapping
 
@@ -738,10 +742,3 @@ Aquí se presenta el diagrama de diseño de base de datos dentro de los contexto
 
 ![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
 =======
-#### Segmento Transportista
-
-![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
-#### Segmento Cliente
-![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
-
-
