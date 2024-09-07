@@ -485,6 +485,259 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 | Evaluación del Servicio    | Debe evaluar el servicio recibido y proporcionar feedback a través de la app.                                                                 | Media       | Alta       |
 ### 2.3.3 User Journey Mapping
 El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
+
+
+### 2.3.4 Empathy Mapping
+
+El Empathy Mapping permite obtener una visión más clara y profunda de los usuarios de TransportApp, específicamente transportistas y clientes. A través de esta herramienta, se analizan las emociones, pensamientos, preocupaciones y comportamientos de los usuarios al interactuar con la plataforma. Esto nos ayuda a comprender mejor sus necesidades y expectativas, asegurando que la solución propuesta realmente resuelva sus problemas y mejore su experiencia con el transporte y monitoreo de mercancías.
+
+##### Segmento Cliente
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap1.png)
+
+##### Segmento Transportista
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap2.jpg)
+
+### 2.3.5 As-Is Scenario Mapping
+
+El As-is Scenario Mapping describe cómo los transportistas y clientes actualmente gestionan y contratan servicios de transporte sin el uso de TransportApp. Este análisis examina los puntos débiles, ineficiencias y frustraciones dentro del proceso actual de transporte, como la falta de monitoreo en tiempo real y la dificultad para encontrar transportistas adecuados. Con esta información, podemos identificar las áreas clave que TransportApp debe abordar para transformar estos procesos.
+
+##### Segmento Cliente
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingCliente.jpg)
+##### Segmento Transportista
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingTransportista.jpg)
+
+### 2.4 Ubiquitous Language
+
+El Ubiquitous Language define un vocabulario compartido por todo el equipo que trabaja en TransportApp, asegurando que tanto los desarrolladores, los transportistas y los clientes utilicen los mismos términos y conceptos. Esto es especialmente importante en un proyecto de este tipo, ya que términos como “monitoreo en tiempo real”, “sensores IoT” y “carga perecedera” deben estar bien definidos y comprendidos para evitar malentendidos durante el desarrollo y la implementación del sistema.
+
+A continuación, se presentan algunos términos clave que usaremos durante el desarrollo del proyecto:
+
+·         **TransportApp:** Nombre del producto, una plataforma para conectar transportistas y clientes con monitoreo IoT.
+
+·         **Transportista:** Persona que ofrece servicios de transporte utilizando la plataforma.
+
+·         **Cliente:** Persona o empresa que requiere servicios de transporte.
+
+·         **Monitoreo en Tiempo Real:** Capacidad de seguir las condiciones de la carga (peso, temperatura) durante el transporte.
+
+·         **Sensores IoT:** Dispositivos integrados en los vehículos para monitorear las condiciones de la carga.
+
+·         **Pedidos:** Solicitudes de servicios de transporte hechas por los clientes.
+
+·         **Perfil de Transportista:** Información detallada sobre los transportistas, incluyendo sus capacidades tecnológicas y calificaciones.
+
+·         **Plataforma:** Aplicación web y móvil donde se gestionan los servicios de transporte y monitoreo.
+
+---
+
+# Capítulo III: Requirements Specification
+
+Este capítulo está dedicado a la especificación de los requisitos de TransportApp, tanto funcionales como no funcionales. A través de diferentes herramientas de análisis, se define cómo la plataforma debe comportarse para cumplir con las necesidades de los transportistas y clientes, asegurando que las funcionalidades clave, como el monitoreo en tiempo real y la comunicación eficiente, sean implementadas correctamente. Este capítulo establece las bases para el desarrollo de un sistema que sea útil, fiable y eficiente.
+## 3.1. To-Be Scenario Mapping
+
+El To-Be Scenario Mapping presenta el escenario futuro ideal después de la implementación de TransportApp. En este escenario, tanto transportistas como clientes podrán interactuar con la plataforma para gestionar el transporte de mercancías de manera eficiente, con acceso a monitoreo en tiempo real y comunicación directa. Este mapa muestra cómo la plataforma transformará el proceso actual, resolviendo los problemas previamente identificados y optimizando la experiencia para ambos segmentos.
+
+##### Segmento Cliente
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/To-BeScenarioMappingCliente.jpg)
+##### Segmento Transportista
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/To-BeScenarioMappingTransportista.jpg)
+## 3.2. User Stories
+
+Las User Stories representan los requisitos funcionales de TransportApp desde la perspectiva de los transportistas y clientes. Cada historia de usuario describe una interacción específica que los usuarios necesitan realizar, como "monitorear la temperatura de los productos en tiempo real" o "enviar notificaciones al cliente sobre el estado de la carga". Estas historias se desglosan en tareas que guiarán el desarrollo de la plataforma, asegurando que se cumplan las expectativas de los usuarios finales.
+
+### Landing Page
+
+
+| **User Story ID** | **Título**                        | **Descripción**                                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                       | **Epic ID** |
+| ----------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-01             | Registro en Landing Page          | Como usuario nuevo, quiero registrarme desde la landing page para crear una cuenta en TransportApp.                                       | **Escenario Nº1: Registro de usuario desde la landing page**  <br>Dado que el usuario desea registrarse desde la landing page  <br>Y ha ingresado sus datos en el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema registra al usuario correctamente  <br>Y el usuario puede iniciar sesión con sus credenciales.                  | EP-01       |
+| US-02             | Información sobre TransportApp    | Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                  | **Escenario Nº1: Visualizar información sobre TransportApp**  <br>Dado que el visitante desea conocer más sobre los servicios  <br>Y ha accedido a la sección "Sobre Nosotros" en la landing page  <br>Entonces se muestra la información completa de los servicios ofrecidos  <br>Y el visitante puede tomar una decisión informada.                                             | EP-01       |
+| US-03             | Visualización de Beneficios       | Como visitante, quiero ver los beneficios de usar TransportApp para decidir si es adecuada para mis necesidades.                          | **Escenario Nº1: Ver beneficios de TransportApp**  <br>Dado que el visitante desea conocer los beneficios de la plataforma  <br>Y ha navegado hasta la sección de beneficios  <br>Entonces se muestran los beneficios clave de manera destacada  <br>Y el visitante puede evaluar si TransportApp cumple con sus necesidades.                                                     | EP-01       |
+| US-04             | Contacto desde la Landing Page    | Como visitante, quiero poder contactar a TransportApp desde la landing page para resolver dudas sobre el servicio.                        | **Escenario Nº1: Enviar un mensaje desde la sección de contacto**  <br>Dado que el visitante desea contactar a TransportApp  <br>Y ha completado el formulario de contacto  <br>Y ha hecho click en el botón "Enviar"  <br>Entonces se muestra un mensaje de confirmación  <br>Y el equipo de TransportApp recibe el mensaje para su seguimiento.                                 | EP-01       |
+| US-05             | Redirección a la Aplicación Móvil | Como visitante, quiero un enlace directo desde la landing page para descargar la app móvil de TransportApp.                               | **Escenario Nº1: Descargar la app móvil desde la landing page**  <br>Dado que el visitante desea descargar la app móvil  <br>Y ha hecho click en el enlace de descarga  <br>Entonces se redirige al usuario a la tienda de aplicaciones correspondiente  <br>Y puede proceder con la descarga de la app.                                                                          | EP-01       |
+| US-06             | Testimonios de Clientes           | Como visitante, quiero leer testimonios de otros clientes en la landing page para entender su experiencia con TransportApp.               | **Escenario Nº1: Visualizar testimonios de clientes**  <br>Dado que el visitante desea leer testimonios  <br>Y ha navegado a la sección de testimonios en la landing page  <br>Entonces se muestran opiniones verificadas de clientes  <br>Y el visitante puede comprender mejor la experiencia de otros usuarios.                                                                | EP-01       |
+| US-07             | Blog de TransportApp              | Como usuario interesado, quiero acceder a un blog en la landing page para leer sobre tendencias en el transporte de carga.                | **Escenario Nº1: Acceder al blog desde la landing page**  <br>Dado que el usuario desea leer el blog  <br>Y ha hecho click en la sección de blog en la landing page  <br>Entonces se muestra el contenido más reciente del blog  <br>Y el usuario puede leer artículos relevantes sobre transporte.                                                                               | EP-01       |
+| US-08             | Comparación de Planes             | Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.    | **Escenario Nº1: Comparar planes de servicio**  <br>Dado que el visitante desea comparar los planes disponibles  <br>Y ha accedido a la tabla de comparación de planes en la landing page  <br>Entonces se muestran las diferencias clave entre los planes, incluyendo precios y características  <br>Y el visitante puede seleccionar el plan más adecuado para sus necesidades. | EP-01       |
+| US-09             | Vídeos Explicativos               | Como visitante, quiero ver vídeos explicativos en la landing page para entender cómo funciona TransportApp.                               | **Escenario Nº1: Ver vídeos explicativos en la landing page**  <br>Dado que el visitante desea entender cómo funciona TransportApp  <br>Y ha hecho click en la sección de vídeos explicativos  <br>Entonces los vídeos se reproducen directamente en la página sin necesidad de redirigir al usuario  <br>Y el visitante puede ver los vídeos sin interrupciones.                 | EP-01       |
+| US-10             | Sección de Preguntas Frecuentes   | Como visitante, quiero acceder a una sección de preguntas frecuentes en la landing page para resolver dudas comunes antes de registrarme. | **Escenario Nº1: Acceder a la sección de preguntas frecuentes (FAQ)**  <br>Dado que el visitante tiene dudas comunes sobre TransportApp  <br>Y ha navegado a la sección de preguntas frecuentes en la landing page  <br>Entonces se muestran las preguntas y respuestas más frecuentes  <br>Y el visitante puede resolver sus dudas antes de registrarse.                         | EP-01       |
+
+### Backend
+
+| **User Story ID** | **Título**                                | **Descripción**                                                                                                                     | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                          | **Epic ID** |
+| ----------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| US-11             | Registro de Usuarios en el Backend        | Como desarrollador, quiero implementar la lógica de registro de usuarios en el backend para crear cuentas nuevas.                   | **Escenario Nº1: Registro de usuario en el backend**  <br>Dado que el usuario desea registrarse en la plataforma  <br>Y ha enviado una solicitud POST con los datos requeridos  <br>Entonces el backend crea el usuario en la base de datos  <br>Y el sistema devuelve una respuesta de éxito con el estado 201.                                                                     | EP-02       |
+| US-12             | Autenticación de Usuarios                 | Como desarrollador, quiero que el backend maneje la autenticación para permitir el acceso seguro a la aplicación.                   | **Escenario Nº1: Autenticación de usuario en el backend**  <br>Dado que el usuario desea iniciar sesión en la plataforma  <br>Y ha enviado sus credenciales al backend  <br>Entonces el backend valida las credenciales  <br>Y devuelve un token de autenticación si los datos son correctos.                                                                                        | EP-02       |
+| US-13             | Gestión de Servicios de Transporte        | Como desarrollador, quiero que el backend gestione la creación, actualización y cancelación de servicios de transporte.             | **Escenario Nº1: Gestión de servicios de transporte en el backend**  <br>Dado que el usuario desea gestionar un servicio de transporte  <br>Y ha enviado una solicitud POST/PUT/DELETE con los datos requeridos  <br>Entonces el backend crea, actualiza o cancela el servicio según corresponda  <br>Y devuelve una respuesta de éxito con el estado correspondiente (201/200/204). | EP-02       |
+| US-14             | Monitorización de la Carga                | Como desarrollador, quiero que el backend capture y almacene datos en tiempo real sobre la ubicación y estado de la carga.          | **Escenario Nº1: Monitorización de la carga en el backend**  <br>Dado que el transporte está en progreso  <br>Y los sensores están enviando datos de ubicación y estado  <br>Entonces el backend almacena estos datos en tiempo real  <br>Y el usuario puede visualizar la información actualizada en la plataforma.                                                                 | EP-02       |
+| US-15             | Notificaciones en Tiempo Real             | Como desarrollador, quiero implementar la lógica de notificaciones en el backend para que los usuarios reciban alertas automáticas. | **Escenario Nº1: Envío de notificaciones desde el backend**  <br>Dado que el sistema debe notificar al usuario sobre un evento  <br>Y se cumplen las condiciones predefinidas  <br>Entonces el backend envía una notificación push al usuario  <br>Y el usuario recibe la alerta en tiempo real en su dispositivo.                                                                   | EP-02       |
+| US-16             | Gestión de Pagos                          | Como desarrollador, quiero que el backend procese y registre los pagos de los servicios contratados.                                | **Escenario Nº1: Procesamiento de pagos en el backend**  <br>Dado que el usuario ha realizado un pago por un servicio  <br>Y el sistema ha recibido los datos de la transacción  <br>Entonces el backend registra el pago en la base de datos  <br>Y actualiza el estado del servicio a "pagado".                                                                                    | EP-02       |
+| US-17             | Optimización de Rutas                     | Como desarrollador, quiero que el backend ofrezca sugerencias de rutas optimizadas para transportistas.                             | **Escenario Nº1: Optimización de rutas en el backend**  <br>Dado que el transportista desea optimizar su ruta  <br>Y ha solicitado una sugerencia de ruta al backend  <br>Entonces el backend calcula y devuelve una ruta optimizada  <br>Y el transportista puede aceptar o rechazar la sugerencia en la plataforma.                                                                | EP-02       |
+| US-18             | Configuración de Precios Dinámicos        | Como desarrollador, quiero que el backend maneje la lógica para ajustar precios en tiempo real según la demanda.                    | **Escenario Nº1: Ajuste de precios dinámicos en el backend**  <br>Dado que la demanda de servicios varía constantemente  <br>Y el transportista ha habilitado la opción de precios dinámicos  <br>Entonces el backend ajusta los precios en tiempo real según las condiciones del mercado  <br>Y estos cambios se reflejan automáticamente en la plataforma.                         | EP-02       |
+| US-19             | Almacenamiento de Información de Sensores | Como desarrollador, quiero que el backend almacene los datos recibidos de los sensores IoT para su posterior análisis.              | **Escenario Nº1: Almacenamiento de datos de sensores en el backend**  <br>Dado que los sensores IoT están transmitiendo datos  <br>Y el backend está recibiendo esta información en tiempo real  <br>Entonces el backend almacena los datos de manera segura en una base de datos dedicada  <br>Y los usuarios autorizados pueden acceder a estos datos para análisis.               | EP-02       |
+| US-20             | Generación de Reportes                    | Como desarrollador, quiero que el backend genere reportes periódicos sobre el rendimiento de los transportistas.                    | **Escenario Nº1: Generación automática de reportes en el backend**  <br>Dado que el sistema debe generar un reporte mensual  <br>Y se han completado todos los servicios correspondientes  <br>Entonces el backend genera un reporte consolidado en formato PDF  <br>Y lo pone a disposición del usuario para su descarga.                                                           | EP-02       |
+
+### Frontend Web
+
+| **User Story ID** | **Título**                             | **Descripción**                                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                        | **Epic ID** |
+| ----------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-21             | Registro de Usuarios en la Web         | Como usuario, quiero poder registrarme en la aplicación web para acceder a los servicios de TransportApp.                                 | **Escenario Nº1: Registro de usuario desde la web**  <br>Dado que el usuario desea registrarse en la plataforma web  <br>Y ha completado el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema crea una cuenta nueva  <br>Y el usuario puede iniciar sesión con sus credenciales.                                                     | EP-05       |
+| US-22             | Inicio de Sesión en la Web             | Como usuario, quiero poder iniciar sesión en la aplicación web para acceder a mis servicios contratados.                                  | **Escenario Nº1: Inicio de sesión en la aplicación web**  <br>Dado que el usuario desea acceder a la plataforma  <br>Y ha ingresado sus credenciales en la página de inicio de sesión  <br>Entonces el sistema valida las credenciales  <br>Y el usuario es redirigido a su dashboard.                                                                                             | EP-05       |
+| US-23             | Visualización de Servicios Disponibles | Como usuario, quiero poder ver los servicios de transporte disponibles desde la web para elegir el que mejor se adapte a mis necesidades. | **Escenario Nº1: Visualización de servicios de transporte en la web**  <br>Dado que el usuario desea ver los servicios disponibles  <br>Y ha aplicado filtros de búsqueda según sus necesidades  <br>Entonces se muestra una lista de servicios que cumplen con los criterios  <br>Y el usuario puede seleccionar y comparar opciones.                                             | EP-05       |
+| US-24             | Reserva de Servicios desde la Web      | Como usuario, quiero poder reservar un servicio de transporte desde la aplicación web para asegurar la entrega de mi carga.               | **Escenario Nº1: Reserva de servicios de transporte desde la web**  <br>Dado que el usuario desea reservar un servicio  <br>Y ha seleccionado un transportista de la lista disponible  <br>Y ha confirmado la reserva  <br>Entonces el sistema registra la reserva en la base de datos  <br>Y el transportista es notificado de la nueva reserva.                                  | EP-05       |
+| US-25             | Monitoreo de Carga en la Web           | Como usuario, quiero poder monitorear la ubicación de mi carga en tiempo real desde la aplicación web.                                    | **Escenario Nº1: Monitorización de la carga desde la web**  <br>Dado que el usuario desea ver la ubicación de su carga  <br>Y ha accedido a la sección de seguimiento en la aplicación web  <br>Entonces se muestra la ubicación actual de la carga en un mapa  <br>Y el usuario recibe actualizaciones en tiempo real sobre el estado del transporte.                             | EP-05       |
+| US-26             | Recepción de Notificaciones en la Web  | Como usuario, quiero recibir notificaciones sobre el estado de mi servicio desde la aplicación web.                                       | **Escenario Nº1: Recepción de notificaciones en la web**  <br>Dado que el usuario desea estar informado sobre el estado de su servicio  <br>Y ha configurado las notificaciones en la aplicación web  <br>Entonces el sistema muestra notificaciones en tiempo real en la interfaz del usuario  <br>Y el usuario puede ver detalles adicionales haciendo click en la notificación. | EP-05       |
+| US-27             | Gestión de Opiniones y Calificaciones  | Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la web.                                           | **Escenario Nº1: Dejar opiniones y calificaciones en la web**  <br>Dado que el usuario ha completado un servicio de transporte  <br>Y desea dejar una opinión sobre el transportista  <br>Entonces el sistema permite al usuario calificar el servicio  <br>Y la calificación se refleja inmediatamente en el perfil del transportista.                                            | EP-05       |
+| US-28             | Gestión de Disponibilidad en la Web    | Como transportista, quiero gestionar mi disponibilidad de servicios desde la aplicación web.                                              | **Escenario Nº1: Gestión de disponibilidad desde la web**  <br>Dado que el transportista desea ajustar su disponibilidad  <br>Y ha accedido a la sección de configuración en la aplicación web  <br>Entonces el sistema permite modificar los horarios de disponibilidad  <br>Y estos cambios se reflejan inmediatamente en la plataforma.                                         | EP-05       |
+| US-29             | Configuración de Notificaciones Web    | Como usuario, quiero configurar qué notificaciones deseo recibir desde la web para personalizar mi experiencia.                           | **Escenario Nº1: Configuración de notificaciones en la web**  <br>Dado que el usuario desea personalizar sus notificaciones  <br>Y ha accedido a la sección de configuración de notificaciones en la web  <br>Entonces el sistema permite seleccionar los tipos de notificaciones deseados  <br>Y estos cambios se aplican inmediatamente.                                         | EP-05       |
+| US-30             | Visualización de Reportes en la Web    | Como usuario, quiero poder visualizar y descargar reportes de mis servicios desde la web para llevar un control detallado.                | **Escenario Nº1: Visualización y descarga de reportes en la web**  <br>Dado que el usuario desea revisar el rendimiento de sus servicios  <br>Y ha accedido a la sección de reportes en la web  <br>Entonces el sistema muestra un resumen de los reportes disponibles  <br>Y el usuario puede descargar los reportes en formato PDF.                                              | EP-05       |
+
+### Mobile App
+
+| **User Story ID** | **Título**                                   | **Descripción**                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                             | **Epic ID** |
+| ----------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-31             | Registro de Usuarios en la App Móvil         | Como usuario, quiero registrarme desde la app móvil para acceder a los servicios de TransportApp.                         | **Escenario Nº1: Registro de usuario desde la app móvil**  <br>Dado que el usuario desea registrarse desde la app móvil  <br>Y ha completado el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema crea una cuenta nueva  <br>Y el usuario puede iniciar sesión con sus credenciales.                                                      | EP-04       |
+| US-32             | Inicio de Sesión en la App Móvil             | Como usuario, quiero iniciar sesión en la app móvil para gestionar mis servicios desde mi teléfono.                       | **Escenario Nº1: Inicio de sesión en la app móvil**  <br>Dado que el usuario desea acceder a la plataforma desde su móvil  <br>Y ha ingresado sus credenciales en la pantalla de inicio de sesión  <br>Entonces el sistema valida las credenciales  <br>Y el usuario es redirigido a su dashboard en la app.                                                                            | EP-04       |
+| US-33             | Reserva de Servicios desde la App Móvil      | Como usuario, quiero reservar un servicio de transporte directamente desde mi dispositivo móvil para mayor comodidad.     | **Escenario Nº1: Reserva de servicios desde la app móvil**  <br>Dado que el usuario desea reservar un servicio desde la app móvil  <br>Y ha seleccionado un transportista de la lista disponible  <br>Y ha confirmado la reserva  <br>Entonces el sistema registra la reserva en la base de datos  <br>Y el transportista es notificado de la nueva reserva.                            | EP-04       |
+| US-34             | Monitoreo de Carga en la App Móvil           | Como usuario, quiero monitorear mi carga en tiempo real desde la app móvil para estar informado durante el transporte.    | **Escenario Nº1: Monitorización de la carga desde la app móvil**  <br>Dado que el usuario desea ver la ubicación de su carga desde su móvil  <br>Y ha accedido a la sección de seguimiento en la app móvil  <br>Entonces se muestra la ubicación actual de la carga en un mapa  <br>Y el usuario recibe actualizaciones en tiempo real sobre el estado del transporte.                  | EP-04       |
+| US-35             | Recepción de Notificaciones en la App        | Como usuario, quiero recibir notificaciones push sobre el estado de mis servicios directamente en la app móvil.           | **Escenario Nº1: Recepción de notificaciones push en la app móvil**  <br>Dado que el usuario desea estar informado sobre el estado de su servicio  <br>Y ha configurado las notificaciones en la app móvil  <br>Entonces el sistema envía notificaciones push en tiempo real  <br>Y el usuario puede ver detalles adicionales haciendo click en la notificación.                        | EP-04       |
+| US-36             | Gestión de Opiniones en la App Móvil         | Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la app móvil.                     | **Escenario Nº1: Dejar opiniones y calificaciones en la app móvil**  <br>Dado que el usuario ha completado un servicio de transporte  <br>Y desea dejar una opinión sobre el transportista desde su móvil  <br>Entonces el sistema permite al usuario calificar el servicio  <br>Y la calificación se refleja inmediatamente en el perfil del transportista.                            | EP-04       |
+| US-37             | Visualización de Historial en la App         | Como usuario, quiero poder ver el historial de servicios contratados desde la app móvil para revisar mis transacciones.   | **Escenario Nº1: Visualización del historial de servicios en la app móvil**  <br>Dado que el usuario desea revisar sus servicios anteriores  <br>Y ha accedido a la sección de historial en la app móvil  <br>Entonces se muestra una lista de todos los servicios completados  <br>Y el usuario puede ver detalles como fechas, costos y calificaciones.                               | EP-04       |
+| US-38             | Configuración de Disponibilidad en la App    | Como transportista, quiero gestionar mi disponibilidad desde la app móvil para mantener mi agenda actualizada.            | **Escenario Nº1: Gestión de disponibilidad desde la app móvil**  <br>Dado que el transportista desea ajustar su disponibilidad desde su móvil  <br>Y ha accedido a la sección de configuración en la app móvil  <br>Entonces el sistema permite modificar los horarios de disponibilidad  <br>Y estos cambios se reflejan inmediatamente en la plataforma.                              | EP-04       |
+| US-39             | Verificación de Pagos en la App              | Como transportista, quiero revisar el estado de mis pagos desde la app móvil para asegurarme de que todo está en orden.   | **Escenario Nº1: Verificación de pagos desde la app móvil**  <br>Dado que el transportista desea revisar los pagos recibidos  <br>Y ha accedido a la sección de finanzas en la app móvil  <br>Entonces se muestra una lista de pagos recibidos y pendientes  <br>Y el transportista puede tomar acción si algún pago está retrasado.                                                    | EP-04       |
+| US-40             | Configuración de Precios Dinámicos en la App | Como transportista, quiero configurar precios dinámicos desde la app móvil para maximizar mis ganancias según la demanda. | **Escenario Nº1: Configuración de precios dinámicos desde la app móvil**  <br>Dado que el transportista desea ajustar sus tarifas según la demanda  <br>Y ha activado la opción de precios dinámicos en la app móvil  <br>Entonces el sistema ajusta los precios en tiempo real según las condiciones del mercado  <br>Y el transportista recibe notificaciones de cambios importantes. | EP-04       |
+
+### Dispositivos IoT
+
+| **User Story ID** | **Título**                                 | **Descripción**                                                                                                                                        | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                           | **Epic ID** |
+| ----------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-41             | Conexión de Sensor IoT a la Plataforma     | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                    | **Escenario Nº1: Conexión de sensores IoT a la plataforma**  <br>Dado que el desarrollador desea integrar sensores IoT  <br>Y ha configurado los sensores correctamente  <br>Entonces los sensores envían datos en tiempo real al backend  <br>Y el sistema muestra estos datos en la plataforma para su monitoreo.                                                                   | EP-03       |
+| US-42             | Monitoreo de Datos de Temperatura          | Como usuario, quiero monitorear la temperatura de mi carga en tiempo real mediante un sensor IoT.                                                      | **Escenario Nº1: Monitoreo de temperatura en tiempo real**  <br>Dado que el usuario desea conocer la temperatura de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la temperatura actual en la plataforma  <br>Y el usuario recibe alertas si la temperatura excede los umbrales predefinidos.                                        | EP-03       |
+| US-43             | Monitoreo de Datos de Humedad              | Como usuario, quiero monitorear la humedad de mi carga en tiempo real mediante un sensor IoT.                                                          | **Escenario Nº1: Monitoreo de humedad en tiempo real**  <br>Dado que el usuario desea conocer la humedad de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la humedad actual en la plataforma  <br>Y el usuario recibe alertas si la humedad excede los umbrales predefinidos.                                                        | EP-03       |
+| US-44             | Monitoreo de Datos de Presión              | Como usuario, quiero monitorear la presión de mi carga en tiempo real mediante un sensor IoT.                                                          | **Escenario Nº1: Monitoreo de presión en tiempo real**  <br>Dado que el usuario desea conocer la presión de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la presión actual en la plataforma  <br>Y el usuario recibe alertas si la presión excede los umbrales predefinidos.                                                        | EP-03       |
+| US-45             | Recepción de Alertas desde Sensores IoT    | Como transportista, quiero recibir alertas automáticas desde los sensores IoT para actuar rápidamente en caso de incidentes.                           | **Escenario Nº1: Recepción de alertas de sensores IoT**  <br>Dado que los sensores IoT detectan un problema con la carga  <br>Y han enviado una alerta al backend  <br>Entonces el sistema envía una notificación inmediata al transportista  <br>Y el transportista puede tomar medidas correctivas basadas en la información recibida.                                              | EP-03       |
+| US-46             | Integración con Gateway IoT                | Como desarrollador, quiero integrar los sensores IoT con un gateway para asegurar la transmisión de datos al backend.                                  | **Escenario Nº1: Integración de sensores IoT con el gateway**  <br>Dado que el desarrollador ha configurado un gateway para la transmisión de datos  <br>Y los sensores IoT están conectados al gateway  <br>Entonces el gateway recoge los datos de los sensores y los envía al backend  <br>Y los datos son almacenados y procesados sin pérdida de información.                    | EP-03       |
+| US-47             | Configuración Remota de Sensores IoT       | Como desarrollador, quiero poder configurar remotamente los sensores IoT para ajustar los umbrales y parámetros de monitoreo.                          | **Escenario Nº1: Configuración remota de sensores IoT**  <br>Dado que el desarrollador desea ajustar los parámetros de los sensores  <br>Y ha accedido a la sección de configuración remota en la plataforma  <br>Entonces los cambios en la configuración de los sensores se aplican inmediatamente  <br>Y los nuevos parámetros son efectivos sin necesidad de intervención física. | EP-03       |
+| US-48             | Recolección de Datos de Ubicación          | Como usuario, quiero que el sensor IoT recolecte y transmita datos de ubicación en tiempo real para saber dónde está mi carga.                         | **Escenario Nº1: Recolección de datos de ubicación en tiempo real**  <br>Dado que el usuario desea conocer la ubicación de su carga  <br>Y los sensores IoT están capturando datos de ubicación  <br>Entonces el sistema muestra la ubicación actual en un mapa en la plataforma  <br>Y el usuario puede seguir la ruta de su carga en tiempo real.                                   | EP-03       |
+| US-49             | Sincronización de Sensores IoT             | Como desarrollador, quiero sincronizar múltiples sensores IoT en un solo envío de datos para optimizar la transmisión.                                 | **Escenario Nº1: Sincronización de datos de sensores IoT**  <br>Dado que el desarrollador desea optimizar la transmisión de datos  <br>Y ha configurado múltiples sensores para enviar datos sincronizados  <br>Entonces el sistema recoge todos los datos de los sensores y los envía al backend de manera sincronizada  <br>Y la transmisión es eficiente y libre de redundancias.  | EP-03       |
+| US-50             | Almacenamiento Seguro de Datos de Sensores | Como desarrollador, quiero asegurarme de que todos los datos capturados por los sensores IoT se almacenan de manera segura y encriptada en el backend. | **Escenario Nº1: Almacenamiento seguro de datos de sensores**  <br>Dado que el sistema está recibiendo datos de los sensores IoT  <br>Y estos datos necesitan ser almacenados de manera segura  <br>Entonces el backend encripta y almacena los datos en una base de datos segura  <br>Y solo los usuarios autorizados pueden acceder a la información.                               | EP-03       |
+
+### EPICS
+
+Las Epics que identificamos son las siguientes:
+
+ **Desarrollo de las Epics**
+
+| **Epic ID** | **Título**                       | **Descripción**                                                                                                       |
+| ----------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| EP-01       | Desarrollo del Landing Page      | Se centra en la creación y optimización del sitio web principal que presentará la empresa y sus servicios.            |
+| EP-02       | Desarrollo del Backend           | Incluye la creación de la lógica y los servicios del servidor que soportan la aplicación web y móvil.                 |
+| EP-03       | Conexión con Dispositivos IoT    | Enfocado en la integración de dispositivos IoT y sensores con la aplicación para la captura de datos en tiempo real.  |
+| EP-04       | Funcionalidades de la App Móvil  | Abarca la implementación de la aplicación móvil con las características necesarias para clientes y transportistas.    |
+| EP-05       | Funcionalidades del Frontend Web | Se refiere al desarrollo de la interfaz web para la interacción con los usuarios, tanto clientes como transportistas. |
+
+## 4.2.1 Bounded Context: Transport Access
+
+#### 4.2.1.1 Domain Layer
+
+Define las entidades principales que formarán la lógica de negocio en este contexto. Por ejemplo:
+
+1.    **Vehículo**: Representa un vehículo dentro del sistema. Contiene atributos como:
+
+- `id`: Identificador único.
+- `matricula`: Número de placa.
+- `modelo`: Modelo del vehículo.
+- `capacidad`: Capacidad del vehículo.
+- `sensores`: Lista de sensores asociados.
+
+Métodos:
+
+- `agregarSensor(sensor: Sensor): void`
+- `eliminarSensor(sensorId: int): void`
+- `obtenerCondicionesActuales(): List<Sensor>`
+
+2.    **Sensor**: Representa un sensor de monitoreo dentro del vehículo.
+
+- Atributos:
+
+- `id`: Identificador único.
+- `tipo`: Tipo de sensor (temperatura, peso, etc.).
+- `valorActual`: Valor actual del sensor.
+
+- Métodos:
+
+- `actualizarValor(nuevoValor: float): void`
+- `generarAlerta(): void`
+
+3.    **Alerta**: Almacena alertas generadas por sensores cuando los valores exceden ciertos límites.
+
+- Atributos:
+
+- `mensaje`: Detalle de la alerta.
+- `tipoAlerta`: Tipo de alerta (peso, temperatura, etc.).
+
+- Métodos:
+
+- `enviarAlerta(): void`
+
+#### 4.2.1.2 Interface Layer
+
+Define la capa de presentación que interactúa con los usuarios y otros sistemas:
+
+1.    **Controller**:
+
+- **TransportController**: Maneja solicitudes relacionadas con los transportes. Permite registrar, actualizar y visualizar vehículos y sensores.
+
+2.    **Event Listener**:
+
+- **TransportEventListener**: Procesa eventos relacionados con el transporte, como el registro de nuevos sensores o la emisión de alertas.
+
+#### 4.2.1.3 Application Layer
+
+Gestiona la lógica de aplicación y la coordinación entre diferentes componentes:
+
+1.    **Command Handler**:
+
+- **TransportCommandHandler**: Procesa comandos relacionados con la gestión de vehículos y sensores, por ejemplo, el inicio de un monitoreo.
+
+2.    **Event Handler**:
+
+- **TransportEventHandler**: Responde a eventos de monitoreo, como la generación de alertas.
+
+#### 4.2.1.4 Infrastructure Layer
+
+Accede a servicios externos, bases de datos y APIs:
+
+1.    **Repositorio**:
+
+- **VehiculoRepository**: Gestiona la persistencia de los vehículos en la base de datos.
+- **SensorRepository**: Gestiona la persistencia de los sensores en la base de datos.
+
+2.    **Integración IoT**:
+
+- **IoTService**: Interactúa con los dispositivos IoT, gestionando la comunicación y los datos.
+
+### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema TransportApp, como los contenedores de la aplicación (Single Page Application, Web Application, Mobile App, Web API, entre otros) y sus componentes específicos dentro de contextos delimitados como IoT Process e Identity and Access Management. Además, se muestra la conexión con sistemas externos como el servicio de correo electrónico y la pasarela de pago, así como con dispositivos IoT para el monitoreo en tiempo real.
+
+![Diagrama de Componentes Transport Access](resources/images/capitulo_2/needfinding/ComponentDiagramTransportAccess.png)
+
+### 4.2.1.5.1 Bounded Context Domain Layer Class Diagrams
+
+En esta sección, se presenta el diagrama de clases de la capa de dominio dentro de los contextos delimitados (Bounded Contexts) de la aplicación TransportApp. El diagrama muestra las clases principales que representan los conceptos clave del dominio, como los vehículos, clientes, y transportistas, junto con sus relaciones, métodos y atributos.
+
+![Diagrama de Context Layer Class](resources/images/capitulo_2/needfinding/CD.png)
+
+### 4.2.1.5.2 Bounded Context Database Design Diagram
+
+Aquí se presenta el diagrama de diseño de base de datos dentro de los contextos delimitados (Bounded Contexts) de TransportApp. Este diagrama muestra las tablas de la base de datos que almacenan información crítica, como transportista, asignamiento de vehiculo, cliente y contrato. También se destacan las relaciones entre las tablas y las claves primarias y foráneas utilizadas para mantener la integridad referencial.
+
+![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
+=======
 #### Segmento Transportista
 
 ![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
