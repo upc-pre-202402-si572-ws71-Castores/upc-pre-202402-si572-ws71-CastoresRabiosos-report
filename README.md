@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="resources/images/upc_logo.png" alt="UPC Logo" width="200">
 </p>
@@ -734,6 +733,70 @@ Este Bounded Context es uno de los más importantes ya que se encarga de asignar
 
 ![candidate1](resources/images/capitulo4/candidate1.png)
 
+### 4.1.1.2 Domain Message Flows Modeling
+    
+#### Evento: CheckIn Process
+
+Este evento se dispara cuando un cliente crea una solicitud de transporte en la plataforma. El cliente especifica los detalles del envío, incluyendo el origen, destino, tipo de mercancía, condiciones ambientales necesarias (como temperatura controlada), y la fecha de recogida. La plataforma registra la solicitud y la envía a los transportistas disponibles que cumplen con los requisitos especificados.
+
+![Sticky Note Packs](images/StickyNotePacks.jpg)
+
+#### Evento: TransportInProgress
+
+Este evento se activa cuando un transportista acepta una solicitud de transporte y comienza la operación de traslado de la mercancía. La plataforma utiliza los sensores IoT integrados para monitorear en tiempo real las condiciones del transporte, como la ubicación, temperatura, y peso de la carga. Este evento también actualiza el estado de la solicitud en la plataforma, permitiendo al cliente ver en tiempo real el progreso del transporte.
+
+![Sticky Note Packs (1)](images/StickyNotePacks(1).jpg)
+
+
+### 4.1.1.3 Bounded Context Canvases
+
+#### Transport Access
+
+Este Bounded Context tiene como objetivo gestionar de manera eficiente el acceso y la verificación de transportistas y sus vehículos para operar dentro de TransportApp. Su valor radica en asegurar que solo transportistas verificados y con vehículos adecuados estén disponibles para realizar trabajos en la plataforma.
+
+![Sticky Note Packs (2)](images/StickyNotePacks(2).jpg)
+#### IoT Process
+
+El Bounded Context IoT Process maneja el monitoreo continuo de las condiciones durante el transporte, incluyendo el control de temperatura y el peso de la carga, a través de sensores integrados. Los usuarios pueden configurar los parámetros deseados y recibir notificaciones en caso de que se detecten desviaciones en tiempo real, lo que permite una toma de decisiones rápida para mitigar posibles problemas.
+
+![Sticky Note Packs (3)](images/StickyNotePacks(3).jpg)
+
+## 4.1.2. Context Mapping 
+
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de
+las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños
+candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de
+relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin. Se utilizó la
+herramienta online Miro para elaborar el Context Mapping de la siguiente imagen:
+
+![Sticky Note Packs (4)](images/StickyNotePacks(4).jpg)
+
+## 4.1.3. Software Architecture.
+
+### 4.1.3.1 Software Architecture System Landscape Diagram.
+
+
+El diagrama de System Landscape que presentamos ilustra el diseño principal de nuestro sistema de transporte de paquetes, con TransportApp como su elemento central. Esta aplicación actúa como el centro de operaciones, facilitando la conexión entre los Clientes y el Transportista adecuado para realizar el envío. A través de una interfaz clara y eficiente, la plataforma permite a los clientes elegir el vehículo más apropiado, equipado con dispositivos IoT para asegurar la entrega. Este enfoque no solo maximiza la eficiencia del proceso, sino que también mejora la satisfacción de todos los participantes, garantizando una experiencia de transporte ágil y sin inconvenientes.
+
+![Diagrama Landscape Diagram](images/Diagrama-en-blanco.png)
+
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams. 
+
+El Context Level Diagram proporciona una visión de alto nivel del sistema IoT, mostrando cómo interactúa con actores externos, como clientes, transportistas y dispositivos IoT. Este diagrama representa el sistema como una entidad global y define los límites del sistema, destacando las principales interacciones con usuarios y servicios externos, tales como APIs de terceros, bases de datos y servicios de notificación. Ayuda a comprender cómo el sistema se integra en su entorno y con quién se comunica.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/SystemContext.png)
+#### 4.1.3.3. Software Architecture Container Level Diagrams. 
+
+El Container Level Diagram descompone el sistema IoT en sus componentes principales o contenedores, como aplicaciones web, móviles, APIs, servicios de backend y bases de datos. Este diagrama muestra cómo los diferentes contenedores interactúan entre sí y con los actores externos, especificando las tecnologías utilizadas para su implementación y las interfaces que conectan estos contenedores. Es crucial para entender la arquitectura lógica del sistema y cómo sus módulos principales se comunican.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/structurizrContainer.png)
+#### 4.1.3.4. Software Architecture Deployment Diagrams.
+
+El Deployment Diagram describe cómo los diferentes componentes del sistema IoT son desplegados en el entorno físico o en la nube, detallando dónde se ejecutan los contenedores y cómo se distribuyen entre diferentes servidores, máquinas virtuales o nodos. Este diagrama también explica las conexiones de red entre los componentes, como las redes de comunicación entre dispositivos IoT y la infraestructura central, y muestra cómo se asegura la disponibilidad, escalabilidad y seguridad del sistema en diferentes entornos de despliegue.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/ArchitectureDeploymentDiagrams.png)
+
 
 ## 4.2.1 Bounded Context: Transport Access
 
@@ -835,6 +898,227 @@ Aquí se presenta el diagrama de diseño de base de datos dentro de los contexto
 ![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
 
 
+## 4.2.2. Bounded Context: Suscription & Payment
+### 4.2.2.1. Domain Layer
+
+**Entities**
+
+* Transporter:
+Esta entidad representa un componente clave dentro del sistema de gestión de suscripciones. Proporciona la identidad del transportista, gestionando tanto su estado dentro de la plataforma como su relación con el servicio de pagos de suscripciones. Los atributos incluyen la identificación del transportista, su nombre y su estado en la plataforma (activo/inactivo).
+
+**Value Objects**
+
+* PaymentDetails:
+
+Este objeto de valor es esencial para representar de manera coherente los detalles de los pagos realizados por los transportistas. Incluye la información de métodos de pago, fechas de pago y montos pagados, garantizando la consistencia en la gestión de los pagos dentro del sistema.
+
+**Aggregates**
+
+* SuscriptionPaymentService:
+
+Este Aggregate encapsula toda la información relacionada con las suscripciones y pagos dentro del sistema de gestión. Actúa como una colección cohesiva de datos que incluye detalles de la suscripción como el tipo de plan, fechas de inicio y finalización, estado de la suscripción, así como la información de pagos. Este agregado coordina las transacciones y asegura la coherencia de las operaciones dentro de la gestión de suscripciones.
+
+
+### 4.2.2.2. Interface Layer.
+
+**Controllers**
+
+* SubscriptionController:
+Este controlador constituye un componente esencial dentro de la arquitectura de la aplicación. Es responsable de gestionar el ciclo de vida de las suscripciones y los pagos de los transportistas. En este controlador se implementan las funcionalidades CRUD necesarias para interactuar con los datos relacionados con las suscripciones, como la creación de nuevas suscripciones, la actualización del estado de las mismas y la cancelación cuando sea necesario.
+
+
+
+### 4.2.2.3. Application Layer.
+
+
+**Services**
+
+* SubscriptionService:
+Este servicio es un componente central en la aplicación, encargado de gestionar las operaciones relacionadas con la activación, renovación y cancelación de suscripciones. Además, maneja la verificación del estado de los pagos, asegurando que los transportistas tengan acceso a la plataforma solo si sus pagos están al día. También se encarga de coordinar las notificaciones al transportista cuando su suscripción está por expirar o ha sido renovada exitosamente.
+
+ 
+### 4.2.2.4. Infrastructure Layer.
+
+**Repositories**
+
+* SubscriptionRepository:
+Este repositorio facilita la interacción con la base de datos para la persistencia de datos relacionados con las suscripciones y pagos. Asegura que la información de las suscripciones de los transportistas esté almacenada de manera segura y que los pagos realizados se registren correctamente para su posterior verificación y gestión.
+
+
+### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
+![structurizr-Component-002](images/structurizr-Component-002.png)
+
+### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 4.2.2.7.1 Bounded Context Software Architecture Code Level Diagrams.
+
+![CD](images/Castores%20Rabiosos-CDEJEMPLO.png)
+
+#### 4.2.2.7.2. Bounded Context Database Design Diagram.
+
+![DB-Diagram](images/Diagrama-de-clases.png)
+
+
+### 4.2.3. Bounded Context: Service Management
+
+Este contexto delimitado gestiona los servicios relacionados con la supervisión y control de los envíos, asegurando la correcta interacción con dispositivos IoT y otros componentes necesarios para la operación de la aplicación de transporte.
+### 4.2.3.1. Domain Layer 
+**Entities** **Value Objects** **Aggregates** 
+#### **Entities**
+
+- **Shipment**: Representa un envío que contiene detalles como la fecha, el estado, y los datos relacionados con el transporte.
+- **TransportDetails**: Almacena detalles relacionados con el transporte del envío, como el vehículo asignado, la ruta, y el conductor.
+- **IoTData**: Almacena datos capturados por los dispositivos IoT como la temperatura y la localización en tiempo real.
+
+#### **Value Objects**
+
+- **Location**: Representa las coordenadas de un envío en términos de latitud y longitud.
+- **Temperature**: Almacena el valor de la temperatura del transporte en un determinado momento.
+
+#### **Aggregates**
+
+- **Shipment Aggregate**: Es la raíz del agregado que agrupa el `Shipment`, `TransportDetails`, y los datos del `IoTData`, garantizando la consistencia entre los mismos durante el proceso de monitoreo.
+### 4.2.3.2. Interface Layer. 
+#### **Controllers**
+
+- **ShipmentController**: Controlador HTTP que expone los endpoints para la gestión de los envíos. Este se encarga de aceptar solicitudes desde el frontend (tanto la aplicación web como la móvil) y enviar los datos de los envíos en tiempo real, así como los detalles del transporte.
+### 4.2.3.3. Application Layer. 
+#### **Services**
+
+- **ShipmentService**: Contiene la lógica de negocio para la gestión de los envíos, incluyendo la actualización del estado de los mismos, y la validación de los detalles de transporte y monitoreo en tiempo real.
+- **ShipmentMonitoringService**: Responsable de monitorear los envíos en tiempo real, extrayendo los datos de los dispositivos IoT relacionados.
+### 4.2.3.4. Infrastructure Layer. 
+#### **Repositories**
+
+- **ShipmentRepository**: Gestiona la persistencia y recuperación de los datos de los envíos en la base de datos.
+- **TransportDetailsRepository**: Se encarga de almacenar y gestionar los detalles de transporte asociados con cada envío.
+### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams. 
+
+A nivel de componentes, los diagramas describen cómo interactúan las distintas capas y servicios dentro del contexto delimitado de `Service Management`. Aquí se especifica el flujo de datos entre los controladores, servicios, y repositorios para gestionar los envíos.
+
+#### **Componentes principales:**
+
+1. **ShipmentController**: Recibe las solicitudes.
+2. **ShipmentService**: Procesa la lógica de negocio.
+3. **ShipmentMonitoringService**: Realiza el monitoreo en tiempo real.
+4. **Repositories**: Gestionan el acceso a los datos persistidos.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/ComponentLevelDiagrams.png)
+### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams
+
+Estos diagramas muestran cómo se relaciona el código en cada componente del contexto delimitado.
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Los diagramas a nivel de código muestran las clases y sus relaciones en el servicio de `Service Management`. Se incluyen:
+
+- **Controladores**: como `ShipmentController`.
+- **Servicios**: como `ShipmentService` y `ShipmentMonitoringService`.
+- **Entidades**: como `Shipment` y `TransportDetails`.
+
+Los diagramas de código describen la interacción entre las clases de los controladores, servicios, y repositorios.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/LayerClassDiagrams.png)
+
+#### 4.2.3.7.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de `Service Management` incluye las siguientes tablas:
+
+- **Shipment**: Contiene columnas para almacenar la identificación del envío, la fecha, el estado y la referencia a los detalles de transporte.
+- **TransportDetails**: Almacena los detalles del vehículo, conductor, y ruta asociados con cada envío.
+- **IoTData**: Almacena datos en tiempo real, como la temperatura y la localización del envío.
+
+Estas tablas están interconectadas por claves foráneas que aseguran la consistencia en el modelo relacional.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/DiagramaDatoServiceManagement.png)
+
+### 4.2.4. Bounded Context: Iot Process
+Este Bounded Context está diseñado para gestionar los procesos de monitoreo de activos IoT, especialmente en relación con la gestión de sensores que monitorizan el peso y la temperatura, y la notificación de alertas cuando los valores monitoreados exceden ciertos límites predefinidos.
+#### 4.2.4.1. Domain Layer
+En la Domain Layer, vamos a definir las entidades clave que representan el núcleo de las reglas de negocio del sistema. Aquí se incluyen las entidades del dominio como **Vehículo**, **Sensor**, **Alerta**, y servicios de dominio que gestionan las reglas de negocio.
+
+**Entities**
+	IoTDevice:
+		Representa un dispositivo IoT instalado en los vehículos que recopila datos de monitoreo, como la ubicación, la temperatura y el peso.
+		- **Atributos**:
+			- `id: Long`
+			- `status: String`
+			- `location: Location`
+			- `temperature: Float`
+			- `data: IoTData`
+		- **Métodos**:
+			- `getStatus(): String`
+			- `getData(): IoTData`
+			- `actualizarValores(newData: IoTData): void`
+	IoTData:
+		Almacena los datos generados por los dispositivos IoT, como la ubicación y la temperatura.
+		- **Atributos**:
+			- `deviceId: Long`
+			- `location: Location`
+			- `temperature: Float`
+		- **Métodos**:
+			- `getLocation(): Location`
+			- `getTemperature(): Float`
+			- `getDeviceId(): Long`
+	Alerta:
+		Almacena las alertas generadas por valores fuera de rango, tanto de temperatura como de peso.
+		- **Atributos**:
+			- `mensaje: String`
+			- `tipoAlerta: String` (por ejemplo: "peso", "temperatura")
+		- **Métodos**:
+			- `enviarAlerta(): void`
+
+#### 4.2.4.2. Interface Layer
+En la Interface Layer, se encuentran las clases que sirven como la capa de presentación o interfaz con los usuarios y sistemas externos. Estas clases incluyen los controladores que manejan las solicitudes HTTP, así como los listeners que procesan eventos IoT.
+
+**Controller**
+	IoTController:
+		Controlador que maneja las solicitudes de monitoreo de los usuarios, como el registro de vehículos y sensores, y la visualización de datos en tiempo real.
+
+**Event Listener**
+	IoTEventListener:
+		Escucha y procesa los eventos IoT en tiempo real provenientes de los sensores.
+#### 4.2.4.3. Application Layer
+En la Application Layer, se encuentran las clases que manejan los flujos de los procesos de negocio, como el procesamiento de comandos y eventos. Aquí se implementan los _command handlers_ y _event handlers_ que gestionan los procesos de monitoreo de los activos IoT.
+
+**Command Handler**
+	MonitoreoCommandHandler:
+		Maneja los comandos que inician procesos de monitoreo para los sensores de peso y temperatura.
+		- **Métodos**:
+			- `manejarComandoMonitoreo(command: IniciarMonitoreoCommand)`: Inicia el proceso de monitoreo según los parámetros dados.
+
+**Event Handler**
+	MonitoreoEventHandler:
+		Escucha y responde a los eventos generados durante el monitoreo.
+		- **Métodos**:
+			- `manejarEventoMonitoreo(event: MonitoreoIniciadoEvent)`: Procesa el evento de inicio de monitoreo.
+			- `manejarEventoAlertaGenerada(event: AlertaGeneradaEvent)`: Procesa las alertas generadas durante el monitoreo.
+#### 4.2.4.4. Infrastructure Layer
+En la Infrastructure Layer, se ubican las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería y servicios de terceros. Aquí también se encuentran las implementaciones de repositorios definidos en el _Domain Layer_.
+
+**Repositorio**
+	IoTDeviceRepository:
+		Acceso a la base de datos para las operaciones CRUD de dispositivos IoT.
+		- **Métodos**:
+			- `guardar(device: IoTDevice): void`
+			- `obtenerPorId(deviceId: Long): IoTDevice`
+			- `obtenerPorEnvio(envioId: Long): List<IoTDevice>`
+**Integración IoT**
+	IoTService:
+		Interfaz para comunicarse con los dispositivos IoT y obtener los datos de sensores.
+		- **Métodos**:
+			- `recibirDatosIoT(): Sensor`
+			- `enviarComandoIoT(command: ComandoIoT): void`
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema, tales como el _Controller_, los _Services_ y los Repositories, así como su conexión con sistemas externos como la base de datos y los dispositivos IoT.
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/Iot_process/layout.png)
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama de clases describe todas las clases del _Domain Layer_, incluyendo entidades, servicios y repositorios, con todos sus atributos y métodos.
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/Iot_process/Iot_CD.png)
+#### 4.2.4.6.2. Bounded Context Database Design Diagram
+El diagrama de base de datos representa las tablas y las relaciones necesarias para almacenar los objetos del dominio en una base de datos relacional. Aquí se incluirían tablas como `Vehiculo`, `Sensor`, `Alerta`, y las claves primarias y foráneas que conectan estas entidades.
+![Database](resources/images/capitulo_4/bounded_contexts/Iot_process/Iot_DB.png)
 
 ## 4.2.5. Bounded Context: Check In y Check Out
 El bounded context Check In se encarga de registrar la cantidad de cargo encargado por el cliente con la finalidad de dejar una constancia de lo que debería haber en el envío. En este proceso también participa en conductor quien se asegurará de verificar que el la lista Check In y Check Out ingresada por el cliente sea la cantidad de paquetes a recojer.
