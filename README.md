@@ -648,9 +648,9 @@ Las Epics que identificamos son las siguientes:
 En la técnica de Impact Mapping, conectamos los objetivos de negocio con las soluciones técnicas de nuestro proyecto IoT. Esto nos permite identificar a los actores clave, como los transportistas y clientes, y comprender cómo sus acciones impactan en los objetivos comerciales. De esta forma, aseguramos que las funcionalidades que desarrollamos realmente generan valor para el negocio y están alineadas con los resultados esperados.
 
 *Impact Mapping Cliente*
-![[impactTransportista.png]]
+![impactTransportista](resources/images/capitulo4/impactTransportista.png)
 *Impact Mapping Transportista*
-![[impactCliente.png]]
+![impactCliente](resources/images/capitulo4/impactCliente.png)
 
 ## 3.4. Product Backlog
 Product Backlog es una herramienta fundamental en el marco de trabajo ágil, particularmente en metodologías como **Scrum**. El backlog actúa como una fuente de verdad que define lo que el equipo de desarrollo necesita trabajar en el producto para entregar valor a los usuarios o clientes.
@@ -697,23 +697,22 @@ Con el Strategic-Level Domain-Driven Design, definimos los límites y las intera
 Hemos utilizado EventStorming como una técnica colaborativa para identificar los eventos clave dentro del sistema IoT. Este enfoque nos ayuda a mapear eventos importantes como alertas generadas o cambios en el estado de los sensores, lo que nos permite entender mejor el flujo del sistema y modelar correctamente el dominio.
 
 *Step 1: Unstructured Exploration*
-![[event1.png]]
+![event1](resources/images/capitulo4/event1.png)
 
 *Step 2: Collect Domain Events*
-![[event2.png]]
+![event2](resources/images/capitulo4/event2.png)
 
 *Step 3: Process Modelling*
 
-![[event3.png]]
-![[event4.png]]
-
+![event3](resources/images/capitulo4/event3.png)
+![event4](resources/images/capitulo4/event4.png)
 *Step 4: Aggregates*
-![[event5.png]]
+![event5](resources/images/capitulo4/event5.png)
 
 
 *Step 5: Bounded Context* 
 
-![[event6.png]]
+![event6](resources/images/capitulo4/event6.png)
 https://miro.com/app/board/uXjVKhiPtlw=/?share_link_id=692779104136
 
 ### 4.2.2 Candidate Context Discovery
@@ -723,17 +722,17 @@ En la fase de Candidate Context Discovery de EventStorming, identificamos los po
 **Service Management**
 Este bounded context se centra en el proceso de solicitud de un servicio, desde la ubicación de destino y recojo del cliente hasta la elección de un trasportista para el servicio.
 
-![[candidate2.png]]
+![candidate2](resources/images/capitulo4/candidate2.png)
 
 **IoT Process**
 Este Bounded Context se encarga de gestionar el funcionamiento de los dispositivos que en nuestro caso son sensores de temperatura y de peso, también se consideran los actuares que avisaran con una alerta en caso de un envío corrompido o estropeado.
 
-![[candidate3.png]]
+![candidate3](resources/images/capitulo4/candidate3.png)
 
 **Identity and Access Management**
 Este Bounded Context es uno de los más importantes ya que se encarga de asignar roles y verificar que cada tipo de usuario no acceda a información del otro.
 
-![[candidate1.png]]
+![candidate1](resources/images/capitulo4/candidate1.png)
 
 
 ## 4.2.1 Bounded Context: Transport Access
@@ -891,13 +890,13 @@ Almacena y gestiona  a los datos de los vehículos para una correcta asignación
 Facilita la persistencia de los datos relacionados con los servicios de viaje. Proporciona la funcionalidad necesaria para gestionar transportistas de los servicios de viaje, así como para notificarles sobre los viajes.
 
 ### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
-![[componentLevel.png]]
+![componentLevel](resources/images/capitulo4/componentLevel.png)
 
 ### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 ### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
-![[classDiagramCheck.png]]
+![classDiagramCheck](resources/images/capitulo4/classDiagramCheck.png)
 
 ### 4.2.5.6.2 Bounded Context Database Design Diagram
-![[DatabaseDiagramCheck.png]]
+![DatabaseDiagramCheck](resources/images/capitulo4/DatabaseDiagramCheck.png)
 
