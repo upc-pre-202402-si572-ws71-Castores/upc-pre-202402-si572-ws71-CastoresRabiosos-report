@@ -476,6 +476,21 @@ El User Journey Mapping es un método visual que describe la experiencia del usu
 
 
 ---
+#### 4.1.3.2. Software Architecture Context Level Diagrams. 
+
+El Context Level Diagram proporciona una visión de alto nivel del sistema IoT, mostrando cómo interactúa con actores externos, como clientes, transportistas y dispositivos IoT. Este diagrama representa el sistema como una entidad global y define los límites del sistema, destacando las principales interacciones con usuarios y servicios externos, tales como APIs de terceros, bases de datos y servicios de notificación. Ayuda a comprender cómo el sistema se integra en su entorno y con quién se comunica.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/SystemContext.png)
+#### 4.1.3.3. Software Architecture Container Level Diagrams. 
+
+El Container Level Diagram descompone el sistema IoT en sus componentes principales o contenedores, como aplicaciones web, móviles, APIs, servicios de backend y bases de datos. Este diagrama muestra cómo los diferentes contenedores interactúan entre sí y con los actores externos, especificando las tecnologías utilizadas para su implementación y las interfaces que conectan estos contenedores. Es crucial para entender la arquitectura lógica del sistema y cómo sus módulos principales se comunican.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/structurizrContainer.png)
+#### 4.1.3.4. Software Architecture Deployment Diagrams.
+
+El Deployment Diagram describe cómo los diferentes componentes del sistema IoT son desplegados en el entorno físico o en la nube, detallando dónde se ejecutan los contenedores y cómo se distribuyen entre diferentes servidores, máquinas virtuales o nodos. Este diagrama también explica las conexiones de red entre los componentes, como las redes de comunicación entre dispositivos IoT y la infraestructura central, y muestra cómo se asegura la disponibilidad, escalabilidad y seguridad del sistema en diferentes entornos de despliegue.
+
+![Class Diagram](resources/images/capitulo_4/diagrams/ArchitectureDeploymentDiagrams.png)
 ### 4.2.3. Bounded Context: Service Management
 
 Este contexto delimitado gestiona los servicios relacionados con la supervisión y control de los envíos, asegurando la correcta interacción con dispositivos IoT y otros componentes necesarios para la operación de la aplicación de transporte.
