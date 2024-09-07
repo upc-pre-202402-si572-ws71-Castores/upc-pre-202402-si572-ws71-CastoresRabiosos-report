@@ -615,7 +615,7 @@ Las Epics que identificamos son las siguientes:
 
 ## 4.2.1 Bounded Context: Transport Access
 
-#### 4.2.X.1 Domain Layer
+#### 4.2.1.1 Domain Layer
 
 Define las entidades principales que formarán la lógica de negocio en este contexto. Por ejemplo:
 
@@ -657,7 +657,7 @@ Métodos:
 
 - `enviarAlerta(): void`
 
-#### 4.2.X.2 Interface Layer
+#### 4.2.1.2 Interface Layer
 
 Define la capa de presentación que interactúa con los usuarios y otros sistemas:
 
@@ -669,7 +669,7 @@ Define la capa de presentación que interactúa con los usuarios y otros sistema
 
 - **TransportEventListener**: Procesa eventos relacionados con el transporte, como el registro de nuevos sensores o la emisión de alertas.
 
-#### 4.2.X.3 Application Layer
+#### 4.2.1.3 Application Layer
 
 Gestiona la lógica de aplicación y la coordinación entre diferentes componentes:
 
@@ -681,7 +681,7 @@ Gestiona la lógica de aplicación y la coordinación entre diferentes component
 
 - **TransportEventHandler**: Responde a eventos de monitoreo, como la generación de alertas.
 
-#### 4.2.X.4 Infrastructure Layer
+#### 4.2.1.4 Infrastructure Layer
 
 Accede a servicios externos, bases de datos y APIs:
 
@@ -694,8 +694,20 @@ Accede a servicios externos, bases de datos y APIs:
 
 - **IoTService**: Interactúa con los dispositivos IoT, gestionando la comunicación y los datos.
 
-### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams
+### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
 
 En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema TransportApp, como los contenedores de la aplicación (Single Page Application, Web Application, Mobile App, Web API, entre otros) y sus componentes específicos dentro de contextos delimitados como IoT Process e Identity and Access Management. Además, se muestra la conexión con sistemas externos como el servicio de correo electrónico y la pasarela de pago, así como con dispositivos IoT para el monitoreo en tiempo real.
 
 ![Diagrama de Componentes Transport Access](resources/images/capitulo_2/needfinding/ComponentDiagramTransportAccess.png)
+
+### 4.2.1.5.1 Bounded Context Domain Layer Class Diagrams
+
+En esta sección, se presenta el diagrama de clases de la capa de dominio dentro de los contextos delimitados (Bounded Contexts) de la aplicación TransportApp. El diagrama muestra las clases principales que representan los conceptos clave del dominio, como los vehículos, clientes, y transportistas, junto con sus relaciones, métodos y atributos.
+
+![Diagrama de Context Layer Class](resources/images/capitulo_2/needfinding/CD.png)
+
+### 4.2.1.5.2 Bounded Context Database Design Diagram
+
+Aquí se presenta el diagrama de diseño de base de datos dentro de los contextos delimitados (Bounded Contexts) de TransportApp. Este diagrama muestra las tablas de la base de datos que almacenan información crítica, como transportista, asignamiento de vehiculo, cliente y contrato. También se destacan las relaciones entre las tablas y las claves primarias y foráneas utilizadas para mantener la integridad referencial.
+
+![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
