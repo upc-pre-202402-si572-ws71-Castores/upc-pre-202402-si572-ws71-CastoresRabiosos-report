@@ -482,27 +482,28 @@ Este Bounded Context está diseñado para gestionar los procesos de monitoreo de
 En la Domain Layer, vamos a definir las entidades clave que representan el núcleo de las reglas de negocio del sistema. Aquí se incluyen las entidades del dominio como **Vehículo**, **Sensor**, **Alerta**, y servicios de dominio que gestionan las reglas de negocio.
 
 **Entities**
-	Vehículo:
-		Representa un vehículo en la flota de transporte, el cual contiene sensores que monitorean variables como el peso y la temperatura.
+	IoTDevice:
+		Representa un dispositivo IoT instalado en los vehículos que recopila datos de monitoreo, como la ubicación, la temperatura y el peso.
 		- **Atributos**:
-			- `matricula: String`
-		    - `modelo: String`
-		    - `capacidad: int`
-		    - `sensores: List<Sensor>`
+			- `id: Long`
+			- `status: String`
+			- `location: Location`
+			- `temperature: Float`
+			- `data: IoTData`
 		- **Métodos**:
-		    - `agregarSensor(sensor: Sensor): void`
-		    - `eliminarSensor(sensorId: int): void`
-		    - `obtenerCondicionesActuales(): List<Sensor>`
-	Sensor:
-		Representa un sensor en el vehículo, que monitorea una variable específica como temperatura o peso.
+			- `getStatus(): String`
+			- `getData(): IoTData`
+			- `actualizarValores(newData: IoTData): void`
+	IoTData:
+		Almacena los datos generados por los dispositivos IoT, como la ubicación y la temperatura.
 		- **Atributos**:
-			- `id: int`
-			- `tipo: String` (por ejemplo: "temperatura", "peso")
-			- `parametrosConfigurados: Map<String, Object>`
-			- `valorActual: float`
+			- `deviceId: Long`
+			- `location: Location`
+			- `temperature: Float`
 		- **Métodos**:
-			- `actualizarValor(nuevoValor: float): void`
-			- `generarAlerta(): void`
+			- `getLocation(): Location`
+			- `getTemperature(): Float`
+			- `getDeviceId(): Long`
 	Alerta:
 		Almacena las alertas generadas por valores fuera de rango, tanto de temperatura como de peso.
 		- **Atributos**:
@@ -540,16 +541,12 @@ En la Application Layer, se encuentran las clases que manejan los flujos de los 
 En la Infrastructure Layer, se ubican las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería y servicios de terceros. Aquí también se encuentran las implementaciones de repositorios definidos en el _Domain Layer_.
 
 **Repositorio**
-	VehiculoRepository:
-		Acceso a la base de datos para las operaciones CRUD de vehículos.
+	IoTDeviceRepository:
+		Acceso a la base de datos para las operaciones CRUD de dispositivos IoT.
 		- **Métodos**:
-			- `guardar(vehiculo: Vehiculo): void`
-	        - `obtenerPorId(vehiculoId: int): Vehiculo`
-	SensorRepository:
-		Acceso a la base de datos para las operaciones CRUD de sensores.
-		- **Métodos**:
-			- `guardar(sensor: Sensor): void`
-			- `obtenerPorId(sensorId: int): Sensor`
+			- `guardar(device: IoTDevice): void`
+			- `obtenerPorId(deviceId: Long): IoTDevice`
+			- `obtenerPorEnvio(envioId: Long): List<IoTDevice>`
 **Integración IoT**
 	IoTService:
 		Interfaz para comunicarse con los dispositivos IoT y obtener los datos de sensores.
