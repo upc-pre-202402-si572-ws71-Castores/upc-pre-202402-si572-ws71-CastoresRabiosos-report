@@ -476,6 +476,77 @@ El User Journey Mapping es un método visual que describe la experiencia del usu
 
 
 ---
+### 4.2.3. Bounded Context: Service Management
+
+Este contexto delimitado gestiona los servicios relacionados con la supervisión y control de los envíos, asegurando la correcta interacción con dispositivos IoT y otros componentes necesarios para la operación de la aplicación de transporte.
+### 4.2.3.1. Domain Layer 
+**Entities** **Value Objects** **Aggregates** 
+#### **Entities**
+
+- **Shipment**: Representa un envío que contiene detalles como la fecha, el estado, y los datos relacionados con el transporte.
+- **TransportDetails**: Almacena detalles relacionados con el transporte del envío, como el vehículo asignado, la ruta, y el conductor.
+- **IoTData**: Almacena datos capturados por los dispositivos IoT como la temperatura y la localización en tiempo real.
+
+#### **Value Objects**
+
+- **Location**: Representa las coordenadas de un envío en términos de latitud y longitud.
+- **Temperature**: Almacena el valor de la temperatura del transporte en un determinado momento.
+
+#### **Aggregates**
+
+- **Shipment Aggregate**: Es la raíz del agregado que agrupa el `Shipment`, `TransportDetails`, y los datos del `IoTData`, garantizando la consistencia entre los mismos durante el proceso de monitoreo.
+### 4.2.3.2. Interface Layer. 
+#### **Controllers**
+
+- **ShipmentController**: Controlador HTTP que expone los endpoints para la gestión de los envíos. Este se encarga de aceptar solicitudes desde el frontend (tanto la aplicación web como la móvil) y enviar los datos de los envíos en tiempo real, así como los detalles del transporte.
+### 4.2.3.3. Application Layer. 
+#### **Services**
+
+- **ShipmentService**: Contiene la lógica de negocio para la gestión de los envíos, incluyendo la actualización del estado de los mismos, y la validación de los detalles de transporte y monitoreo en tiempo real.
+- **ShipmentMonitoringService**: Responsable de monitorear los envíos en tiempo real, extrayendo los datos de los dispositivos IoT relacionados.
+### 4.2.3.4. Infrastructure Layer. 
+#### **Repositories**
+
+- **ShipmentRepository**: Gestiona la persistencia y recuperación de los datos de los envíos en la base de datos.
+- **TransportDetailsRepository**: Se encarga de almacenar y gestionar los detalles de transporte asociados con cada envío.
+### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams. 
+
+A nivel de componentes, los diagramas describen cómo interactúan las distintas capas y servicios dentro del contexto delimitado de `Service Management`. Aquí se especifica el flujo de datos entre los controladores, servicios, y repositorios para gestionar los envíos.
+
+#### **Componentes principales:**
+
+1. **ShipmentController**: Recibe las solicitudes.
+2. **ShipmentService**: Procesa la lógica de negocio.
+3. **ShipmentMonitoringService**: Realiza el monitoreo en tiempo real.
+4. **Repositories**: Gestionan el acceso a los datos persistidos.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/ComponentLevelDiagrams.png)
+### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams
+
+Estos diagramas muestran cómo se relaciona el código en cada componente del contexto delimitado.
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Los diagramas a nivel de código muestran las clases y sus relaciones en el servicio de `Service Management`. Se incluyen:
+
+- **Controladores**: como `ShipmentController`.
+- **Servicios**: como `ShipmentService` y `ShipmentMonitoringService`.
+- **Entidades**: como `Shipment` y `TransportDetails`.
+
+Los diagramas de código describen la interacción entre las clases de los controladores, servicios, y repositorios.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/LayerClassDiagrams.png)
+
+#### 4.2.3.7.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de `Service Management` incluye las siguientes tablas:
+
+- **Shipment**: Contiene columnas para almacenar la identificación del envío, la fecha, el estado y la referencia a los detalles de transporte.
+- **TransportDetails**: Almacena los detalles del vehículo, conductor, y ruta asociados con cada envío.
+- **IoTData**: Almacena datos en tiempo real, como la temperatura y la localización del envío.
+
+Estas tablas están interconectadas por claves foráneas que aseguran la consistencia en el modelo relacional.
+
+![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/DiagramaDatoServiceManagement.png)
 ### 4.2.4. Bounded Context: Iot Process
 Este Bounded Context está diseñado para gestionar los procesos de monitoreo de activos IoT, especialmente en relación con la gestión de sensores que monitorizan el peso y la temperatura, y la notificación de alertas cuando los valores monitoreados exceden ciertos límites predefinidos.
 #### 4.2.4.1. Domain Layer
