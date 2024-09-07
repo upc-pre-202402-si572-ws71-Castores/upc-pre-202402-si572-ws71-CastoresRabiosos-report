@@ -484,9 +484,9 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 | Pago y Facturación         | Necesita realizar el pago por los servicios de transporte y recibir la factura correspondiente.                                               | Alta        | Alta       |
 | Evaluación del Servicio    | Debe evaluar el servicio recibido y proporcionar feedback a través de la app.                                                                 | Media       | Alta       |
 ### 2.3.3 User Journey Mapping
+
 El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
 #### Segmento Transportista
-
 ![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
 #### Segmento Cliente
 ![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
@@ -643,6 +643,99 @@ Las Epics que identificamos son las siguientes:
 | EP-04       | Funcionalidades de la App Móvil  | Abarca la implementación de la aplicación móvil con las características necesarias para clientes y transportistas.    |
 | EP-05       | Funcionalidades del Frontend Web | Se refiere al desarrollo de la interfaz web para la interacción con los usuarios, tanto clientes como transportistas. |
 
+## 3.3. Impact Mapping
+
+En la técnica de Impact Mapping, conectamos los objetivos de negocio con las soluciones técnicas de nuestro proyecto IoT. Esto nos permite identificar a los actores clave, como los transportistas y clientes, y comprender cómo sus acciones impactan en los objetivos comerciales. De esta forma, aseguramos que las funcionalidades que desarrollamos realmente generan valor para el negocio y están alineadas con los resultados esperados.
+
+*Impact Mapping Cliente*
+![[impactTransportista.png]]
+*Impact Mapping Transportista*
+![[impactCliente.png]]
+
+## 3.4. Product Backlog
+Product Backlog es una herramienta fundamental en el marco de trabajo ágil, particularmente en metodologías como **Scrum**. El backlog actúa como una fuente de verdad que define lo que el equipo de desarrollo necesita trabajar en el producto para entregar valor a los usuarios o clientes.
+
+| ID            | TITULO                                           | DESCRIPCION                                                                                                                                                | STORY POINTS |
+| ------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| US-01         | Registro en Landing Page                         | Como usuario nuevo, quiero registrarme desde la landing page para crear una cuenta en TransportApp.                                                        |    2         |
+| US-02         |   Información sobre TransportApp                 |  Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                  |   1          |
+| US-05         | Redirección a la Aplicación Móvil                |  Como visitante, quiero un enlace directo desde la landing page para descargar la app móvil de TransportApp.                                               |  1           |
+| US-08         | Comparación de Planes                            |  Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.                    |    2         |
+| Dato 4        | Registro de Usuarios en el Backend               |  Como desarrollador, quiero implementar la lógica de registro de usuarios en el backend para crear cuentas nuevas.                                         |  2           |
+|               |                                                  |                                                                                                                                                            |              |
+| US-12         | Autenticación de Usuarios                        |  Como desarrollador, quiero que el backend maneje la autenticación para permitir el acceso seguro a la aplicación.                                         |  2           |
+| US-13         | Gestión de Servicios de Transporte               |  Como desarrollador, quiero que el backend gestione la creación, actualización y cancelación de servicios de transporte.                                   |   3          |
+| US-14         | Monitorización de la Carga                       |  Como desarrollador, quiero que el backend capture y almacene datos en tiempo real sobre la ubicación y estado de la carga.                                |   2          |
+| US-16         | Gestión de Pagos                                 |  Como desarrollador, quiero que el backend procese y registre los pagos de los servicios contratados.                                                      |    3         |
+| US-19         | Almacenamiento de Información de Sensores        |   Como desarrollador, quiero que el backend almacene los datos recibidos de los sensores IoT para su posterior análisis.                                   |   3          |
+|               |                                                  |                                                                                                                                                            |              |
+| US-21         | Registro de Usuarios en la Web                   |  Como usuario, quiero poder registrarme en la aplicación web para acceder a los servicios de TransportApp.                                                 |  3           |
+| US-23         | Visualización de Servicios Disponibles           |   Como usuario, quiero poder ver los servicios de transporte disponibles desde la web para elegir el que mejor se adapte a mis necesidades.                |   1          |
+| US-24         | Reserva de Servicios desde la Web                |  Como usuario, quiero poder reservar un servicio de transporte desde la aplicación web para asegurar la entrega de mi carga.                               |  2           |
+| US-27         | Gestión de Opiniones y Calificaciones            |  Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la web.                                                           |   2          |
+|               |                                                  |                                                                                                                                                            |              |
+| US-31         | Registro de Usuarios en la App Móvil             |  Como usuario, quiero registrarme desde la app móvil para acceder a los servicios de TransportApp.                                                         |   1          |
+| US-33         | Reserva de Servicios desde la App Móvil          |  Como usuario, quiero reservar un servicio de transporte directamente desde mi dispositivo móvil para mayor comodidad.                                     |  2           |
+| US-34         | Monitoreo de Carga en la App Móvil               |  Como usuario, quiero monitorear mi carga en tiempo real desde la app móvil para estar informado durante el transporte.                                    |   3          |
+| US-37         | Visualización de Historial en la App             |  Como usuario, quiero poder ver el historial de servicios contratados desde la app móvil para revisar mis transacciones.                                   |   2          |
+| US-39         | Verificación de Pagos en la App                  |  Como transportista, quiero revisar el estado de mis pagos desde la app móvil para asegurarme de que todo está en orden.                                   |    3         |
+|               |                                                  |                                                                                                                                                            |              |
+| US-41         | Conexión de Sensor IoT a la Plataforma           | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                        | 4            |
+| US-42         | Monitoreo de Datos de Temperatura                |  Como usuario, quiero monitorear la temperatura de mi carga en tiempo real mediante un sensor IoT.                                                         |    3         |
+| US-45         |  Recepción de Alertas desde Sensores IoT         |  Como transportista, quiero recibir alertas automáticas desde los sensores IoT para actuar rápidamente en caso de incidentes.                              |    4         |
+| US-46         | Integración con Gateway IoT                      |  Como desarrollador, quiero integrar los sensores IoT con un gateway para asegurar la transmisión de datos al backend.                                     |   3          |
+| US-47         | Configuración Remota de Sensores IoT             |  Como desarrollador, quiero poder configurar remotamente los sensores IoT para ajustar los umbrales y parámetros de monitoreo.                             |  2           |
+| US-48         | Recolección de Datos de Ubicación                |  Como usuario, quiero que el sensor IoT recolecte y transmita datos de ubicación en tiempo real para saber dónde está mi carga.                            |  3           |
+| US-49         | Sincronización de Sensores IoT                   |  Como desarrollador, quiero sincronizar múltiples sensores IoT en un solo envío de datos para optimizar la transmisión.                                    | 3            |
+| US-50         | Almacenamiento Seguro de Datos de Sensores       |   Como desarrollador, quiero asegurarme de que todos los datos capturados por los sensores IoT se almacenan de manera segura y encriptada en el backend.   |   4          |
+
+# Capítulo IV: Solution Software Design
+
+## 4.1 Strategic Level Domain-Driven Design
+Con el Strategic-Level Domain-Driven Design, definimos los límites y las interacciones entre los diferentes dominios del negocio en nuestro proyecto IoT. Utilizamos esta estrategia para identificar los bounded contexts, lo que nos permite dividir el sistema en áreas de responsabilidad específicas, facilitando un diseño modular y escalable.
+### 4.1.1 EventStorming
+Hemos utilizado EventStorming como una técnica colaborativa para identificar los eventos clave dentro del sistema IoT. Este enfoque nos ayuda a mapear eventos importantes como alertas generadas o cambios en el estado de los sensores, lo que nos permite entender mejor el flujo del sistema y modelar correctamente el dominio.
+
+*Step 1: Unstructured Exploration*
+![[event1.png]]
+
+*Step 2: Collect Domain Events*
+![[event2.png]]
+
+*Step 3: Process Modelling*
+
+![[event3.png]]
+![[event4.png]]
+
+*Step 4: Aggregates*
+![[event5.png]]
+
+
+*Step 5: Bounded Context* 
+
+![[event6.png]]
+https://miro.com/app/board/uXjVKhiPtlw=/?share_link_id=692779104136
+
+### 4.2.2 Candidate Context Discovery
+
+En la fase de Candidate Context Discovery de EventStorming, identificamos los posibles contextos del sistema. Este proceso inicial nos ayuda a descubrir áreas clave del sistema IoT, como el monitoreo de dispositivos y la gestión de alertas, lo que facilita organizar mejor las funcionalidades y delimitar los contextos en los que trabajan los equipos de desarrollo.
+
+**Service Management**
+Este bounded context se centra en el proceso de solicitud de un servicio, desde la ubicación de destino y recojo del cliente hasta la elección de un trasportista para el servicio.
+
+![[candidate2.png]]
+
+**IoT Process**
+Este Bounded Context se encarga de gestionar el funcionamiento de los dispositivos que en nuestro caso son sensores de temperatura y de peso, también se consideran los actuares que avisaran con una alerta en caso de un envío corrompido o estropeado.
+
+![[candidate3.png]]
+
+**Identity and Access Management**
+Este Bounded Context es uno de los más importantes ya que se encarga de asignar roles y verificar que cada tipo de usuario no acceda a información del otro.
+
+![[candidate1.png]]
+
+
 ## 4.2.1 Bounded Context: Transport Access
 
 #### 4.2.1.1 Domain Layer
@@ -741,4 +834,70 @@ En esta sección, se presenta el diagrama de clases de la capa de dominio dentro
 Aquí se presenta el diagrama de diseño de base de datos dentro de los contextos delimitados (Bounded Contexts) de TransportApp. Este diagrama muestra las tablas de la base de datos que almacenan información crítica, como transportista, asignamiento de vehiculo, cliente y contrato. También se destacan las relaciones entre las tablas y las claves primarias y foráneas utilizadas para mantener la integridad referencial.
 
 ![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
-=======
+
+
+
+## 4.2.5. Bounded Context: Check In y Check Out
+El bounded context Check In se encarga de registrar la cantidad de cargo encargado por el cliente con la finalidad de dejar una constancia de lo que debería haber en el envío. En este proceso también participa en conductor quien se asegurará de verificar que el la lista Check In y Check Out ingresada por el cliente sea la cantidad de paquetes a recojer.
+### 4.2.5.1 Domain Layer
+ENTITIES
+
+- Transporter:
+
+Esta entidad representa a la persona encargada del servicio, quién sería el transportista.
+Identificador único, nombre del transportista, *status* que es el estado de actividad  y tipo de suscripción.
+
+- Vehicle:
+
+Transporte asignado a los transportistas. Incluye modelo de auto, cantidad de productos o envíos por llevar y estado de disponibilidad de transportista.
+
+- Client:
+
+Usuario que solicita el servicio de transporte o *delivery*. Contiene al identificador único de cliente, nombre del cliente y envíos que realiza.
+
+  AGGREGATES
+  - TravelService:
+  
+  Gestión de los viajes realizados por los transportistas. Almacena una lista de transportistas asignados, maneja la notificación de los transportistas y la creación de viajes.
+
+VALUE OBJECTS
+
+- TransportDetails:
+
+Este value object captura la información más importante de los envíos como los datos sobre el vehiculo, nombre del transportista asignado y la ruta que se seguirá desde el punto de recojo al destino.
+### 4.2.5.2 Interface Layer
+
+INTERFACE
+-  ITravelNotificationService:
+Define operaciones para enviar notificaciones tanto a transportistas como a clientes. Mantiene a todos informados sobre aspectos clave como quién conduce, cuándo comienza el viaje o dónde están las mercancías.
+
+### 4.2.5.3 Application Layer
+
+SERVICES
+- TravelService:
+Se encarga de elegir a los conductores adecuados para los viajes. Se asegura de las  correctas asignaciones a los transportistas y que todos reciban una notificación al tener una solicitud de servicio.
+
+### 4.2.5.4 Infrastructure Layer
+
+REPOSITORIES
+
+- TransporterRepository:
+Brinda los datos sobre los transportistas como su identificador, su estado y el tipo de suscripción. También se puede filtrar por estado de suscripción ayudando a una gestión más ágil de transportistas activos.
+
+- VehicleRepository:
+Almacena y gestiona  a los datos de los vehículos para una correcta asignación a algún transportista disponible.
+
+- TravelServiceRepository:
+Facilita la persistencia de los datos relacionados con los servicios de viaje. Proporciona la funcionalidad necesaria para gestionar transportistas de los servicios de viaje, así como para notificarles sobre los viajes.
+
+### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
+![[componentLevel.png]]
+
+### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+![[classDiagramCheck.png]]
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram
+![[DatabaseDiagramCheck.png]]
+
