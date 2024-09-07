@@ -143,7 +143,7 @@ Convertirnos en la plataforma preferida en Perú para la búsqueda y gestión de
 
 | Integrante  | Conde Isla, Camila Alessandra                              |
 | ----------- | ---------------------------------------------------------- |
-| Descripcion | ![Camila Perfil](resources/images/integrantes/Camila.jpeg) |
+| Soy estudiante de la carrera de Ingeniería de Software. Mi motivación para seguir aprendiendo es llegar a crear y diseñar soluciones creativas. Me considero una persona creativa, proactiva, tolerante, respetuosa y apasionada por lo que me gusta. Me comprometo a apoyar en el proceso para poder tener un proyecto final bien planteado para obtener una buena nota.| ![Camila Perfil](resources/images/integrantes/camila.png) |
 
 | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                 | Portales Ortiz, Diego Alejandro                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
