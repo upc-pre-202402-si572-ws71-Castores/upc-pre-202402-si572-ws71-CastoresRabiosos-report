@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="resources/images/upc_logo.png" alt="UPC Logo" width="200">
 </p>
@@ -96,10 +95,13 @@
 ---
 # Student Outcome
 
-| Criterio específico                                                                             | Acciones realizadas                                                                                                       | Conclusiones |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br><br>**Edery Abanto** <br><br>**Sebastian Castro**<br><br>**Camila Conde**<br><br>**Diego Portales** |              |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br><br>**Edery Abanto** <br><br>**Sebastian Castro**<br><br>**Camila Conde**<br><br>**Diego Portales** | <br>         |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br>_TB1:_<br>Trabajé en equipo liderando la redacción y organización de las secciones asignadas en los capítulos I y II, asegurando la correcta definición del perfil de la startup, el análisis competitivo y el diseño del proceso Lean UX. Colaboré en la creación de las entrevistas, la identificación de segmentos objetivo y la definición de estrategias, garantizando la alineación de nuestras soluciones con las necesidades del usuario y los objetivos del proyecto.<br><br>**Edery Abanto** <br>_TB1:_<br>Realice documentación descriptiva fácilmente entendible para el grupo y comenté posibles mejoras.<br><br>**Sebastian Castro**<br>_TB1:_<br>Trabaje haciendo una entrevista para un cliente, ademas tambien desarrolle en equipo el diagrama de clases y el diagrama de base de datos y mi respectivo bounded context, y Bounded Context Canvases.<br><br>**Camila Conde**<br>_TB1:_<br>Se trabajó en equipo al dar opiniones y discutir algunas ideas para mejora, además de participar activamente en las consultas y dudas que podiamos tener en equipo.<br><br>**Diego Portales** <br>_TB1:_<br>Realicé dos entrevistas para el segmento Transportista, así como su respectiva documentación. Además, elaboré distintos agregados importantes para la documentación: Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping y las User Stories, estas últimas dividiendose en 5 apartados: Landing Page, Backend, Frontend Web, Mobile App y Dispositivos IoT. | En la fase inicial del proyecto, se presentó una visión general de las ideas y objetivos. Aunque la audiencia fue pequeña, la experiencia mostró la necesidad de adaptar el mensaje en equipo según el perfil del público. Esta colaboración mejorará la claridad y eficacia de nuestras comunicaciones a medida que el proyecto avance y se concreten resultados.                                                               |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br>_TB1:_<br>Fomenté un entorno colaborativo e inclusivo dentro del equipo, estableciendo metas claras para cada sección de los capítulos asignados y planificando las tareas de manera conjunta. Aseguré que todos los miembros participaran en las decisiones clave y distribuyeran responsabilidades equitativamente, lo que nos permitió cumplir con los objetivos establecidos de forma efectiva y dentro del plazo acordado.<br><br>**Edery Abanto** <br>_TB1:_<br>Realice documentación descriptiva fácilmente entendible para el grupo y comenté posibles mejoras.<br><br>**Sebastian Castro**<br>_TB1:_<br>Trabajamos en equipo para realizar difertentes tareas y mejorar el trabajo, presentamos problemsa que solucionamos para realizar un mejor tabajo, planificamos las tareas para cada uno y cumplimos objetivos<br><br>**Camila Conde**<br>_TB1:<br>En equipo desarrollamos activamente y de forma progresiva las tareas que se asignaron. <br><br>**Diego Portales** <br>_TB1:_<br>Elaboré de manera eficiente la sección de Bounded Context Identity and Access Management, en la que se incluían los apartados de Domain Layer, Interface Layer, Application Layer, Infraestructure Layer, Bounded Context Architecture Component Level Diagrams y Bounded Context Architecture Code Level Diagrams.                                                                                                                         | <br>En la fase inicial del proyecto, se realizó una presentación para exponer las ideas y objetivos. Aunque la audiencia fue reducida, la experiencia demostró la importancia de crear un entorno colaborativo e inclusivo. Adaptar el mensaje al perfil del público nos ayudará a establecer metas claras, planificar tareas efectivamente y cumplir los objetivos a medida que avanzamos y obtenemos resultados más concretos. |
+
+
+
 
 ---
 
@@ -131,21 +133,21 @@ Convertirnos en la plataforma preferida en Perú para la búsqueda y gestión de
 
 Aquí se describen los perfiles de los miembros clave del equipo involucrado en el desarrollo de TransportApp. Se incluye información sobre sus roles, habilidades, experiencia previa y cómo contribuyen al éxito del proyecto. Esta información es vital para demostrar que el equipo cuenta con las competencias necesarias para llevar a cabo el desarrollo de la solución propuesta.
 
-| Integrante  | Abanto Vicente, Edery Renzo                              |
-| ----------- | -------------------------------------------------------- |
-| Descripcion | ![Edery Perfil](resources/images/integrantes/Edery.jpeg) |
+| Integrante                                                                                                                                                                                                                                                                                                                                                   | Abanto Vicente, Edery Renzo                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
+| Estudiante de Ingeniería de Software en el séptimo ciclo, apasionado por el desarrollo tecnológico. Mi formación sólida y experiencia en proyectos universitarios me capacitan para enfrentar desafíos en entornos profesionales dinámicos. Comprometido con la excelencia y la innovación, estoy listo para contribuir al mundo del desarrollo de software. | ![Edery Perfil](resources/images/integrantes/Edery.png) |
 
 | Integrante  | Castro Soto, Sebastian Enrique                                   |
 | ----------- | ---------------------------------------------------------------- |
-| Descripcion | ![Sebastian Perfil](resources/images/integrantes/Sebastian.jpeg) |
+| Universitario con la edad de 23 años y actualmente estudiante de la carrera de Ingeniería de Software en la UPC. Me considero proactivo, responsable y adaptable. En mis ratos libres me gusta pintar, leer, y megusta estudiar escuchando música. | ![Sebastian Perfil](resources/images/integrantes/IMG_9591.jpg) |
 
 | Integrante  | Conde Isla, Camila Alessandra                              |
 | ----------- | ---------------------------------------------------------- |
-| Descripcion | ![Camila Perfil](resources/images/integrantes/Camila.jpeg) |
+| Soy estudiante de la carrera de Ingeniería de Software. Mi motivación para seguir aprendiendo es llegar a crear y diseñar soluciones creativas. Me considero una persona creativa, proactiva, tolerante, respetuosa y apasionada por lo que me gusta. Me comprometo a apoyar en el proceso para poder tener un proyecto final bien planteado para obtener una buena nota.| ![Camila Perfil](resources/images/integrantes/camila.png) |
 
-| Integrante  | Portales Ortiz, Diego Alejandro                          |
-| ----------- | -------------------------------------------------------- |
-| Descripcion | ![Diego Perfil](resources/images/integrantes/Diego.jpeg) |
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                 | Portales Ortiz, Diego Alejandro                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
+| Estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en varios lenguajes de programación, incluyendo Python, C++, C# y JavaScript. Me destaco por mi capacidad para trabajar en equipo y contribuir activamente en los proyectos en los que participo. Estoy comprometido a aportar de manera eficiente e innovadora no sólo a mi equipo, si no también a la misma rama de estudio a la que pertenezco. | ![Diego Perfil](resources/images/integrantes/Diego.jpeg) |
 
 | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                   | Sabino Ramírez, Rodrigo Alexander                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -358,10 +360,6 @@ Esta sección identifica los principales segmentos de mercado a los que Transpor
 - Herramientas y recursos adecuados para realizar su trabajo de manera eficiente.
 - Seguridad en las condiciones laborales y pago justo por los servicios prestados.
 
-
-
----
-
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 Esta sección se enfoca en identificar y analizar a los principales competidores en el mercado que ofrecen servicios similares a TransportApp. Al comprender quiénes son nuestros competidores y qué ofrecen, podemos evaluar nuestra posición en el mercado y diseñar estrategias para destacar nuestras ventajas competitivas. El análisis de competidores es fundamental para conocer el entorno en el que operaremos y para anticipar los desafíos que podríamos enfrentar.
@@ -411,18 +409,36 @@ Esta sección describe el proceso de diseño de las entrevistas que se llevarán
 11. ¿Qué características adicionales o mejoras sugieres para que la aplicación sea más útil para transportistas como tú?
 ### 2.2.2. Registro de entrevistas
 Aquí se documenta el registro completo de las entrevistas realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
-#### Segmento Cliente
-*Entrevista 1*
-![Entrevista 1](resources/images/capitulo_2/entrevistas/Clientes_1.png)
-*Entrevista 2*
-*Entrevista 3*
 #### Segmento Transportista
-*Entrevista 1*
-![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_1.png)
-*Entrevista 2*
-![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_2.png)
-*Entrevista 3*
-![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_3.png)
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_2.png)<br><br>Minuto de inicio: 00:05<br>Duración: 4:45 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Kevin Rodriguez Espinoza**<br>Edad: 24<br>Distrito: Puente Piedra<br>Segmento: Transportista<br><br>**Resumen de la Entrevista**:<br><br>El entrevistado, encargado del transporte de alimentos desde hace aproximadamente 2 años, comentó que hace medio año comenzó a ofrecer servicio de taxi para complementar sus ingresos. También menciona que el transporte de alimentos en el Perú enfrenta muchos retos, sobre todo en temas de conversación y tiempos de entrega. Aunque la infraestructura haya mejorado, aún hay mucho por hacer. Además señala que los servicios de taxi por aplicativo han crecido bastante, pero la competencia también es bastante fuerte.<br><br>Mencionó que resulta complicado transportar algunos alimentos debido a que la cadena de frío no se mantuvo correctamente constante, por lo que tuvo que ofrecer un reembolso parcial<br><br>Además, piensa que la aplicación podría ser muy útil para el transporte de alimentos, pues una app que use tecnologías IoT le permitiría ofrecer un servicio más seguro y confiable, lo cual es vital cuando se trabajan con productos sensibles como alimentos. <br><br>Por último, entre algunas características o mejoras adicionales a la app, recomienda implementar un sistema de notificaciones automáticas para alertar cuando haya problemas con la carga, como cambio de temperatura y también sería bueno que incluya un historial de viajes y entregas para llevar un mejor control.<br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_1.png)<br>Minuto de inicio: 04:59<br>Duración: 8:11 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Jamir Luzón Delgado**<br>Edad: 22<br>Distrito: San Martín de Porres<br>Segmento: Transportista<br><br>**Resumen de la Entrevista**:<br><br>El entrevistado, encargado del transporte de alimentos desde hace aproximadamente 2 años, cuando empezó sus estudios universitarios. Piensa que los servicios de transporte de mercadería en el país son esenciales para la economía del mismo, sin embargo, siempre puede haber espacio para mejorar la eficiencia y seguridad en el transporte. La estructura avial y la regulación de aspectos importantes podrían necesitar atención.<br><br>Mencionó que para promocionarse usa redes como Facebook, Whatsapp e incluso Instagram, además que tiene un pequeño sitio web donde detalla el servicio y las tecnologías que ofrece. Considera que las reseñas y opinión de sus clientes es algo muy importante. <br><br>Además, comenta que efectivamente ha presentado inconvenientes en el pasado respecto a la falta de monitoreo en tiempo real, lo que influyó en cambios dentro de su forma de brindar su servicio y de este modo, evitar futuros inconvenientes. Por otro lado, considera que una app como la presentada en este proyectos sería una excelente idea, pues mejoraría bastante la eficiencia y seguridad de sus servicios de transporte.<br><br>Por último, entre algunas características o mejoras adicionales a la app, recomienda funcionalidades como notificaciones automáticas para los clientes, de este modo ellos puedan estar monitoreando el estado de su carga en tiempo real. También menciona la implementación de diversos medios de pago como Yape o Plin para facilitar las transacciones, y un sistema de calificaciones tanto para clientes como transportistas. La implementación de un mapa en tiempo real y un chat en tiempo real para mejorar la comunicación entre cliente y transportista es algo que recomienda bastante también.<br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Transportistas_3.png)<br>Minuto de inicio: 13:10<br>Duración: 5:13 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Juan Benito Pérez Nano**<br>Edad: 30<br>Distrito:  Comas<br>Segmento: Transportista<br><br>**Resumen de la Entrevista**:<br><br>El Sr. Pérez, un transportista de 30 años del distrito de Comas, ha trabajado en el transporte de mercadería durante dos décadas. A pesar de su experiencia, enfrenta desafíos como la falta de apoyo en infraestructura, baja paga, y competencia desleal. Solo recibe esporádicamente pedidos que requieren monitoreo especializado, como refrigeración o rastreo en tiempo real, debido a la falta de acceso a tecnología avanzada.<br><br>Actualmente, Pérez complementa sus ingresos con trabajos adicionales fuera del transporte, ya que las ganancias del día a día, que rondan entre 80 y 100 soles, no siempre son suficientes. Sus servicios son conocidos principalmente por recomendaciones, y no utiliza tecnologías avanzadas como GPS o sensores de temperatura, lo que ha ocasionado inconvenientes con algunos clientes debido a la falta de control sobre las condiciones del transporte.<br><br>Pérez se muestra abierto a probar una aplicación que pueda conectar transportistas con más clientes y permita ofrecer servicios de transporte con monitoreo en tiempo real y control de condiciones mediante sensores IoT. Considera que una herramienta así podría mejorar sus ingresos y la calidad del servicio, siempre y cuando sea fácil de usar y asequible. Además, sugiere que la aplicación incluya un sistema de calificación justo y guías prácticas para el uso de la tecnología, lo cual ayudaría a que transportistas como él puedan ofrecer un servicio más seguro y eficiente.<br><br>Este tipo de solución tecnológica podría ser clave para cumplir con el objetivo de "Facilitar y hacer confiable el proceso de búsqueda y contratación de servicios de transporte especializado para mercadería y bienes, brindando soluciones tecnológicas que aseguren la seguridad y eficiencia en cada envío."<br> |
+
+
+#### Segmento Cliente
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Clientes_1.png)<br>Minuto de inicio: 18:42<br>Duración: 5:34 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Jeampier Jose Bautista Cabrera**<br>Edad: 25 años  <br>Distrito: Callao  <br>Segmento: Cliente<br><br>**Resumen de la Entrevista**:<br><br>El Sr. Bautista, de 25 años, es responsable de la logística en una empresa que distribuye productos frescos, principalmente frutas y verduras. En su trabajo, enfrenta desafíos relacionados con la falta de servicios de transporte que garanticen el mantenimiento adecuado de las condiciones de los productos, como la refrigeración y el seguimiento en tiempo real. Aunque utiliza servicios especializados para mantener la frescura de sus productos, ha experimentado problemas cuando no se monitorean correctamente las condiciones de transporte, afectando la calidad final de los mismos.<br><br>Bautista menciona que es difícil encontrar transportistas que cuenten con la tecnología adecuada, como sensores de temperatura y GPS. A menudo debe realizar múltiples coordinaciones para asegurarse de que los envíos lleguen en buen estado. Esta necesidad de monitoreo en tiempo real es constante, ya que los productos frescos no pueden estar sin refrigeración.<br><br>Actualmente, colabora con algunas empresas de transporte que cuentan con equipos adecuados, pero cuando no están disponibles, la búsqueda de alternativas puede ser estresante. Considera que el monitoreo en tiempo real es fundamental para garantizar la calidad de los productos, y prefiere trabajar con transportistas que cuenten con tecnología avanzada.<br><br>Bautista se muestra entusiasta ante la idea de una aplicación que facilite tanto la búsqueda de transportistas con la tecnología adecuada como el monitoreo en tiempo real de las condiciones de los productos. Afirma que esta solución tecnológica le ahorraría tiempo y le permitiría trabajar con mayor tranquilidad, siempre que sea accesible y fácil de usar.<br><br>Además, sugiere la inclusión de características como alertas automáticas para controlar la temperatura de los productos y la posibilidad de programar envíos recurrentes, lo que mejoraría la eficiencia de su operación logística diaria.<br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Clientes_2.png)<br>Minuto de inicio: 24:14<br>Duración: 7:29 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Fabricio Leonardo Matos Soto**<br>Edad: 20<br>Distrito:  San Miguel<br>Segmento: Cliente<br><br>**Resumen de la Entrevista**:<br><br>El entrevistado, encargado del transporte de medicinas, comentó que enfrenta problemas frecuentes debido a la falta de tecnologías adecuadas en los servicios de transporte disponibles, como sistemas de enfriamiento y monitoreo de condiciones en tiempo real. Debido a la naturaleza delicada de los productos farmacéuticos, ha optado por realizar el transporte por su cuenta, ya que los servicios que ha utilizado anteriormente no ofrecen la seguridad y control necesarios para mantener la integridad de sus productos.<br><br>Mencionó que resulta complicado encontrar transportistas que cuenten con tecnologías como sensores de temperatura y control de peso, lo que le obliga a asumir el transporte para garantizar que los productos lleguen en las condiciones óptimas. Esta necesidad de supervisar en tiempo real las condiciones de las mercancías es constante, ya que cualquier fallo en el mantenimiento de las condiciones puede comprometer la calidad de los productos.<br><br>Actualmente, el entrevistado no cuenta con proveedores de transporte confiables que ofrezcan la tecnología adecuada, y considera que una aplicación que le permita tanto encontrar servicios especializados como monitorear las condiciones de transporte sería extremadamente útil para su operación. Expresó interés en una plataforma de este tipo, siempre y cuando sea sencilla de usar y le brinde seguridad en cuanto al estado de los productos durante todo el trayecto.<br><br>Además, sugirió que la aplicación podría incluir características como alertas automáticas sobre las condiciones de enfriamiento y la opción de programar envíos frecuentes, lo que optimizaría su gestión y le daría mayor tranquilidad en el manejo de sus mercancías.<br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/Clientes_3.png)<br>Minuto de inicio: 31:30<br>Duración: 8:17 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: **Susana Lozano**<br>Edad:  51<br>Distrito: Callao<br>Segmento: Cliente<br><br>**Resumen de la Entrevista**:<br><br>La entrevistada pertenece al rubro de farmacias. Ella nos cuenta que cada vez que tiene que traer productos sensibles piensa en contratar algún camión de carga, sin embargo no le parece conveniente ya que el precio es muy elevado por el tamaño por lo que recurre a utilizar un cooler con un poco de hielo para regular la temperatura de los productos y que no se estropeen. <br><br>Sobre nuestra solución, nos comentó que le parece interesante y que ayudaría a muchas pequeñas empresas que no necesitan de una flota de autos sino un servicio más accesible.<br> |
+
+Enlace de entrevistas: [upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=URee1a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ### 2.2.3. Análisis de entrevistas
 En esta subsección se presenta el análisis de los datos obtenidos durante las entrevistas. El análisis se enfoca en identificar patrones, necesidades no satisfechas, y puntos de dolor de los usuarios, que luego se traducirán en requisitos funcionales y no funcionales para el desarrollo de TransportApp. Este análisis es crucial para asegurar que el producto final cumpla con las expectativas y necesidades del mercado objetivo.
@@ -467,15 +483,305 @@ La matriz de tareas de usuario (User Task Matrix) se utiliza para mapear las tar
 | Pago y Facturación         | Necesita realizar el pago por los servicios de transporte y recibir la factura correspondiente.                                               | Alta        | Alta       |
 | Evaluación del Servicio    | Debe evaluar el servicio recibido y proporcionar feedback a través de la app.                                                                 | Media       | Alta       |
 ### 2.3.3 User Journey Mapping
+
 El User Journey Mapping es un método visual que describe la experiencia del usuario al interactuar con TransportApp. En esta sección, se detallan los puntos de contacto clave, las emociones, y las dificultades que los usuarios pueden experimentar durante su recorrido con el producto. Este mapeo es esencial para identificar oportunidades de mejora y para diseñar una experiencia de usuario fluida y satisfactoria.
 #### Segmento Transportista
-
 ![User Jorney Mapping Transportista](resources/images/capitulo_2/needfinding/Transportista_journey.png)
 #### Segmento Cliente
 ![User Jorney Mapping Cliente](resources/images/capitulo_2/needfinding/Cliente_journey.png)
 
+### 2.3.4 Empathy Mapping
+
+El Empathy Mapping permite obtener una visión más clara y profunda de los usuarios de TransportApp, específicamente transportistas y clientes. A través de esta herramienta, se analizan las emociones, pensamientos, preocupaciones y comportamientos de los usuarios al interactuar con la plataforma. Esto nos ayuda a comprender mejor sus necesidades y expectativas, asegurando que la solución propuesta realmente resuelva sus problemas y mejore su experiencia con el transporte y monitoreo de mercancías.
+
+##### Segmento Cliente
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap1.png)
+
+##### Segmento Transportista
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/EmpathyMap2.jpg)
+
+### 2.3.5 As-Is Scenario Mapping
+
+El As-is Scenario Mapping describe cómo los transportistas y clientes actualmente gestionan y contratan servicios de transporte sin el uso de TransportApp. Este análisis examina los puntos débiles, ineficiencias y frustraciones dentro del proceso actual de transporte, como la falta de monitoreo en tiempo real y la dificultad para encontrar transportistas adecuados. Con esta información, podemos identificar las áreas clave que TransportApp debe abordar para transformar estos procesos.
+
+##### Segmento Cliente
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingCliente.jpg)
+##### Segmento Transportista
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/As-IsScenarioMappingTransportista.jpg)
+
+### 2.4 Ubiquitous Language
+
+El Ubiquitous Language define un vocabulario compartido por todo el equipo que trabaja en TransportApp, asegurando que tanto los desarrolladores, los transportistas y los clientes utilicen los mismos términos y conceptos. Esto es especialmente importante en un proyecto de este tipo, ya que términos como “monitoreo en tiempo real”, “sensores IoT” y “carga perecedera” deben estar bien definidos y comprendidos para evitar malentendidos durante el desarrollo y la implementación del sistema.
+
+A continuación, se presentan algunos términos clave que usaremos durante el desarrollo del proyecto:
+
+·         **TransportApp:** Nombre del producto, una plataforma para conectar transportistas y clientes con monitoreo IoT.
+
+·         **Transportista:** Persona que ofrece servicios de transporte utilizando la plataforma.
+
+·         **Cliente:** Persona o empresa que requiere servicios de transporte.
+
+·         **Monitoreo en Tiempo Real:** Capacidad de seguir las condiciones de la carga (peso, temperatura) durante el transporte.
+
+·         **Sensores IoT:** Dispositivos integrados en los vehículos para monitorear las condiciones de la carga.
+
+·         **Pedidos:** Solicitudes de servicios de transporte hechas por los clientes.
+
+·         **Perfil de Transportista:** Información detallada sobre los transportistas, incluyendo sus capacidades tecnológicas y calificaciones.
+
+·         **Plataforma:** Aplicación web y móvil donde se gestionan los servicios de transporte y monitoreo.
 
 ---
+
+# Capítulo III: Requirements Specification
+
+Este capítulo está dedicado a la especificación de los requisitos de TransportApp, tanto funcionales como no funcionales. A través de diferentes herramientas de análisis, se define cómo la plataforma debe comportarse para cumplir con las necesidades de los transportistas y clientes, asegurando que las funcionalidades clave, como el monitoreo en tiempo real y la comunicación eficiente, sean implementadas correctamente. Este capítulo establece las bases para el desarrollo de un sistema que sea útil, fiable y eficiente.
+## 3.1. To-Be Scenario Mapping
+
+El To-Be Scenario Mapping presenta el escenario futuro ideal después de la implementación de TransportApp. En este escenario, tanto transportistas como clientes podrán interactuar con la plataforma para gestionar el transporte de mercancías de manera eficiente, con acceso a monitoreo en tiempo real y comunicación directa. Este mapa muestra cómo la plataforma transformará el proceso actual, resolviendo los problemas previamente identificados y optimizando la experiencia para ambos segmentos.
+
+##### Segmento Cliente
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/To-BeScenarioMappingCliente.jpg)
+##### Segmento Transportista
+
+![Empathy Mapping Segmento Clientes](resources/images/capitulo_2/needfinding/To-BeScenarioMappingTransportista.jpg)
+## 3.2. User Stories
+
+Las User Stories representan los requisitos funcionales de TransportApp desde la perspectiva de los transportistas y clientes. Cada historia de usuario describe una interacción específica que los usuarios necesitan realizar, como "monitorear la temperatura de los productos en tiempo real" o "enviar notificaciones al cliente sobre el estado de la carga". Estas historias se desglosan en tareas que guiarán el desarrollo de la plataforma, asegurando que se cumplan las expectativas de los usuarios finales.
+
+### Landing Page
+
+
+| **User Story ID** | **Título**                        | **Descripción**                                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                       | **Epic ID** |
+| ----------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-01             | Registro en Landing Page          | Como usuario nuevo, quiero registrarme desde la landing page para crear una cuenta en TransportApp.                                       | **Escenario Nº1: Registro de usuario desde la landing page**  <br>Dado que el usuario desea registrarse desde la landing page  <br>Y ha ingresado sus datos en el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema registra al usuario correctamente  <br>Y el usuario puede iniciar sesión con sus credenciales.                  | EP-01       |
+| US-02             | Información sobre TransportApp    | Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                  | **Escenario Nº1: Visualizar información sobre TransportApp**  <br>Dado que el visitante desea conocer más sobre los servicios  <br>Y ha accedido a la sección "Sobre Nosotros" en la landing page  <br>Entonces se muestra la información completa de los servicios ofrecidos  <br>Y el visitante puede tomar una decisión informada.                                             | EP-01       |
+| US-03             | Visualización de Beneficios       | Como visitante, quiero ver los beneficios de usar TransportApp para decidir si es adecuada para mis necesidades.                          | **Escenario Nº1: Ver beneficios de TransportApp**  <br>Dado que el visitante desea conocer los beneficios de la plataforma  <br>Y ha navegado hasta la sección de beneficios  <br>Entonces se muestran los beneficios clave de manera destacada  <br>Y el visitante puede evaluar si TransportApp cumple con sus necesidades.                                                     | EP-01       |
+| US-04             | Contacto desde la Landing Page    | Como visitante, quiero poder contactar a TransportApp desde la landing page para resolver dudas sobre el servicio.                        | **Escenario Nº1: Enviar un mensaje desde la sección de contacto**  <br>Dado que el visitante desea contactar a TransportApp  <br>Y ha completado el formulario de contacto  <br>Y ha hecho click en el botón "Enviar"  <br>Entonces se muestra un mensaje de confirmación  <br>Y el equipo de TransportApp recibe el mensaje para su seguimiento.                                 | EP-01       |
+| US-05             | Redirección a la Aplicación Móvil | Como visitante, quiero un enlace directo desde la landing page para descargar la app móvil de TransportApp.                               | **Escenario Nº1: Descargar la app móvil desde la landing page**  <br>Dado que el visitante desea descargar la app móvil  <br>Y ha hecho click en el enlace de descarga  <br>Entonces se redirige al usuario a la tienda de aplicaciones correspondiente  <br>Y puede proceder con la descarga de la app.                                                                          | EP-01       |
+| US-06             | Testimonios de Clientes           | Como visitante, quiero leer testimonios de otros clientes en la landing page para entender su experiencia con TransportApp.               | **Escenario Nº1: Visualizar testimonios de clientes**  <br>Dado que el visitante desea leer testimonios  <br>Y ha navegado a la sección de testimonios en la landing page  <br>Entonces se muestran opiniones verificadas de clientes  <br>Y el visitante puede comprender mejor la experiencia de otros usuarios.                                                                | EP-01       |
+| US-07             | Blog de TransportApp              | Como usuario interesado, quiero acceder a un blog en la landing page para leer sobre tendencias en el transporte de carga.                | **Escenario Nº1: Acceder al blog desde la landing page**  <br>Dado que el usuario desea leer el blog  <br>Y ha hecho click en la sección de blog en la landing page  <br>Entonces se muestra el contenido más reciente del blog  <br>Y el usuario puede leer artículos relevantes sobre transporte.                                                                               | EP-01       |
+| US-08             | Comparación de Planes             | Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.    | **Escenario Nº1: Comparar planes de servicio**  <br>Dado que el visitante desea comparar los planes disponibles  <br>Y ha accedido a la tabla de comparación de planes en la landing page  <br>Entonces se muestran las diferencias clave entre los planes, incluyendo precios y características  <br>Y el visitante puede seleccionar el plan más adecuado para sus necesidades. | EP-01       |
+| US-09             | Vídeos Explicativos               | Como visitante, quiero ver vídeos explicativos en la landing page para entender cómo funciona TransportApp.                               | **Escenario Nº1: Ver vídeos explicativos en la landing page**  <br>Dado que el visitante desea entender cómo funciona TransportApp  <br>Y ha hecho click en la sección de vídeos explicativos  <br>Entonces los vídeos se reproducen directamente en la página sin necesidad de redirigir al usuario  <br>Y el visitante puede ver los vídeos sin interrupciones.                 | EP-01       |
+| US-10             | Sección de Preguntas Frecuentes   | Como visitante, quiero acceder a una sección de preguntas frecuentes en la landing page para resolver dudas comunes antes de registrarme. | **Escenario Nº1: Acceder a la sección de preguntas frecuentes (FAQ)**  <br>Dado que el visitante tiene dudas comunes sobre TransportApp  <br>Y ha navegado a la sección de preguntas frecuentes en la landing page  <br>Entonces se muestran las preguntas y respuestas más frecuentes  <br>Y el visitante puede resolver sus dudas antes de registrarse.                         | EP-01       |
+
+### Backend
+
+| **User Story ID** | **Título**                                | **Descripción**                                                                                                                     | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                          | **Epic ID** |
+| ----------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| US-11             | Registro de Usuarios en el Backend        | Como desarrollador, quiero implementar la lógica de registro de usuarios en el backend para crear cuentas nuevas.                   | **Escenario Nº1: Registro de usuario en el backend**  <br>Dado que el usuario desea registrarse en la plataforma  <br>Y ha enviado una solicitud POST con los datos requeridos  <br>Entonces el backend crea el usuario en la base de datos  <br>Y el sistema devuelve una respuesta de éxito con el estado 201.                                                                     | EP-02       |
+| US-12             | Autenticación de Usuarios                 | Como desarrollador, quiero que el backend maneje la autenticación para permitir el acceso seguro a la aplicación.                   | **Escenario Nº1: Autenticación de usuario en el backend**  <br>Dado que el usuario desea iniciar sesión en la plataforma  <br>Y ha enviado sus credenciales al backend  <br>Entonces el backend valida las credenciales  <br>Y devuelve un token de autenticación si los datos son correctos.                                                                                        | EP-02       |
+| US-13             | Gestión de Servicios de Transporte        | Como desarrollador, quiero que el backend gestione la creación, actualización y cancelación de servicios de transporte.             | **Escenario Nº1: Gestión de servicios de transporte en el backend**  <br>Dado que el usuario desea gestionar un servicio de transporte  <br>Y ha enviado una solicitud POST/PUT/DELETE con los datos requeridos  <br>Entonces el backend crea, actualiza o cancela el servicio según corresponda  <br>Y devuelve una respuesta de éxito con el estado correspondiente (201/200/204). | EP-02       |
+| US-14             | Monitorización de la Carga                | Como desarrollador, quiero que el backend capture y almacene datos en tiempo real sobre la ubicación y estado de la carga.          | **Escenario Nº1: Monitorización de la carga en el backend**  <br>Dado que el transporte está en progreso  <br>Y los sensores están enviando datos de ubicación y estado  <br>Entonces el backend almacena estos datos en tiempo real  <br>Y el usuario puede visualizar la información actualizada en la plataforma.                                                                 | EP-02       |
+| US-15             | Notificaciones en Tiempo Real             | Como desarrollador, quiero implementar la lógica de notificaciones en el backend para que los usuarios reciban alertas automáticas. | **Escenario Nº1: Envío de notificaciones desde el backend**  <br>Dado que el sistema debe notificar al usuario sobre un evento  <br>Y se cumplen las condiciones predefinidas  <br>Entonces el backend envía una notificación push al usuario  <br>Y el usuario recibe la alerta en tiempo real en su dispositivo.                                                                   | EP-02       |
+| US-16             | Gestión de Pagos                          | Como desarrollador, quiero que el backend procese y registre los pagos de los servicios contratados.                                | **Escenario Nº1: Procesamiento de pagos en el backend**  <br>Dado que el usuario ha realizado un pago por un servicio  <br>Y el sistema ha recibido los datos de la transacción  <br>Entonces el backend registra el pago en la base de datos  <br>Y actualiza el estado del servicio a "pagado".                                                                                    | EP-02       |
+| US-17             | Optimización de Rutas                     | Como desarrollador, quiero que el backend ofrezca sugerencias de rutas optimizadas para transportistas.                             | **Escenario Nº1: Optimización de rutas en el backend**  <br>Dado que el transportista desea optimizar su ruta  <br>Y ha solicitado una sugerencia de ruta al backend  <br>Entonces el backend calcula y devuelve una ruta optimizada  <br>Y el transportista puede aceptar o rechazar la sugerencia en la plataforma.                                                                | EP-02       |
+| US-18             | Configuración de Precios Dinámicos        | Como desarrollador, quiero que el backend maneje la lógica para ajustar precios en tiempo real según la demanda.                    | **Escenario Nº1: Ajuste de precios dinámicos en el backend**  <br>Dado que la demanda de servicios varía constantemente  <br>Y el transportista ha habilitado la opción de precios dinámicos  <br>Entonces el backend ajusta los precios en tiempo real según las condiciones del mercado  <br>Y estos cambios se reflejan automáticamente en la plataforma.                         | EP-02       |
+| US-19             | Almacenamiento de Información de Sensores | Como desarrollador, quiero que el backend almacene los datos recibidos de los sensores IoT para su posterior análisis.              | **Escenario Nº1: Almacenamiento de datos de sensores en el backend**  <br>Dado que los sensores IoT están transmitiendo datos  <br>Y el backend está recibiendo esta información en tiempo real  <br>Entonces el backend almacena los datos de manera segura en una base de datos dedicada  <br>Y los usuarios autorizados pueden acceder a estos datos para análisis.               | EP-02       |
+| US-20             | Generación de Reportes                    | Como desarrollador, quiero que el backend genere reportes periódicos sobre el rendimiento de los transportistas.                    | **Escenario Nº1: Generación automática de reportes en el backend**  <br>Dado que el sistema debe generar un reporte mensual  <br>Y se han completado todos los servicios correspondientes  <br>Entonces el backend genera un reporte consolidado en formato PDF  <br>Y lo pone a disposición del usuario para su descarga.                                                           | EP-02       |
+
+### Frontend Web
+
+| **User Story ID** | **Título**                             | **Descripción**                                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                        | **Epic ID** |
+| ----------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-21             | Registro de Usuarios en la Web         | Como usuario, quiero poder registrarme en la aplicación web para acceder a los servicios de TransportApp.                                 | **Escenario Nº1: Registro de usuario desde la web**  <br>Dado que el usuario desea registrarse en la plataforma web  <br>Y ha completado el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema crea una cuenta nueva  <br>Y el usuario puede iniciar sesión con sus credenciales.                                                     | EP-05       |
+| US-22             | Inicio de Sesión en la Web             | Como usuario, quiero poder iniciar sesión en la aplicación web para acceder a mis servicios contratados.                                  | **Escenario Nº1: Inicio de sesión en la aplicación web**  <br>Dado que el usuario desea acceder a la plataforma  <br>Y ha ingresado sus credenciales en la página de inicio de sesión  <br>Entonces el sistema valida las credenciales  <br>Y el usuario es redirigido a su dashboard.                                                                                             | EP-05       |
+| US-23             | Visualización de Servicios Disponibles | Como usuario, quiero poder ver los servicios de transporte disponibles desde la web para elegir el que mejor se adapte a mis necesidades. | **Escenario Nº1: Visualización de servicios de transporte en la web**  <br>Dado que el usuario desea ver los servicios disponibles  <br>Y ha aplicado filtros de búsqueda según sus necesidades  <br>Entonces se muestra una lista de servicios que cumplen con los criterios  <br>Y el usuario puede seleccionar y comparar opciones.                                             | EP-05       |
+| US-24             | Reserva de Servicios desde la Web      | Como usuario, quiero poder reservar un servicio de transporte desde la aplicación web para asegurar la entrega de mi carga.               | **Escenario Nº1: Reserva de servicios de transporte desde la web**  <br>Dado que el usuario desea reservar un servicio  <br>Y ha seleccionado un transportista de la lista disponible  <br>Y ha confirmado la reserva  <br>Entonces el sistema registra la reserva en la base de datos  <br>Y el transportista es notificado de la nueva reserva.                                  | EP-05       |
+| US-25             | Monitoreo de Carga en la Web           | Como usuario, quiero poder monitorear la ubicación de mi carga en tiempo real desde la aplicación web.                                    | **Escenario Nº1: Monitorización de la carga desde la web**  <br>Dado que el usuario desea ver la ubicación de su carga  <br>Y ha accedido a la sección de seguimiento en la aplicación web  <br>Entonces se muestra la ubicación actual de la carga en un mapa  <br>Y el usuario recibe actualizaciones en tiempo real sobre el estado del transporte.                             | EP-05       |
+| US-26             | Recepción de Notificaciones en la Web  | Como usuario, quiero recibir notificaciones sobre el estado de mi servicio desde la aplicación web.                                       | **Escenario Nº1: Recepción de notificaciones en la web**  <br>Dado que el usuario desea estar informado sobre el estado de su servicio  <br>Y ha configurado las notificaciones en la aplicación web  <br>Entonces el sistema muestra notificaciones en tiempo real en la interfaz del usuario  <br>Y el usuario puede ver detalles adicionales haciendo click en la notificación. | EP-05       |
+| US-27             | Gestión de Opiniones y Calificaciones  | Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la web.                                           | **Escenario Nº1: Dejar opiniones y calificaciones en la web**  <br>Dado que el usuario ha completado un servicio de transporte  <br>Y desea dejar una opinión sobre el transportista  <br>Entonces el sistema permite al usuario calificar el servicio  <br>Y la calificación se refleja inmediatamente en el perfil del transportista.                                            | EP-05       |
+| US-28             | Gestión de Disponibilidad en la Web    | Como transportista, quiero gestionar mi disponibilidad de servicios desde la aplicación web.                                              | **Escenario Nº1: Gestión de disponibilidad desde la web**  <br>Dado que el transportista desea ajustar su disponibilidad  <br>Y ha accedido a la sección de configuración en la aplicación web  <br>Entonces el sistema permite modificar los horarios de disponibilidad  <br>Y estos cambios se reflejan inmediatamente en la plataforma.                                         | EP-05       |
+| US-29             | Configuración de Notificaciones Web    | Como usuario, quiero configurar qué notificaciones deseo recibir desde la web para personalizar mi experiencia.                           | **Escenario Nº1: Configuración de notificaciones en la web**  <br>Dado que el usuario desea personalizar sus notificaciones  <br>Y ha accedido a la sección de configuración de notificaciones en la web  <br>Entonces el sistema permite seleccionar los tipos de notificaciones deseados  <br>Y estos cambios se aplican inmediatamente.                                         | EP-05       |
+| US-30             | Visualización de Reportes en la Web    | Como usuario, quiero poder visualizar y descargar reportes de mis servicios desde la web para llevar un control detallado.                | **Escenario Nº1: Visualización y descarga de reportes en la web**  <br>Dado que el usuario desea revisar el rendimiento de sus servicios  <br>Y ha accedido a la sección de reportes en la web  <br>Entonces el sistema muestra un resumen de los reportes disponibles  <br>Y el usuario puede descargar los reportes en formato PDF.                                              | EP-05       |
+
+### Mobile App
+
+| **User Story ID** | **Título**                                   | **Descripción**                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                             | **Epic ID** |
+| ----------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-31             | Registro de Usuarios en la App Móvil         | Como usuario, quiero registrarme desde la app móvil para acceder a los servicios de TransportApp.                         | **Escenario Nº1: Registro de usuario desde la app móvil**  <br>Dado que el usuario desea registrarse desde la app móvil  <br>Y ha completado el formulario de registro  <br>Y ha hecho click en el botón "Registrarse"  <br>Entonces el sistema crea una cuenta nueva  <br>Y el usuario puede iniciar sesión con sus credenciales.                                                      | EP-04       |
+| US-32             | Inicio de Sesión en la App Móvil             | Como usuario, quiero iniciar sesión en la app móvil para gestionar mis servicios desde mi teléfono.                       | **Escenario Nº1: Inicio de sesión en la app móvil**  <br>Dado que el usuario desea acceder a la plataforma desde su móvil  <br>Y ha ingresado sus credenciales en la pantalla de inicio de sesión  <br>Entonces el sistema valida las credenciales  <br>Y el usuario es redirigido a su dashboard en la app.                                                                            | EP-04       |
+| US-33             | Reserva de Servicios desde la App Móvil      | Como usuario, quiero reservar un servicio de transporte directamente desde mi dispositivo móvil para mayor comodidad.     | **Escenario Nº1: Reserva de servicios desde la app móvil**  <br>Dado que el usuario desea reservar un servicio desde la app móvil  <br>Y ha seleccionado un transportista de la lista disponible  <br>Y ha confirmado la reserva  <br>Entonces el sistema registra la reserva en la base de datos  <br>Y el transportista es notificado de la nueva reserva.                            | EP-04       |
+| US-34             | Monitoreo de Carga en la App Móvil           | Como usuario, quiero monitorear mi carga en tiempo real desde la app móvil para estar informado durante el transporte.    | **Escenario Nº1: Monitorización de la carga desde la app móvil**  <br>Dado que el usuario desea ver la ubicación de su carga desde su móvil  <br>Y ha accedido a la sección de seguimiento en la app móvil  <br>Entonces se muestra la ubicación actual de la carga en un mapa  <br>Y el usuario recibe actualizaciones en tiempo real sobre el estado del transporte.                  | EP-04       |
+| US-35             | Recepción de Notificaciones en la App        | Como usuario, quiero recibir notificaciones push sobre el estado de mis servicios directamente en la app móvil.           | **Escenario Nº1: Recepción de notificaciones push en la app móvil**  <br>Dado que el usuario desea estar informado sobre el estado de su servicio  <br>Y ha configurado las notificaciones en la app móvil  <br>Entonces el sistema envía notificaciones push en tiempo real  <br>Y el usuario puede ver detalles adicionales haciendo click en la notificación.                        | EP-04       |
+| US-36             | Gestión de Opiniones en la App Móvil         | Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la app móvil.                     | **Escenario Nº1: Dejar opiniones y calificaciones en la app móvil**  <br>Dado que el usuario ha completado un servicio de transporte  <br>Y desea dejar una opinión sobre el transportista desde su móvil  <br>Entonces el sistema permite al usuario calificar el servicio  <br>Y la calificación se refleja inmediatamente en el perfil del transportista.                            | EP-04       |
+| US-37             | Visualización de Historial en la App         | Como usuario, quiero poder ver el historial de servicios contratados desde la app móvil para revisar mis transacciones.   | **Escenario Nº1: Visualización del historial de servicios en la app móvil**  <br>Dado que el usuario desea revisar sus servicios anteriores  <br>Y ha accedido a la sección de historial en la app móvil  <br>Entonces se muestra una lista de todos los servicios completados  <br>Y el usuario puede ver detalles como fechas, costos y calificaciones.                               | EP-04       |
+| US-38             | Configuración de Disponibilidad en la App    | Como transportista, quiero gestionar mi disponibilidad desde la app móvil para mantener mi agenda actualizada.            | **Escenario Nº1: Gestión de disponibilidad desde la app móvil**  <br>Dado que el transportista desea ajustar su disponibilidad desde su móvil  <br>Y ha accedido a la sección de configuración en la app móvil  <br>Entonces el sistema permite modificar los horarios de disponibilidad  <br>Y estos cambios se reflejan inmediatamente en la plataforma.                              | EP-04       |
+| US-39             | Verificación de Pagos en la App              | Como transportista, quiero revisar el estado de mis pagos desde la app móvil para asegurarme de que todo está en orden.   | **Escenario Nº1: Verificación de pagos desde la app móvil**  <br>Dado que el transportista desea revisar los pagos recibidos  <br>Y ha accedido a la sección de finanzas en la app móvil  <br>Entonces se muestra una lista de pagos recibidos y pendientes  <br>Y el transportista puede tomar acción si algún pago está retrasado.                                                    | EP-04       |
+| US-40             | Configuración de Precios Dinámicos en la App | Como transportista, quiero configurar precios dinámicos desde la app móvil para maximizar mis ganancias según la demanda. | **Escenario Nº1: Configuración de precios dinámicos desde la app móvil**  <br>Dado que el transportista desea ajustar sus tarifas según la demanda  <br>Y ha activado la opción de precios dinámicos en la app móvil  <br>Entonces el sistema ajusta los precios en tiempo real según las condiciones del mercado  <br>Y el transportista recibe notificaciones de cambios importantes. | EP-04       |
+
+### Dispositivos IoT
+
+| **User Story ID** | **Título**                                 | **Descripción**                                                                                                                                        | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                           | **Epic ID** |
+| ----------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| US-41             | Conexión de Sensor IoT a la Plataforma     | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                    | **Escenario Nº1: Conexión de sensores IoT a la plataforma**  <br>Dado que el desarrollador desea integrar sensores IoT  <br>Y ha configurado los sensores correctamente  <br>Entonces los sensores envían datos en tiempo real al backend  <br>Y el sistema muestra estos datos en la plataforma para su monitoreo.                                                                   | EP-03       |
+| US-42             | Monitoreo de Datos de Temperatura          | Como usuario, quiero monitorear la temperatura de mi carga en tiempo real mediante un sensor IoT.                                                      | **Escenario Nº1: Monitoreo de temperatura en tiempo real**  <br>Dado que el usuario desea conocer la temperatura de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la temperatura actual en la plataforma  <br>Y el usuario recibe alertas si la temperatura excede los umbrales predefinidos.                                        | EP-03       |
+| US-43             | Monitoreo de Datos de Humedad              | Como usuario, quiero monitorear la humedad de mi carga en tiempo real mediante un sensor IoT.                                                          | **Escenario Nº1: Monitoreo de humedad en tiempo real**  <br>Dado que el usuario desea conocer la humedad de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la humedad actual en la plataforma  <br>Y el usuario recibe alertas si la humedad excede los umbrales predefinidos.                                                        | EP-03       |
+| US-44             | Monitoreo de Datos de Presión              | Como usuario, quiero monitorear la presión de mi carga en tiempo real mediante un sensor IoT.                                                          | **Escenario Nº1: Monitoreo de presión en tiempo real**  <br>Dado que el usuario desea conocer la presión de su carga  <br>Y los sensores IoT están capturando estos datos  <br>Entonces el sistema muestra la presión actual en la plataforma  <br>Y el usuario recibe alertas si la presión excede los umbrales predefinidos.                                                        | EP-03       |
+| US-45             | Recepción de Alertas desde Sensores IoT    | Como transportista, quiero recibir alertas automáticas desde los sensores IoT para actuar rápidamente en caso de incidentes.                           | **Escenario Nº1: Recepción de alertas de sensores IoT**  <br>Dado que los sensores IoT detectan un problema con la carga  <br>Y han enviado una alerta al backend  <br>Entonces el sistema envía una notificación inmediata al transportista  <br>Y el transportista puede tomar medidas correctivas basadas en la información recibida.                                              | EP-03       |
+| US-46             | Integración con Gateway IoT                | Como desarrollador, quiero integrar los sensores IoT con un gateway para asegurar la transmisión de datos al backend.                                  | **Escenario Nº1: Integración de sensores IoT con el gateway**  <br>Dado que el desarrollador ha configurado un gateway para la transmisión de datos  <br>Y los sensores IoT están conectados al gateway  <br>Entonces el gateway recoge los datos de los sensores y los envía al backend  <br>Y los datos son almacenados y procesados sin pérdida de información.                    | EP-03       |
+| US-47             | Configuración Remota de Sensores IoT       | Como desarrollador, quiero poder configurar remotamente los sensores IoT para ajustar los umbrales y parámetros de monitoreo.                          | **Escenario Nº1: Configuración remota de sensores IoT**  <br>Dado que el desarrollador desea ajustar los parámetros de los sensores  <br>Y ha accedido a la sección de configuración remota en la plataforma  <br>Entonces los cambios en la configuración de los sensores se aplican inmediatamente  <br>Y los nuevos parámetros son efectivos sin necesidad de intervención física. | EP-03       |
+| US-48             | Recolección de Datos de Ubicación          | Como usuario, quiero que el sensor IoT recolecte y transmita datos de ubicación en tiempo real para saber dónde está mi carga.                         | **Escenario Nº1: Recolección de datos de ubicación en tiempo real**  <br>Dado que el usuario desea conocer la ubicación de su carga  <br>Y los sensores IoT están capturando datos de ubicación  <br>Entonces el sistema muestra la ubicación actual en un mapa en la plataforma  <br>Y el usuario puede seguir la ruta de su carga en tiempo real.                                   | EP-03       |
+| US-49             | Sincronización de Sensores IoT             | Como desarrollador, quiero sincronizar múltiples sensores IoT en un solo envío de datos para optimizar la transmisión.                                 | **Escenario Nº1: Sincronización de datos de sensores IoT**  <br>Dado que el desarrollador desea optimizar la transmisión de datos  <br>Y ha configurado múltiples sensores para enviar datos sincronizados  <br>Entonces el sistema recoge todos los datos de los sensores y los envía al backend de manera sincronizada  <br>Y la transmisión es eficiente y libre de redundancias.  | EP-03       |
+| US-50             | Almacenamiento Seguro de Datos de Sensores | Como desarrollador, quiero asegurarme de que todos los datos capturados por los sensores IoT se almacenan de manera segura y encriptada en el backend. | **Escenario Nº1: Almacenamiento seguro de datos de sensores**  <br>Dado que el sistema está recibiendo datos de los sensores IoT  <br>Y estos datos necesitan ser almacenados de manera segura  <br>Entonces el backend encripta y almacena los datos en una base de datos segura  <br>Y solo los usuarios autorizados pueden acceder a la información.                               | EP-03       |
+
+### EPICS
+
+Las Epics que identificamos son las siguientes:
+
+ **Desarrollo de las Epics**
+
+| **Epic ID** | **Título**                       | **Descripción**                                                                                                       |
+| ----------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| EP-01       | Desarrollo del Landing Page      | Se centra en la creación y optimización del sitio web principal que presentará la empresa y sus servicios.            |
+| EP-02       | Desarrollo del Backend           | Incluye la creación de la lógica y los servicios del servidor que soportan la aplicación web y móvil.                 |
+| EP-03       | Conexión con Dispositivos IoT    | Enfocado en la integración de dispositivos IoT y sensores con la aplicación para la captura de datos en tiempo real.  |
+| EP-04       | Funcionalidades de la App Móvil  | Abarca la implementación de la aplicación móvil con las características necesarias para clientes y transportistas.    |
+| EP-05       | Funcionalidades del Frontend Web | Se refiere al desarrollo de la interfaz web para la interacción con los usuarios, tanto clientes como transportistas. |
+
+## 3.3. Impact Mapping
+
+En la técnica de Impact Mapping, conectamos los objetivos de negocio con las soluciones técnicas de nuestro proyecto IoT. Esto nos permite identificar a los actores clave, como los transportistas y clientes, y comprender cómo sus acciones impactan en los objetivos comerciales. De esta forma, aseguramos que las funcionalidades que desarrollamos realmente generan valor para el negocio y están alineadas con los resultados esperados.
+
+*Impact Mapping Cliente*
+![[impactTransportista.png]]
+*Impact Mapping Transportista*
+![[impactCliente.png]]
+
+## 3.4. Product Backlog
+Product Backlog es una herramienta fundamental en el marco de trabajo ágil, particularmente en metodologías como **Scrum**. El backlog actúa como una fuente de verdad que define lo que el equipo de desarrollo necesita trabajar en el producto para entregar valor a los usuarios o clientes.
+
+| ID            | TITULO                                           | DESCRIPCION                                                                                                                                                | STORY POINTS |
+| ------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| US-01         | Registro en Landing Page                         | Como usuario nuevo, quiero registrarme desde la landing page para crear una cuenta en TransportApp.                                                        |    2         |
+| US-02         |   Información sobre TransportApp                 |  Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                  |   1          |
+| US-05         | Redirección a la Aplicación Móvil                |  Como visitante, quiero un enlace directo desde la landing page para descargar la app móvil de TransportApp.                                               |  1           |
+| US-08         | Comparación de Planes                            |  Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.                    |    2         |
+| Dato 4        | Registro de Usuarios en el Backend               |  Como desarrollador, quiero implementar la lógica de registro de usuarios en el backend para crear cuentas nuevas.                                         |  2           |
+|               |                                                  |                                                                                                                                                            |              |
+| US-12         | Autenticación de Usuarios                        |  Como desarrollador, quiero que el backend maneje la autenticación para permitir el acceso seguro a la aplicación.                                         |  2           |
+| US-13         | Gestión de Servicios de Transporte               |  Como desarrollador, quiero que el backend gestione la creación, actualización y cancelación de servicios de transporte.                                   |   3          |
+| US-14         | Monitorización de la Carga                       |  Como desarrollador, quiero que el backend capture y almacene datos en tiempo real sobre la ubicación y estado de la carga.                                |   2          |
+| US-16         | Gestión de Pagos                                 |  Como desarrollador, quiero que el backend procese y registre los pagos de los servicios contratados.                                                      |    3         |
+| US-19         | Almacenamiento de Información de Sensores        |   Como desarrollador, quiero que el backend almacene los datos recibidos de los sensores IoT para su posterior análisis.                                   |   3          |
+|               |                                                  |                                                                                                                                                            |              |
+| US-21         | Registro de Usuarios en la Web                   |  Como usuario, quiero poder registrarme en la aplicación web para acceder a los servicios de TransportApp.                                                 |  3           |
+| US-23         | Visualización de Servicios Disponibles           |   Como usuario, quiero poder ver los servicios de transporte disponibles desde la web para elegir el que mejor se adapte a mis necesidades.                |   1          |
+| US-24         | Reserva de Servicios desde la Web                |  Como usuario, quiero poder reservar un servicio de transporte desde la aplicación web para asegurar la entrega de mi carga.                               |  2           |
+| US-27         | Gestión de Opiniones y Calificaciones            |  Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la web.                                                           |   2          |
+|               |                                                  |                                                                                                                                                            |              |
+| US-31         | Registro de Usuarios en la App Móvil             |  Como usuario, quiero registrarme desde la app móvil para acceder a los servicios de TransportApp.                                                         |   1          |
+| US-33         | Reserva de Servicios desde la App Móvil          |  Como usuario, quiero reservar un servicio de transporte directamente desde mi dispositivo móvil para mayor comodidad.                                     |  2           |
+| US-34         | Monitoreo de Carga en la App Móvil               |  Como usuario, quiero monitorear mi carga en tiempo real desde la app móvil para estar informado durante el transporte.                                    |   3          |
+| US-37         | Visualización de Historial en la App             |  Como usuario, quiero poder ver el historial de servicios contratados desde la app móvil para revisar mis transacciones.                                   |   2          |
+| US-39         | Verificación de Pagos en la App                  |  Como transportista, quiero revisar el estado de mis pagos desde la app móvil para asegurarme de que todo está en orden.                                   |    3         |
+|               |                                                  |                                                                                                                                                            |              |
+| US-41         | Conexión de Sensor IoT a la Plataforma           | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                        | 4            |
+| US-42         | Monitoreo de Datos de Temperatura                |  Como usuario, quiero monitorear la temperatura de mi carga en tiempo real mediante un sensor IoT.                                                         |    3         |
+| US-45         |  Recepción de Alertas desde Sensores IoT         |  Como transportista, quiero recibir alertas automáticas desde los sensores IoT para actuar rápidamente en caso de incidentes.                              |    4         |
+| US-46         | Integración con Gateway IoT                      |  Como desarrollador, quiero integrar los sensores IoT con un gateway para asegurar la transmisión de datos al backend.                                     |   3          |
+| US-47         | Configuración Remota de Sensores IoT             |  Como desarrollador, quiero poder configurar remotamente los sensores IoT para ajustar los umbrales y parámetros de monitoreo.                             |  2           |
+| US-48         | Recolección de Datos de Ubicación                |  Como usuario, quiero que el sensor IoT recolecte y transmita datos de ubicación en tiempo real para saber dónde está mi carga.                            |  3           |
+| US-49         | Sincronización de Sensores IoT                   |  Como desarrollador, quiero sincronizar múltiples sensores IoT en un solo envío de datos para optimizar la transmisión.                                    | 3            |
+| US-50         | Almacenamiento Seguro de Datos de Sensores       |   Como desarrollador, quiero asegurarme de que todos los datos capturados por los sensores IoT se almacenan de manera segura y encriptada en el backend.   |   4          |
+
+# Capítulo IV: Solution Software Design
+
+## 4.1 Strategic Level Domain-Driven Design
+Con el Strategic-Level Domain-Driven Design, definimos los límites y las interacciones entre los diferentes dominios del negocio en nuestro proyecto IoT. Utilizamos esta estrategia para identificar los bounded contexts, lo que nos permite dividir el sistema en áreas de responsabilidad específicas, facilitando un diseño modular y escalable.
+### 4.1.1 EventStorming
+Hemos utilizado EventStorming como una técnica colaborativa para identificar los eventos clave dentro del sistema IoT. Este enfoque nos ayuda a mapear eventos importantes como alertas generadas o cambios en el estado de los sensores, lo que nos permite entender mejor el flujo del sistema y modelar correctamente el dominio.
+
+*Step 1: Unstructured Exploration*
+![[event1.png]]
+
+*Step 2: Collect Domain Events*
+![[event2.png]]
+
+*Step 3: Process Modelling*
+
+![[event3.png]]
+![[event4.png]]
+
+*Step 4: Aggregates*
+![[event5.png]]
+
+
+*Step 5: Bounded Context* 
+
+![[event6.png]]
+https://miro.com/app/board/uXjVKhiPtlw=/?share_link_id=692779104136
+
+### 4.2.2 Candidate Context Discovery
+
+En la fase de Candidate Context Discovery de EventStorming, identificamos los posibles contextos del sistema. Este proceso inicial nos ayuda a descubrir áreas clave del sistema IoT, como el monitoreo de dispositivos y la gestión de alertas, lo que facilita organizar mejor las funcionalidades y delimitar los contextos en los que trabajan los equipos de desarrollo.
+
+**Service Management**
+Este bounded context se centra en el proceso de solicitud de un servicio, desde la ubicación de destino y recojo del cliente hasta la elección de un trasportista para el servicio.
+
+![[candidate2.png]]
+
+**IoT Process**
+Este Bounded Context se encarga de gestionar el funcionamiento de los dispositivos que en nuestro caso son sensores de temperatura y de peso, también se consideran los actuares que avisaran con una alerta en caso de un envío corrompido o estropeado.
+
+![[candidate3.png]]
+
+**Identity and Access Management**
+Este Bounded Context es uno de los más importantes ya que se encarga de asignar roles y verificar que cada tipo de usuario no acceda a información del otro.
+
+![[candidate1.png]]
+
+### 4.1.1.2 Domain Message Flows Modeling
+    
+#### Evento: CheckIn Process
+
+Este evento se dispara cuando un cliente crea una solicitud de transporte en la plataforma. El cliente especifica los detalles del envío, incluyendo el origen, destino, tipo de mercancía, condiciones ambientales necesarias (como temperatura controlada), y la fecha de recogida. La plataforma registra la solicitud y la envía a los transportistas disponibles que cumplen con los requisitos especificados.
+
+![Sticky Note Packs](images/StickyNotePacks.jpg)
+
+#### Evento: TransportInProgress
+
+Este evento se activa cuando un transportista acepta una solicitud de transporte y comienza la operación de traslado de la mercancía. La plataforma utiliza los sensores IoT integrados para monitorear en tiempo real las condiciones del transporte, como la ubicación, temperatura, y peso de la carga. Este evento también actualiza el estado de la solicitud en la plataforma, permitiendo al cliente ver en tiempo real el progreso del transporte.
+
+![Sticky Note Packs (1)](images/StickyNotePacks(1).jpg)
+
+
+### 4.1.1.3 Bounded Context Canvases
+
+#### Transport Access
+
+Este Bounded Context tiene como objetivo gestionar de manera eficiente el acceso y la verificación de transportistas y sus vehículos para operar dentro de TransportApp. Su valor radica en asegurar que solo transportistas verificados y con vehículos adecuados estén disponibles para realizar trabajos en la plataforma.
+
+![Sticky Note Packs (2)](images/StickyNotePacks(2).jpg)
+#### IoT Process
+
+El Bounded Context IoT Process maneja el monitoreo continuo de las condiciones durante el transporte, incluyendo el control de temperatura y el peso de la carga, a través de sensores integrados. Los usuarios pueden configurar los parámetros deseados y recibir notificaciones en caso de que se detecten desviaciones en tiempo real, lo que permite una toma de decisiones rápida para mitigar posibles problemas.
+
+![Sticky Note Packs (3)](images/StickyNotePacks(3).jpg)
+
+## 4.1.2. Context Mapping 
+
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de
+las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños
+candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de
+relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin. Se utilizó la
+herramienta online Miro para elaborar el Context Mapping de la siguiente imagen:
+
+![Sticky Note Packs (4)](images/StickyNotePacks(4).jpg)
+
+## 4.1.3. Software Architecture.
+
+### 4.1.3.1 Software Architecture System Landscape Diagram.
+
+
+El diagrama de System Landscape que presentamos ilustra el diseño principal de nuestro sistema de transporte de paquetes, con TransportApp como su elemento central. Esta aplicación actúa como el centro de operaciones, facilitando la conexión entre los Clientes y el Transportista adecuado para realizar el envío. A través de una interfaz clara y eficiente, la plataforma permite a los clientes elegir el vehículo más apropiado, equipado con dispositivos IoT para asegurar la entrega. Este enfoque no solo maximiza la eficiencia del proceso, sino que también mejora la satisfacción de todos los participantes, garantizando una experiencia de transporte ágil y sin inconvenientes.
+
+![Diagrama Landscape Diagram](images/Diagrama-en-blanco.png)
+
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams. 
 
 El Context Level Diagram proporciona una visión de alto nivel del sistema IoT, mostrando cómo interactúa con actores externos, como clientes, transportistas y dispositivos IoT. Este diagrama representa el sistema como una entidad global y define los límites del sistema, destacando las principales interacciones con usuarios y servicios externos, tales como APIs de terceros, bases de datos y servicios de notificación. Ayuda a comprender cómo el sistema se integra en su entorno y con quién se comunica.
@@ -491,6 +797,170 @@ El Container Level Diagram descompone el sistema IoT en sus componentes principa
 El Deployment Diagram describe cómo los diferentes componentes del sistema IoT son desplegados en el entorno físico o en la nube, detallando dónde se ejecutan los contenedores y cómo se distribuyen entre diferentes servidores, máquinas virtuales o nodos. Este diagrama también explica las conexiones de red entre los componentes, como las redes de comunicación entre dispositivos IoT y la infraestructura central, y muestra cómo se asegura la disponibilidad, escalabilidad y seguridad del sistema en diferentes entornos de despliegue.
 
 ![Class Diagram](resources/images/capitulo_4/diagrams/ArchitectureDeploymentDiagrams.png)
+
+
+## 4.2.1 Bounded Context: Transport Access
+
+#### 4.2.1.1 Domain Layer
+
+Define las entidades principales que formarán la lógica de negocio en este contexto. Por ejemplo:
+
+1.    **Vehículo**: Representa un vehículo dentro del sistema. Contiene atributos como:
+
+- `id`: Identificador único.
+- `matricula`: Número de placa.
+- `modelo`: Modelo del vehículo.
+- `capacidad`: Capacidad del vehículo.
+- `sensores`: Lista de sensores asociados.
+
+Métodos:
+
+- `agregarSensor(sensor: Sensor): void`
+- `eliminarSensor(sensorId: int): void`
+- `obtenerCondicionesActuales(): List<Sensor>`
+
+2.    **Sensor**: Representa un sensor de monitoreo dentro del vehículo.
+
+- Atributos:
+
+- `id`: Identificador único.
+- `tipo`: Tipo de sensor (temperatura, peso, etc.).
+- `valorActual`: Valor actual del sensor.
+
+- Métodos:
+
+- `actualizarValor(nuevoValor: float): void`
+- `generarAlerta(): void`
+
+3.    **Alerta**: Almacena alertas generadas por sensores cuando los valores exceden ciertos límites.
+
+- Atributos:
+
+- `mensaje`: Detalle de la alerta.
+- `tipoAlerta`: Tipo de alerta (peso, temperatura, etc.).
+
+- Métodos:
+
+- `enviarAlerta(): void`
+
+#### 4.2.1.2 Interface Layer
+
+Define la capa de presentación que interactúa con los usuarios y otros sistemas:
+
+1.    **Controller**:
+
+- **TransportController**: Maneja solicitudes relacionadas con los transportes. Permite registrar, actualizar y visualizar vehículos y sensores.
+
+2.    **Event Listener**:
+
+- **TransportEventListener**: Procesa eventos relacionados con el transporte, como el registro de nuevos sensores o la emisión de alertas.
+
+#### 4.2.1.3 Application Layer
+
+Gestiona la lógica de aplicación y la coordinación entre diferentes componentes:
+
+1.    **Command Handler**:
+
+- **TransportCommandHandler**: Procesa comandos relacionados con la gestión de vehículos y sensores, por ejemplo, el inicio de un monitoreo.
+
+2.    **Event Handler**:
+
+- **TransportEventHandler**: Responde a eventos de monitoreo, como la generación de alertas.
+
+#### 4.2.1.4 Infrastructure Layer
+
+Accede a servicios externos, bases de datos y APIs:
+
+1.    **Repositorio**:
+
+- **VehiculoRepository**: Gestiona la persistencia de los vehículos en la base de datos.
+- **SensorRepository**: Gestiona la persistencia de los sensores en la base de datos.
+
+2.    **Integración IoT**:
+
+- **IoTService**: Interactúa con los dispositivos IoT, gestionando la comunicación y los datos.
+
+### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección, el diagrama de componentes de alto nivel muestra la interacción entre los principales bloques estructurales del sistema TransportApp, como los contenedores de la aplicación (Single Page Application, Web Application, Mobile App, Web API, entre otros) y sus componentes específicos dentro de contextos delimitados como IoT Process e Identity and Access Management. Además, se muestra la conexión con sistemas externos como el servicio de correo electrónico y la pasarela de pago, así como con dispositivos IoT para el monitoreo en tiempo real.
+
+![Diagrama de Componentes Transport Access](resources/images/capitulo_2/needfinding/ComponentDiagramTransportAccess.png)
+
+### 4.2.1.5.1 Bounded Context Domain Layer Class Diagrams
+
+En esta sección, se presenta el diagrama de clases de la capa de dominio dentro de los contextos delimitados (Bounded Contexts) de la aplicación TransportApp. El diagrama muestra las clases principales que representan los conceptos clave del dominio, como los vehículos, clientes, y transportistas, junto con sus relaciones, métodos y atributos.
+
+![Diagrama de Context Layer Class](resources/images/capitulo_2/needfinding/CD.png)
+
+### 4.2.1.5.2 Bounded Context Database Design Diagram
+
+Aquí se presenta el diagrama de diseño de base de datos dentro de los contextos delimitados (Bounded Contexts) de TransportApp. Este diagrama muestra las tablas de la base de datos que almacenan información crítica, como transportista, asignamiento de vehiculo, cliente y contrato. También se destacan las relaciones entre las tablas y las claves primarias y foráneas utilizadas para mantener la integridad referencial.
+
+![Diagrama de Database Design Diagram](resources/images/capitulo_2/needfinding/DB.png)
+
+
+## 4.2.2. Bounded Context: Suscription & Payment
+### 4.2.2.1. Domain Layer
+
+**Entities**
+
+* Transporter:
+Esta entidad representa un componente clave dentro del sistema de gestión de suscripciones. Proporciona la identidad del transportista, gestionando tanto su estado dentro de la plataforma como su relación con el servicio de pagos de suscripciones. Los atributos incluyen la identificación del transportista, su nombre y su estado en la plataforma (activo/inactivo).
+
+**Value Objects**
+
+* PaymentDetails:
+
+Este objeto de valor es esencial para representar de manera coherente los detalles de los pagos realizados por los transportistas. Incluye la información de métodos de pago, fechas de pago y montos pagados, garantizando la consistencia en la gestión de los pagos dentro del sistema.
+
+**Aggregates**
+
+* SuscriptionPaymentService:
+
+Este Aggregate encapsula toda la información relacionada con las suscripciones y pagos dentro del sistema de gestión. Actúa como una colección cohesiva de datos que incluye detalles de la suscripción como el tipo de plan, fechas de inicio y finalización, estado de la suscripción, así como la información de pagos. Este agregado coordina las transacciones y asegura la coherencia de las operaciones dentro de la gestión de suscripciones.
+
+
+### 4.2.2.2. Interface Layer.
+
+**Controllers**
+
+* SubscriptionController:
+Este controlador constituye un componente esencial dentro de la arquitectura de la aplicación. Es responsable de gestionar el ciclo de vida de las suscripciones y los pagos de los transportistas. En este controlador se implementan las funcionalidades CRUD necesarias para interactuar con los datos relacionados con las suscripciones, como la creación de nuevas suscripciones, la actualización del estado de las mismas y la cancelación cuando sea necesario.
+
+
+
+### 4.2.2.3. Application Layer.
+
+
+**Services**
+
+* SubscriptionService:
+Este servicio es un componente central en la aplicación, encargado de gestionar las operaciones relacionadas con la activación, renovación y cancelación de suscripciones. Además, maneja la verificación del estado de los pagos, asegurando que los transportistas tengan acceso a la plataforma solo si sus pagos están al día. También se encarga de coordinar las notificaciones al transportista cuando su suscripción está por expirar o ha sido renovada exitosamente.
+
+ 
+### 4.2.2.4. Infrastructure Layer.
+
+**Repositories**
+
+* SubscriptionRepository:
+Este repositorio facilita la interacción con la base de datos para la persistencia de datos relacionados con las suscripciones y pagos. Asegura que la información de las suscripciones de los transportistas esté almacenada de manera segura y que los pagos realizados se registren correctamente para su posterior verificación y gestión.
+
+
+### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
+![structurizr-Component-002](images/structurizr-Component-002.png)
+
+### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 4.2.2.7.1 Bounded Context Software Architecture Code Level Diagrams.
+
+![CD](images/Castores%20Rabiosos-CDEJEMPLO.png)
+
+#### 4.2.2.7.2. Bounded Context Database Design Diagram.
+
+![DB-Diagram](images/Diagrama-de-clases.png)
+
+
 ### 4.2.3. Bounded Context: Service Management
 
 Este contexto delimitado gestiona los servicios relacionados con la supervisión y control de los envíos, asegurando la correcta interacción con dispositivos IoT y otros componentes necesarios para la operación de la aplicación de transporte.
@@ -562,6 +1032,7 @@ El diseño de la base de datos para el contexto de `Service Management` incluye 
 Estas tablas están interconectadas por claves foráneas que aseguran la consistencia en el modelo relacional.
 
 ![Class Diagram](resources/images/capitulo_4/bounded_contexts/ServiceManagement/DiagramaDatoServiceManagement.png)
+
 ### 4.2.4. Bounded Context: Iot Process
 Este Bounded Context está diseñado para gestionar los procesos de monitoreo de activos IoT, especialmente en relación con la gestión de sensores que monitorizan el peso y la temperatura, y la notificación de alertas cuando los valores monitoreados exceden ciertos límites predefinidos.
 #### 4.2.4.1. Domain Layer
@@ -649,3 +1120,68 @@ Este diagrama de clases describe todas las clases del _Domain Layer_, incluyendo
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base de datos representa las tablas y las relaciones necesarias para almacenar los objetos del dominio en una base de datos relacional. Aquí se incluirían tablas como `Vehiculo`, `Sensor`, `Alerta`, y las claves primarias y foráneas que conectan estas entidades.
 ![Database](resources/images/capitulo_4/bounded_contexts/Iot_process/Iot_DB.png)
+
+## 4.2.5. Bounded Context: Check In y Check Out
+El bounded context Check In se encarga de registrar la cantidad de cargo encargado por el cliente con la finalidad de dejar una constancia de lo que debería haber en el envío. En este proceso también participa en conductor quien se asegurará de verificar que el la lista Check In y Check Out ingresada por el cliente sea la cantidad de paquetes a recojer.
+### 4.2.5.1 Domain Layer
+ENTITIES
+
+- Transporter:
+
+Esta entidad representa a la persona encargada del servicio, quién sería el transportista.
+Identificador único, nombre del transportista, *status* que es el estado de actividad  y tipo de suscripción.
+
+- Vehicle:
+
+Transporte asignado a los transportistas. Incluye modelo de auto, cantidad de productos o envíos por llevar y estado de disponibilidad de transportista.
+
+- Client:
+
+Usuario que solicita el servicio de transporte o *delivery*. Contiene al identificador único de cliente, nombre del cliente y envíos que realiza.
+
+  AGGREGATES
+  - TravelService:
+  
+  Gestión de los viajes realizados por los transportistas. Almacena una lista de transportistas asignados, maneja la notificación de los transportistas y la creación de viajes.
+
+VALUE OBJECTS
+
+- TransportDetails:
+
+Este value object captura la información más importante de los envíos como los datos sobre el vehiculo, nombre del transportista asignado y la ruta que se seguirá desde el punto de recojo al destino.
+### 4.2.5.2 Interface Layer
+
+INTERFACE
+-  ITravelNotificationService:
+Define operaciones para enviar notificaciones tanto a transportistas como a clientes. Mantiene a todos informados sobre aspectos clave como quién conduce, cuándo comienza el viaje o dónde están las mercancías.
+
+### 4.2.5.3 Application Layer
+
+SERVICES
+- TravelService:
+Se encarga de elegir a los conductores adecuados para los viajes. Se asegura de las  correctas asignaciones a los transportistas y que todos reciban una notificación al tener una solicitud de servicio.
+
+### 4.2.5.4 Infrastructure Layer
+
+REPOSITORIES
+
+- TransporterRepository:
+Brinda los datos sobre los transportistas como su identificador, su estado y el tipo de suscripción. También se puede filtrar por estado de suscripción ayudando a una gestión más ágil de transportistas activos.
+
+- VehicleRepository:
+Almacena y gestiona  a los datos de los vehículos para una correcta asignación a algún transportista disponible.
+
+- TravelServiceRepository:
+Facilita la persistencia de los datos relacionados con los servicios de viaje. Proporciona la funcionalidad necesaria para gestionar transportistas de los servicios de viaje, así como para notificarles sobre los viajes.
+
+### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
+![[componentLevel.png]]
+
+### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+![[classDiagramCheck.png]]
+
+### 4.2.5.6.2 Bounded Context Database Design Diagram
+![[DatabaseDiagramCheck.png]]
+
