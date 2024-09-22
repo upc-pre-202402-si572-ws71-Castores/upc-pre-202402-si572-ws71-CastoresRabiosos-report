@@ -494,9 +494,17 @@ El proceso de Needfinding se centra en descubrir las necesidades reales de los u
 Esta sección introduce las User Personas, que son representaciones semi-ficticias de los usuarios finales basadas en la información recopilada durante las entrevistas y otras investigaciones. Las User Personas ayudan al equipo de desarrollo a mantener un enfoque centrado en el usuario durante todo el proceso de diseño y desarrollo, asegurando que se aborden las necesidades reales de los usuarios.
 #### Segmento Transportista
 
+Juan Pérez es un transportista independiente de 28 años con más de 10 años de experiencia en el sector. Vive en Lima y trabaja principalmente en el traslado de mercancías para pequeños negocios. Aunque cuenta con su propio vehículo, ha tenido dificultades para encontrar clientes que requieran servicios especializados, como el monitoreo de temperatura. Juan está interesado en mejorar sus ingresos mediante la adopción de nuevas tecnologías y busca una plataforma que le permita acceder a clientes de manera directa, sin intermediarios.
+
+Como persona racional, Juan es pragmático y trabajador. Utiliza la tecnología para optimizar sus rutas y gestionar su vehículo, principalmente a través de aplicaciones como Waze y servicios de monitoreo vehicular como TSO Mobile. Le motiva acceder a trabajos recurrentes y mejorar la ocupación de su vehículo. Sin embargo, también se siente frustrado por la inestabilidad laboral y las comisiones de intermediarios que reducen sus ingresos.
+
 ![User Persona Transportista](resources/images/capitulo_2/needfinding/Juan_Pérez.png)
 
 #### Segmento Clientes
+
+María López es una emprendedora de 33 años que posee un pequeño negocio de alimentos orgánicos en Lima. A menudo, necesita transportar productos perecederos que requieren condiciones específicas, como refrigeración, para mantener su calidad durante el transporte. En el pasado, ha enfrentado problemas significativos debido a la falta de monitoreo del estado de sus productos, lo que ha provocado pérdidas económicas. Debido a estas experiencias, María busca una solución que le ofrezca control total y en tiempo real sobre sus envíos.
+
+Se caracteriza por ser una persona deliberada y confiada que busca un servicio confiable y eficiente que le permita gestionar el transporte de manera autónoma. María usa principalmente su teléfono móvil y plataformas de mensajería como WhatsApp para coordinar sus envíos, además de emplear aplicaciones como Mercado Libre y Rappi para sus ventas y logística. Su personalidad guardián refleja su enfoque cuidadoso y su deseo de seguridad en sus operaciones comerciales.
 
 ![User Persona Cliente](resources/images/capitulo_2/needfinding/María_López.png)
 
