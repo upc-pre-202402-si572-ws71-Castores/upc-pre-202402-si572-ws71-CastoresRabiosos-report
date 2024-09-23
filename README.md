@@ -1258,6 +1258,41 @@ En este capítulo se documenta el diseño detallado del software, enfocándose e
 Este apartado describe el enfoque utilizado para gestionar la configuración del software a lo largo del proyecto. Se documenta el uso de sistemas de control de versiones (como Git) para asegurar la coherencia del código y facilitar la colaboración en equipo. Además, se detallan las políticas de ramas y las estrategias de integración continua (CI/CD) que garantizan la estabilidad y calidad del software en cada entrega.
 ### 6.1.1. Software Development Environment Configuration
 ### 6.1.2. Source Code Management
+
+El equipo ha establecido un esquema organizado de control de versiones utilizando la plataforma **GitHub** para el seguimiento de todas las modificaciones del código. Cada producto relacionado con **TransportApp** tendrá su propio repositorio de GitHub, incluyendo la **Landing Page**, los **Web Services**, y las **Frontend Web Applications**. 
+
+Para el control de versiones, se implementará el workflow **GitFlow**, basado en el modelo descrito en el artículo "A Successful Git Branching Model" de Vincent Driessen. Esto implica la creación de múltiples ramas (branches) más allá de la rama principal (**main branch**), como la rama **develop** para el desarrollo continuo. Además, cada nueva funcionalidad (feature) se desarrollará en su propia **feature branch**, la cual será fusionada en **develop** una vez completada y verificada.
+
+![branches](resources/images/capitulo_6/branchs.png)
+
+Para la gestión de releases, se aplicarán ramas específicas, como las **release branches** y **hotfix branches**, siguiendo las convenciones de nombres del equipo. Las releases seguirán el esquema de versionado semántico (**Semantic Versioning 2.0.0**), lo cual asegura que las versiones del software sean manejadas de manera consistente y comprensible.
+
+**Estructura de Conventional Commits**
+
+Se adoptará el uso de **Conventional Commits** para los mensajes de cada commit, lo que permitirá mantener una estructura clara y uniforme en los cambios registrados en el repositorio. Esta práctica facilitará la revisión y comprensión del historial de cambios por parte de todo el equipo.
+
+A continuación, se presenta la plantilla que se utilizará para los mensajes de commit, con los tipos más comunes:
+
+`<type>(<scope>): <subject>`
+
+- **type**: Tipo de commit (feat, fix, docs, etc.)
+- **scope**: La parte del proyecto afectada (opcional pero recomendado)
+- **subject**: Breve descripción de lo que se realizó
+
+1. **feat**: Se utiliza cuando se agrega una nueva funcionalidad.
+    - Ejemplo: `feat(landing): add About Us section to landing page`
+2. **fix**: Se utiliza para corregir un error.
+    - Ejemplo: `fix(api): resolve bug in authentication service`
+3. **docs**: Se usa para cambios en la documentación.
+    - Ejemplo: `docs(readme): update repository description`
+4. **style**: Cambios relacionados con el formato que no afectan la funcionalidad (espacios en blanco, formato, etc.).
+    - Ejemplo: `style(backend): reformat code to meet style guide`
+5. **refactor**: Para modificaciones en el código que no corrigen errores ni agregan características, sino que mejoran la estructura.
+    - Ejemplo: `refactor(services): simplify service layer logic`
+6. **test**: Para agregar o modificar pruebas.
+    - Ejemplo: `test(api): add unit tests for login endpoint`
+7. **chore**: Cambios que no afectan el código de producción ni los tests (por ejemplo, actualizaciones en las herramientas de construcción o configuración).
+    - Ejemplo: `chore(dependencies): update npm packages`
 ### 6.1.3. Source Code Style Guide & Conventions
 ### 6.1.4. Software Deployment Configuration
 ## 6.2. Landing Page, Services & Applications Implementation
