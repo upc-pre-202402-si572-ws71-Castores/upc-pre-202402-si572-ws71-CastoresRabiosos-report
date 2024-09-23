@@ -108,6 +108,22 @@ A continuación, se presenta el flujo de trabajo:
 		- [4.3.3 Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
 		- [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+	- [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+	- [6.1.2. Source Code Management](#612-source-code-management)
+	- [6.1.3. Source Code Style Guide & Management](#613-source-code-style-guide-management)
+	- [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-&-applications-implementation)
+	- [6.2.1. Sprint 1](#621-sprint-1)
+	- [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+	- [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+	- [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+	- [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+	- [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+	- [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+	- [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+
 ---
 # Student Outcome
 
@@ -1232,6 +1248,32 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 ### 4.2.5.6.2 Bounded Context Database Design Diagram
 ![DatabaseDiagramCheck](resources/images/capitulo4/DatabaseDiagramCheck.png)
 
+
+---
+# Capítulo IV: Solution Software Design
+
+En este capítulo se documenta el diseño detallado del software, enfocándose en cómo se estructuró y desarrolló la solución propuesta. Se abordan las decisiones arquitectónicas clave, la selección de tecnologías y las prácticas de desarrollo que se aplicaron para garantizar que el sistema cumpla con los requisitos definidos en fases anteriores del proyecto.
+## 6.1. Software Configuration Management
+
+Este apartado describe el enfoque utilizado para gestionar la configuración del software a lo largo del proyecto. Se documenta el uso de sistemas de control de versiones (como Git) para asegurar la coherencia del código y facilitar la colaboración en equipo. Además, se detallan las políticas de ramas y las estrategias de integración continua (CI/CD) que garantizan la estabilidad y calidad del software en cada entrega.
+### 6.1.1. Software Development Environment Configuration
+### 6.1.2. Source Code Management
+### 6.1.3. Source Code Style Guide & Conventions
+### 6.1.4. Software Deployment Configuration
+## 6.2. Landing Page, Services & Applications Implementation
+
+### 6.2.1. Sprint 1
+Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landing page de **TransportApp**, enfocadas en la presentación de la plataforma y la interacción con los visitantes. Estas funcionalidades permiten a los usuarios obtener información, interactuar con el equipo, y comparar los planes de servicio, sentando las bases para futuras mejoras en la experiencia de usuario.
+#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.2. Sprint Backlog 1
+#### 6.2.1.3.  Development Evidence for Sprint Review
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+#### 6.2.1.5. Execution Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+---
 ## ANEXOS
 #### Video de exposición - TB1
 
@@ -1239,5 +1281,5 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 #### Video de entrevistas
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Enlace de repositorio de Github
-[[upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report (github.com)](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report)](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
+[https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
