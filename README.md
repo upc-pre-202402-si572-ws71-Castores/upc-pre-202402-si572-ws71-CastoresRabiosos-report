@@ -1302,6 +1302,43 @@ A continuación, se presenta la plantilla que se utilizará para los mensajes de
 ### 6.2.1. Sprint 1
 Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landing page de **TransportApp**, enfocadas en la presentación de la plataforma y la interacción con los visitantes. Estas funcionalidades permiten a los usuarios obtener información, interactuar con el equipo, y comparar los planes de servicio, sentando las bases para futuras mejoras en la experiencia de usuario.
 #### 6.2.1.1. Sprint Planning 1
+
+| Sprint #                        | Sprint 1                                                                                                                                                                                                                             |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                      |
+| Date                            | 23/09/2024                                                                                                                                                                                                                           |
+| Time                            | 7:00 p. m.                                                                                                                                                                                                                           |
+| Location                        | Reunión virtual en Discord.                                                                                                                                                                                                          |
+| Prepared By                     | Abanto Vicente, Edery Renzo                                                                                                                                                                                                          |
+| Attendees (to planning meeting) | Abanto Vicente, Edery Renzo / Castro Soto, Sebastian Enrique / Conde Isla, Camila Alessandra / Portales Ortiz, Diego Alejandro / Sabino Ramírez, Rodrigo Alexander / Luis Isla                                                       |
+| Sprint 0 Review Summary         | ---                                                                                                                                                                                                                                  |
+| Sprint 0 Retrospective Summary  | ---                                                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                      |
+| Sprint 1 Goal                   | Nuestro objetivo es desarrollar la primera versión de la Landing Page de TransportApp, enfocada en presentar los servicios de la empresa y atraer transportistas. Este objetivo se confirmará cuando la landing page esté operativa. |
+| Sprint 1 Velocity               | 15 Story Points                                                                                                                                                                                                                      |
+| Sum of Story Points             | 28 Story Points                                                                                                                                                                                                                      |
+
+**Historias de Usuario para Sprint 1**
+
+1. **US-01**: Sección About Us - Información sobre los servicios de TransportApp.
+2. **US-02**: Sección Beneficios - Beneficios de usar TransportApp.
+3. **US-03**: Sección Planes - Comparación de planes de servicio.
+4. **US-04**: Sección Contacto - Formulario de contacto.
+5. **US-05**: Sección Testimonios - Opiniones de clientes.
+6. **US-06**: Sección Preguntas Frecuentes - Respuestas a dudas comunes.
+
+**Tareas del Sprint 1 (exclusivamente relacionadas con las User Stories)**
+
+1. **Diseño y desarrollo de la landing page** que incluye las siguientes secciones:
+    - **About Us** (US-01)
+    - **Beneficios** (US-02)
+    - **Planes de Servicio** (US-03)
+    - **Contacto** (US-04)
+    - **Testimonios** (US-05)
+    - **Preguntas Frecuentes** (US-06)
+2. **Wireframes y Mockups** para las secciones especificadas.
+3. **SEO básico y etiquetado meta** para optimizar la landing page.
+4. **Revisión y prueba de la landing page** para asegurar que cada historia de usuario cumpla con los criterios de aceptación.
 #### 6.2.1.2. Sprint Backlog 1
 #### 6.2.1.3.  Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
