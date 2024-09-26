@@ -1257,6 +1257,53 @@ En este capítulo se documenta el diseño detallado del software, enfocándose e
 
 Este apartado describe el enfoque utilizado para gestionar la configuración del software a lo largo del proyecto. Se documenta el uso de sistemas de control de versiones (como Git) para asegurar la coherencia del código y facilitar la colaboración en equipo. Además, se detallan las políticas de ramas y las estrategias de integración continua (CI/CD) que garantizan la estabilidad y calidad del software en cada entrega.
 ### 6.1.1. Software Development Environment Configuration
+
+En esta sección se especifica el entorno de desarrollo utilizado en el proyecto, detallando los productos de software empleados en las diferentes fases del ciclo de vida del desarrollo de la aplicación IoT. A continuación, se describen los productos empleados y su propósito:
+
+**Project Management:**
+Se utilizó GitHub para gestionar el control de versiones y el almacenamiento de los artefactos desarrollados. Esta plataforma permite una colaboración eficiente entre los miembros del equipo, facilitando el registro de cambios, la creación de ramas y la gestión de los entregables.
+
+**Product UX/UI Design:**
+Herramientas como Miro y UXPressia se emplearon para la conceptualización de los flujos y mapeos de usuarios, cubriendo tanto los escenarios As-Is como los To-Be. Además, Figma fue utilizada para la creación de prototipos interactivos, wireframes y mockups de la interfaz de usuario.
+
+**Software Development:**
+
+- **Frameworks:** Se seleccionaron los siguientes frameworks según la necesidad de cada área de desarrollo:
+    
+
+- **Angular:** Empleado para el desarrollo del frontend debido a su flexibilidad y capacidad de crear aplicaciones web altamente interactivas y responsivas.
+    
+- **Spring Boot (Java):** Utilizado como framework de desarrollo backend, ideal para crear microservicios robustos y escalables.
+    
+
+**Lenguaje de programación:**
+El proyecto utilizó una combinación de lenguajes dependiendo del componente:
+
+- **Java:** Fue el lenguaje principal para el desarrollo del backend, dada su robustez y escalabilidad en la creación de microservicios.
+    
+- **C++:** Para el desarrollo de las soluciones IoT, por su eficiencia en la gestión de hardware.
+    
+- **Dart:** Utilizado con el framework Flutter para la creación de aplicaciones móviles.
+    
+- **TypeScript/JavaScript:** Usados en conjunto con Angular para el frontend.
+    
+- **Flutter:** Lenguaje multiplataforma utilizado para el desarrollo de aplicaciones móviles, permitiendo una experiencia fluida en diferentes dispositivos.
+    
+
+**Control de versiones:**
+Git fue el sistema elegido para el control de versiones, empleando la consola para gestionar repositorios locales y remotos, facilitando la colaboración entre los miembros del equipo.
+
+**Software Testing:**
+Durante la fase de pruebas, se emplearon marcos de trabajo como Gherkin para la especificación de pruebas de aceptación, que luego se integraron a los pipelines de automatización en GitHub.
+
+**Software Deployment:**
+Para el despliegue y gestión de los servicios desarrollados, se utilizaron las plataformas de nube de Microsoft, asegurando la escalabilidad y la administración eficiente de los recursos.
+
+**Software Documentation:**
+Se emplearon plataformas en línea, como Oracle y otras bases de datos de referencia, para documentar cada uno de los servicios desarrollados, asegurando una correcta transferencia de conocimiento hacia futuros desarrolladores y garantizando la facilidad de mantenimiento.
+
+Cada uno de estos productos y herramientas respetó las restricciones y lineamientos establecidos para el proyecto, asegurando que la colaboración y el flujo de trabajo fueran eficientes y que los objetivos del proyecto se cumplieran de manera efectiva.
+
 ### 6.1.2. Source Code Management
 
 El equipo ha establecido un esquema organizado de control de versiones utilizando la plataforma **GitHub** para el seguimiento de todas las modificaciones del código. Cada producto relacionado con **TransportApp** tendrá su propio repositorio de GitHub, incluyendo la **Landing Page**, los **Web Services**, y las **Frontend Web Applications**. 
@@ -1342,6 +1389,7 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 #### 6.2.1.2. Sprint Backlog 1
 #### 6.2.1.3.  Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
 #### 6.2.1.5. Execution Evidence for Sprint Review
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
