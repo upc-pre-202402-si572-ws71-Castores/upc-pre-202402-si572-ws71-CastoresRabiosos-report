@@ -579,23 +579,39 @@ El As-is Scenario Mapping describe cómo los transportistas y clientes actualmen
 
 El Ubiquitous Language define un vocabulario compartido por todo el equipo que trabaja en TransportApp, asegurando que tanto los desarrolladores, los transportistas y los clientes utilicen los mismos términos y conceptos. Esto es especialmente importante en un proyecto de este tipo, ya que términos como “monitoreo en tiempo real”, “sensores IoT” y “carga perecedera” deben estar bien definidos y comprendidos para evitar malentendidos durante el desarrollo y la implementación del sistema.
 
+El lenguaje ubicuo (Ubiquitous Language) es un concepto fundamental dentro del _Domain-Driven Design_ (DDD), propuesto por Eric Evans. La idea es que el equipo de desarrollo y los expertos en el dominio utilicen un lenguaje compartido que esté basado en el modelo de dominio y que abarque todo el proyecto, tanto en la comunicación verbal como escrita. De esta manera, el lenguaje se convierte en un puente entre el mundo técnico y el del negocio, evitando malentendidos y asegurando que todos los involucrados tengan una comprensión clara y consistente de los conceptos.
+
 A continuación, se presentan algunos términos clave que usaremos durante el desarrollo del proyecto:
 
-·         **TransportApp:** Nombre del producto, una plataforma para conectar transportistas y clientes con monitoreo IoT.
-
-·         **Transportista:** Persona que ofrece servicios de transporte utilizando la plataforma.
-
-·         **Cliente:** Persona o empresa que requiere servicios de transporte.
-
-·         **Monitoreo en Tiempo Real:** Capacidad de seguir las condiciones de la carga (peso, temperatura) durante el transporte.
-
-·         **Sensores IoT:** Dispositivos integrados en los vehículos para monitorear las condiciones de la carga.
-
-·         **Pedidos:** Solicitudes de servicios de transporte hechas por los clientes.
-
-·         **Perfil de Transportista:** Información detallada sobre los transportistas, incluyendo sus capacidades tecnológicas y calificaciones.
-
-·         **Plataforma:** Aplicación web y móvil donde se gestionan los servicios de transporte y monitoreo.
+- **Shipper (Remitente):**  
+    Persona o empresa que envía bienes o productos a través de un transportista. En **TransportApp**, el remitente es el cliente que necesita enviar cargas, como productos sensibles a la temperatura.
+    
+- **Carrier (Transportista):**  
+    Persona o empresa responsable de mover los productos del remitente hacia el destinatario. **TransportApp** conecta a los transportistas con remitentes, facilitando la comunicación y gestión del transporte.
+    
+- **Tracking (Rastreo):**  
+    Proceso mediante el cual se puede monitorear en tiempo real la ubicación y el estado de la carga durante su transporte. **TransportApp** ofrece una funcionalidad de rastreo en tiempo real para que el remitente y el destinatario sepan el estado del envío.
+    
+- **Temperature Monitoring (Monitoreo de Temperatura):**  
+    Tecnología integrada en los vehículos que permite controlar y registrar la temperatura de la carga durante su transporte. **TransportApp** se especializa en transportar productos sensibles a la temperatura y ofrece esta característica como parte de sus servicios.
+    
+- **Delivery Time (Tiempo de Entrega):**  
+    El tiempo estimado en el que un envío llegará a su destino. Es un factor crucial para la satisfacción del cliente y **TransportApp** proporciona esta información a través de su sistema en tiempo real.
+    
+- **Load (Carga):**  
+    La cantidad o volumen de bienes transportados. En **TransportApp**, se gestionan cargas que requieren condiciones especiales, como productos perecibles.
+    
+- **Delivery Confirmation (Confirmación de Entrega):**  
+    Un proceso donde el destinatario confirma que ha recibido los bienes en buenas condiciones. **TransportApp** automatiza este proceso con notificaciones.
+    
+- **Customer (Cliente):**  
+    Persona o empresa que contrata el servicio de transporte de mercancías. **TransportApp** tiene como clientes tanto a los remitentes como a los transportistas que se registran en la plataforma.
+    
+- **Fleet Management (Gestión de Flota):**  
+    El proceso de gestionar una flota de vehículos de transporte. **TransportApp** facilita a los transportistas la gestión de sus vehículos, incluyendo el monitoreo del estado y disponibilidad de los mismos.
+    
+- **IoT Integration (Integración IoT):**  
+    Uso de dispositivos conectados a Internet para recopilar datos en tiempo real, como la ubicación y la temperatura de las cargas. **TransportApp** utiliza la tecnología IoT para mejorar la visibilidad y control de los envíos.
 
 ---
 
