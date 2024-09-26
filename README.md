@@ -1553,7 +1553,55 @@ Los **user flow diagrams** describen los caminos que un usuario puede seguir den
 		- _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
 ## 5.5. Applications Prototyping
 
+**Introducción**
 
+Esta sección presenta prototipos de interfaz de usuario (UI) para aplicaciones de escritorio y navegadores web móviles, diseñados en base a los diagramas de flujo de usuarios (User Flow Diagrams). Los prototipos muestran la interacción y la navegación esperada, proporcionando una representación visual de la experiencia del usuario.
+
+**Criterios para las Decisiones de Interacción**
+
+Las decisiones de interacción se basan en los siguientes criterios:
+
+- **Usabilidad:** Se prioriza la facilidad de uso para asegurar que los usuarios puedan navegar intuitivamente por la aplicación.
+- **Accesibilidad:** Las interacciones están diseñadas para ser inclusivas, permitiendo que usuarios con diferentes habilidades accedan a todas las funciones.
+- **Consistencia Visual:** Se utilizan elementos visuales y patrones de diseño coherentes en todas las pantallas para que los usuarios se sientan familiarizados con la interfaz.
+
+**Relación con la Arquitectura de Información**
+
+El diseño de la interfaz está íntimamente relacionado con la arquitectura de información, que incluye:
+
+- **Sistema de Navegación:**
+
+- **Versión Desktop: La barra de navegación ubicada en la parte izquierda permite un acceso fácil y rápido a las diferentes secciones (Dashboard, Crear Solicitud, Ver Ofertas, Historial).**
+- **Versión Mobile: Se implementa una barra horizontal en la parte inferior de la pantalla, que incluye las mismas opciones, además de un acceso rápido al perfil de usuario, asegurando que los usuarios puedan navegar de manera efectiva en dispositivos móviles.**
+
+- **Tipos de Interacciones Seleccionadas:** Las interacciones incluyen botones clicables, formularios de ingreso y listas desplegables, diseñados para maximizar la eficiencia en el uso.
+
+**Prototipos**
+
+A continuación, se presentan los prototipos de UI para Desktop y Mobile Web Browser. Para cada caso, se incluye una captura de pantalla del video y un enlace a un video en Microsoft Stream que demuestra los principales flujos de interacción.
+
+**1. Prototipo para Desktop**
+
+- **Descripción:** Este prototipo muestra la pantalla de login, el dashboard del cliente y el dashboard del transportista.
+- **Screenshot del video:**
+
+	![Prototype1](resources/images/capitulo_5/Prototype/Prototype1.png)
+
+
+- **Enlace al video:** [https://upcedupe-my.sharepoint.com/personal/u202124146_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202124146_upc_edu_pe%2FDocuments%2FCastores%20Rabiosos%2FWebApplication_Prototype%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee45c1663-12d1-474a-be6f-1d960d41845c](https://upcedupe-my.sharepoint.com/personal/u202124146_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202124146_upc_edu_pe%2FDocuments%2FCastores%20Rabiosos%2FWebApplication_Prototype%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee45c1663-12d1-474a-be6f-1d960d41845c)
+
+****2. Prototipo para Mobile Web Browser****
+
+- **Descripción:** Este prototipo se centra en cómo se adapta la interfaz a dispositivos móviles, manteniendo la funcionalidad esencial y una experiencia de usuario fluida.
+- **Screenshot del video:**
+
+![Prototype1](resources/images/capitulo_5/Prototype/Prototype2.png)
+
+- **Enlace al video:** **[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EW652RKqzX9LnSYymsIc8PkBThwlB6Ztzg9p3_EcHbfY1Q?e=nAS8mg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EW652RKqzX9LnSYymsIc8PkBThwlB6Ztzg9p3_EcHbfY1Q?e=nAS8mg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
+
+**Conclusión**
+
+Los prototipos presentados reflejan las decisiones de diseño basadas en los flujos de usuario establecidos, asegurando una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles. La relación entre la interacción y la arquitectura de información ha sido cuidadosamente diseñada para facilitar la navegación y el acceso a las funciones clave.
 ## ANEXOS
 #### Video de exposición - TB1
 
