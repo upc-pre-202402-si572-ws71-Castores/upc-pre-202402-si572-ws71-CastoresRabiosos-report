@@ -1366,7 +1366,7 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 
 
 
-#### 6.2.1.3.  Development Evidence for Sprint Review
+#### 6.2.1.3. Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
@@ -1426,6 +1426,14 @@ Una vez implementados los Web Services, se documentarán en el repositorio corre
 **URL del Repositorio (Planeado)**: [https://github.com/upc-pre-202402-si572-ws71-Castores/web-services](https://github.com/upc-pre-202402-si572-ws71-Castores/web-services)
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+
+En este sprint, el equipo se concentró en la implementación de la **Landing Page** de _TransportApp_. La colaboración entre los miembros del equipo se gestionó a través de GitHub, utilizando la plataforma para la creación, revisión y consolidación de código en el repositorio asignado al proyecto.
+
+A continuación, se presenta una captura de pantalla de los análisis de colaboración de GitHub, que muestra los commits realizados durante este sprint por cada miembro del equipo. Esta evidencia refleja la distribución equitativa de las tareas y la sincronización continua entre los integrantes, lo que permitió un desarrollo fluido de la **Landing Page**.
+
+![landing-gitflow](resources/images/capitulo_6/landing.png)
+
+Todos los miembros del equipo participaron activamente en la implementación del proyecto, siguiendo las buenas prácticas de control de versiones y asegurando que el código final cumpliera con los estándares definidos al inicio del sprint.
 
 ---
 ## ANEXOS
