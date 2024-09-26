@@ -1318,15 +1318,16 @@ La arquitectura de la información prioriza la jerarquía visual, donde la infor
 Los wireframes, tanto para navegadores de escritorio como móviles, reflejan la estructura fundamental de la landing page de **TransportApp**, manteniendo un enfoque minimalista que prioriza la experiencia del usuario.
 
 1. **Desktop Web Browser Wireframe:**
-    
     - **Encabezado**: Contiene un logo prominente y un menú de navegación superior que guía a los usuarios a las secciones clave (About Us, Benefits, Our Plans, Contact). El uso de un menú claro y sencillo asegura una navegación intuitiva y rápida.
     - **Sección Hero**: La posición central del título y el botón de llamada a la acción (CTA) facilita que los transportistas accedan rápidamente a los planes de suscripción. Este diseño sigue los principios de jerarquía visual, asegurando que el foco esté en la acción deseada.
     - **Organización de contenido**: La sección de beneficios está organizada de forma secuencial, lo que permite a los usuarios comprender el valor agregado de **TransportApp** a través de imágenes y descripciones cortas.
     - **Diseño inclusivo**: Las etiquetas y títulos son claros y concisos, eliminando ambigüedades y asegurando que todos los tipos de transportistas puedan entender las funcionalidades.
-2. **Mobile Web Browser Wireframe**:
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingWebWireframe.png)
+1. **Mobile Web Browser Wireframe**:
     
     - El wireframe móvil sigue el mismo esquema que la versión de escritorio, adaptando los elementos a un formato vertical, simplificando la navegación con un menú desplegable.
     - Las secciones están alineadas verticalmente para mejorar la legibilidad y navegación en dispositivos pequeños, facilitando que el usuario acceda a las funciones clave.
+	![Landing Page Wireframe Web)](/images/landingpage/LandingMobileWireframe.png)
 
 Estos wireframes evidencian una correcta aplicación de los principios de diseño inclusivo y usabilidad, destacando el uso de la jerarquía visual y navegación simple.
 ### 5.3.2. Landing Page Mock-up
@@ -1339,10 +1340,12 @@ Los mock-ups de **TransportApp** para navegadores de escritorio y móviles imple
     - **Sección Hero**: Utiliza una imagen atractiva de fondo, con un mensaje directo en tipografía grande que genera impacto inmediato. El botón CTA en color verde contrasta y resalta, guiando a los transportistas a conocer los planes disponibles.
     - **Beneficios**: Se destacan tres beneficios principales, cada uno representado con íconos claros y coloridos que facilitan la comprensión visual. Se emplean ilustraciones que refuerzan el mensaje, ayudando a que los transportistas vean el valor de la plataforma.
     - **Diseño inclusivo**: La estructura visual es sencilla y no sobrecarga al usuario con demasiada información en un solo espacio, permitiendo una experiencia de navegación clara y efectiva.
-2. **Mobile Web Browser Mock-up**:
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingWebMockUp.png)
+1. **Mobile Web Browser Mock-up**:
     
     - La versión móvil mantiene todos los elementos clave, reorganizados para adaptarse al formato de pantalla pequeña. Se usa una navegación tipo "hamburguesa" para el menú y se optimizan los botones para facilitar su uso táctil.
     - El diseño vertical y las imágenes ajustadas aseguran que los transportistas puedan explorar fácilmente el contenido en dispositivos móviles sin perder la coherencia visual ni el flujo de la navegación.
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingMovileMockUp.png)
 
 Estos mock-ups aplican de manera efectiva el **Design System**, asegurando consistencia visual y funcionalidad en todos los dispositivos. La paleta de colores, las tipografías y los componentes visuales refuerzan la identidad de **TransportApp** mientras ofrecen una experiencia de usuario optimizada para transportistas de distintos niveles.
 ## 5.4. Applications UX/UI Design
