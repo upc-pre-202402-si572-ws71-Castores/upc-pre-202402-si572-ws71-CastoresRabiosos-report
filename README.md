@@ -1268,10 +1268,131 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 ### 5.3.2. Landing Page Mock-up
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
-### 5.4.2. Applications Wireflow Diagrams
-### 5.4.2. Applications Mock-ups
-### 5.4.3. Applications User Flow Diagrams
 
+Esta sección presenta los **wireframes** tanto para la versión web como la versión móvil de la aplicación. Los **wireframes** proporcionan un esquema visual que detalla la estructura básica de las pantallas y la disposición de los elementos de la interfaz de usuario. Se utilizaron para definir la navegación principal de la aplicación _TransportApp_, incluyendo pantallas de inicio de sesión, creación de cuenta, dashboard y gestión de solicitudes. Las capturas muestran los primeros pasos en la definición visual del proyecto, sin elementos visuales detallados, pero con la disposición clara de botones, formularios y texto.
+
+**Version WEB**
+
+
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_01.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_02.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_03.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_04.png)
+
+**Version Mobile**
+
+
+
+### 5.4.2. Applications Wireflow Diagrams
+Los **diagrams wireflow** muestran el flujo de interacción entre las diferentes pantallas de la aplicación, detallando cómo un usuario típico navegaría a través de la aplicación desde el inicio de sesión hasta la confirmación de una solicitud de transporte o la gestión de ofertas. Utilizando los **wireframes**, se establecieron estos flujos tanto para la versión web como móvil, asegurando una transición fluida entre pasos clave, como recuperación de contraseñas o selección de suscripción. Estas capturas permiten visualizar cómo los usuarios interactuarán con las funcionalidades más importantes, detallando las rutas esperadas y las alternativas disponibles en cada etapa.
+
+**Version WEB**
+
+- **Wireflow: Registro y Login**
+    - **User Goal**: El usuario debe poder registrarse o iniciar sesión sin complicaciones, completando la información requerida para crear una cuenta o acceder al sistema. Esto incluye ingresar sus datos, seleccionar el tipo de cuenta (cliente o transportista) y seleccionar un plan de suscripción.
+    
+        - _User Stories Relevantes_: US-21, US-22, US-31, US-32
+
+- **Wireflow: Creación de Solicitud (Cliente)**
+    - **User Goal**: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+    
+        - _User Stories Relevantes_: US-33, US-24
+
+- **Wireflow: Visualización de Ofertas (Transportista)**
+    - **User Goal**: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+
+        - _User Stories Relevantes_: US-23, US-38
+
+- **Wireflow: Historial y Monitoreo de Solicitudes**
+    - **User Goal**: Tanto clientes como transportistas deben poder acceder al historial de solicitudes previas y actuales, monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+
+        - _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+
+
+**Version Mobile**
+
+- **Wireflow: Registro y Login**
+    - **User Goal**: El usuario debe poder registrarse o iniciar sesión sin complicaciones, completando la información requerida para crear una cuenta o acceder al sistema. Esto incluye ingresar sus datos, seleccionar el tipo de cuenta (cliente o transportista) y seleccionar un plan de suscripción.
+    
+        - _User Stories Relevantes_: US-21, US-22, US-31, US-32
+
+- **Wireflow: Creación de Solicitud (Cliente)**
+    - **User Goal**: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+    
+        - _User Stories Relevantes_: US-33, US-24
+
+- **Wireflow: Visualización de Ofertas (Transportista)**
+    - **User Goal**: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+
+        - _User Stories Relevantes_: US-23, US-38
+
+- **Wireflow: Historial y Monitoreo de Solicitudes**
+    - **User Goal**: Tanto clientes como transportistas deben poder acceder al historial de solicitudes previas y actuales, monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+
+        - _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+
+
+
+### 5.4.2. Applications Mock-ups
+Los **mock-ups** son representaciones más detalladas y cercanas al producto final, en donde se muestra cómo lucirán las pantallas de la aplicación una vez que se hayan aplicado los estilos y elementos gráficos definitivos. Los **mock-ups** para la versión web y móvil de _TransportApp_ incluyen los detalles visuales completos, como tipografía, colores, y disposición final de los componentes. En esta sección se detalla cómo se verán las principales pantallas, incluyendo el perfil del usuario, el historial de solicitudes, y la visualización de datos como temperatura y peso de la carga.
+
+**Version WEB**
+
+![wireframe1](resources/images/capitulo_5/application_web/mockups_1.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_2.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_3.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_4.png)
+
+
+**Version Mobile**
+
+
+### 5.4.3. Applications User Flow Diagrams
+Los **user flow diagrams** describen los caminos que un usuario puede seguir dentro de la aplicación, desde la creación de una cuenta hasta la confirmación de un transporte. Estos diagramas muestran tanto las rutas ideales (_happy paths_) como las rutas alternativas o de error (_unhappy paths_). Para la versión web y móvil, estos flujos de usuario incluyen interacciones clave, como la selección de un plan de suscripción y la creación de solicitudes de transporte, destacando los puntos de decisión y las opciones que tiene el usuario en cada paso.
+
+**Version WEB**
+
+- **User Flow: Registro de Usuarios (Cliente/Transportista)**
+    - **User Goal**: El usuario debe poder registrarse en la plataforma web o móvil, ingresar sus datos personales, seleccionar un plan de suscripción y finalizar el proceso de registro sin fricciones.
+
+        - _User Stories Relevantes_: US-21, US-31
+
+- **User Flow: Crear Solicitud de Transporte (Cliente)**
+    - **User Goal**: El cliente debe poder ingresar todos los detalles de su solicitud de transporte y confirmar la creación de esta sin errores.
+
+        - _User Stories Relevantes_: US-24, US-33
+
+- **User Flow: Visualización y Aceptación de Ofertas (Transportista)**    
+    - **User Goal**: El transportista debe poder visualizar las ofertas disponibles, revisar los detalles de cada solicitud y decidir si acepta o rechaza una oferta específica.
+
+		- _User Stories Relevantes_: US-23
+
+- **User Flow: Monitoreo de Carga (Cliente/Transportista)**    
+    - **User Goal**: El usuario debe poder monitorear en tiempo real el estado de su carga, incluyendo temperatura, ubicación y otros factores relevantes, a través de la plataforma, y recibir alertas en caso de que algún umbral sea excedido.
+ 
+		- _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+
+**Version Mobile**
+
+- **User Flow: Registro de Usuarios (Cliente/Transportista)**
+    - **User Goal**: El usuario debe poder registrarse en la plataforma web o móvil, ingresar sus datos personales, seleccionar un plan de suscripción y finalizar el proceso de registro sin fricciones.
+
+        - _User Stories Relevantes_: US-21, US-31
+
+- **User Flow: Crear Solicitud de Transporte (Cliente)**
+    - **User Goal**: El cliente debe poder ingresar todos los detalles de su solicitud de transporte y confirmar la creación de esta sin errores.
+
+        - _User Stories Relevantes_: US-24, US-33
+
+- **User Flow: Visualización y Aceptación de Ofertas (Transportista)**    
+    - **User Goal**: El transportista debe poder visualizar las ofertas disponibles, revisar los detalles de cada solicitud y decidir si acepta o rechaza una oferta específica.
+
+		- _User Stories Relevantes_: US-23
+
+- **User Flow: Monitoreo de Carga (Cliente/Transportista)**    
+    - **User Goal**: El usuario debe poder monitorear en tiempo real el estado de su carga, incluyendo temperatura, ubicación y otros factores relevantes, a través de la plataforma, y recibir alertas en caso de que algún umbral sea excedido.
+ 
+		- _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
 ## 5.5. Applications Prototyping
 
 
