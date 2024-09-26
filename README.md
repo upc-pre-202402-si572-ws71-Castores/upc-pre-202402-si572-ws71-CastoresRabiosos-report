@@ -1257,12 +1257,57 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 ## 5.2. Information Arquitecture
 
+La arquitectura de la información para TransportApp está orientada a transportistas que necesitan una navegación rápida y eficiente. Los contenidos principales son:
+
+- **Landing Page:** Presenta las principales características y beneficios del servicio, orientado a los tres tipos de transportistas.
+- **Web Application:** Brinda acceso a la gestión de flotas, monitoreo de datos de IoT, y reportes en tiempo real.
+
+En cuanto a la **navegación**, el diseño se enfoca en minimizar los clics necesarios para acceder a información crítica (planes, monitoreo, contacto), y maximizar la claridad del contenido mediante una jerarquía visual clara.
 ### 5.2.1. Organization Systems
+
+Los sistemas de organización aplicados son:
+
+- **Visual hierarchy:** Se prioriza el contenido por relevancia para el usuario: el hero section destaca las funcionalidades clave (monitoreo en tiempo real y gráficos).
+- **Categorización por audiencia:** La información está organizada según el perfil del usuario, con secciones de beneficios dirigidos a transportistas pequeños, medianos y grandes.
+- **Secuencial en la Web App:** El flujo para acceder a los datos de IoT, reportes y gráficos seguirá una estructura paso a paso para facilitar la comprensión y el uso.
 ### 5.2.2. Labeling Systems
+
+Se utiliza un sistema de etiquetado simple y directo:
+
+- **Planes:** "Básico," "Enterprise 1," "Enterprise 2."
+- **Beneficios:** "Monitoreo en tiempo real," "Gráficos informativos," "Notificaciones automáticas."
+- **Secciones de navegación:** "About Us," "Benefits," "Plans," "Testimonials," "Contact," "FAQs."
+
+Las etiquetas están optimizadas para que los usuarios identifiquen rápidamente la información relevante sin confusión.
 ### 5.2.3. SEO Tags and Meta Tags
+
+Para mejorar el SEO y visibilidad de TransportApp, se proponen las siguientes etiquetas:
+
+- **Title:** "TransportApp - Soluciones en Transporte de Mercancías con IoT."
+- **Meta Description:** "TransportApp ofrece soluciones inteligentes de logística con monitoreo en tiempo real usando dispositivos IoT para transportistas de pequeñas, medianas y grandes flotas."
+- **Keywords:** "transporte de mercancías, IoT en transporte, monitoreo de flotas, logística inteligente."
+- **Author:** "TransportApp Team."
+
+Para las aplicaciones móviles:
+
+- **App Title:** "TransportApp - IoT para Transportistas."
+- **App Keywords:** "monitoreo en tiempo real, logística, IoT, flotas."
+- **App Description:** "Aplicación de gestión de flotas con monitoreo en tiempo real de mercancías mediante dispositivos IoT."
 ### 5.2.4. Searching Systems
+
+El sistema de búsqueda de TransportApp está diseñado para facilitar la localización de información crítica dentro de la plataforma. Para esto se incluyen los siguientes elementos:
+
+- **Barra de búsqueda en la Web App:** Los usuarios podrán buscar rápidamente datos relacionados con su flota, como informes de monitoreo, historial de envíos o alertas. La barra de búsqueda se encuentra accesible en todas las páginas principales de la aplicación web.
+
+- **Sugerencias de búsqueda:** Al ingresar términos en la barra de búsqueda, se activarán sugerencias automáticas basadas en búsquedas frecuentes o términos relevantes, mejorando la experiencia del usuario y acelerando el proceso.
+
 ### 5.2.5. Navigation Systems
 
+El sistema de navegación es **jerárquico y simplificado**, diseñado para guiar al usuario rápidamente a través de las distintas secciones:
+
+- **Menú principal:** "About Us," "Benefits," "Plans," "Contact," y "FAQs" se presentan de forma visible y accesible desde cualquier parte de la página.
+- **Call-to-Action:** Botones como "Get Started" dirigen rápidamente a la sección de planes para incentivar la conversión.
+- **Navegación en la Web App:** El acceso a funcionalidades como monitoreo de IoT y reportes está organizado en un menú lateral dentro de la aplicación, optimizado para facilitar el uso continuo.
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 ### 5.3.2. Landing Page Mock-up
