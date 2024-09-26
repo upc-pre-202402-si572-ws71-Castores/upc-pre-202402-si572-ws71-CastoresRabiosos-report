@@ -1348,6 +1348,24 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 3. **SEO básico y etiquetado meta** para optimizar la landing page.
 4. **Revisión y prueba de la landing page** para asegurar que cada historia de usuario cumpla con los criterios de aceptación.
 #### 6.2.1.2. Sprint Backlog 1
+
+[https://trello.com/b/GOyxMNAp/sprint-backlog-1](https://trello.com/b/GOyxMNAp/sprint-backlog-1)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfsJPItVcBTT_dIAD866lCEKPvGWo1OUq3q1rDxzWKcPMmsUNBrjxSmWRZdyJE8jmgsJqPcVvXodIA3lLolddEWo8SDmQa6wsRR2COTncPSzjt62n69ez9m12qpp6OQHLdmE38JphOoCTSlf1CH2gKdGkuJ?key=KPi9_euguQm1F0hpQNhNuQ)
+
+| Sprint #   | Sprint 1                        |                  |                                                   |                                                                                       |                    |                  |                                                  |
+| ---------- | ------------------------------- | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------ |
+| User Story |                                 | Work-Item / Task |                                                   |                                                                                       |                    |                  |                                                  |
+| Id         | Title                           | Id               | Title                                             | Description                                                                           | Estimation (Hours) | Assigned To      | Status (To-do / In-Process / To – Review / done) |
+| US01       | Sección About Us                | TS01             | Implementación de la sección about us             | Desarrollo e implementación de la Sección About us con estilos responsive             | 3                  | Luis Isla        | Done                                             |
+| US02       | Sección Beneficios              | TS01             | Implementación de la sección Beneficios           | Desarrollo e implementación de la Sección Beneficios con estilos responsive           | 2                  | Edery Abanto     | Done                                             |
+| US03       | Sección Planes                  | TS01             | Implementación de la sección planes               | Desarrollo e implementación de la Sección Planes con estilos responsive               | 4                  | Sebastian Castro | Done                                             |
+| US04       | Sección Contacto                | TS01             | Implementación de la sección contacto             | Desarrollo e implementación de la Sección Contacto con estilos responsive             | 3                  | Camila Conde     | Done                                             |
+| US05       | Sección Testimonios             | TS01             | Implementación de la sección testimonios          | Desarrollo e implementación de la Sección Testimonios con estilos responsive          | 2                  | Diego Portales   | Done                                             |
+| US06       | Sección de Preguntas Frecuentes | TS01             | Implementación de la sección preguntas frecuentes | Desarrollo e implementación de la Sección Preguntas Frecuentes con estilos responsive | 4                  | Rodrigo Sabino   | Done                                             |
+
+
+
 #### 6.2.1.3.  Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
