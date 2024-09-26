@@ -1254,7 +1254,75 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 # Capítulo V: Solution UX Design 
 ## 5.1. Style Guidelines 
 ### 5.1.1. General Style Guidelines
+
+**Introducción**
+
+Las siguientes directrices de estilo han sido creadas para asegurar la uniformidad y la claridad en la interfaz de usuario de la aplicación de transporte. Estas directrices incluyen elementos como tipografía, colores, redacción y espaciado, con el fin de ofrecer una experiencia intuitiva y accesible para los usuarios que utilizan el servicio.
+
+**Branding**
+
+Para representar nuestro producto, buscamos diseñar un logo que refleje la conectividad entre nuestros transportes y nuestros usuarios. Este logo presenta un camión acompañado de ondas de red, simbolizando la interactividad y la comunicación continua que ofrecemos en nuestra plataforma.
+
+![Logo1)](/images/styleguideline/logo1.png)
+
+Se crearon varias versiones del logo para adaptarse a diferentes fondos, asegurando que se integre perfectamente en cualquier contexto visual.
+
+![Logo2)](/images/styleguideline/logo2.png)
+
+Finalmente, disponemos de un banner que destaca tanto el logo como el nombre de nuestro producto de manera prominente, asegurando que ambos elementos sean fácilmente reconocibles y llamativos.
+
+![Logo3)](/images/styleguideline/logo3.png)
+
+**Tipografica**
+
+Fuente: Roboto  
+Tamaños: Elegir entre los tamaños disponibles para garantizar una buena legibilidad en diversos dispositivos y pantallas.  
+Estilos: Aplicar formatos como negrita o cursiva para destacar información clave.  
+Espaciado entre letras y líneas: Modificar según sea necesario para facilitar la lectura, especialmente en textos extensos.
+
+![Typography)](/images/styleguideline/typography.png)
+
+**Colores**
+
+Los colores seleccionados para representar nuestra plataforma son:
+
+1. Principal: Azul oscuro  
+    Este color evoca confianza, estabilidad y profesionalismo, cualidades esenciales en una aplicación de transporte. Además, el azul oscuro contribuye a crear un ambiente calmado y seguro, lo que resulta reconfortante para los usuarios durante su experiencia.
+2. Secundario: Verde vibrante  
+    Este color simboliza crecimiento, frescura y accesibilidad. El verde vibrante añade un toque de energía y optimismo a la interfaz, mejorando así la experiencia del usuario. También se asocia frecuentemente con la movilidad y el transporte sostenible.
+
+La combinación de estos dos colores busca ofrecer una estética equilibrada y atractiva, fomentando la confianza y la comodidad en el uso de la aplicación.
+
+![Colors)](/images/styleguideline/colors.png)
+
+**Espaciado**
+
+Espaciado entre elementos: Emplear un espaciado basado en métricas de 4^n (como 8px, 12px, 16px, 24px, 32px) para asegurar una disposición equilibrada y armoniosa de los componentes en la interfaz de usuario.  
+Estas directrices de estilo deben aplicarse de manera uniforme en toda la aplicación para ofrecer una experiencia de usuario coherente y accesible para los cuidadores.
+
+![Spacing)](/images/styleguideline/spacing.png)
+
+**Escritura:**
+
+Estilo de escritura: Utilizar un lenguaje claro y conciso para comunicar de manera efectiva la información relevante a los cuidadores.
+
+Lenguaje: Evitar jergas o términos técnicos que puedan resultar confusos para aquellos que no están especializados en el cuidado de personas mayores.
+
+Consistencia: Mantener un tono y estilo de escritura coherentes en toda la aplicación, buscando un enfoque serio, formal y respetuoso que transmita confianza y seguridad. Esto asegurará una experiencia de usuario unificada.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+Dado el funcionamiento de la aplicación, se considerará adaptar las funcionalidades a las dos principales plataformas: Windows para escritorio y Android para dispositivos móviles.
+
+En cuanto a la presentación de la información, se ha decidido que una cantidad significativa de datos se mostrará en formato de lista. Por lo tanto, se implementará un patrón de diseño en forma de "F".
+
+![PatternF)](patternf.png)
+
+Y los elementos que se usaran a continuación son:  
+  
+![Style guideline 1)](/images/styleguideline/guideline1.png)
+![Style guideline 2)](/images/styleguideline/guideline2.png)
+![Style guideline 3)](/images/styleguideline/guideline3.png)
 ## 5.2. Information Arquitecture
 
 La arquitectura de la información para TransportApp está orientada a transportistas que necesitan una navegación rápida y eficiente. Los contenidos principales son:
