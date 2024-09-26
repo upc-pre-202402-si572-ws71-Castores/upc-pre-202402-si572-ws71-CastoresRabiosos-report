@@ -1390,6 +1390,20 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 #### 6.2.1.3.  Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
+
+Se proporciona una tabla que incluye los commits relacionados con el testing, detallando las ramas utilizadas y las integraciones realizadas, así como la descripción de los cambios. Estos commits se almacenaron en el repositorio destinado a los proyectos de Testing y aseguran el cumplimiento de las pruebas para este Sprint.
+
+A continuación, se muestra la tabla que agrupa los commits relacionados con el avance de las pruebas y el desarrollo de la suite de testing.
+
+| Repository                                       | Branch | Commit ID | Commit Message                                                                 | Commit Message Body                                                | Committed on (Date) |
+| ------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------- |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 0ccca76   | feat: add .feature files for Sprint 1                                          | Se añaden archivos .feature para el Sprint 1.                      | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | c57d7c1   | Merge pull request #1 from upc-pre-202402-si572-ws71-Castores/feature/sprint_1 | Se realiza el merge de los archivos de la rama sprint_1 a develop. | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 874e99f   | Merge pull request #2 from upc-pre-202402-si572-ws71-Castores/develop          | Se realiza el merge a develop tras verificar los cambios.          | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | e24c96d   | chore: add README for testing suite repository                                 | Se añade el archivo README para la suite de testing.               | 25/09/2024          |
+
+
 #### 6.2.1.5. Execution Evidence for Sprint Review
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
