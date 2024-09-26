@@ -1364,7 +1364,25 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 3. **SEO básico y etiquetado meta** para optimizar la landing page.
 4. **Revisión y prueba de la landing page** para asegurar que cada historia de usuario cumpla con los criterios de aceptación.
 #### 6.2.1.2. Sprint Backlog 1
-#### 6.2.1.3.  Development Evidence for Sprint Review
+
+[https://trello.com/b/GOyxMNAp/sprint-backlog-1](https://trello.com/b/GOyxMNAp/sprint-backlog-1)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfsJPItVcBTT_dIAD866lCEKPvGWo1OUq3q1rDxzWKcPMmsUNBrjxSmWRZdyJE8jmgsJqPcVvXodIA3lLolddEWo8SDmQa6wsRR2COTncPSzjt62n69ez9m12qpp6OQHLdmE38JphOoCTSlf1CH2gKdGkuJ?key=KPi9_euguQm1F0hpQNhNuQ)
+
+| Sprint #   | Sprint 1                        |                  |                                                   |                                                                                       |                    |                  |                                                  |
+| ---------- | ------------------------------- | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------ |
+| User Story |                                 | Work-Item / Task |                                                   |                                                                                       |                    |                  |                                                  |
+| Id         | Title                           | Id               | Title                                             | Description                                                                           | Estimation (Hours) | Assigned To      | Status (To-do / In-Process / To – Review / done) |
+| US01       | Sección About Us                | TS01             | Implementación de la sección about us             | Desarrollo e implementación de la Sección About us con estilos responsive             | 3                  | Luis Isla        | Done                                             |
+| US02       | Sección Beneficios              | TS01             | Implementación de la sección Beneficios           | Desarrollo e implementación de la Sección Beneficios con estilos responsive           | 2                  | Edery Abanto     | Done                                             |
+| US03       | Sección Planes                  | TS01             | Implementación de la sección planes               | Desarrollo e implementación de la Sección Planes con estilos responsive               | 4                  | Sebastian Castro | Done                                             |
+| US04       | Sección Contacto                | TS01             | Implementación de la sección contacto             | Desarrollo e implementación de la Sección Contacto con estilos responsive             | 3                  | Camila Conde     | Done                                             |
+| US05       | Sección Testimonios             | TS01             | Implementación de la sección testimonios          | Desarrollo e implementación de la Sección Testimonios con estilos responsive          | 2                  | Diego Portales   | Done                                             |
+| US06       | Sección de Preguntas Frecuentes | TS01             | Implementación de la sección preguntas frecuentes | Desarrollo e implementación de la Sección Preguntas Frecuentes con estilos responsive | 4                  | Rodrigo Sabino   | Done                                             |
+
+
+
+#### 6.2.1.3. Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
@@ -1424,6 +1442,14 @@ Una vez implementados los Web Services, se documentarán en el repositorio corre
 **URL del Repositorio (Planeado)**: [https://github.com/upc-pre-202402-si572-ws71-Castores/web-services](https://github.com/upc-pre-202402-si572-ws71-Castores/web-services)
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+
+En este sprint, el equipo se concentró en la implementación de la **Landing Page** de _TransportApp_. La colaboración entre los miembros del equipo se gestionó a través de GitHub, utilizando la plataforma para la creación, revisión y consolidación de código en el repositorio asignado al proyecto.
+
+A continuación, se presenta una captura de pantalla de los análisis de colaboración de GitHub, que muestra los commits realizados durante este sprint por cada miembro del equipo. Esta evidencia refleja la distribución equitativa de las tareas y la sincronización continua entre los integrantes, lo que permitió un desarrollo fluido de la **Landing Page**.
+
+![landing-gitflow](resources/images/capitulo_6/landing.png)
+
+Todos los miembros del equipo participaron activamente en la implementación del proyecto, siguiendo las buenas prácticas de control de versiones y asegurando que el código final cumpliera con los estándares definidos al inicio del sprint.
 
 ---
 ## ANEXOS
