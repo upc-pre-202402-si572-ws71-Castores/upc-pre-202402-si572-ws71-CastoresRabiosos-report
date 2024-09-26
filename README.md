@@ -1367,7 +1367,7 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 
 [https://trello.com/b/GOyxMNAp/sprint-backlog-1](https://trello.com/b/GOyxMNAp/sprint-backlog-1)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfsJPItVcBTT_dIAD866lCEKPvGWo1OUq3q1rDxzWKcPMmsUNBrjxSmWRZdyJE8jmgsJqPcVvXodIA3lLolddEWo8SDmQa6wsRR2COTncPSzjt62n69ez9m12qpp6OQHLdmE38JphOoCTSlf1CH2gKdGkuJ?key=KPi9_euguQm1F0hpQNhNuQ)
+![landing-gitflow](images/spring_backlog.png)
 
 | Sprint #   | Sprint 1                        |                  |                                                   |                                                                                       |                    |                  |                                                  |
 | ---------- | ------------------------------- | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------ |
