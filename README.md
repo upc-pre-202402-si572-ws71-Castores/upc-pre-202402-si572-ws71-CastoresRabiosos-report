@@ -1406,6 +1406,45 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+**Versión 1.0 - Planificación de Documentación para Futuros Web Services**
+
+**Introducción**
+
+En este apartado, se detallará lo que se espera documentar y desplegar en cuanto a los Web Services y endpoints durante los futuros Sprints. Aunque en este Sprint no se han implementado los endpoints en backend, ya se tienen planeadas las acciones y documentación necesarias para el despliegue y utilización de los servicios. Esto incluye endpoints relacionados con la gestión de transportistas, vehículos y monitoreo de condiciones de transporte en tiempo real (temperatura y peso).
+
+**Plan de Documentación Futuro**
+
+A continuación, se detalla la planificación para la documentación de los endpoints que se desarrollarán en los próximos Sprints. Se utilizará **OpenAPI (Swagger)** para garantizar que los endpoints estén claramente documentados, incluyendo ejemplos de solicitudes, respuestas y parámetros necesarios. Esta documentación será fundamental para los transportistas que utilizarán el sistema para interactuar con los datos en tiempo real.
+
+**Futuros Endpoints Planeados**
+
+|Endpoint|Verbo HTTP|Parámetros esperados|Descripción|
+|---|---|---|---|
+|`/api/v1/vehicles`|GET|`?page=1&limit=10`|Obtener una lista paginada de vehículos.|
+|`/api/v1/vehicles`|POST|Body: JSON|Crear un nuevo vehículo en el sistema.|
+|`/api/v1/transporters`|GET|`?company_id=123`|Obtener la lista de transportistas por empresa.|
+|`/api/v1/monitoring-data`|GET|`?vehicle_id=456&date_range=2024-09-26`|Obtener los datos de monitoreo en tiempo real de un vehículo específico (temperatura y peso).|
+|`/api/v1/alerts`|POST|Body: JSON|Crear una alerta personalizada basada en las condiciones de monitoreo (por ejemplo, temperatura fuera de rango).|
+
+**Acciones Planificadas**
+
+- **GET `/api/v1/vehicles`**: Permitirá a los transportistas consultar una lista de sus vehículos registrados en el sistema. Se incluirán filtros por página, número de vehículos por página, y otros criterios. La documentación de este endpoint incluirá la sintaxis de la solicitud, parámetros de consulta y ejemplos de respuestas JSON.
+    
+- **POST `/api/v1/vehicles`**: Endpoint para que los transportistas registren un nuevo vehículo en el sistema. La documentación incluirá la estructura del cuerpo de la solicitud, así como ejemplos de respuestas y códigos de error comunes.
+    
+- **GET `/api/v1/monitoring-data`**: Este será un endpoint crucial para los transportistas, ya que permitirá obtener los datos de monitoreo (temperatura y peso) en tiempo real. Se documentarán los parámetros necesarios para filtrar por vehículo y rango de fechas, con ejemplos de llamadas y respuestas.
+    
+
+**Capturas y Evidencia (Planeadas)**
+
+En futuros Sprints, se incluirán capturas de pantalla que evidencien las interacciones con estos endpoints, utilizando datos de prueba y herramientas como **Swagger UI** o **Postman**. Cada captura se acompañará de una explicación de la solicitud realizada y la interpretación de la respuesta.
+
+**Repositorio y Commits Futuro**
+
+Una vez implementados los Web Services, se documentarán en el repositorio correspondiente de GitHub, donde estarán disponibles tanto el código como la documentación. Se proporcionará el ID de los commits relacionados con la implementación de cada endpoint.
+
+**URL del Repositorio (Planeado)**: [https://github.com/upc-pre-202402-si572-ws71-Castores/web-services](https://github.com/upc-pre-202402-si572-ws71-Castores/web-services)
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
