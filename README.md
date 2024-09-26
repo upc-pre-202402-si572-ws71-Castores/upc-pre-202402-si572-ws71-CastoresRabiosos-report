@@ -1309,8 +1309,42 @@ El sistema de navegación es **jerárquico y simplificado**, diseñado para guia
 - **Call-to-Action:** Botones como "Get Started" dirigen rápidamente a la sección de planes para incentivar la conversión.
 - **Navegación en la Web App:** El acceso a funcionalidades como monitoreo de IoT y reportes está organizado en un menú lateral dentro de la aplicación, optimizado para facilitar el uso continuo.
 ## 5.3. Landing Page UI Design
+
+La propuesta de **TransportApp** se centra en crear una interfaz que combine funcionalidad y diseño para ofrecer una experiencia intuitiva a transportistas de diferentes tamaños (pequeñas, medianas y grandes flotas). El diseño sigue los principios de claridad, accesibilidad y orientación al usuario, asegurando que todos los elementos estén organizados para ser fácilmente comprensibles.
+
+La arquitectura de la información prioriza la jerarquía visual, donde la información más importante se presenta de manera destacada, y el sistema de navegación está optimizado para que los usuarios puedan encontrar rápidamente la información que necesitan. Además, el diseño inclusivo garantiza que todos los transportistas, independientemente de su nivel técnico, puedan interactuar cómodamente con la plataforma.
 ### 5.3.1. Landing Page Wireframe
+
+Los wireframes, tanto para navegadores de escritorio como móviles, reflejan la estructura fundamental de la landing page de **TransportApp**, manteniendo un enfoque minimalista que prioriza la experiencia del usuario.
+
+1. **Desktop Web Browser Wireframe:**
+    
+    - **Encabezado**: Contiene un logo prominente y un menú de navegación superior que guía a los usuarios a las secciones clave (About Us, Benefits, Our Plans, Contact). El uso de un menú claro y sencillo asegura una navegación intuitiva y rápida.
+    - **Sección Hero**: La posición central del título y el botón de llamada a la acción (CTA) facilita que los transportistas accedan rápidamente a los planes de suscripción. Este diseño sigue los principios de jerarquía visual, asegurando que el foco esté en la acción deseada.
+    - **Organización de contenido**: La sección de beneficios está organizada de forma secuencial, lo que permite a los usuarios comprender el valor agregado de **TransportApp** a través de imágenes y descripciones cortas.
+    - **Diseño inclusivo**: Las etiquetas y títulos son claros y concisos, eliminando ambigüedades y asegurando que todos los tipos de transportistas puedan entender las funcionalidades.
+2. **Mobile Web Browser Wireframe**:
+    
+    - El wireframe móvil sigue el mismo esquema que la versión de escritorio, adaptando los elementos a un formato vertical, simplificando la navegación con un menú desplegable.
+    - Las secciones están alineadas verticalmente para mejorar la legibilidad y navegación en dispositivos pequeños, facilitando que el usuario acceda a las funciones clave.
+
+Estos wireframes evidencian una correcta aplicación de los principios de diseño inclusivo y usabilidad, destacando el uso de la jerarquía visual y navegación simple.
 ### 5.3.2. Landing Page Mock-up
+
+Los mock-ups de **TransportApp** para navegadores de escritorio y móviles implementan los principios y sistemas de diseño visual establecidos en la propuesta. Se destaca el uso adecuado de la identidad visual (colores, tipografías y estilo gráfico) que refuerza la marca y guía a los transportistas hacia acciones clave.
+
+1. **Desktop Web Browser Mock-up:**
+    
+    - **Encabezado**: Presenta un menú de navegación bien estructurado con una tipografía clara y contrastes de color que aseguran legibilidad. El logo de **TransportApp** se encuentra destacado y refuerza la identidad de marca.
+    - **Sección Hero**: Utiliza una imagen atractiva de fondo, con un mensaje directo en tipografía grande que genera impacto inmediato. El botón CTA en color verde contrasta y resalta, guiando a los transportistas a conocer los planes disponibles.
+    - **Beneficios**: Se destacan tres beneficios principales, cada uno representado con íconos claros y coloridos que facilitan la comprensión visual. Se emplean ilustraciones que refuerzan el mensaje, ayudando a que los transportistas vean el valor de la plataforma.
+    - **Diseño inclusivo**: La estructura visual es sencilla y no sobrecarga al usuario con demasiada información en un solo espacio, permitiendo una experiencia de navegación clara y efectiva.
+2. **Mobile Web Browser Mock-up**:
+    
+    - La versión móvil mantiene todos los elementos clave, reorganizados para adaptarse al formato de pantalla pequeña. Se usa una navegación tipo "hamburguesa" para el menú y se optimizan los botones para facilitar su uso táctil.
+    - El diseño vertical y las imágenes ajustadas aseguran que los transportistas puedan explorar fácilmente el contenido en dispositivos móviles sin perder la coherencia visual ni el flujo de la navegación.
+
+Estos mock-ups aplican de manera efectiva el **Design System**, asegurando consistencia visual y funcionalidad en todos los dispositivos. La paleta de colores, las tipografías y los componentes visuales refuerzan la identidad de **TransportApp** mientras ofrecen una experiencia de usuario optimizada para transportistas de distintos niveles.
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
 
