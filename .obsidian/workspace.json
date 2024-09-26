@@ -146,24 +146,25 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "44b5ba4552ee72af",
+  "active": "96cc3dd102f7c1cb",
   "lastOpenFiles": [
-    "resources/images/capitulo_5/Prototype/Prototype1.png",
     "resources/images/capitulo_5/Prototype/Prototype2.png",
-    "resources/images/capitulo_5/Prototype",
+    "resources/images/capitulo_5/Prototype/Prototype1.png",
     "resources/images/capitulo_5/application_web/wireframe_04.png",
     "resources/images/capitulo_5/application_web/wireframe_03.png",
     "resources/images/capitulo_5/application_web/wireframe_02.png",
     "resources/images/capitulo_5/application_web/wireframe_01.png",
     "resources/images/capitulo_5/application_web/mockups_4.png",
-    "resources/images/capitulo_5/application_web/mockups_2.png",
     "resources/images/capitulo_5/application_web/mockups_3.png",
+    "resources/images/capitulo_5/application_web/mockups_2.png",
     "resources/images/capitulo_5/application_web/mockups_1.png",
+    "resources/images/capitulo_5/Prototype",
     "resources/images/capitulo_5/application_web",
     "resources/images/capitulo_5",
     "images/styleguideline/typography.png",
     "images/styleguideline",
     "images/landingpage",
-    "images/landing-page.md"
+    "images/landing-page.md",
+    "resources/images/capitulo_6"
   ]
 }
