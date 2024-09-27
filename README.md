@@ -1940,3 +1940,172 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
+### 4.1.1.3 Bounded Context Canvases
+
+#### Transport Access
+
+Este Bounded Context tiene como objetivo gestionar de manera eficiente el acceso y la verificación de transportistas y sus vehículos para operar dentro de TransportApp. Su valor radica en asegurar que solo transportistas verificados y con vehículos adecuados estén disponibles para realizar trabajos en la plataforma.
+[1](/images/1.jpg)
+
+#### IoT Process
+
+El Bounded Context IoT Process maneja el monitoreo continuo de las condiciones durante el transporte, incluyendo el control de temperatura y el peso de la carga, a través de sensores integrados. Los usuarios pueden configurar los parámetros deseados y recibir notificaciones en caso de que se detecten desviaciones en tiempo real, lo que permite una toma de decisiones rápida para mitigar posibles problemas.
+[2](/images/2.jpg)
+
+#### Suscription and Payment
+
+Este evento se activa cuando un transportista realiza un pago para renovar su suscripción en la plataforma o cuando se registra un nuevo transportista y selecciona un plan de suscripción. La plataforma gestiona la transacción a través de su sistema de pagos integrado, generando facturas y confirmaciones automáticas. En caso de problemas con el pago, el sistema envía alertas al transportista y a los administradores financieros para su resolución. Además, la plataforma actualiza el estatus de la suscripción, garantizando acceso continuo a los servicios.
+[3](/images/3.jpg)
+
+#### Check-in Process
+
+Este evento se activa cuando un transportista llega a una estación o punto de control y debe realizar un proceso de check-in en la plataforma. Durante este proceso, la plataforma verifica la identidad del transportista y los detalles del vehículo para confirmar que cumplen con las regulaciones y están autorizados para continuar con la operación. El sistema puede enviar notificaciones al administrador del sistema y al transportista si se detectan irregularidades, y actualiza el estado del transportista en la plataforma, permitiendo que los supervisores monitoreen el progreso en tiempo real.
+[4](/images/4.jpg)
+
+#### Service Management 
+
+Este evento se activa cuando un transportista o administrador del sistema reporta una incidencia o solicita soporte técnico a través de la plataforma. El sistema registra el ticket y lo asigna al equipo de soporte correspondiente. Durante el proceso, el equipo de soporte sigue un flujo de trabajo predefinido para resolver el incidente, mientras el transportista puede monitorear el estado del ticket. Al finalizar, se notifica al transportista sobre la resolución del problema, y el sistema almacena un historial del ticket para futuras referencias.
+[5](/images/5.jpg)
+
+
+## 4.1.2 Context Mapping 
+
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de
+las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños
+candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de
+relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin. Se utilizó la
+herramienta online Miro para elaborar el Context Mapping de la siguiente imagen:
+
+[text](../Castores-Rabiosos/images)
+
+## 5.4.2. Applications Wireflow Diagrams. 
+
+**Wireflow: Registro (Cliente)**
+* User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
+[clienteRegister](/images/clientRegister.png)
+
+**Wireflow: Registro (Transportista)**
+* User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
+[transportRegister](/images/transporteRegister.png)
+
+**Wireflow: Inicio de Sesión**
+* User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
+[loginWireflow](/images/loginWireFlow.png)
+
+**Wireflow: Creación de Solicitud (Cliente)**
+* User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+[creacionPedidoWireflow](/images/creacionPedidoWireflow.png)
+
+**Wireflow: Visualización de Ofertas (Transportista)**
+* User Goal: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+[offertsWireflow](/images/offertsWireflow.png)
+
+**Wireflow: Visualización de Historial (Cliente)**
+* User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
+[historyClients](/images/historyClients.png)
+
+**Wireflow: Visualización de Historial (Transportista)**
+* User Goal: El transportista debe poder visualizar su historial de servicio de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del cliente asignado
+[historyCarrier](/images/historyCarrier.png)
+
+**Wireflow: Monitoreo de Solicitudes**
+* User Goal: Tanto clientes como transportistas deben poder acceder a monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+[dashboardCarrier](/images/dashboardCarrier.png)
+[dashboardClient](/images/dashboardClient.png)
+
+
+## 5.4.3. Applications User Flow Diagrams
+
+**Userflow: Registro (Cliente)**
+* User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
+[clienteRegisterUserflow](/images/clientRegisterUserflow.png)
+
+**Userflow: Registro (Transportista)**
+* User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
+[transportRegisterUserflow](/images/transporteRegisterUserflow.png)
+
+**Userflow: Inicio de Sesión**
+* User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
+[loginUserflow](/images/loginUserflow.png)
+
+**Userflow: Creación de Solicitud (Cliente)**
+* User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+[creacionPedidoUserflow](/images/creacionPedidoUserflow.png)
+
+**Userflow: Visualización de Ofertas (Transportista)**
+* User Goal: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+[offertsUserflow](/images/offertsUserflow.png)
+
+**Userflow: Visualización de Historial (Cliente)**
+* User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
+[historyClientUserflow](/images/historyCarrierUserflow.png)
+
+**Userflow: Visualización de Historial (Transportista)**
+* User Goal: El transportista debe poder visualizar su historial de servicio de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del cliente asignado
+[historyCarrierUserflow](/images/historyCarrierUserflow.png)
+
+**Userflow: Monitoreo de Solicitudes**
+* User Goal: Tanto clientes como transportistas deben poder acceder a monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+[dashboardCarrierUserflow](/images/dashboardCarrierUserflow.png)
+[dashboardClientUserflow](/images/dashboardClientUserflow.png)
+
+
+## 6.1.4. Software Deployment Configuration
+
+**Azure App Service para el Frontend:**
+
+* **Hosting:**
+El frontend, desarrollado con Angular, está desplegado en Azure App Service, que permite la ejecución fluida de aplicaciones web dinámicas. Angular, siendo un framework SPA (Single-Page Application), aprovecha la entrega eficiente de recursos desde Azure, asegurando tiempos de carga rápidos y escalabilidad automática. Azure maneja el balanceo de carga y la administración de recursos para asegurar la alta disponibilidad y rendimiento del frontend.
+
+* **Integraciones:**
+La aplicación Angular está integrada con Azure API Management, que gestiona las llamadas API al backend, garantizando la autenticación y seguridad en las transacciones. Además, se utilizan servicios como Azure Application Insights para monitorear el rendimiento de la aplicación, detectar errores y analizar el comportamiento del usuario en tiempo real, lo que permite optimizar la experiencia del usuario.
+
+**GetJar para Mobile Application**
+
+* **Deployment Platform:**
+La aplicación móvil está empaquetada utilizando contenedores en Flutter y desplegada para Android e iOS. Se hace uso de servicios como GetJar para la distribución a los usuarios finales.
+
+* **Integraciones:**
+La aplicación móvil se conecta a la API a través de llamadas HTTPS, utilizando Azure API Management para gestionar el tráfico y la autenticación de los usuarios. Otras integraciones incluyen la capacidad de notificaciones push utilizando servicios de Firebase Cloud Messaging (FCM).
+
+**Base de Datos**
+
+* **Azure SQL Database:**
+Para la gestión de los datos principales de la aplicación (usuarios, servicios, órdenes), se utiliza Azure SQL Database. Este servicio ofrece escalabilidad, alta disponibilidad y recuperación automática de desastres, lo que garantiza la seguridad y persistencia de los datos, y permite un ajuste del rendimiento automático.
+
+* **MySQL IoT Database:**
+Se utilizó una base de datos MySQL específica para el almacenamiento de datos generados por los dispositivos IoT. Esta base está optimizada para manejar grandes volúmenes de datos en tiempo real, asegurando una rápida escritura y consulta de los mismos para su procesamiento.
+
+**Azure IoT Edge - IoT Edge & Edge API (IoT Management)**
+* **Hosting:**
+El servicio de IoT y la API de Edge están desplegados en Azure IoT Edge y Azure Functions, proporcionando un entorno para procesar datos en el borde de la red antes de enviarlos al backend. Esto permite un análisis en tiempo real de los datos recogidos por los sensores de IoT y la ejecución de acciones inmediatas en dispositivos conectados.
+
+* **Integraciones:**
+Los datos recogidos por los dispositivos IoT se almacenan en una base de datos MySQL separada para el procesamiento especializado. La API de Edge también envía los resultados a la Web API para su almacenamiento y gestión adicional.
+
+**Web API (Backend)**
+
+* **Azure API Management - Hosting:**
+La API principal está desplegada en Azure API Management y ejecuta el backend utilizando Java, empacado dentro de contenedores Docker. Esto proporciona escalabilidad automática y facilita la implementación de actualizaciones sin tiempos de inactividad significativos.
+
+* **Integraciones:**
+Se utiliza Azure SQL Database para almacenar datos de aplicación, como la información de usuarios, transacciones y reportes, mientras que Azure Functions maneja tareas como la gestión de dispositivos IoT, integrándose con el IoT Service y el Edge API para monitorear y procesar datos en tiempo real.
+
+### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint, se ha completado el despliegue de la Landing Page de la solución utilizando GitHub Pages. A continuación se describen los pasos realizados para configurar, integrar y automatizar el proceso de despliegue.
+
+**GitHub Pages - Hosting de la Landing Page**
+
+**1. Creación de Repositorio:**
+
+Se creó un repositorio en GitHub específicamente para la Landing Page. Este repositorio aloja el código fuente de la página estática, incluyendo los archivos HTML, CSS y JavaScript necesarios.
+Los usuarios con acceso adecuado al repositorio pueden revisar el historial de cambios y realizar ajustes cuando sea necesario.
+
+**2. Configuración de GitHub Pages:**
+
+Desde la configuración del repositorio, se habilitó GitHub Pages como servicio de hosting. Se seleccionó la rama de main como fuente de contenido para el despliegue.
+GitHub Pages automáticamente genera y publica la página, accesible en una URL específica proporcionada por GitHub.
+
+**3. Capturas y Evidencias**
+[evidence](/images/evidence.png)
