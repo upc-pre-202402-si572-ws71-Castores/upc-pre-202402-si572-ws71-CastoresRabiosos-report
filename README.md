@@ -31,6 +31,7 @@
 | Conde Isla, Camila Alessandra     | U202114309 |
 | Portales Ortiz, Diego Alejandro   | U202123501 |
 | Sabino Ramírez, Rodrigo Alexander | U20201B801 |
+| Isla Quispe, Luis Fernando        | U202124146 |
 
 <h4 align="center">Agosto, 2024</h3>
 
@@ -1454,6 +1455,14 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
+
+En esta etapa del proyecto, hemos desarrollado el Landing Page del sistema, el cual sirve como la página de inicio y presentación de la plataforma. El diseño es atractivo y funcional, brindando una experiencia de usuario fluida y accesible. Además, se ha trabajado de manera parcial en el desarrollo del frontend, implementando la estructura básica de las vistas principales e integrando algunos componentes clave que permitirán la interacción con los usuarios. A medida que avancemos, nos enfocaremos en completar la funcionalidad restante y optimizar la interfaz.
+
+![landing-gitflow](resources/images/capitulo_6/exectuion_evidence.jpg)
+
+url: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/ETKwADGC6WVNrpgXJ-N_jd4BKqAQ5nTyh12sIO0rkKl8dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gb43pm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/ETKwADGC6WVNrpgXJ-N_jd4BKqAQ5nTyh12sIO0rkKl8dA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gb43pm)
+
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
 **Versión 1.0 - Planificación de Documentación para Futuros Web Services**
@@ -1495,6 +1504,9 @@ Una vez implementados los Web Services, se documentarán en el repositorio corre
 
 **URL del Repositorio (Planeado)**: [https://github.com/upc-pre-202402-si572-ws71-Castores/web-services](https://github.com/upc-pre-202402-si572-ws71-Castores/web-services)
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
 En este sprint, el equipo se concentró en la implementación de la **Landing Page** de _TransportApp_. La colaboración entre los miembros del equipo se gestionó a través de GitHub, utilizando la plataforma para la creación, revisión y consolidación de código en el repositorio asignado al proyecto.
