@@ -39,9 +39,21 @@
 ---
 # Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor                | Descripción de modificación                             |
-| ------- | -------- | -------------------- | ------------------------------------------------------- |
-| 1.0     | 27/08/24 | - Rodrigo Sabino<br> | Se creó el archivo README.md con la estructura inicial. |
+| Versión | Fecha    | Autor                | Descripción de modificación                                      |
+| ------- | -------- | -------------------- | ---------------------------------------------------------------- |
+| 1.0     | 27/08/24 | - Rodrigo Sabino<br> | Se creó el archivo README.md con la estructura inicial.          |
+| 1.1     | 30/08/24 | - Rodrigo Sabino     | Se completo los apartados del capitulo I, II                     |
+| 1.2     | 31/08/24 | - Diego Portales     | Se realizo el avance del capitulo III                            |
+| 1.3     | 01/09/24 | - Camila Conde       | Se culmino los apartados del capitulo III                        |
+| 1.4     | 02/09/24 | - Edery Abanto       | Se realizo los C4 diagrams                                       |
+| 1.5     | 05/09/24 | - Sebastian Castro   | Se realizo los  diagramas Software Architecture System Landscape |
+| 1.6     | 07/09/24 | - Rodrigo Sabino     | Se completo artefactos del capitulo IV                           |
+| 2.0     | 20/09/24 | - Equipo             | Se subsano las correcciones propuestas por el profesor           |
+| 2.1     | 21/09/24 | - Rodrigo Sabino     | Se actualizo el avance del capitulo V y VI                       |
+| 2.2     | 22/09/24 | - Luis Isla          | Se realizo la guia de los diseños a seguir                       |
+| 2.3     | 22/09/24 | - Edery Abanto       | Se subio el diseño de el landing page                            |
+| 2.4     | 25/09/24 | - Rodrigo Sabino     | Se realizo los puntos correspondientes al sprint 1               |
+
 
 ---
 # Project Report Collaboration Insights
@@ -59,6 +71,12 @@ A continuación, se presenta el flujo de trabajo:
 
 ![TB1](resources/images/capitulo_1/Collaboration_Insights/TB1.png)
 
+_**TP1**_
+En esta entrega parcial, TP1, se desarrollaron los lineamientos del diseño de la interfaz de usuario (UI) y experiencia de usuario (UX) del proyecto, estableciendo las pautas de estilo general para la web, móvil y componentes IoT. Se diseñó la arquitectura de la información, abarcando sistemas de organización, etiquetado, y estrategias de búsqueda y navegación, así como los tags SEO y meta tags relevantes. También se presentaron los wireframes y mockups de la landing page, junto con los diagramas de flujo de usuario y wireflow para las aplicaciones.
+
+Posteriormente, se dio inicio a la implementación del producto con la configuración del entorno de desarrollo y el manejo del código fuente. Se planificó el primer sprint, definiendo el backlog, la evidencia de desarrollo, y las pruebas realizadas. Además, se documentaron las colaboraciones del equipo durante este proceso, lo que permitió validar y ajustar la configuración y despliegue del software.
+
+A continuación, se presenta el flujo de trabajo:
  
 ---
 
@@ -108,7 +126,25 @@ A continuación, se presenta el flujo de trabajo:
 		- [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
 		- [4.3.3 Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
 		- [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
-
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui-ux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+	- [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+	- [5.1.2. Web, Mobile & IoT Style Guidelines](#512-web-mobile-devices-iot-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+	- [5.2.1. Organization Systems](#521-organization-systems)
+	- [5.2.2. Labeling Systems](#522-labeling-systems)
+	- [5.2.3. Searching Systems](#523-searching-systems)
+	- [5.2.4. SEO Tags and Meta Tags](#524-seo-tags-and-meta-tags)
+	- [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+	- [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+	- [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-ux-ui-design)
+	- [5.4.1. Applications Wireframes](#541-applications-wireframes)
+	- [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+	- [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+	- [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-propotyping) 
 - [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
 	- [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
@@ -128,10 +164,10 @@ A continuación, se presenta el flujo de trabajo:
 ---
 # Student Outcome
 
-| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Conclusiones                                                                                                                                                                                                                                                                                                                                        |
-| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br>_TB1:_<br>Asumí el liderazgo en la organización de las secciones asignadas de los capítulos I y II. Además, propuse utilizar Trello para coordinar las tareas y asegurar que todos tuvieran visibilidad sobre el avance de cada sección del proyecto. Trabajé en conjunto con el equipo para definir las estrategias de Lean UX y organizar las entrevistas con usuarios.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de la documentación y de coordinar las reuniones grupales a través de Discord, asegurándome de que todos los miembros tuvieran espacio para discutir ideas y resolver dudas. También participé activamente en las reuniones aportando ideas de mejora continua para las soluciones propuestas.<br><br>**Sebastian Castro**<br>Colaboré en la creación de los diagramas de clase y de base de datos, trabajando estrechamente con los demás miembros para integrar sus comentarios. También propuse un esquema de reuniones semanales para mantener el flujo de trabajo organizado y asegurar el cumplimiento de los plazos.<br><br>**Camila Conde**<br>_TB1:_<br>Contribuí a las discusiones del equipo proponiendo mejoras en las estrategias presentadas. Además, coordiné el uso de un grupo de WhatsApp para la comunicación rápida y la resolución de problemas en tiempo real entre todos los miembros.<br><br>**Diego Portales** <br>_TB1:_<br>Realicé entrevistas para el segmento Transportista y aseguré que la documentación estuviera bien estructurada para el equipo. Además, lideré la creación de un documento compartido en Google Docs para centralizar la información y asegurar que todos pudieran trabajar colaborativamente en los mismos documentos.                 | En la fase inicial del proyecto, se presentó una visión general de las ideas y objetivos. La colaboración fue esencial para coordinar tareas a través de herramientas como Trello, Discord y Google Docs, lo que mejoró la organización del equipo. Este enfoque colaborativo permitirá que el equipo avance de manera más estructurada y efectiva. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br>_TB1:_<br>Fomenté un entorno inclusivo al establecer metas claras para cada sección y planificar tareas en conjunto con el equipo. Usamos Trello para organizar el trabajo y aseguré que todos los miembros tuvieran responsabilidades bien distribuidas. Participé activamente en las reuniones grupales para garantizar que todos tuvieran voz en la toma de decisiones clave.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros del equipo. Fomenté la comunicación abierta y la colaboración en todas las fases del proyecto.<br><br>**Sebastian Castro**<br>_TB1:_<br>Ayudé en la planificación de las tareas al proponer un calendario de reuniones semanales, asegurándome de que el equipo se mantuviera al día con los plazos. También trabajé en estrecha colaboración con mis compañeros para resolver problemas técnicos y mejorar el diseño de las soluciones propuestas.<br><br>**Camila Conde**<br>_TB1:<br>Participé activamente en las reuniones y propuse la creación de un grupo de WhatsApp para facilitar la comunicación rápida entre el equipo, permitiendo resolver dudas y problemas de manera más eficiente. También aseguré que las tareas estuvieran alineadas con los objetivos del proyecto.<br><br>**Diego Portales** <br>_TB1:_<br>Propuse el uso de Google Docs para la edición colaborativa de los documentos del proyecto, lo que permitió a todos los miembros trabajar de manera conjunta en tiempo real. Además, ayudé en la organización de las tareas técnicas dentro del equipo para asegurar que se cumplieran los objetivos en tiempo y forma. | <br>Durante la fase inicial del proyecto, el equipo adoptó herramientas como Trello, Discord y Google Docs para fomentar la colaboración y la organización. Esta estructura nos permitió establecer metas claras y cumplir con los objetivos de manera eficiente, asegurando un entorno de trabajo inclusivo y colaborativo.                        |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br>_TB1:_<br>Asumí el liderazgo en la organización de las secciones asignadas de los capítulos I y II. Además, propuse utilizar Trello para coordinar las tareas y asegurar que todos tuvieran visibilidad sobre el avance de cada sección del proyecto. Trabajé en conjunto con el equipo para definir las estrategias de Lean UX y organizar las entrevistas con usuarios.<br><br>_TP1:_<br>Colaboré en equipo liderando conjuntamente la creación de wireframes, mockups y el desarrollo del landing page. Fomenté una toma de decisiones compartida y utilicé herramientas de gestión de código fuente para asegurar una colaboración eficiente y organizada.<br><br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de la documentación y de coordinar las reuniones grupales a través de Discord, asegurándome de que todos los miembros tuvieran espacio para discutir ideas y resolver dudas. También participé activamente en las reuniones aportando ideas de mejora continua para las soluciones propuestas.<br><br>_TP1:_<br>Participé en la revisión de las entrevistas realizadas al segmento Transportista, asegurando la correcta organización de la información y colaborando en la edición de los documentos compartidos.<br><br>**Sebastian Castro**<br>Colaboré en la creación de los diagramas de clase y de base de datos, trabajando estrechamente con los demás miembros para integrar sus comentarios. También propuse un esquema de reuniones semanales para mantener el flujo de trabajo organizado y asegurar el cumplimiento de los plazos.<br><br>_TP1:_<br><br><br>**Camila Conde**<br>_TB1:_<br>Contribuí a las discusiones del equipo proponiendo mejoras en las estrategias presentadas. Además, coordiné el uso de un grupo de WhatsApp para la comunicación rápida y la resolución de problemas en tiempo real entre todos los miembros.<br><br>_TP1:_<br>Estuve pendiente del avance compartido con uno de mis compañeros coordinando para una mejora continua.<br><br>**Diego Portales** <br>_TB1:_<br>Realicé entrevistas para el segmento Transportista y aseguré que la documentación estuviera bien estructurada para el equipo. Además, lideré la creación de un documento compartido en Google Docs para centralizar la información y asegurar que todos pudieran trabajar colaborativamente en los mismos documentos.<br><br>_TP1:_<br><br>**Luis Isla**<br><br>*TP1:*<br>Desarrollé styleguidelines, crear un sprint backlog y desarrollar application prototypes, además de realizar correcciones en el product backlog para mejorar la calidad y alineación del proyecto.<br><br>                                                                              | En la fase inicial del proyecto, se presentó una visión general de las ideas y objetivos. La colaboración fue esencial para coordinar tareas a través de herramientas como Trello, Discord y Google Docs, lo que mejoró la organización del equipo. Este enfoque colaborativo permitirá que el equipo avance de manera más estructurada y efectiva. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br>_TB1:_<br>Fomenté un entorno inclusivo al establecer metas claras para cada sección y planificar tareas en conjunto con el equipo. Usamos Trello para organizar el trabajo y aseguré que todos los miembros tuvieran responsabilidades bien distribuidas. Participé activamente en las reuniones grupales para garantizar que todos tuvieran voz en la toma de decisiones clave.<br><br>_TP1:_<br>Fomenté un entorno colaborativo e inclusivo durante la creación de wireframes, mockups y el desarrollo del landing page. Establecí metas claras con el equipo, planifiqué tareas y aseguré que los objetivos se cumplieran en los plazos acordados, manteniendo una comunicación abierta y efectiva.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros del equipo. Fomenté la comunicación abierta y la colaboración en todas las fases del proyecto.<br><br>_TP1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros <br><br><br>**Sebastian Castro**<br>_TB1:_<br>Ayudé en la planificación de las tareas al proponer un calendario de reuniones semanales, asegurándome de que el equipo se mantuviera al día con los plazos. También trabajé en estrecha colaboración con mis compañeros para resolver problemas técnicos y mejorar el diseño de las soluciones propuestas.<br><br>_TP1:_<br><br><br><br>**Camila Conde**<br>_TB1:_<br>Participé activamente en las reuniones y propuse la creación de un grupo de WhatsApp para facilitar la comunicación rápida entre el equipo, permitiendo resolver dudas y problemas de manera más eficiente. También aseguré que las tareas estuvieran alineadas con los objetivos del proyecto.<br><br>_TP1:_<br>Estuve atenta a cada retroalimentación y corrección que faltaba para poder cumplir con la entrega a tiempo. Trabajé en colaboración con mis compañeros hasta poder cumplir con las entregas.<br><br>**Diego Portales** <br>_TB1:_<br>Propuse el uso de Google Docs para la edición colaborativa de los documentos del proyecto, lo que permitió a todos los miembros trabajar de manera conjunta en tiempo real. Además, ayudé en la organización de las tareas técnicas dentro del equipo para asegurar que se cumplieran los objetivos en tiempo y forma.<br><br>_TP1:_<br><br>**Luis Isla**<br><br>*TP1:*<br>Fomenté un ambiente inclusivo al participar en reuniones de equipo en Discord y en clase, lo que permitió que todos expresaran sus ideas y ayudó a establecer metas claras y efectivas.<br><br><br> | <br>Durante la fase inicial del proyecto, el equipo adoptó herramientas como Trello, Discord y Google Docs para fomentar la colaboración y la organización. Esta estructura nos permitió establecer metas claras y cumplir con los objetivos de manera eficiente, asegurando un entorno de trabajo inclusivo y colaborativo.                        |
 
 
 
@@ -696,44 +732,47 @@ En la técnica de Impact Mapping, conectamos los objetivos de negocio con las so
 ## 3.4. Product Backlog
 Product Backlog es una herramienta fundamental en el marco de trabajo ágil, particularmente en metodologías como **Scrum**. El backlog actúa como una fuente de verdad que define lo que el equipo de desarrollo necesita trabajar en el producto para entregar valor a los usuarios o clientes.
 
-| ID          | TITULO                                                                            | DESCRIPCION                                                                                                                                                                                                  | STORY POINTS |
-| ----------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| US-01       | Sección About Us                                                                  | Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                                                                     | 2            |
-| US-02       | Sección Beneficios                                                                | Como visitante, quiero ver los beneficios de usar TransportApp para decidir si es adecuada para mis necesidades.                                                                                             |   1          |
-| US-03       | Sección Planes                                                                    | Como visitante, quiero comparar diferentes planes de servicio en el landing page para elegir el que mejor se adapte a mis necesidades.                                                                       |  1           |
-| US-04       | Sección Contacto                                                                  | Como visitante, quiero poder contactar a TransportApp desde la landing page para resolver dudas sobre el servicio.                                                                                           |    2         |
-| US-05       | Sección Testimonios                                                               | Como visitante, quiero leer testimonios de otros clientes en la landing page para entender su experiencia con TransportApp.                                                                                  |  2           |
-| US-06       | Sección de Preguntas Frecuentes                                                   | Como visitante, quiero acceder a una sección de preguntas frecuentes en la landing page para resolver dudas comunes antes de registrarse.                                                                    | 2            |
-| US-07       | Añadir solicitud de servicio                                                      | Como usuario, quiero añadir una solicitud de servicio en la aplicación, para que pueda gestionar mis necesidades de transporte.                                                                              |  2           |
-| US-08       | Historial de servicios solicitados                                                | Como usuario, quiero acceder a un historial de mis servicios solicitados, para que pueda revisar el estado de mis solicitudes.                                                                               |   3          |
-| US-09       | Registrar vehículos                                                               | Como usuario, quiero registrar mis vehículos en la plataforma, para que pueda administrar la información de cada vehículo.                                                                                   |   2          |
-| US-10       | Obtener transportista                                                             | Como desarrollador, quiero almacenar y gestionar datos en tiempo real sobre la ubicación y condiciones de la carga.                                                                                          |    3         |
-| US-11       | Obtener ruta de envío                                                             | Como desarrollador, quiero implementar la ruta hacía el destino que seguirá el conductor.                                                                                                                    |   3          |
-| US-12       | Obtener transportista asignado                                                    | Como usuario, quiero obtener información del transportista asignado para un servicio.                                                                                                                        | 3            |
-| US-13       | Añadir elemento al CheckList                                                      | Como usuario, quiero añadir elementos a un checklist para organizar mejor mis tareas de transporte.                                                                                                          |  3           |
-| US-14       | Eliminar elemento del CheckList                                                   | Como usuario, quiero eliminar elementos del checklist para mantenerlo actualizado.                                                                                                                           |   1          |
-| US-15       | Añadir persona encargada                                                          | Como usuario, quiero añadir una persona encargada a un servicio de transporte para gestionar mejor el seguimiento del servicio.                                                                              |  2           |
-| US-16       | Generar reporte de servicio                                                       | Como usuario, quiero generar un reporte de servicio para obtener un resumen completo de los detalles del transporte.                                                                                         |   2          |
-| US-17       | Registro de  <br>cliente                                                          | Como cliente quiero acceder a mi cuenta de usuario.  <br>Para poder verificar mi identidad  <br>Y ver los datos del producto transportado                                                                    | 4            |
-| US-18       | Registro de transportista                                                         | Como transportista  <br>Quiero acceder a mi cuenta de usuario.  <br>Para poder verificar mi identidad  <br>Y ver los datos del producto transportado                                                         | 4            |
-| US-19       | Inicio de sesión                                                                  | Como usuario de la aplicación quiero Iniciar sesión en la aplicación para acceder a las funcionalidades de la aplicación.                                                                                    |  2           |
-| US-20       | Envío de temperatura a través de un Edge Gateway                                  | Como desarrollador, quiero que el Edge Gateway obtenga la temperatura del dispositivo para que la información pueda acceder al Backend.                                                                      |   3          |
-| US-21       | Envío de datos de peso a través de un Edge Gateway                                | Como usuario, quiero poder ver el hComo desarrollador, quiero que el Edge Gateway obtenga los datos de presión del dispositivo para que la información pueda acceder al Backend                              | 3            |
-| US-22       | Envío de datos de ubicación a través de un Edge Gateway                           | Como desarrollador, quiero que el Edge Gateway obtenga los datos de ubicación del dispositivo para que la información pueda acceder al Backend.                                                              |    3         |
-| US-23       | Implementación de Edge Gateway con Backend Application                            | Como desarrollador, quiero crear un intermediario entre el Backend y el Edge Application para que el usuario final no pueda acceder al Backend a través del dispositivo.                                     |              |
-| US-24       | Conexión de Sensor IoT a la Plataforma                                            | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                                                                          | 4            |
-| US-25       | Captura de Datos de Temperatura                                                   | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil, para monitorear el estado de los productos transportados.                          | 3            |
-| US-26       | Captura de Datos de Peso                                                          | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de peso a la aplicación web o móvil para monitorear el estado de los productos transportados.                                  | 4            |
-| US-27       | Solicitud de servicio de transporte                                               | Como usuario,  <br>quiero ser capaz de realizar una solicitud de servicio de transporte,  <br>para poder contratar un transportista que cubra mis necesidades de envío de productos en condiciones adecuadas |   3          |
-| US-28       | Check-in                                                                          | Como usuario quiero asegurarme de tener un registro de los objetos que serán transportados.                                                                                                                  |  3           |
-| US-29       | Check-out                                                                         | Como usuario quiero saber si todos los productos llegaron al destino.                                                                                                                                        |  3           |
-| US-30       | Visualización de la información sobre el transporte                               | Como usuario de la aplicación.  <br>Quiero poder recibir información del transporte.  <br>Para poder tener constancia de la situación de producto transportado                                               | 3            |
-| US-31       | Recibir la información del sensor a través de un RESTful API                      | Como desarrollador, quiero obtener la información del sensor mediante una solicitud GET al API para mostrar la información en la aplicación web o móvil.                                                     |   4          |
-| US-32       | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | Como desarrollador, quiero enviar la información del sensor mediante una solicitud POST al API para almacenar la información en el backend.                                                                  | 3            |
-| US-33       | Notificar al conductor del transporte                                             | Como transportartisaQuiero recibir una notificación Para saber si se me ha asignado un viaje                                                                                                                 | 2            |
-| US-34       | Notificar al  <br>conductor del  <br>viaje concluido                              | Como  <br>transportista  <br>Quiero recibir  <br>una notificación  <br>Para saber si se concluyo el viaje exitosamente                                                                                       | 2            |
-| US-35       | Enviar alerta de peligro al transportista                                         | Como usuario Quiero enviar una alerta de peligro al transportista Para alertarlo de algún inconveniente con producto transportado                                                                            |              |
+[https://trello.com/b/ZwqgAbtG/product-backlog](https://trello.com/b/ZwqgAbtG/product-backlog)
 
+![Product_Backlog](images/product_backlog.png)
+
+| # Orden | User Story Id | Titulo                                                                            | Descripcion                                                                                                                                                                                                  | Story Points (1/2/3/5/8) |
+| ------- | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| 1       | US-01         | Sección About Us                                                                  | Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                                                                     | 5                        |
+| 2       | US-02         | Sección Beneficios                                                                | Como visitante, quiero ver los beneficios de usar TransportApp para decidir si es adecuada para mis necesidades.                                                                                             | 5                        |
+| 3       | US-03         | Sección Planes                                                                    | Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.                                                                       | 5                        |
+| 4       | US-04         | Sección Contacto                                                                  | Como visitante, quiero poder contactar a TransportApp desde la landing page para resolver dudas sobre el servicio.                                                                                           | 5                        |
+| 5       | US-05         | Sección Testimonios                                                               | Como visitante, quiero leer testimonios de otros clientes en la landing page para entender su experiencia con TransportApp.                                                                                  | 5                        |
+| 6       | US-06         | Sección de Preguntas Frecuentes                                                   | Como visitante, quiero acceder a una sección de preguntas frecuentes en la landing page para resolver dudas comunes antes de registrarse.                                                                    | 5                        |
+| 7       | US-30         | Visualización de la información sobre el transporte                               | Como usuario de la aplicación.  <br>Quiero poder recibir información del transporte.  <br>Para poder tener constancia de la situación de producto transportado                                               | 8                        |
+| 8       | US-27         | Solicitud de servicio de transporte                                               | Como usuario,  <br>quiero ser capaz de realizar una solicitud de servicio de transporte,  <br>para poder contratar un transportista que cubra mis necesidades de envío de productos en condiciones adecuadas | 5                        |
+| 9       | US-25         | Captura de Datos de Temperatura                                                   | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil, para monitorear el estado de los productos transportados.                          | 5                        |
+| 10      | US-26         | Captura de Datos de Peso                                                          | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de peso a la aplicación web o móvil para monitorear el estado de los productos transportados.                                  | 5                        |
+| 11      | US-28         | Check-in                                                                          | Como usuario quiero asegurarme de tener un registro de los objetos que serán transportados para confirmar que todos mis productos estan listos para el transporte                                            | 5                        |
+| 12      | US-29         | Check-out                                                                         | Como usuario quiero saber si todos los productos llegaron al destino para poder verificar que no faltan productos y garantizar la satisfacción del cliente con la entrega final                              | 5                        |
+| 13      | US-31         | Recibir la información del sensor a través de un RESTful API                      | Como desarrollador, quiero obtener la información del sensor mediante una solicitud GET al API para mostrar la información en la aplicación web o móvil.                                                     | 8                        |
+| 14      | US-32         | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | Como desarrollador, quiero enviar la información del sensor mediante una solicitud POST al API para almacenar la información en el backend.                                                                  | 8                        |
+| 15      | US-07         | Añadir solicitud de servicio                                                      | Como usuario, quiero añadir una solicitud de servicio en la aplicación, para que pueda gestionar mis necesidades de transporte.                                                                              |                          |
+| 16      | US-08         | Historial de servicios solicitados                                                | Como usuario, quiero acceder a un historial de mis servicios solicitados, para que pueda revisar el estado de mis solicitudes.                                                                               | 3                        |
+| 17      | US-09         | Registrar vehículos                                                               | Como usuario, quiero registrar mis vehículos en la plataforma, para que pueda administrar la información de cada vehículo.                                                                                   | 3                        |
+| 18      | US-10         | Obtener transportista                                                             | Como desarrollador, quiero almacenar y gestionar datos en tiempo real sobre la ubicación y condiciones de la carga.                                                                                          | 3                        |
+| 19      | US-11         | Obtener ruta de envío                                                             | Como desarrollador, quiero implementar la ruta hacía el destino que seguirá el conductor.                                                                                                                    | 5                        |
+| 20      | US-12         | Obtener transportista asignado                                                    | Como usuario, quiero obtener información del transportista asignado para un servicio.                                                                                                                        | 3                        |
+| 21      | US-13         | Añadir elemento al CheckList                                                      | Como usuario, quiero añadir elementos a un checklist para organizar mejor mis tareas de transporte.                                                                                                          | 5                        |
+| 22      | US-14         | Eliminar elemento del CheckList                                                   | Como usuario, quiero eliminar elementos del checklist para mantenerlo actualizado.                                                                                                                           | 5                        |
+| 23      | US-15         | Añadir persona encargada                                                          | Como usuario, quiero añadir una persona encargada a un servicio de transporte para gestionar mejor el seguimiento del servicio.                                                                              | 5                        |
+| 24      | US-16         | Generar reporte de servicio                                                       | Como usuario, quiero generar un reporte de servicio para obtener un resumen completo de los detalles del transporte.                                                                                         | 3                        |
+| 25      | US-20         | Envío de temperatura a través de un Edge Gateway                                  | Como desarrollador, quiero que el Edge Gateway obtenga la temperatura del dispositivo para que la información pueda acceder al Backend.                                                                      | 8                        |
+| 26      | US-21         | Envío de datos de peso a través de un Edge Gateway                                | Como desarrollador, quiero que el Edge Gateway obtenga los datos de presión del dispositivo para que la información pueda acceder al Backend.                                                                | 8                        |
+| 27      | US-22         | Envío de datos de ubicación a través de un Edge Gateway                           | Como desarrollador, quiero que el Edge Gateway obtenga los datos de ubicación del dispositivo para que la información pueda acceder al Backend.                                                              | 5                        |
+| 28      | US-23         | Implementación de Edge Gateway con Backend Application                            | Como desarrollador, quiero crear un intermediario entre el Backend y el Edge Application para que el usuario final no pueda acceder al Backend a través del dispositivo.                                     | 5                        |
+| 29      | US-24         | Conexión de Sensor IoT a la Plataforma                                            | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                                                                          | 8                        |
+| 30      | US-33         | Notificar al conductor del transporte                                             | Como transportartisaQuiero recibir una notificación Para saber si se me ha asignado un viaje                                                                                                                 | 3                        |
+| 31      | US-34         | Notificar al conductor del  <br>viaje concluido                                   | Como transportista<br>Quiero recibir una notificación<br>Para saber si se concluyo el viaje exitosamente                                                                                                     | 3                        |
+| 32      | US-35         | Enviar alerta de peligro al transportista                                         | Como usuario Quiero enviar una alerta de peligro al transportista Para alertarlo de algún inconveniente con producto transportado                                                                            | 5                        |
+| 33      | US-17         | Registro de cliente                                                               | Como cliente  <br>Quiero acceder a mi cuenta de usuario.  <br>Para poder verificar mi identidad  <br>Y ver los datos del producto transportado                                                               | 3                        |
+| 34      | US-18         | Registro de transportista                                                         | Como transportista<br>Quiero acceder a mi cuenta de usuario.<br>Para poder verificar mi identidad<br>Y ver los datos del producto transportado                                                               | 3                        |
+| 35      | US-19         | Inicio de sesión                                                                  | Como usuario de la aplicación quiero Iniciar sesión en la aplicación para acceder a las funcionalidades de la aplicación.                                                                                    | 3                        |
 
 # Capítulo IV: Solution Software Design
 
@@ -1231,6 +1270,369 @@ Facilita la persistencia de los datos relacionados con los servicios de viaje. P
 ### 4.2.5.6.2 Bounded Context Database Design Diagram
 ![DatabaseDiagramCheck](resources/images/capitulo4/DatabaseDiagramCheck.png)
 
+---
+# Capítulo V: Solution UX Design 
+## 5.1. Style Guidelines 
+### 5.1.1. General Style Guidelines
+
+**Introducción**
+
+Las siguientes directrices de estilo han sido creadas para asegurar la uniformidad y la claridad en la interfaz de usuario de la aplicación de transporte. Estas directrices incluyen elementos como tipografía, colores, redacción y espaciado, con el fin de ofrecer una experiencia intuitiva y accesible para los usuarios que utilizan el servicio.
+
+**Branding**
+
+Para representar nuestro producto, buscamos diseñar un logo que refleje la conectividad entre nuestros transportes y nuestros usuarios. Este logo presenta un camión acompañado de ondas de red, simbolizando la interactividad y la comunicación continua que ofrecemos en nuestra plataforma.
+
+![Logo1)](/images/styleguideline/logo1.png)
+
+Se crearon varias versiones del logo para adaptarse a diferentes fondos, asegurando que se integre perfectamente en cualquier contexto visual.
+
+![Logo2)](/images/styleguideline/logo2.png)
+
+Finalmente, disponemos de un banner que destaca tanto el logo como el nombre de nuestro producto de manera prominente, asegurando que ambos elementos sean fácilmente reconocibles y llamativos.
+
+![Logo3)](/images/styleguideline/logo3.png)
+
+**Tipografica**
+
+Fuente: Roboto  
+Tamaños: Elegir entre los tamaños disponibles para garantizar una buena legibilidad en diversos dispositivos y pantallas.  
+Estilos: Aplicar formatos como negrita o cursiva para destacar información clave.  
+Espaciado entre letras y líneas: Modificar según sea necesario para facilitar la lectura, especialmente en textos extensos.
+
+![Typography)](/images/styleguideline/typography.png)
+
+**Colores**
+
+Los colores seleccionados para representar nuestra plataforma son:
+
+1. Principal: Azul oscuro  
+    Este color evoca confianza, estabilidad y profesionalismo, cualidades esenciales en una aplicación de transporte. Además, el azul oscuro contribuye a crear un ambiente calmado y seguro, lo que resulta reconfortante para los usuarios durante su experiencia.
+2. Secundario: Verde vibrante  
+    Este color simboliza crecimiento, frescura y accesibilidad. El verde vibrante añade un toque de energía y optimismo a la interfaz, mejorando así la experiencia del usuario. También se asocia frecuentemente con la movilidad y el transporte sostenible.
+
+La combinación de estos dos colores busca ofrecer una estética equilibrada y atractiva, fomentando la confianza y la comodidad en el uso de la aplicación.
+
+![Colors)](/images/styleguideline/colors.png)
+
+**Espaciado**
+
+Espaciado entre elementos: Emplear un espaciado basado en métricas de 4^n (como 8px, 12px, 16px, 24px, 32px) para asegurar una disposición equilibrada y armoniosa de los componentes en la interfaz de usuario.  
+Estas directrices de estilo deben aplicarse de manera uniforme en toda la aplicación para ofrecer una experiencia de usuario coherente y accesible para los cuidadores.
+
+![Spacing)](/images/styleguideline/spacing.png)
+
+**Escritura:**
+
+Estilo de escritura: Utilizar un lenguaje claro y conciso para comunicar de manera efectiva la información relevante a los cuidadores.
+
+Lenguaje: Evitar jergas o términos técnicos que puedan resultar confusos para aquellos que no están especializados en el cuidado de personas mayores.
+
+Consistencia: Mantener un tono y estilo de escritura coherentes en toda la aplicación, buscando un enfoque serio, formal y respetuoso que transmita confianza y seguridad. Esto asegurará una experiencia de usuario unificada.
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+Dado el funcionamiento de la aplicación, se considerará adaptar las funcionalidades a las dos principales plataformas: Windows para escritorio y Android para dispositivos móviles.
+
+En cuanto a la presentación de la información, se ha decidido que una cantidad significativa de datos se mostrará en formato de lista. Por lo tanto, se implementará un patrón de diseño en forma de "F".
+
+![PatternF)](patternf.png)
+
+Y los elementos que se usaran a continuación son:  
+  
+![Style guideline 1)](/images/styleguideline/guideline1.png)
+![Style guideline 2)](/images/styleguideline/guideline2.png)
+![Style guideline 3)](/images/styleguideline/guideline3.png)
+## 5.2. Information Arquitecture
+
+La arquitectura de la información para TransportApp está orientada a transportistas que necesitan una navegación rápida y eficiente. Los contenidos principales son:
+
+- **Landing Page:** Presenta las principales características y beneficios del servicio, orientado a los tres tipos de transportistas.
+- **Web Application:** Brinda acceso a la gestión de flotas, monitoreo de datos de IoT, y reportes en tiempo real.
+
+En cuanto a la **navegación**, el diseño se enfoca en minimizar los clics necesarios para acceder a información crítica (planes, monitoreo, contacto), y maximizar la claridad del contenido mediante una jerarquía visual clara.
+### 5.2.1. Organization Systems
+
+Los sistemas de organización aplicados son:
+
+- **Visual hierarchy:** Se prioriza el contenido por relevancia para el usuario: el hero section destaca las funcionalidades clave (monitoreo en tiempo real y gráficos).
+- **Categorización por audiencia:** La información está organizada según el perfil del usuario, con secciones de beneficios dirigidos a transportistas pequeños, medianos y grandes.
+- **Secuencial en la Web App:** El flujo para acceder a los datos de IoT, reportes y gráficos seguirá una estructura paso a paso para facilitar la comprensión y el uso.
+### 5.2.2. Labeling Systems
+
+Se utiliza un sistema de etiquetado simple y directo:
+
+- **Planes:** "Básico," "Enterprise 1," "Enterprise 2."
+- **Beneficios:** "Monitoreo en tiempo real," "Gráficos informativos," "Notificaciones automáticas."
+- **Secciones de navegación:** "About Us," "Benefits," "Plans," "Testimonials," "Contact," "FAQs."
+
+Las etiquetas están optimizadas para que los usuarios identifiquen rápidamente la información relevante sin confusión.
+### 5.2.3. SEO Tags and Meta Tags
+
+Para mejorar el SEO y visibilidad de TransportApp, se proponen las siguientes etiquetas:
+
+- **Title:** "TransportApp - Soluciones en Transporte de Mercancías con IoT."
+- **Meta Description:** "TransportApp ofrece soluciones inteligentes de logística con monitoreo en tiempo real usando dispositivos IoT para transportistas de pequeñas, medianas y grandes flotas."
+- **Keywords:** "transporte de mercancías, IoT en transporte, monitoreo de flotas, logística inteligente."
+- **Author:** "TransportApp Team."
+
+Para las aplicaciones móviles:
+
+- **App Title:** "TransportApp - IoT para Transportistas."
+- **App Keywords:** "monitoreo en tiempo real, logística, IoT, flotas."
+- **App Description:** "Aplicación de gestión de flotas con monitoreo en tiempo real de mercancías mediante dispositivos IoT."
+### 5.2.4. Searching Systems
+
+El sistema de búsqueda de TransportApp está diseñado para facilitar la localización de información crítica dentro de la plataforma. Para esto se incluyen los siguientes elementos:
+
+- **Barra de búsqueda en la Web App:** Los usuarios podrán buscar rápidamente datos relacionados con su flota, como informes de monitoreo, historial de envíos o alertas. La barra de búsqueda se encuentra accesible en todas las páginas principales de la aplicación web.
+
+- **Sugerencias de búsqueda:** Al ingresar términos en la barra de búsqueda, se activarán sugerencias automáticas basadas en búsquedas frecuentes o términos relevantes, mejorando la experiencia del usuario y acelerando el proceso.
+
+### 5.2.5. Navigation Systems
+
+El sistema de navegación es **jerárquico y simplificado**, diseñado para guiar al usuario rápidamente a través de las distintas secciones:
+
+- **Menú principal:** "About Us," "Benefits," "Plans," "Contact," y "FAQs" se presentan de forma visible y accesible desde cualquier parte de la página.
+- **Call-to-Action:** Botones como "Get Started" dirigen rápidamente a la sección de planes para incentivar la conversión.
+- **Navegación en la Web App:** El acceso a funcionalidades como monitoreo de IoT y reportes está organizado en un menú lateral dentro de la aplicación, optimizado para facilitar el uso continuo.
+## 5.3. Landing Page UI Design
+
+La propuesta de **TransportApp** se centra en crear una interfaz que combine funcionalidad y diseño para ofrecer una experiencia intuitiva a transportistas de diferentes tamaños (pequeñas, medianas y grandes flotas). El diseño sigue los principios de claridad, accesibilidad y orientación al usuario, asegurando que todos los elementos estén organizados para ser fácilmente comprensibles.
+
+La arquitectura de la información prioriza la jerarquía visual, donde la información más importante se presenta de manera destacada, y el sistema de navegación está optimizado para que los usuarios puedan encontrar rápidamente la información que necesitan. Además, el diseño inclusivo garantiza que todos los transportistas, independientemente de su nivel técnico, puedan interactuar cómodamente con la plataforma.
+### 5.3.1. Landing Page Wireframe
+
+Los wireframes, tanto para navegadores de escritorio como móviles, reflejan la estructura fundamental de la landing page de **TransportApp**, manteniendo un enfoque minimalista que prioriza la experiencia del usuario.
+
+1. **Desktop Web Browser Wireframe:**
+    - **Encabezado**: Contiene un logo prominente y un menú de navegación superior que guía a los usuarios a las secciones clave (About Us, Benefits, Our Plans, Contact). El uso de un menú claro y sencillo asegura una navegación intuitiva y rápida.
+    - **Sección Hero**: La posición central del título y el botón de llamada a la acción (CTA) facilita que los transportistas accedan rápidamente a los planes de suscripción. Este diseño sigue los principios de jerarquía visual, asegurando que el foco esté en la acción deseada.
+    - **Organización de contenido**: La sección de beneficios está organizada de forma secuencial, lo que permite a los usuarios comprender el valor agregado de **TransportApp** a través de imágenes y descripciones cortas.
+    - **Diseño inclusivo**: Las etiquetas y títulos son claros y concisos, eliminando ambigüedades y asegurando que todos los tipos de transportistas puedan entender las funcionalidades.
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingWebWireframe.png)
+1. **Mobile Web Browser Wireframe**:
+    
+    - El wireframe móvil sigue el mismo esquema que la versión de escritorio, adaptando los elementos a un formato vertical, simplificando la navegación con un menú desplegable.
+    - Las secciones están alineadas verticalmente para mejorar la legibilidad y navegación en dispositivos pequeños, facilitando que el usuario acceda a las funciones clave.
+	![Landing Page Wireframe Web)](/images/landingpage/LandingMobileWireframe.png)
+
+Estos wireframes evidencian una correcta aplicación de los principios de diseño inclusivo y usabilidad, destacando el uso de la jerarquía visual y navegación simple.
+### 5.3.2. Landing Page Mock-up
+
+Los mock-ups de **TransportApp** para navegadores de escritorio y móviles implementan los principios y sistemas de diseño visual establecidos en la propuesta. Se destaca el uso adecuado de la identidad visual (colores, tipografías y estilo gráfico) que refuerza la marca y guía a los transportistas hacia acciones clave.
+
+1. **Desktop Web Browser Mock-up:**
+    
+    - **Encabezado**: Presenta un menú de navegación bien estructurado con una tipografía clara y contrastes de color que aseguran legibilidad. El logo de **TransportApp** se encuentra destacado y refuerza la identidad de marca.
+    - **Sección Hero**: Utiliza una imagen atractiva de fondo, con un mensaje directo en tipografía grande que genera impacto inmediato. El botón CTA en color verde contrasta y resalta, guiando a los transportistas a conocer los planes disponibles.
+    - **Beneficios**: Se destacan tres beneficios principales, cada uno representado con íconos claros y coloridos que facilitan la comprensión visual. Se emplean ilustraciones que refuerzan el mensaje, ayudando a que los transportistas vean el valor de la plataforma.
+    - **Diseño inclusivo**: La estructura visual es sencilla y no sobrecarga al usuario con demasiada información en un solo espacio, permitiendo una experiencia de navegación clara y efectiva.
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingWebMockUp.png)
+1. **Mobile Web Browser Mock-up**:
+    
+    - La versión móvil mantiene todos los elementos clave, reorganizados para adaptarse al formato de pantalla pequeña. Se usa una navegación tipo "hamburguesa" para el menú y se optimizan los botones para facilitar su uso táctil.
+    - El diseño vertical y las imágenes ajustadas aseguran que los transportistas puedan explorar fácilmente el contenido en dispositivos móviles sin perder la coherencia visual ni el flujo de la navegación.
+    ![Landing Page Wireframe Web)](/images/landingpage/LandingMovileMockUp.png)
+
+Estos mock-ups aplican de manera efectiva el **Design System**, asegurando consistencia visual y funcionalidad en todos los dispositivos. La paleta de colores, las tipografías y los componentes visuales refuerzan la identidad de **TransportApp** mientras ofrecen una experiencia de usuario optimizada para transportistas de distintos niveles.
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+
+Esta sección presenta los **wireframes** tanto para la versión web como la versión móvil de la aplicación. Los **wireframes** proporcionan un esquema visual que detalla la estructura básica de las pantallas y la disposición de los elementos de la interfaz de usuario. Se utilizaron para definir la navegación principal de la aplicación _TransportApp_, incluyendo pantallas de inicio de sesión, creación de cuenta, dashboard y gestión de solicitudes. Las capturas muestran los primeros pasos en la definición visual del proyecto, sin elementos visuales detallados, pero con la disposición clara de botones, formularios y texto.
+
+**Version WEB**
+
+
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_01.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_02.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_03.png)
+![wireframe1](resources/images/capitulo_5/application_web/wireframe_04.png)
+
+**Version Mobile**
+
+![wire1](resources/images/capitulo_5/wireClient1.png)
+![wire1](resources/images/capitulo_5/wireClient2.png)
+![wire1](resources/images/capitulo_5/wireClient3.png)
+![wire1](resources/images/capitulo_5/wireClient4.png)
+![wire1](resources/images/capitulo_5/wireClient5.png)
+![wire1](resources/images/capitulo_5/wireClient7.png)
+![wire1](resources/images/capitulo_5/wireCarrier1.png)
+![wire1](resources/images/capitulo_5/wireCarrier2.png)
+![wire1](resources/images/capitulo_5/wireCarrier3.png)
+![wire1](resources/images/capitulo_5/wireCarrier4.png)
+![wire1](resources/images/capitulo_5/wireCarrier5.png)
+![wire1](resources/images/capitulo_5/wireCarrier6.png)
+![wire1](resources/images/capitulo_5/wireCarrier7.png)
+![wire1](resources/images/capitulo_5/wireCarrier8.png)
+
+### 5.4.2. Applications Wireflow Diagrams
+Los **diagrams wireflow** muestran el flujo de interacción entre las diferentes pantallas de la aplicación, detallando cómo un usuario típico navegaría a través de la aplicación desde el inicio de sesión hasta la confirmación de una solicitud de transporte o la gestión de ofertas. Utilizando los **wireframes**, se establecieron estos flujos tanto para la versión web como móvil, asegurando una transición fluida entre pasos clave, como recuperación de contraseñas o selección de suscripción. Estas capturas permiten visualizar cómo los usuarios interactuarán con las funcionalidades más importantes, detallando las rutas esperadas y las alternativas disponibles en cada etapa.
+
+**Version WEB**
+
+Wireflow: Registro (Cliente)
+User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
+
+
+Wireflow: Registro (Transportista)
+User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
+
+Wireflow: Inicio de Sesión
+User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
+
+Wireflow: Creación de Solicitud (Cliente)
+User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+
+Wireflow: Visualización de Historial (Cliente)
+User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
+
+
+**Version Mobile**
+
+- **Wireflow: Registro y Login**
+    - **User Goal**: El usuario debe poder registrarse o iniciar sesión sin complicaciones, completando la información requerida para crear una cuenta o acceder al sistema. Esto incluye ingresar sus datos, seleccionar el tipo de cuenta (cliente o transportista) y seleccionar un plan de suscripción.
+    
+        - _User Stories Relevantes_: US-21, US-22, US-31, US-32
+
+- **Wireflow: Creación de Solicitud (Cliente)**
+    - **User Goal**: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+    
+        - _User Stories Relevantes_: US-33, US-24
+
+- **Wireflow: Visualización de Ofertas (Transportista)**
+    - **User Goal**: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+
+        - _User Stories Relevantes_: US-23, US-38
+
+- **Wireflow: Historial y Monitoreo de Solicitudes**
+    - **User Goal**: Tanto clientes como transportistas deben poder acceder al historial de solicitudes previas y actuales, monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+
+        - _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+
+
+
+### 5.4.2. Applications Mock-ups
+Los **mock-ups** son representaciones más detalladas y cercanas al producto final, en donde se muestra cómo lucirán las pantallas de la aplicación una vez que se hayan aplicado los estilos y elementos gráficos definitivos. Los **mock-ups** para la versión web y móvil de _TransportApp_ incluyen los detalles visuales completos, como tipografía, colores, y disposición final de los componentes. En esta sección se detalla cómo se verán las principales pantallas, incluyendo el perfil del usuario, el historial de solicitudes, y la visualización de datos como temperatura y peso de la carga.
+
+**Version WEB**
+
+![wireframe1](resources/images/capitulo_5/application_web/mockups_1.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_2.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_3.png)
+![wireframe1](resources/images/capitulo_5/application_web/mockups_4.png)
+
+
+**Version Mobile**
+
+![mockup](resources/images/capitulo_5/mockClient1.png)
+![mockup](resources/images/capitulo_5/mockClient2.png)
+![mockup](resources/images/capitulo_5/mockClient3.png)
+![mockup](resources/images/capitulo_5/mockClient4.png)
+![mockup](resources/images/capitulo_5/mockClient5.png)
+![mockup](resources/images/capitulo_5/mockClient6.png)
+![mockup](resources/images/capitulo_5/mockClient7.png)
+![mockup](resources/images/capitulo_5/mockCarrier1.png)
+![mockup](resources/images/capitulo_5/mockCarrier2.png)
+![mockup](resources/images/capitulo_5/mockCarrier3.png)
+![mockup](resources/images/capitulo_5/mockCarrier4.png)
+![mockup](resources/images/capitulo_5/mockCarrier5.png)
+![mockup](resources/images/capitulo_5/mockCarrier6.png)
+![mockup](resources/images/capitulo_5/mockCarrier7.png)
+![mockup](resources/images/capitulo_5/mockCarrier8.png)
+![mockup](resources/images/capitulo_5/mockCarrier9.png)
+
+
+### 5.4.3. Applications User Flow Diagrams
+Los **user flow diagrams** describen los caminos que un usuario puede seguir dentro de la aplicación, desde la creación de una cuenta hasta la confirmación de un transporte. Estos diagramas muestran tanto las rutas ideales (_happy paths_) como las rutas alternativas o de error (_unhappy paths_). Para la versión web y móvil, estos flujos de usuario incluyen interacciones clave, como la selección de un plan de suscripción y la creación de solicitudes de transporte, destacando los puntos de decisión y las opciones que tiene el usuario en cada paso.
+
+**Version WEB**
+
+Wireflow: Registro (Cliente)
+User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
+
+
+Wireflow: Registro (Transportista)
+User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
+
+Wireflow: Inicio de Sesión
+User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
+
+Wireflow: Creación de Solicitud (Cliente)
+User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
+
+Wireflow: Visualización de Historial (Cliente)
+User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
+
+**Version Mobile**
+
+- **User Flow: Registro de Usuarios (Cliente/Transportista)**
+    - **User Goal**: El usuario debe poder registrarse en la plataforma web o móvil, ingresar sus datos personales, seleccionar un plan de suscripción y finalizar el proceso de registro sin fricciones.
+
+        - _User Stories Relevantes_: US-21, US-31
+
+- **User Flow: Crear Solicitud de Transporte (Cliente)**
+    - **User Goal**: El cliente debe poder ingresar todos los detalles de su solicitud de transporte y confirmar la creación de esta sin errores.
+
+        - _User Stories Relevantes_: US-24, US-33
+
+- **User Flow: Visualización y Aceptación de Ofertas (Transportista)**    
+    - **User Goal**: El transportista debe poder visualizar las ofertas disponibles, revisar los detalles de cada solicitud y decidir si acepta o rechaza una oferta específica.
+
+		- _User Stories Relevantes_: US-23
+
+- **User Flow: Monitoreo de Carga (Cliente/Transportista)**    
+    - **User Goal**: El usuario debe poder monitorear en tiempo real el estado de su carga, incluyendo temperatura, ubicación y otros factores relevantes, a través de la plataforma, y recibir alertas en caso de que algún umbral sea excedido.
+ 
+		- _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+## 5.5. Applications Prototyping
+
+**Introducción**
+
+Esta sección presenta prototipos de interfaz de usuario (UI) para aplicaciones de escritorio y navegadores web móviles, diseñados en base a los diagramas de flujo de usuarios (User Flow Diagrams). Los prototipos muestran la interacción y la navegación esperada, proporcionando una representación visual de la experiencia del usuario.
+
+**Criterios para las Decisiones de Interacción**
+
+Las decisiones de interacción se basan en los siguientes criterios:
+
+- **Usabilidad:** Se prioriza la facilidad de uso para asegurar que los usuarios puedan navegar intuitivamente por la aplicación.
+- **Accesibilidad:** Las interacciones están diseñadas para ser inclusivas, permitiendo que usuarios con diferentes habilidades accedan a todas las funciones.
+- **Consistencia Visual:** Se utilizan elementos visuales y patrones de diseño coherentes en todas las pantallas para que los usuarios se sientan familiarizados con la interfaz.
+
+**Relación con la Arquitectura de Información**
+
+El diseño de la interfaz está íntimamente relacionado con la arquitectura de información, que incluye:
+
+- **Sistema de Navegación:**
+
+- **Versión Desktop: La barra de navegación ubicada en la parte izquierda permite un acceso fácil y rápido a las diferentes secciones (Dashboard, Crear Solicitud, Ver Ofertas, Historial).**
+- **Versión Mobile: Se implementa una barra horizontal en la parte inferior de la pantalla, que incluye las mismas opciones, además de un acceso rápido al perfil de usuario, asegurando que los usuarios puedan navegar de manera efectiva en dispositivos móviles.**
+
+- **Tipos de Interacciones Seleccionadas:** Las interacciones incluyen botones clicables, formularios de ingreso y listas desplegables, diseñados para maximizar la eficiencia en el uso.
+
+**Prototipos**
+
+A continuación, se presentan los prototipos de UI para Desktop y Mobile Web Browser. Para cada caso, se incluye una captura de pantalla del video y un enlace a un video en Microsoft Stream que demuestra los principales flujos de interacción.
+
+**1. Prototipo para Desktop**
+
+- **Descripción:** Este prototipo muestra la pantalla de login, el dashboard del cliente y el dashboard del transportista.
+- **Screenshot del video:**
+
+	![Prototype1](resources/images/capitulo_5/Prototype/Prototype1.png)
+
+
+- **Enlace al video:** [https://upcedupe-my.sharepoint.com/personal/u202124146_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202124146_upc_edu_pe%2FDocuments%2FCastores%20Rabiosos%2FWebApplication_Prototype%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee45c1663-12d1-474a-be6f-1d960d41845c](https://upcedupe-my.sharepoint.com/personal/u202124146_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202124146_upc_edu_pe%2FDocuments%2FCastores%20Rabiosos%2FWebApplication_Prototype%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee45c1663-12d1-474a-be6f-1d960d41845c)
+
+****2. Prototipo para Mobile Web Browser****
+
+- **Descripción:** Este prototipo se centra en cómo se adapta la interfaz a dispositivos móviles, manteniendo la funcionalidad esencial y una experiencia de usuario fluida.
+- **Screenshot del video:**
+
+![Prototype1](resources/images/capitulo_5/Prototype/Prototype2.png)
+
+- **Enlace al video:** **[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EW652RKqzX9LnSYymsIc8PkBThwlB6Ztzg9p3_EcHbfY1Q?e=nAS8mg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EW652RKqzX9LnSYymsIc8PkBThwlB6Ztzg9p3_EcHbfY1Q?e=nAS8mg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
+
 
 ---
 # Capítulo IV: Solution Software Design
@@ -1518,11 +1920,22 @@ A continuación, se presenta una captura de pantalla de los análisis de colabor
 Todos los miembros del equipo participaron activamente en la implementación del proyecto, siguiendo las buenas prácticas de control de versiones y asegurando que el código final cumpliera con los estándares definidos al inicio del sprint.
 
 ---
+**Conclusión**
+
+Los prototipos presentados reflejan las decisiones de diseño basadas en los flujos de usuario establecidos, asegurando una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles. La relación entre la interacción y la arquitectura de información ha sido cuidadosamente diseñada para facilitar la navegación y el acceso a las funciones clave.
+
+---
+
 ## ANEXOS
 #### Video de exposición - TB1
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
+#### Video de exposición - TP1
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
