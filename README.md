@@ -1478,25 +1478,21 @@ Los **diagrams wireflow** muestran el flujo de interacción entre las diferentes
 
 **Version WEB**
 
-- **Wireflow: Registro y Login**
-    - **User Goal**: El usuario debe poder registrarse o iniciar sesión sin complicaciones, completando la información requerida para crear una cuenta o acceder al sistema. Esto incluye ingresar sus datos, seleccionar el tipo de cuenta (cliente o transportista) y seleccionar un plan de suscripción.
-    
-        - _User Stories Relevantes_: US-21, US-22, US-31, US-32
+Wireflow: Registro (Cliente)
+User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
 
-- **Wireflow: Creación de Solicitud (Cliente)**
-    - **User Goal**: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
-    
-        - _User Stories Relevantes_: US-33, US-24
 
-- **Wireflow: Visualización de Ofertas (Transportista)**
-    - **User Goal**: Un transportista debe poder visualizar las ofertas de los clientes, revisar detalles como peso, temperatura y precio ofrecido, y tomar decisiones informadas sobre aceptar o rechazar la oferta.
+Wireflow: Registro (Transportista)
+User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
 
-        - _User Stories Relevantes_: US-23, US-38
+Wireflow: Inicio de Sesión
+User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
 
-- **Wireflow: Historial y Monitoreo de Solicitudes**
-    - **User Goal**: Tanto clientes como transportistas deben poder acceder al historial de solicitudes previas y actuales, monitorear el estado de la carga en tiempo real, y recibir notificaciones o alertas sobre cambios importantes, como la temperatura o el estado de la carga.
+Wireflow: Creación de Solicitud (Cliente)
+User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
 
-        - _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+Wireflow: Visualización de Historial (Cliente)
+User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
 
 
 **Version Mobile**
@@ -1559,25 +1555,21 @@ Los **user flow diagrams** describen los caminos que un usuario puede seguir den
 
 **Version WEB**
 
-- **User Flow: Registro de Usuarios (Cliente/Transportista)**
-    - **User Goal**: El usuario debe poder registrarse en la plataforma web o móvil, ingresar sus datos personales, seleccionar un plan de suscripción y finalizar el proceso de registro sin fricciones.
+Wireflow: Registro (Cliente)
+User Goal: El usuario debe poder registrarse como cliente completando la información requerida para crear su cuenta.
 
-        - _User Stories Relevantes_: US-21, US-31
 
-- **User Flow: Crear Solicitud de Transporte (Cliente)**
-    - **User Goal**: El cliente debe poder ingresar todos los detalles de su solicitud de transporte y confirmar la creación de esta sin errores.
+Wireflow: Registro (Transportista)
+User Goal: El usuario debe poder registrarse como transportista completando la información requerida para crear su cuenta, incluyendo la selección de un plan de suscripción.
 
-        - _User Stories Relevantes_: US-24, US-33
+Wireflow: Inicio de Sesión
+User Goal: El cliente debe poder acceder al sistema fácilmente ingresando su información de inicio de sesión.
 
-- **User Flow: Visualización y Aceptación de Ofertas (Transportista)**    
-    - **User Goal**: El transportista debe poder visualizar las ofertas disponibles, revisar los detalles de cada solicitud y decidir si acepta o rechaza una oferta específica.
+Wireflow: Creación de Solicitud (Cliente)
+User Goal: Un cliente debe poder crear una solicitud de transporte con facilidad, ingresando detalles como el tipo de vehículo, temperatura, peso, origen y destino, y confirmando su oferta de precio.
 
-		- _User Stories Relevantes_: US-23
-
-- **User Flow: Monitoreo de Carga (Cliente/Transportista)**    
-    - **User Goal**: El usuario debe poder monitorear en tiempo real el estado de su carga, incluyendo temperatura, ubicación y otros factores relevantes, a través de la plataforma, y recibir alertas en caso de que algún umbral sea excedido.
- 
-		- _User Stories Relevantes_: US-25, US-34, US-42, US-43, US-44
+Wireflow: Visualización de Historial (Cliente)
+User Goal: El cliente debe poder visualizar su historial de solicitudes de manera clara, con detalles importantes como la temperatura ideal, peso ideal, ubicación de origen y destino, fechas de inicio y llegada, y la información del transportista asignado.
 
 **Version Mobile**
 
@@ -1655,7 +1647,12 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 #### Video de exposición - TB1
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
+#### Video de exposición - TP1
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Enlace de repositorio de Github
 [[upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report (github.com)](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report)](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
