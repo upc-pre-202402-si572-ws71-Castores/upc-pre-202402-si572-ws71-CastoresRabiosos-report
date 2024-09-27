@@ -688,46 +688,51 @@ Las Epics que identificamos son las siguientes:
 En la técnica de Impact Mapping, conectamos los objetivos de negocio con las soluciones técnicas de nuestro proyecto IoT. Esto nos permite identificar a los actores clave, como los transportistas y clientes, y comprender cómo sus acciones impactan en los objetivos comerciales. De esta forma, aseguramos que las funcionalidades que desarrollamos realmente generan valor para el negocio y están alineadas con los resultados esperados.
 
 *Impact Mapping Cliente*
-![impactTransportista](resources/images/capitulo4/impactTransportista.png)
+![impactTransportista](resources/images/capitulo_6/impactCarrier.png)
 *Impact Mapping Transportista*
-![impactCliente](resources/images/capitulo4/impactCliente.png)
+![impactCliente](resources/images/capitulo_6/impactClient.png)
 
 ## 3.4. Product Backlog
 Product Backlog es una herramienta fundamental en el marco de trabajo ágil, particularmente en metodologías como **Scrum**. El backlog actúa como una fuente de verdad que define lo que el equipo de desarrollo necesita trabajar en el producto para entregar valor a los usuarios o clientes.
 
-| ID            | TITULO                                           | DESCRIPCION                                                                                                                                                | STORY POINTS |
-| ------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| US-01         | Registro en Landing Page                         | Como usuario nuevo, quiero registrarme desde la landing page para crear una cuenta en TransportApp.                                                        |    2         |
-| US-02         |   Información sobre TransportApp                 |  Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                  |   1          |
-| US-05         | Redirección a la Aplicación Móvil                |  Como visitante, quiero un enlace directo desde la landing page para descargar la app móvil de TransportApp.                                               |  1           |
-| US-08         | Comparación de Planes                            |  Como visitante, quiero comparar diferentes planes de servicio en la landing page para elegir el que mejor se adapte a mis necesidades.                    |    2         |
-| Dato 4        | Registro de Usuarios en el Backend               |  Como desarrollador, quiero implementar la lógica de registro de usuarios en el backend para crear cuentas nuevas.                                         |  2           |
-|               |                                                  |                                                                                                                                                            |              |
-| US-12         | Autenticación de Usuarios                        |  Como desarrollador, quiero que el backend maneje la autenticación para permitir el acceso seguro a la aplicación.                                         |  2           |
-| US-13         | Gestión de Servicios de Transporte               |  Como desarrollador, quiero que el backend gestione la creación, actualización y cancelación de servicios de transporte.                                   |   3          |
-| US-14         | Monitorización de la Carga                       |  Como desarrollador, quiero que el backend capture y almacene datos en tiempo real sobre la ubicación y estado de la carga.                                |   2          |
-| US-16         | Gestión de Pagos                                 |  Como desarrollador, quiero que el backend procese y registre los pagos de los servicios contratados.                                                      |    3         |
-| US-19         | Almacenamiento de Información de Sensores        |   Como desarrollador, quiero que el backend almacene los datos recibidos de los sensores IoT para su posterior análisis.                                   |   3          |
-|               |                                                  |                                                                                                                                                            |              |
-| US-21         | Registro de Usuarios en la Web                   |  Como usuario, quiero poder registrarme en la aplicación web para acceder a los servicios de TransportApp.                                                 |  3           |
-| US-23         | Visualización de Servicios Disponibles           |   Como usuario, quiero poder ver los servicios de transporte disponibles desde la web para elegir el que mejor se adapte a mis necesidades.                |   1          |
-| US-24         | Reserva de Servicios desde la Web                |  Como usuario, quiero poder reservar un servicio de transporte desde la aplicación web para asegurar la entrega de mi carga.                               |  2           |
-| US-27         | Gestión de Opiniones y Calificaciones            |  Como usuario, quiero poder dejar opiniones y calificaciones de los transportistas desde la web.                                                           |   2          |
-|               |                                                  |                                                                                                                                                            |              |
-| US-31         | Registro de Usuarios en la App Móvil             |  Como usuario, quiero registrarme desde la app móvil para acceder a los servicios de TransportApp.                                                         |   1          |
-| US-33         | Reserva de Servicios desde la App Móvil          |  Como usuario, quiero reservar un servicio de transporte directamente desde mi dispositivo móvil para mayor comodidad.                                     |  2           |
-| US-34         | Monitoreo de Carga en la App Móvil               |  Como usuario, quiero monitorear mi carga en tiempo real desde la app móvil para estar informado durante el transporte.                                    |   3          |
-| US-37         | Visualización de Historial en la App             |  Como usuario, quiero poder ver el historial de servicios contratados desde la app móvil para revisar mis transacciones.                                   |   2          |
-| US-39         | Verificación de Pagos en la App                  |  Como transportista, quiero revisar el estado de mis pagos desde la app móvil para asegurarme de que todo está en orden.                                   |    3         |
-|               |                                                  |                                                                                                                                                            |              |
-| US-41         | Conexión de Sensor IoT a la Plataforma           | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                        | 4            |
-| US-42         | Monitoreo de Datos de Temperatura                |  Como usuario, quiero monitorear la temperatura de mi carga en tiempo real mediante un sensor IoT.                                                         |    3         |
-| US-45         |  Recepción de Alertas desde Sensores IoT         |  Como transportista, quiero recibir alertas automáticas desde los sensores IoT para actuar rápidamente en caso de incidentes.                              |    4         |
-| US-46         | Integración con Gateway IoT                      |  Como desarrollador, quiero integrar los sensores IoT con un gateway para asegurar la transmisión de datos al backend.                                     |   3          |
-| US-47         | Configuración Remota de Sensores IoT             |  Como desarrollador, quiero poder configurar remotamente los sensores IoT para ajustar los umbrales y parámetros de monitoreo.                             |  2           |
-| US-48         | Recolección de Datos de Ubicación                |  Como usuario, quiero que el sensor IoT recolecte y transmita datos de ubicación en tiempo real para saber dónde está mi carga.                            |  3           |
-| US-49         | Sincronización de Sensores IoT                   |  Como desarrollador, quiero sincronizar múltiples sensores IoT en un solo envío de datos para optimizar la transmisión.                                    | 3            |
-| US-50         | Almacenamiento Seguro de Datos de Sensores       |   Como desarrollador, quiero asegurarme de que todos los datos capturados por los sensores IoT se almacenan de manera segura y encriptada en el backend.   |   4          |
+| ID          | TITULO                                                                            | DESCRIPCION                                                                                                                                                                                                  | STORY POINTS |
+| ----------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| US-01       | Sección About Us                                                                  | Como visitante, quiero conocer más sobre los servicios que ofrece TransportApp para evaluar su utilidad.                                                                                                     | 2            |
+| US-02       | Sección Beneficios                                                                | Como visitante, quiero ver los beneficios de usar TransportApp para decidir si es adecuada para mis necesidades.                                                                                             |   1          |
+| US-03       | Sección Planes                                                                    | Como visitante, quiero comparar diferentes planes de servicio en el landing page para elegir el que mejor se adapte a mis necesidades.                                                                       |  1           |
+| US-04       | Sección Contacto                                                                  | Como visitante, quiero poder contactar a TransportApp desde la landing page para resolver dudas sobre el servicio.                                                                                           |    2         |
+| US-05       | Sección Testimonios                                                               | Como visitante, quiero leer testimonios de otros clientes en la landing page para entender su experiencia con TransportApp.                                                                                  |  2           |
+| US-06       | Sección de Preguntas Frecuentes                                                   | Como visitante, quiero acceder a una sección de preguntas frecuentes en la landing page para resolver dudas comunes antes de registrarse.                                                                    | 2            |
+| US-07       | Añadir solicitud de servicio                                                      | Como usuario, quiero añadir una solicitud de servicio en la aplicación, para que pueda gestionar mis necesidades de transporte.                                                                              |  2           |
+| US-08       | Historial de servicios solicitados                                                | Como usuario, quiero acceder a un historial de mis servicios solicitados, para que pueda revisar el estado de mis solicitudes.                                                                               |   3          |
+| US-09       | Registrar vehículos                                                               | Como usuario, quiero registrar mis vehículos en la plataforma, para que pueda administrar la información de cada vehículo.                                                                                   |   2          |
+| US-10       | Obtener transportista                                                             | Como desarrollador, quiero almacenar y gestionar datos en tiempo real sobre la ubicación y condiciones de la carga.                                                                                          |    3         |
+| US-11       | Obtener ruta de envío                                                             | Como desarrollador, quiero implementar la ruta hacía el destino que seguirá el conductor.                                                                                                                    |   3          |
+| US-12       | Obtener transportista asignado                                                    | Como usuario, quiero obtener información del transportista asignado para un servicio.                                                                                                                        | 3            |
+| US-13       | Añadir elemento al CheckList                                                      | Como usuario, quiero añadir elementos a un checklist para organizar mejor mis tareas de transporte.                                                                                                          |  3           |
+| US-14       | Eliminar elemento del CheckList                                                   | Como usuario, quiero eliminar elementos del checklist para mantenerlo actualizado.                                                                                                                           |   1          |
+| US-15       | Añadir persona encargada                                                          | Como usuario, quiero añadir una persona encargada a un servicio de transporte para gestionar mejor el seguimiento del servicio.                                                                              |  2           |
+| US-16       | Generar reporte de servicio                                                       | Como usuario, quiero generar un reporte de servicio para obtener un resumen completo de los detalles del transporte.                                                                                         |   2          |
+| US-17       | Registro de  <br>cliente                                                          | Como cliente quiero acceder a mi cuenta de usuario.  <br>Para poder verificar mi identidad  <br>Y ver los datos del producto transportado                                                                    | 4            |
+| US-18       | Registro de transportista                                                         | Como transportista  <br>Quiero acceder a mi cuenta de usuario.  <br>Para poder verificar mi identidad  <br>Y ver los datos del producto transportado                                                         | 4            |
+| US-19       | Inicio de sesión                                                                  | Como usuario de la aplicación quiero Iniciar sesión en la aplicación para acceder a las funcionalidades de la aplicación.                                                                                    |  2           |
+| US-20       | Envío de temperatura a través de un Edge Gateway                                  | Como desarrollador, quiero que el Edge Gateway obtenga la temperatura del dispositivo para que la información pueda acceder al Backend.                                                                      |   3          |
+| US-21       | Envío de datos de peso a través de un Edge Gateway                                | Como usuario, quiero poder ver el hComo desarrollador, quiero que el Edge Gateway obtenga los datos de presión del dispositivo para que la información pueda acceder al Backend                              | 3            |
+| US-22       | Envío de datos de ubicación a través de un Edge Gateway                           | Como desarrollador, quiero que el Edge Gateway obtenga los datos de ubicación del dispositivo para que la información pueda acceder al Backend.                                                              |    3         |
+| US-23       | Implementación de Edge Gateway con Backend Application                            | Como desarrollador, quiero crear un intermediario entre el Backend y el Edge Application para que el usuario final no pueda acceder al Backend a través del dispositivo.                                     |              |
+| US-24       | Conexión de Sensor IoT a la Plataforma                                            | Como desarrollador, quiero conectar sensores IoT a la plataforma para recibir datos en tiempo real.                                                                                                          | 4            |
+| US-25       | Captura de Datos de Temperatura                                                   | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de temperatura a la aplicación web o móvil, para monitorear el estado de los productos transportados.                          | 3            |
+| US-26       | Captura de Datos de Peso                                                          | Como usuario de la aplicación, quiero que el sensor capture y envíe los datos de peso a la aplicación web o móvil para monitorear el estado de los productos transportados.                                  | 4            |
+| US-27       | Solicitud de servicio de transporte                                               | Como usuario,  <br>quiero ser capaz de realizar una solicitud de servicio de transporte,  <br>para poder contratar un transportista que cubra mis necesidades de envío de productos en condiciones adecuadas |   3          |
+| US-28       | Check-in                                                                          | Como usuario quiero asegurarme de tener un registro de los objetos que serán transportados.                                                                                                                  |  3           |
+| US-29       | Check-out                                                                         | Como usuario quiero saber si todos los productos llegaron al destino.                                                                                                                                        |  3           |
+| US-30       | Visualización de la información sobre el transporte                               | Como usuario de la aplicación.  <br>Quiero poder recibir información del transporte.  <br>Para poder tener constancia de la situación de producto transportado                                               | 3            |
+| US-31       | Recibir la información del sensor a través de un RESTful API                      | Como desarrollador, quiero obtener la información del sensor mediante una solicitud GET al API para mostrar la información en la aplicación web o móvil.                                                     |   4          |
+| US-32       | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | Como desarrollador, quiero enviar la información del sensor mediante una solicitud POST al API para almacenar la información en el backend.                                                                  | 3            |
+| US-33       | Notificar al conductor del transporte                                             | Como transportartisaQuiero recibir una notificación Para saber si se me ha asignado un viaje                                                                                                                 | 2            |
+| US-34       | Notificar al  <br>conductor del  <br>viaje concluido                              | Como  <br>transportista  <br>Quiero recibir  <br>una notificación  <br>Para saber si se concluyo el viaje exitosamente                                                                                       | 2            |
+| US-35       | Enviar alerta de peligro al transportista                                         | Como usuario Quiero enviar una alerta de peligro al transportista Para alertarlo de algún inconveniente con producto transportado                                                                            |              |
+
 
 # Capítulo IV: Solution Software Design
 
@@ -1320,6 +1325,39 @@ A continuación, se presenta la plantilla que se utilizará para los mensajes de
 7. **chore**: Cambios que no afectan el código de producción ni los tests (por ejemplo, actualizaciones en las herramientas de construcción o configuración).
     - Ejemplo: `chore(dependencies): update npm packages`
 ### 6.1.3. Source Code Style Guide & Conventions
+
+En la siguiente sección se explicará las convenciones que se utilizaran en el desarrollo del proyecto las cuales se basan en Gherkin Specifications, HTML Style Guide, Code Style Java de IntelliJ y Kotlin Style Conventions.
+
+GHERKIN
+
+Para los archivos de prueba .feature se utilizó el lenguaje Gherkin
+
+- Se utilizó la plantilla de Scenarios Given-When-Then incluyendo el feature y un ejemplo del escenario en una tabla al final.
+![Gherkin1](resources/images/capitulo_6/sourceCode1.png)
+
+- Al final de cada uno se brindó un ejemplo de los pasos en una tabla
+![gherkin](resources/images/capitulo_6/sourceCode2.png)
+
+HTML Style Guide
+
+Para el desarrollo de archivos .html se siguieron las siguientes convenciones:
+
+- Se utilizó minúsculas para nombrar a los elementos
+![Html](resources/images/capitulo_6/sourceCode3.png)
+
+- Todos los elementos tienen sus finalizaciones
+![Html](resources/images/capitulo_6/sourceCode4.png)
+
+
+JAVA
+
+Para los archivos en Java se aplicaron convenciones en el nombramiento de clases y métodos.
+
+- Se utilizó UpperCamelCase para nombrar clases
+    
+- lowerCamelCase se utilizó para nombrar variables y métodos.
+    
+
 ### 6.1.4. Software Deployment Configuration
 ## 6.2. Landing Page, Services & Applications Implementation
 
@@ -1385,6 +1423,20 @@ Durante el **Sprint 1**, se implementaron las funcionalidades clave de la landin
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review
+Esta esta sección se presentarán avances respecto a las implementaciones según el alcance de nuestro Sprint. En la siguiente tabla se mostrarán los commits realizados.
+
+| Repository                                         | Branch                       | commit id | commit message                                                               | commit message body | date       |
+| -------------------------------------------------- | ---------------------------- | --------- | ---------------------------------------------------------------------------- | ------------------- | ---------- |
+|                                                    | feature/about-us             | 84a9a1    | chore: initial commit with base HTML, CSS, and JS structure for landing page | -                   | 23/09/2024 |
+| upc-pre-202402-si572-ws71-Castores/landing-page    | feature/about-us             | 629046    | feat: add navbar and hero section                                            | -                   | 23/09/2024 |
+|                                                    | feature/about-us             | ee51cf    | feat: add about us section                                                   | -                   | 23/09/2024 |
+|                                                    | feature/benefits             | 6fc1fa    | feat: add benefits section                                                   |                     | 23/09/2024 |
+|                                                    | feature/contact-us           | 7936ea    | feat: add contact us section                                                 | -                   | 23/04/2024 |
+|                                                    | feature/faq                  | fe3e21    | feat: add faq and footer sections                                            | -                   | 23/09/202  |
+|                                                    | feature/plans                | 79f433    | feat: add plans section                                                      | -                   | 23/09/2024 |
+|                                                    | feature/testimonials section | 45eefc    | feat: add testimonials section                                               | -                   | 23/09/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-application | feature/login-iam            | 48e9c3    | refactor: reorganize project structure into DDD bounded contexts             | -                   | 24/09/2024 |
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
