@@ -1439,7 +1439,20 @@ Esta sección presenta los **wireframes** tanto para la versión web como la ver
 
 **Version Mobile**
 
-
+![wire1](resources/images/capitulo_5/wireClient1.png)
+![wire1](resources/images/capitulo_5/wireClient2.png)
+![wire1](resources/images/capitulo_5/wireClient3.png)
+![wire1](resources/images/capitulo_5/wireClient4.png)
+![wire1](resources/images/capitulo_5/wireClient5.png)
+![wire1](resources/images/capitulo_5/wireClient7.png)
+![wire1](resources/images/capitulo_5/wireCarrier1.png)
+![wire1](resources/images/capitulo_5/wireCarrier2.png)
+![wire1](resources/images/capitulo_5/wireCarrier3.png)
+![wire1](resources/images/capitulo_5/wireCarrier4.png)
+![wire1](resources/images/capitulo_5/wireCarrier5.png)
+![wire1](resources/images/capitulo_5/wireCarrier6.png)
+![wire1](resources/images/capitulo_5/wireCarrier7.png)
+![wire1](resources/images/capitulo_5/wireCarrier8.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
 Los **diagrams wireflow** muestran el flujo de interacción entre las diferentes pantallas de la aplicación, detallando cómo un usuario típico navegaría a través de la aplicación desde el inicio de sesión hasta la confirmación de una solicitud de transporte o la gestión de ofertas. Utilizando los **wireframes**, se establecieron estos flujos tanto para la versión web como móvil, asegurando una transición fluida entre pasos clave, como recuperación de contraseñas o selección de suscripción. Estas capturas permiten visualizar cómo los usuarios interactuarán con las funcionalidades más importantes, detallando las rutas esperadas y las alternativas disponibles en cada etapa.
@@ -1503,6 +1516,23 @@ Los **mock-ups** son representaciones más detalladas y cercanas al producto fin
 
 
 **Version Mobile**
+
+![mockup](resources/images/capitulo_5/mockClient1.png)
+![mockup](resources/images/capitulo_5/mockClient2.png)
+![mockup](resources/images/capitulo_5/mockClient3.png)
+![mockup](resources/images/capitulo_5/mockClient4.png)
+![mockup](resources/images/capitulo_5/mockClient5.png)
+![mockup](resources/images/capitulo_5/mockClient6.png)
+![mockup](resources/images/capitulo_5/mockClient7.png)
+![mockup](resources/images/capitulo_5/mockCarrier1.png)
+![mockup](resources/images/capitulo_5/mockCarrier2.png)
+![mockup](resources/images/capitulo_5/mockCarrier3.png)
+![mockup](resources/images/capitulo_5/mockCarrier4.png)
+![mockup](resources/images/capitulo_5/mockCarrier5.png)
+![mockup](resources/images/capitulo_5/mockCarrier6.png)
+![mockup](resources/images/capitulo_5/mockCarrier7.png)
+![mockup](resources/images/capitulo_5/mockCarrier8.png)
+![mockup](resources/images/capitulo_5/mockCarrier9.png)
 
 
 ### 5.4.3. Applications User Flow Diagrams
