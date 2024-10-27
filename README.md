@@ -77,8 +77,15 @@ En esta entrega parcial, TP1, se desarrollaron los lineamientos del diseño de l
 Posteriormente, se dio inicio a la implementación del producto con la configuración del entorno de desarrollo y el manejo del código fuente. Se planificó el primer sprint, definiendo el backlog, la evidencia de desarrollo, y las pruebas realizadas. Además, se documentaron las colaboraciones del equipo durante este proceso, lo que permitió validar y ajustar la configuración y despliegue del software.
 
 A continuación, se presenta el flujo de trabajo:
- ![TP1](images/2
- .png)
+ ![TP1](images/2.png)
+
+_**TB2**_
+En esta tercer entrega, TB2, se avanzó con el Sprint 2, donde se planificaron y desarrollaron nuevas funcionalidades. Se presentaron evidencias de desarrollo y pruebas realizadas durante la Sprint Review, incluyendo la documentación de servicios y el despliegue del software. Además, se implementaron nuevas integraciones con servicios IoT, asegurando su correcta ejecución y validación.
+
+Asimismo, se realizaron entrevistas de validación, diseñadas para obtener feedback sobre la usabilidad del producto, evaluadas mediante heurísticas de UX. Finalmente, se documentaron las colaboraciones del equipo y se presentó un video promocional sobre el estado actual del producto, resaltando las principales características desarrolladas.
+ ![TP1](images/3.png)
+
+
 ---
 
 # Contenido
@@ -161,7 +168,21 @@ A continuación, se presenta el flujo de trabajo:
 	- [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
 	- [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
 	- [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-
+	- [6.2.1.8. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+	- [6.2.2. Sprint 2](#622-sprint-2)
+	- [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+	- [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+	- [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+	- [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+	- [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+	- [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+	- [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+	- [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+	  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+	  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+	  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-product](#64-video-about-the-product)
 ---
 # Student Outcome
 
@@ -1974,8 +1995,19 @@ A continuación, se presenta una captura de pantalla de los análisis de colabor
 
 Todos los miembros del equipo participaron activamente en la implementación del proyecto, siguiendo las buenas prácticas de control de versiones y asegurando que el código final cumpliera con los estándares definidos al inicio del sprint.
 
+### 6.2.2. Sprint 2
+Durante el **Sprint 2**, se continuó con el desarrollo de **TransportApp**, enfocándose en la implementación de funcionalidades esenciales relacionadas con el manejo de vehículos y el historial de servicios. Estas nuevas características permiten a los transportistas registrar vehículos, acceder al historial de sus servicios realizados, y gestionar información clave dentro de la plataforma. Además, se avanzó en la integración de sensores IoT, lo que sentó las bases para la futura gestión de datos en tiempo real y optimización de los servicios de transporte.
+#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.2. Sprint Backlog 2
+#### 6.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+#### 6.2.2.5. Execution Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
 ---
-**Conclusión**
+## Conclusión
 
 Los prototipos presentados reflejan las decisiones de diseño basadas en los flujos de usuario establecidos, asegurando una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles. La relación entre la interacción y la arquitectura de información ha sido cuidadosamente diseñada para facilitar la navegación y el acceso a las funciones clave.
 
@@ -1989,9 +2021,14 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 #### Video de exposición - TP1
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Video de exposición - TB2
+
 #### Video de entrevistas
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Video de entrevistas de validación
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
