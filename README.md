@@ -77,8 +77,15 @@ En esta entrega parcial, TP1, se desarrollaron los lineamientos del diseño de l
 Posteriormente, se dio inicio a la implementación del producto con la configuración del entorno de desarrollo y el manejo del código fuente. Se planificó el primer sprint, definiendo el backlog, la evidencia de desarrollo, y las pruebas realizadas. Además, se documentaron las colaboraciones del equipo durante este proceso, lo que permitió validar y ajustar la configuración y despliegue del software.
 
 A continuación, se presenta el flujo de trabajo:
- ![TP1](images/2
- .png)
+ ![TP1](images/2.png)
+
+_**TB2**_
+En esta tercer entrega, TB2, se avanzó con el Sprint 2, donde se planificaron y desarrollaron nuevas funcionalidades. Se presentaron evidencias de desarrollo y pruebas realizadas durante la Sprint Review, incluyendo la documentación de servicios y el despliegue del software. Además, se implementaron nuevas integraciones con servicios IoT, asegurando su correcta ejecución y validación.
+
+Asimismo, se realizaron entrevistas de validación, diseñadas para obtener feedback sobre la usabilidad del producto, evaluadas mediante heurísticas de UX. Finalmente, se documentaron las colaboraciones del equipo y se presentó un video promocional sobre el estado actual del producto, resaltando las principales características desarrolladas.
+ ![TP1](images/3.png)
+
+
 ---
 
 # Contenido
@@ -161,14 +168,28 @@ A continuación, se presenta el flujo de trabajo:
 	- [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
 	- [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
 	- [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-
+	- [6.2.1.8. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+	- [6.2.2. Sprint 2](#622-sprint-2)
+	- [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+	- [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+	- [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+	- [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+	- [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+	- [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+	- [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+	- [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+	  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+	  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+	  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-product](#64-video-about-the-product)
 ---
 # Student Outcome
 
-| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                        |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br>_TB1:_<br>Asumí el liderazgo en la organización de las secciones asignadas de los capítulos I y II. Además, propuse utilizar Trello para coordinar las tareas y asegurar que todos tuvieran visibilidad sobre el avance de cada sección del proyecto. Trabajé en conjunto con el equipo para definir las estrategias de Lean UX y organizar las entrevistas con usuarios.<br><br>_TP1:_<br>Colaboré en equipo liderando conjuntamente la creación de wireframes, mockups y el desarrollo del landing page. Fomenté una toma de decisiones compartida y utilicé herramientas de gestión de código fuente para asegurar una colaboración eficiente y organizada.<br><br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de la documentación y de coordinar las reuniones grupales a través de Discord, asegurándome de que todos los miembros tuvieran espacio para discutir ideas y resolver dudas. También participé activamente en las reuniones aportando ideas de mejora continua para las soluciones propuestas.<br><br>_TP1:_<br>Participé en la revisión de las entrevistas realizadas al segmento Transportista, asegurando la correcta organización de la información y colaborando en la edición de los documentos compartidos.<br><br>**Sebastian Castro**<br>Colaboré en la creación de los diagramas de clase y de base de datos, trabajando estrechamente con los demás miembros para integrar sus comentarios. También propuse un esquema de reuniones semanales para mantener el flujo de trabajo organizado y asegurar el cumplimiento de los plazos.<br><br>_TP1:_<br><br><br>**Camila Conde**<br>_TB1:_<br>Contribuí a las discusiones del equipo proponiendo mejoras en las estrategias presentadas. Además, coordiné el uso de un grupo de WhatsApp para la comunicación rápida y la resolución de problemas en tiempo real entre todos los miembros.<br><br>_TP1:_<br>Estuve pendiente del avance compartido con uno de mis compañeros coordinando para una mejora continua.<br><br>**Diego Portales** <br>_TB1:_<br>Realicé entrevistas para el segmento Transportista y aseguré que la documentación estuviera bien estructurada para el equipo. Además, lideré la creación de un documento compartido en Google Docs para centralizar la información y asegurar que todos pudieran trabajar colaborativamente en los mismos documentos.<br><br>_TP1:_<br><br>**Luis Isla**<br><br>*TP1:*<br>Desarrollé styleguidelines, crear un sprint backlog y desarrollar application prototypes, además de realizar correcciones en el product backlog para mejorar la calidad y alineación del proyecto.<br><br>                                                                              | En la fase inicial del proyecto, se presentó una visión general de las ideas y objetivos. La colaboración fue esencial para coordinar tareas a través de herramientas como Trello, Discord y Google Docs, lo que mejoró la organización del equipo. Este enfoque colaborativo permitirá que el equipo avance de manera más estructurada y efectiva. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br>_TB1:_<br>Fomenté un entorno inclusivo al establecer metas claras para cada sección y planificar tareas en conjunto con el equipo. Usamos Trello para organizar el trabajo y aseguré que todos los miembros tuvieran responsabilidades bien distribuidas. Participé activamente en las reuniones grupales para garantizar que todos tuvieran voz en la toma de decisiones clave.<br><br>_TP1:_<br>Fomenté un entorno colaborativo e inclusivo durante la creación de wireframes, mockups y el desarrollo del landing page. Establecí metas claras con el equipo, planifiqué tareas y aseguré que los objetivos se cumplieran en los plazos acordados, manteniendo una comunicación abierta y efectiva.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros del equipo. Fomenté la comunicación abierta y la colaboración en todas las fases del proyecto.<br><br>_TP1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros <br><br><br>**Sebastian Castro**<br>_TB1:_<br>Ayudé en la planificación de las tareas al proponer un calendario de reuniones semanales, asegurándome de que el equipo se mantuviera al día con los plazos. También trabajé en estrecha colaboración con mis compañeros para resolver problemas técnicos y mejorar el diseño de las soluciones propuestas.<br><br>_TP1:_<br><br><br><br>**Camila Conde**<br>_TB1:_<br>Participé activamente en las reuniones y propuse la creación de un grupo de WhatsApp para facilitar la comunicación rápida entre el equipo, permitiendo resolver dudas y problemas de manera más eficiente. También aseguré que las tareas estuvieran alineadas con los objetivos del proyecto.<br><br>_TP1:_<br>Estuve atenta a cada retroalimentación y corrección que faltaba para poder cumplir con la entrega a tiempo. Trabajé en colaboración con mis compañeros hasta poder cumplir con las entregas.<br><br>**Diego Portales** <br>_TB1:_<br>Propuse el uso de Google Docs para la edición colaborativa de los documentos del proyecto, lo que permitió a todos los miembros trabajar de manera conjunta en tiempo real. Además, ayudé en la organización de las tareas técnicas dentro del equipo para asegurar que se cumplieran los objetivos en tiempo y forma.<br><br>_TP1:_<br><br>**Luis Isla**<br><br>*TP1:*<br>Fomenté un ambiente inclusivo al participar en reuniones de equipo en Discord y en clase, lo que permitió que todos expresaran sus ideas y ayudó a establecer metas claras y efectivas.<br><br><br> | <br>Durante la fase inicial del proyecto, el equipo adoptó herramientas como Trello, Discord y Google Docs para fomentar la colaboración y la organización. Esta estructura nos permitió establecer metas claras y cumplir con los objetivos de manera eficiente, asegurando un entorno de trabajo inclusivo y colaborativo.                        |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Rodrigo Sabino**<br>_TB1:_<br>Asumí el liderazgo en la organización de las secciones asignadas de los capítulos I y II. Además, propuse utilizar Trello para coordinar las tareas y asegurar que todos tuvieran visibilidad sobre el avance de cada sección del proyecto. Trabajé en conjunto con el equipo para definir las estrategias de Lean UX y organizar las entrevistas con usuarios.<br><br>_TP1:_<br>Colaboré en equipo liderando conjuntamente la creación de wireframes, mockups y el desarrollo del landing page. Fomenté una toma de decisiones compartida y utilicé herramientas de gestión de código fuente para asegurar una colaboración eficiente y organizada.<br><br>_TB2:_<br>Organizó reuniones semanales y facilitó el flujo de trabajo para mantener la productividad del equipo. Supervisó la implementación de sensores en Wokwi y aseguró que los desarrollos estuvieran alineados con el objetivo del proyecto.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de la documentación y de coordinar las reuniones grupales a través de Discord, asegurándome de que todos los miembros tuvieran espacio para discutir ideas y resolver dudas. También participé activamente en las reuniones aportando ideas de mejora continua para las soluciones propuestas.<br><br>_TP1:_<br>Participé en la revisión de las entrevistas realizadas al segmento Transportista, asegurando la correcta organización de la información y colaborando en la edición de los documentos compartidos.<br><br>_TB2:_<br>Coordinó el desarrollo de la web application y la integración de las funcionalidades clave. Lideró la revisión de los componentes y se aseguró de que el equipo mantuviera el enfoque en los objetivos técnicos y de experiencia del usuario.<br><br>**Sebastian Castro**<br>_TB1:_<br>Colaboré en la creación de los diagramas de clase y de base de datos, trabajando estrechamente con los demás miembros para integrar sus comentarios. También propuse un esquema de reuniones semanales para mantener el flujo de trabajo organizado y asegurar el cumplimiento de los plazos.<br><br>_TP1:_<br>Apoyé en el desarrollo de los prototipos de la aplicación móvil, proporcionando retroalimentación y optimizando el diseño para una mejor experiencia de usuario. Además, participé en la revisión final de la página de aterrizaje, contribuyendo con ideas de mejora para la presentación visual y de contenido.<br><br>_TB2:_<br>Encargado de estructurar y revisar la base de datos en el backend, colaborando con los demás para asegurar la integración correcta. Propuso mejoras técnicas que ayudaron a optimizar la funcionalidad de la app.<br><br>**Camila Conde**<br>_TB1:_<br>Contribuí a las discusiones del equipo proponiendo mejoras en las estrategias presentadas. Además, coordiné el uso de un grupo de WhatsApp para la comunicación rápida y la resolución de problemas en tiempo real entre todos los miembros.<br><br>_TP1:_<br>Estuve pendiente del avance compartido con uno de mis compañeros coordinando para una mejora continua.<br><br>_TB2:_<br>Coordinó las pruebas de la aplicación móvil y propuso cambios para mejorar la accesibilidad y experiencia del usuario en dispositivos móviles. Mantuvo la comunicación con el equipo para asegurar que todas las versiones fueran compatibles.<br><br>**Diego Portales** <br>_TB1:_<br>Realicé entrevistas para el segmento Transportista y aseguré que la documentación estuviera bien estructurada para el equipo. Además, lideré la creación de un documento compartido en Google Docs para centralizar la información y asegurar que todos pudieran trabajar colaborativamente en los mismos documentos.<br><br>_TP1:_<br>facilitó el flujo de trabajo para mantener la productividad del equipo.<br><br>**Luis Isla**<br><br>*TP1:*<br>Desarrollé styleguidelines, crear un sprint backlog y desarrollar application prototypes, además de realizar correcciones en el product backlog para mejorar la calidad y alineación del proyecto.<br><br>_TB2:_<br>Documentó las especificaciones técnicas del backend y facilitó la integración de las APIs. Aseguró que todos los miembros tuvieran acceso a la documentación actualizada para evitar errores en la implementación.<br>         | En la fase inicial del proyecto, se presentó una visión general de las ideas y objetivos. La colaboración fue esencial para coordinar tareas a través de herramientas como Trello, Discord y Google Docs, lo que mejoró la organización del equipo. Este enfoque colaborativo permitirá que el equipo avance de manera más estructurada y efectiva. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Rodrigo Sabino**<br>_TB1:_<br>Fomenté un entorno inclusivo al establecer metas claras para cada sección y planificar tareas en conjunto con el equipo. Usamos Trello para organizar el trabajo y aseguré que todos los miembros tuvieran responsabilidades bien distribuidas. Participé activamente en las reuniones grupales para garantizar que todos tuvieran voz en la toma de decisiones clave.<br><br>_TP1:_<br>Fomenté un entorno colaborativo e inclusivo durante la creación de wireframes, mockups y el desarrollo del landing page. Establecí metas claras con el equipo, planifiqué tareas y aseguré que los objetivos se cumplieran en los plazos acordados, manteniendo una comunicación abierta y efectiva.<br><br>_TB2:_<br>Promovió la comunicación constante en Discord y en Trello, permitiendo una colaboración efectiva. Facilitó la integración de los componentes de hardware y software en Wokwi para el monitoreo de peso y temperatura.<br><br>**Edery Abanto** <br>_TB1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros del equipo. Fomenté la comunicación abierta y la colaboración en todas las fases del proyecto.<br><br>_TP1:_<br>Me encargué de coordinar las reuniones por Discord y proponer un horario flexible que se adaptara a las necesidades de todos los miembros <br><br>_TB2:_<br>Fomentó un ambiente de colaboración continua en la revisión de código y en el análisis de las funcionalidades de la web application. Aseguró que todos los miembros recibieran feedback constructivo.<br><br>**Sebastian Castro**<br>_TB1:_<br>Ayudé en la planificación de las tareas al proponer un calendario de reuniones semanales, asegurándome de que el equipo se mantuviera al día con los plazos. También trabajé en estrecha colaboración con mis compañeros para resolver problemas técnicos y mejorar el diseño de las soluciones propuestas.<br><br>_TP1:_<br>Participé en la planificación de las tareas del diseño de la aplicación móvil, coordinando con el equipo para definir plazos realistas y soluciones técnicas. También asistí en la organización de los recursos necesarios para implementar el diseño de manera efectiva.<br><br>_TB2:_<br>Planificó reuniones de seguimiento para coordinar los avances en el backend y asegurar que todas las funciones estuvieran en línea con los objetivos. Trabajó junto con otros miembros en la optimización del sistema de almacenamiento de datos.<br><br>**Camila Conde**<br>_TB1:_<br>Participé activamente en las reuniones y propuse la creación de un grupo de WhatsApp para facilitar la comunicación rápida entre el equipo, permitiendo resolver dudas y problemas de manera más eficiente. También aseguré que las tareas estuvieran alineadas con los objetivos del proyecto.<br><br>_TP1:_<br>Estuve atenta a cada retroalimentación y corrección que faltaba para poder cumplir con la entrega a tiempo. Trabajé en colaboración con mis compañeros hasta poder cumplir con las entregas.<br><br>_TB2:_<br>Organizó el grupo de WhatsApp para resolver problemas en tiempo real. Se aseguró de que cada tarea en la aplicación móvil se alineara con los objetivos del proyecto y proporcionó asistencia en las pruebas.<br><br>**Diego Portales** <br>_TB1:_<br>Propuse el uso de Google Docs para la edición colaborativa de los documentos del proyecto, lo que permitió a todos los miembros trabajar de manera conjunta en tiempo real. Además, ayudé en la organización de las tareas técnicas dentro del equipo para asegurar que se cumplieran los objetivos en tiempo y forma.<br><br>_TP1:_<br>Documentó y aseguró que todos los miembros tuvieran acceso a la documentación, y estableció limites de tiempo.<br><br>**Luis Isla**<br><br>*TP1:*<br>Fomenté un ambiente inclusivo al participar en reuniones de equipo en Discord y en clase, lo que permitió que todos expresaran sus ideas y ayudó a establecer metas claras y efectivas.<br><br>_TB2:_<br>Colaboró en la planificación y organización de las tareas técnicas dentro del equipo, asegurando que el cronograma se cumpliera y que los objetivos se alcanzaran de forma eficiente en el backend y en las APIs de integración. | <br>Durante la fase inicial del proyecto, el equipo adoptó herramientas como Trello, Discord y Google Docs para fomentar la colaboración y la organización. Esta estructura nos permitió establecer metas claras y cumplir con los objetivos de manera eficiente, asegurando un entorno de trabajo inclusivo y colaborativo.                        |
 
 
 
@@ -222,6 +243,12 @@ Aquí se describen los perfiles de los miembros clave del equipo involucrado en 
 | Integrante                                                                                                                                                                                                                                                                                                                                                                                                                   | Sabino Ramírez, Rodrigo Alexander                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Soy estudiante de octavo ciclo de Ingeniería de Software, con experiencia en desarrollo web, mobile con Flutter, y backend con Java Spring Boot. Me considero proactivo y estratégico, con habilidades en programación y un gran espíritu investigador. Puedo contribuir al proyecto aplicando mis conocimientos técnicos y apoyando al equipo con habilidades blandas como el trabajo en equipo y la comunicación efectiva. | ![Rodrigo Perfil](resources/images/integrantes/Rodrigo.jpeg) |
+
+
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Isla Quispe, Luis Fernando                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| Soy estudiante del séptimo ciclo de Ingeniería de Software, con experiencia en lenguajes de programación como Python, C++, C#, y JavaScript. Me especializo en el desarrollo de aplicaciones móviles con Flutter y aplicaciones web con Angular. Me destaco por mi habilidad para trabajar en equipo, contribuyendo activamente en cada proyecto y comprometiéndome a aportar de manera eficiente e innovadora tanto a mi equipo como a la misma disciplina en la que me formo | ![Rodrigo Perfil](resources/images/integrantes/luisi.jpeg) |
+
 
 ## 1.2. Solution Profile
 
@@ -1882,9 +1909,9 @@ Esta esta sección se presentarán avances respecto a las implementaciones segú
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
-En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. 
 
-Se proporciona una tabla que incluye los commits relacionados con el testing, detallando las ramas utilizadas y las integraciones realizadas, así como la descripción de los cambios. Estos commits se almacenaron en el repositorio destinado a los proyectos de Testing y aseguran el cumplimiento de las pruebas para este Sprint.
+En una tabla se evidencian los commits relacionados con el testing, detallando las ramas utilizadas, así como la descripción de los cambios. Estos commits se almacenaron en el repositorio destinado a los proyectos de Testing y aseguran el cumplimiento de las pruebas para este Sprint.
 
 A continuación, se muestra la tabla que agrupa los commits relacionados con el avance de las pruebas y el desarrollo de la suite de testing.
 
@@ -1892,8 +1919,8 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 | ------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------- |
 | upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 0ccca76   | feat: add .feature files for Sprint 1                                          | Se añaden archivos .feature para el Sprint 1.                      | 25/09/2024          |
 | upc-pre-202402-si572-ws71-Castores/testing-suite | main   | c57d7c1   | Merge pull request #1 from upc-pre-202402-si572-ws71-Castores/feature/sprint_1 | Se realiza el merge de los archivos de la rama sprint_1 a develop. | 25/09/2024          |
-| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 874e99f   | Merge pull request #2 from upc-pre-202402-si572-ws71-Castores/develop          | Se realiza el merge a develop tras verificar los cambios.          | 25/09/2024          |
-| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | e24c96d   | chore: add README for testing suite repository                                 | Se añade el archivo README para la suite de testing.               | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 874e99f   | Merge pull request #2 from upc-pre-202402-si572-ws71-Castores/develop          | Se realiza el merge a develop tras verificar los cambios.          | 30/11/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | e24c96d   | chore: add README for testing suite repository                                 | Se añade el archivo README para la suite de testing.               | 30/09/2024          |
 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
@@ -1974,10 +2001,561 @@ A continuación, se presenta una captura de pantalla de los análisis de colabor
 
 Todos los miembros del equipo participaron activamente en la implementación del proyecto, siguiendo las buenas prácticas de control de versiones y asegurando que el código final cumpliera con los estándares definidos al inicio del sprint.
 
+### 6.2.2. Sprint 2
+Durante el **Sprint 2**, se continuó con el desarrollo de **TransportApp**, enfocándose en la implementación de funcionalidades esenciales relacionadas con el manejo de vehículos y el historial de servicios. Estas nuevas características permiten a los transportistas registrar vehículos, acceder al historial de sus servicios realizados, y gestionar información clave dentro de la plataforma. Además, se avanzó en la integración de sensores IoT, lo que sentó las bases para la futura gestión de datos en tiempo real y optimización de los servicios de transporte.
+#### 6.2.2.1. Sprint Planning 2
+
+| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Date                            | 23/09/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Time                            | 7:00 p. m.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                        | Reunión virtual en Discord.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Abanto Vicente, Edery Renzo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Attendees (to planning meeting) | Abanto Vicente, Edery Renzo / Castro Soto, Sebastian Enrique / Conde Isla, Camila Alessandra / Portales Ortiz, Diego Alejandro / Sabino Ramírez, Rodrigo Alexander / Luis Isla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 0 Review Summary         | En el Sprint anterior (Sprint 1), logramos completar la Landing Page de TransportApp y comenzamos el desarrollo de la aplicación web, realizando algunas entrevistas y documentando el proyecto. Sin embargo, debido a problemas de organización y gestión del tiempo, no logramos completar la funcionalidad de la aplicación web.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 0 Retrospective Summary  | Durante la retrospectiva, el equipo expresó que el tiempo no fue medido ni organizado adecuadamente, lo que resultó en dificultades para alcanzar todos los objetivos del Sprint. Aprendimos que es necesario mejorar la planificación de las tareas para optimizar el tiempo y cumplir con las entregas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 2 Goal                   | **Our focus is on** developing and integrating core functionalities that enhance user interaction across **TransportApp**, including service requests, vehicle registration, transport tracking, and sensor data management. This sprint will cover both backend, frontend web, and mobile components to ensure a seamless experience for clients and transporters.<br><br>**We believe it delivers** critical value by enabling users to manage their transportation needs effectively, track service history, register vehicles, and visualize real-time transport data, all while ensuring robust user authentication and service request processes.<br><br>**This will be confirmed when** the application successfully implements the functionalities of service request submission, transport tracking, vehicle registration, and sensor data integration, and these features are fully operational across web, mobile, and backend platforms. Additionally, the integration of data from IoT sensors into the dashboard will provide accurate real-time information. |
+
+Creemos que esto entrega: una mejora significativa en la capacidad de control y gestión de transporte para los transportistas, aumentando la eficiencia en la operación y la visibilidad de las condiciones de carga en tiempo real.
+
+Esto se confirmará cuando: las funciones de registro, solicitud y monitoreo se prueben satisfactoriamente y se validen los datos recibidos del dispositivo IoT (temperatura y peso) en el sistema. 
+
+| Sprint 1 Velocity | Sum of Story Points |
+| ----------------- | ------------------- |
+| 20 Story Points   | 45 Story Points     |
+
+#### 6.2.2.2. Sprint Backlog 2
+
+https://trello.com/invite/b/67128440de5817db04411e7c/ATTI69fc97752414740fc8019614394a84538E1F922D/sprint-backlog-2
+
+![landing-gitflow](resources/images/capitulo_6/sprintBacklog2.jpg)
+
+| Spint #    |                                                                                   | Sprint 2 |                                                                         |                                                                                                                                                                            |                    |                  |        |
+| ---------- | --------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ---------------- | ------ |
+| User Story | Work-Item / Task                                                                  | Id       | Title                                                                   | Description                                                                                                                                                                | Estimation (Hours) | Assigned To      | Status |
+| TS-07      | Sección About Us                                                                  | TS07     | Implementar función de añadir solicitud de servicio (backend)           | Desarrollo de la funcionalidad para que los usuarios añadan solicitudes de servicio en la aplicación desde el backend.                                                     | 4                  | Edery Abanto     | Done   |
+| TS-08      | Historial de servicios solicitados                                                | TS08     | Implementar función de historial de servicios (backend)                 | Desarrollo de la funcionalidad para mostrar el historial de servicios solicitados desde el backend.                                                                        | 3                  | Diego Portales   | Done   |
+| TS-09      | Registrar vehículos                                                               | TS09     | Implementar registro de vehículos (backend)                             | Desarrollo de la funcionalidad para registrar vehículos en la plataforma desde el backend.                                                                                 | 3                  | Rodrigo Sabino   | Done   |
+| TS-10      | Obtener transportista                                                             | TS10     | Implementar función de obtener transportista (backend)                  | Desarrollo de la funcionalidad para mostrar la información del transportista asignado a un servicio desde el backend.                                                      | 3                  | Camila Conde     | Done   |
+| TS-11      | Obtener ruta de envío                                                             | TS11     | Implementar función de obtener ruta de envío (backend)                  | Desarrollo de la funcionalidad para mostrar la ruta del servicio de transporte desde el backend.                                                                           | 4                  | Rodrigo Sabino   | Done   |
+| TS-12      | Obtener transportista asignado                                                    | TS12     | Implementar función de obtener transportista asignado (backend)         | Desarrollo de la funcionalidad para mostrar el transportista asignado a un servicio desde el backend.                                                                      | 3                  | Edery Abanto     | Done   |
+| TS-13      | Añadir elemento al CheckList                                                      | TS13     | Implementar función de añadir elemento al checklist (backend)           | Desarrollo de la funcionalidad para que los usuarios añadan elementos al checklist de transporte desde el backend.                                                         | 3                  | Edery Abanto     | Done   |
+| TS-14      | Eliminar elemento del CheckList                                                   | TS14     | Implementar función de eliminar elemento del checklist (backend)        | Desarrollo de la funcionalidad para que los usuarios eliminen elementos del checklist de transporte desde el backend.                                                      | 3                  | Edery Abanto     | Done   |
+| TS-15      | Añadir persona encargada                                                          | TS15     | Implementar función de añadir persona encargada (backend)               | Desarrollo de la funcionalidad para añadir una persona encargada del seguimiento de un servicio de transporte desde el backend.                                            | 4                  | Edery Abanto     | Done   |
+| TS-16      | Generar reporte de servicio                                                       | TS16     | Implementar función de generar reporte de servicio (backend)            | Desarrollo de la funcionalidad para generar un reporte con los detalles del transporte completado desde el backend.                                                        | 3                  | Diego Portales   | Done   |
+| US-17      | Registro de cliente                                                               | TS17     | Implementar función de registro de cliente (web)                        | Desarrollo de la funcionalidad para que los clientes se registren y puedan verificar su identidad y acceder a la aplicación.                                               | 3                  | Luis Isla        | Done   |
+| US-17      | Registro de cliente                                                               | TS18     | Implementar función de registro de cliente (mobile)                     | Desarrollo de la funcionalidad para que los clientes se registren y puedan verificar su identidad y acceder a la aplicación.                                               | 3                  | Luis Isla        | Done   |
+| US-18      | Registro de transportista                                                         | TS19     | Implementar función de registro de transportista (web)                  | Desarrollo de la funcionalidad para que los transportistas se registren y puedan verificar su identidad en la plataforma.                                                  | 3                  | Luis Isla        | Done   |
+| US-18      | Registro de transportista                                                         | TS20     | Implementar función de registro de transportista (mobile)               | Desarrollo de la funcionalidad para que los transportistas se registren y puedan verificar su identidad en la plataforma.                                                  | 3                  | Luis Isla        | Done   |
+| US-19      | Inicio de sesión                                                                  | TS21     | Implementar función de inicio de sesión (web)                           | Desarrollo de la funcionalidad para que los usuarios inicien sesión en la aplicación y accedan a sus funcionalidades.                                                      | 3                  | Luis Isla        | Done   |
+| US-19      | Inicio de sesión                                                                  | TS22     | Implementar función de inicio de sesión (mobile)                        | Desarrollo de la funcionalidad para que los usuarios inicien sesión en la aplicación y accedan a sus funcionalidades.                                                      | 3                  | Luis Isla        | Done   |
+| US-20      | Envío de temperatura a través de un Edge Gateway                                  | TS23     | Implementar envío de datos de temperatura                               | Desarrollo de la funcionalidad para que el Edge Gateway capture y envíe datos de temperatura del dispositivo al Backend, gestionando errores de captura.                   | 5                  | Sebastian Castro | Done   |
+| US-21      | Envío de datos de peso a través de un Edge Gateway                                | TS24     | Implementar envío de datos de peso                                      | Desarrollo de la funcionalidad para que el Edge Gateway capture y envíe datos de presión del dispositivo al Backend, gestionando errores de datos defectuosos.             | 5                  | Sebastian Castro | Done   |
+| US-22      | Envío de datos de ubicación a través de un Edge Gateway                           | TS25     | Implementar envío de datos de ubicación                                 | Desarrollo de la funcionalidad para que el Edge Gateway capture y envíe datos de ubicación del dispositivo al Backend, gestionando errores de pérdida de señal GPS.        | 5                  | Sebastian Castro | Done   |
+| US-23      | Implementación de Edge Gateway con Backend Application                            | TS26     | Implementar intermediario entre Edge Gateway y Backend                  | Desarrollo de la funcionalidad para que el Edge Gateway actúe como intermediario entre el Backend y el dispositivo IoT, con validación de seguridad en las comunicaciones. | 6                  | Sebastian Castro | Done   |
+| US-24      | Conexión de Sensor IoT a la Plataforma                                            | TS27     | Implementar conexión de sensores IoT                                    | Desarrollo de la funcionalidad para conectar sensores IoT a la plataforma, con manejo de errores de conectividad inestable.                                                | 6                  | Sebastian Castro | Done   |
+| US-25      | Captura de Datos de Temperatura                                                   | TS28     | Implementación de la captura de datos de temperatura                    | Desarrollo de la funcionalidad para capturar y registrar datos de temperatura del dispositivo de IoT en tiempo.                                                            | 4                  | Camila Conde     | Done   |
+| US-26      | Captura de Datos de Peso                                                          | TS29     | Implementación de la captura de Peso                                    | Desarrollo de la funcionalidad para capturar y registrar datos de peso del dispositivo de IoT en tiempo.                                                                   | 4                  | Camila Conde     | Done   |
+| US-27      | Solicitud de servicio de transporte                                               | TS30     | Implementación de la sección de Solicitud de transporte (web)           | Desarrollo de la funcionalidad para solicitar un servicio de transporte con validación de datos en la aplicación web.                                                      | 5                  | Camila Conde     | Done   |
+| US-27      | Solicitud de servicio de transporte                                               | TS31     | Implementación de la sección de Solicitud de transporte (mobile)        | Desarrollo de la funcionalidad para solicitar un servicio de transporte con validación de datos en la aplicación móvil.                                                    | 5                  | Camila Conde     | Done   |
+| US-28      | Check-in                                                                          | TS32     | Implementar función de check-in (web)                                   | Desarrollo de la funcionalidad para registrar los objetos antes del transporte en la aplicación web.                                                                       | 4                  | Edery Abanto     | Done   |
+| US-28      | Check-in                                                                          | TS33     | Implementar función de check-in (mobile)                                | Desarrollo de la funcionalidad para registrar los objetos antes del transporte en la aplicación móvil.                                                                     | 4                  | Edery Abanto     | Done   |
+| US-29      | Check-out                                                                         | TS34     | Implementar función de check-out (web)                                  | Desarrollo de la funcionalidad para verificar que todos los productos llegaron al destino en la aplicación web.                                                            | 4                  | Edery Abanto     | Done   |
+| US-29      | Check-out                                                                         | TS35     | Implementar función de check-out (mobile)                               | Desarrollo de la funcionalidad para verificar que todos los productos llegaron al destino en la aplicación móvil.                                                          | 4                  | Edery Abanto     | Done   |
+| US-30      | Visualización de la información sobre el transporte                               | TS36     | Implementar sección de visualización del transporte solicitado (web)    | Desarrollo de la sección para visualizar temperatura, peso, ubicación, lugar y horario del transporte en tiempo real en la aplicación web.                                 | 4                  | Diego Portales   | Done   |
+| US-30      | Visualización de la información sobre el transporte                               | TS37     | Implementar sección de visualización del transporte solicitado (mobile) | Desarrollo de la sección para visualizar temperatura, peso, ubicación, lugar y horario del transporte en tiempo real en la aplicación móvil.                               | 4                  | Diego Portales   | Done   |
+| US-31      | Recibir la información del sensor a través de un RESTful API                      | TS38     | Implementar recepción de datos del sensor mediante API (web)            | Desarrollo de la funcionalidad para recibir información de los sensores (temperatura, peso, etc.) vía API GET en la aplicación web.                                        | 4                  | Diego Portales   | Done   |
+| US-31      | Recibir la información del sensor a través de un RESTful API                      | TS39     | Implementar recepción de datos del sensor mediante API (mobile)         | Desarrollo de la funcionalidad para recibir información de los sensores (temperatura, peso, etc.) vía API GET en la aplicación móvil.                                      | 4                  | Diego Portales   | Done   |
+| US-32      | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | TS40     | Implementar envío de datos del sensor mediante API (web)                | Desarrollo de la funcionalidad para enviar información de los sensores desde el Edge Gateway vía API POST en la aplicación web.                                            | 5                  | Sebastian Castro | Done   |
+| US-32      | Enviar la información del sensor desde el Edge Gateway a través de un RESTful API | TS41     | Implementar envío de datos del sensor mediante API (mobile)             | Desarrollo de la funcionalidad para enviar información de los sensores desde el Edge Gateway vía API POST en la aplicación móvil.                                          | 5                  | Sebastian Castro | Done   |
+| US-33      | Notificar al conductor del transporte                                             | TS42     | Implementar notificación al conductor (web)                             | Desarrollo de la funcionalidad para notificar al conductor sobre el inicio de un transporte en la aplicación web.                                                          | 3                  |                  | To-do  |
+| US-33      | Notificar al conductor del transporte                                             | TS43     | Implementar notificación al conductor (mobile)                          | Desarrollo de la funcionalidad para notificar al conductor sobre el inicio de un transporte en la aplicación móvil.                                                        | 3                  |                  | To-do  |
+| US-34      | Notificar al conductor del viaje concluido                                        | TS44     | Implementar notificación de viaje concluido (web)                       | Desarrollo de la funcionalidad para notificar al conductor que el viaje ha concluido en la aplicación web.                                                                 | 3                  |                  | To-do  |
+| US-34      | Notificar al conductor del viaje concluido                                        | TS45     | Implementar notificación de viaje concluido (mobile)                    | Desarrollo de la funcionalidad para notificar al conductor que el viaje ha concluido en la aplicación móvil.                                                               | 3                  |                  | To-do  |
+| US-35      | Enviar alerta de peligro al transportista                                         | TS46     | Implementar alerta de peligro (web)                                     | Desarrollo de la funcionalidad para enviar una alerta de peligro al transportista desde la aplicación web.                                                                 | 4                  |                  | To-do  |
+| US-35      | Enviar alerta de peligro al transportista                                         | TS47     | Implementar alerta de peligro (mobile)                                  | Desarrollo de la funcionalidad para enviar una alerta de peligro al transportista desde la aplicación móvil.                                                               | 4                  |                  | To-do  |
+| US-36      | Obtener datos perfil                                                              | TS48     | Implementar función para obtener datos del perfil                       | Desarrollo de la funcionalidad para obtener y mostrar los datos de perfil del usuario en la plataforma.                                                                    | 4                  | Rodrigo Sabino   | Done   |
+| US-37      | Registro de usuario                                                               | TS49     | Implementar función de registro de usuario                              | Desarrollo de la funcionalidad para registrar un nuevo usuario en la plataforma.                                                                                           | 4                  | Luis Isla        | Done   |
+|            | Despliegue Backend                                                                | TS50     | Despliegue del backend                                                  | Despliegue del backend en el entorno de producción para la plataforma.                                                                                                     | 5                  | Rodrigo Sabino   | Done   |
+|            | Despliegue Frontend                                                               | TS51     | Despliegue del frontend                                                 | Despliegue del frontend en el entorno de producción para la plataforma.                                                                                                    | 5                  | Rodrigo Sabino   | Done   |
+|            | Despliegue Mobile                                                                 | TS52     | Despliegue de la aplicación móvil                                       | Despliegue de la aplicación móvil en el entorno de producción para la plataforma.                                                                                          | 5                  | Rodrigo Sabino   | Done   |
+
+  
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+Durante este Sprint, se completaron avances significativos en distintos componentes de la solución, incluyendo el frontend, backend, aplicación móvil, landing page y una aplicación embebida. Estos desarrollos responden a los objetivos establecidos para este Sprint, enfocándose en la implementación de funcionalidades clave en cada uno de estos módulos. La documentación a continuación detalla los commits relevantes realizados en cada repositorio, proporcionando una visión clara del progreso en cada área. Este registro permite visualizar el trabajo en conjunto y la cohesión de los diferentes componentes que conforman la solución final.
+
+
+| Repository                                               | Branch                     | commit id | commit message                                                                                              | commit message body | date       |
+| -------------------------------------------------------- | -------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ------------------- | ---------- |
+| upc-pre-202402-si572-ws71-Castores/embedded-applicatiobn | feature/wokwi-gps-chip     | 48de62d   | feat(neo6m): added chip funtion                                                                             | -                   | 30/11/2024 |
+|                                                          | feature/wokwi-gps-chip     | 51a3ae8   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/sensor-integration | 32f2410   | feat: integrate DHT22 and HX711 sensors for temperature and weight measurement                              | -                   | 30/11/2024 |
+|                                                          | feature/sensor-integration | ddd0ef5   | feat: add DHT22 sensor integration and display temperature on LCD                                           |                     | 30/11/2024 |
+|                                                          | feature/gps-handler        | 48de62d   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/gps-handler        | fe3e21    | feat: add gpshandlers files                                                                                 | -                   | 30/11/2024 |
+|                                                          | feature/device-itegration  | 48de62d   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/api-client         | fcba73c   | Feat: add ApiClient                                                                                         | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-services          | feature/profile            | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/profile            | 717b83a   | feat(iot): add domain iot-process                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/profile            | 8fe8139   | feat: add domain iam                                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/profile            | cf88f97   | feat(profile): added profile                                                                                | -                   | 30/11/2024 |
+|                                                          | feature/iot                | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/iot                | 717b83a   | feat(iot): add domain iot-process                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/iam                | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/iam                | 8fe8139   | feat: add domain iam                                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/check              | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-application       | feature/sign-up-aim        | b46405b   | feat(create-request): add routes & components                                                               | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 55b8c11   | feat(app): update sidebar, header and dynamic routing with Angular Material icons and role-based navigation | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 72dfc68   | feat(profile): create view client profile                                                                   | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 1128d54   | feat(create-request): update view                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | a79a363   | feat(offers): overflowing cascade cards                                                                     | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 5aec4ce   | Merge branch 'feature/client-profile' into develop                                                          | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 5a030a1   | feat(vehicle-form): added vehicle edit                                                                      | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 72dfc68   | feat(profile): create view client profile                                                                   | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | c8c7ee3   | Merge branch 'carrier-offers' into develop                                                                  | -                   | 30/11/2024 |
+|                                                          | feature/carrier-profile    | cc3c134   | feat(update): fix sidebar and header                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/carrier-profile    | 1128d54   | feat(create-request): update view                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/carrier-offers     | be870b3   | feat(offers): create offers view                                                                            | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/mobile-application    | feature/profile-user       | ba77ffb   | feat: add history carrier screen                                                                            | -                   | 30/11/2024 |
+|                                                          | feature/dashboard-user     | 76b5be2   | "feat: add dashboard's cards & content"                                                                     | -                   | 30/11/2024 |
+|                                                          |                            |           |                                                                                                             | -                   | 30/11/2024 |
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en el Mobile Application, Web Application, Web services Y Embeded relacionados con las User Stories especificadas para este Sprint. 
+
+En una tabla se evidencian los commits relacionados con el testing, detallando las ramas utilizadas, así como la descripción de los cambios.
+
+A continuación, se muestra la tabla que agrupa los commits relacionados con el avance de las pruebas y el desarrollo de la suite de testing.
+
+| Repository                                       | Branch           | Commit ID | Commit Message                                                                 | Commit Message Body                                                | Committed on (Date) |
+| ------------------------------------------------ | ---------------- | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------- |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | 0ccca76   | feat: add .feature files for Sprint 1                                          | Se añaden archivos .feature para el Sprint 1.                      | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | c57d7c1   | Merge pull request #1 from upc-pre-202402-si572-ws71-Castores/feature/sprint_1 | Se realiza el merge de los archivos de la rama sprint_1 a develop. | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | 6a5fabe   | feat: add .feature files for Sprint 2                                          | Se realiza el merge a develop tras verificar los cambios.          | 30/11/2024          |
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EZIa8h9mAWJOnlztQ9xH3EoBDC6eYt7t4XGKUtu7HNcMDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JxNWll
+
+* Landing Page: 
+Para esta entrega se añadió un switch para que el visitante pueda cambiar el idioma del landing page, Asimismo, se actualizo el botón call to action que permite dirigir al visitante al enlace desplegado de la aplicación web
+![landing-gitflow](resources/images/capitulo_6/sprint_2/page1.png)
+* Web Application:
+Para la presente entrega se implementaron las funcionalidades tanto para client como para transportista para que pueda utilizar la web application
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app2.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app3.png)
+
+Client:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app4.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app5.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app6.png)
+
+Carrier:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app7.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app8.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app9.png)
+* Mobile Application:
+En este componente se añadieron la pantallas para que el usuario pueda navegar por la aplicación mobile
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil2.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil3.png)
+
+Client:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil4.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil5.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil6.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil7.png)
+Carrier:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil8.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil9.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil10.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil11.png)
+* Web Service:
+En los servicios web se implementaron los endpoints que se utilizaron para la implementación de los demás componentes, y que permiten el correcto funcionamiento de la aplicación
+![landing-gitflow](resources/images/capitulo_6/sprint_2/api1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/api2.png)
+* Embedded Application:
+La aplicación embebida se desarrolló y probó en el entorno de simulación de Wokwi. En esta implementación, se utilizó el sensor DHT22 para medir la temperatura y la humedad, y el sensor HX711 para obtener lecturas de peso.
+![landing-gitflow](resources/images/capitulo_6/sprint_2/iot4.png)
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección, se presenta la documentación de los endpoints desarrollados y documentados en OpenAPI, como parte del alcance de este Sprint. A continuación, se proporciona un resumen de los logros alcanzados en la documentación de los Web Services, detallando las acciones implementadas para cada endpoint, los métodos HTTP utilizados (GET, POST, PUT), la sintaxis de llamada y los parámetros necesarios.
+
+| URL                                                                |
+| ------------------------------------------------------------------ |
+| https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net |
+
+* **Authentication**:
+
+| Endpoints                      | Methods HTTP |
+| ------------------------------ | ------------ |
+| /api/v1/authentication/sign-up | (POST)       |
+| /api/v1/authentication/sign-in | (POST)       |
+
+Example Value - sign-up
+
+```json
+{
+  "username": "rodalex1@gmail.com",
+  "password": "rodalex",
+  "roles": [
+    "ROLE_TRANSPORTER"
+  ]
+}
+```
+
+Request body - sign-up
+
+```json
+{
+  "id": 8,
+  "username": "rodalex1@gmail.com",
+  "roles": [
+    "ROLE_TRANSPORTER"
+  ]
+}
+```
+
+Example Value - sign-in
+
+```json
+{
+  "username": "rodri@gmail.com",
+  "password": "rodalex"
+}
+```
+
+Response body - sign-in
+
+```json
+{
+  "id": 3,
+  "username": "rodri@gmail.com",
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJyb2RyaUBnbWFpbC5jb20iLCJpYXQiOjE3MzA1MjMwNDUsImV4cCI6MTczMTEyNzg0NX0.8IJjc0ZfmVVHXPTVhwXQHLGimxGkkJCExzsat8qYzx4Gfi0j6PZsAM-ID6gvu7Wv"
+}
+```
+
+* **IotProcess**:
+
+| Endpoints          | Method HTTP |
+| ------------------ | ----------- |
+| /api/v1/iotProcess | (POST)      |
+Example Value - iotProcess
+
+```json
+{
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+Response body - iotProcess
+
+```json
+{
+  "id": 0,
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+* **Profiles**:
+
+| Endpoints                    | Methods HTTP |
+| ---------------------------- | ------------ |
+| /api/v1/profiles             | (GET)        |
+| /api/v1/profiles             | (POST)       |
+| /api/v1/profiles/{profileId} | (GET)        |
+Response body - profiles
+```json
+[
+  {
+    "id": 1,
+    "fullName": "Luis Isla",
+    "email": "luisi@gmail.com",
+    "city": "Lima, San Miguel"
+  },
+  {
+    "id": 2,
+    "fullName": "Fernando Quispe",
+    "email": "",
+    "city": "Miraflores"
+  },
+  {
+    "id": 3,
+    "fullName": "Fernando Quispe",
+    "email": "fernandoq@gmail.com",
+    "city": "Lima, Miraflores"
+  }
+]
+```
+
+* **Request**:
+
+| Endpoints                            | Methods HTTP |
+| ------------------------------------ | ------------ |
+| /api/v1/request/{requestId}          | (GET)        |
+| /api/v1/request/{requestId}          | (PUT)        |
+| /api/v1/request                      | (POST)       |
+| /api/v1/request/{requestId}/shipment | (GET)        |
+Example Value - request
+
+```json
+{
+  "id": 0,
+  "startLocation": "string",
+  "arrivalPlace": "string",
+  "descriptionRequest": "string",
+  "idealTemperature": 0,
+  "idealWeight": 0,
+  "offeredPrice": 0
+}
+```
+
+* **Roles**:
+
+| Endpoints     | Methods HTTP |
+| ------------- | ------------ |
+| /api/v1/roles | (GET)        |
+
+Response body - roles
+
+```json
+[
+  {
+    "id": 1,
+    "name": "ROLE_CLIENT"
+  },
+  {
+    "id": 2,
+    "name": "ROLE_ADMIN"
+  },
+  {
+    "id": 3,
+    "name": "ROLE_TRANSPORTER"
+  }
+]
+```
+
+* **Shipment**:
+
+| Endpoints                                   | Methods HTTP |
+| ------------------------------------------- | ------------ |
+| /api/v1/shipment                            | (GET)        |
+| /api/v1/shipment                            | (POST)       |
+| /api/v1/shipment/{shipmentId}/confirmations | (POST)       |
+
+Example Value - shipment
+
+```json
+[
+  {
+    "shipmentId": 0,
+    "transportId": "string",
+    "requestId": 0,
+    "status": "string"
+  }
+]
+```
+
+* **Users**:
+
+| Endpoints              | Methods HTTP |
+| ---------------------- | ------------ |
+| /api/v1/users          | (GET)        |
+| /api/v1/users/{userId} | (GET)        |
+Response body - users
+
+```json
+[
+  {
+    "id": 1,
+    "username": "rod@gmail.com",
+    "roles": [
+      "ROLE_CLIENT"
+    ]
+  },
+  {
+    "id": 2,
+    "username": "luisI@gmail.com",
+    "roles": [
+      "ROLE_CLIENT"
+    ]
+  }
+]
+```
+
+* **Transporters**:
+
+| Endpoints                           | Methods HTTP |
+| ----------------------------------- | ------------ |
+| /api/v1/transporter                 | (POST)       |
+| /api/v1/transporter/{transporterId} | (GET)        |
+Example Value - transporter
+
+```json
+{
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "address": "string",
+  "birthday": "2024-11-02T11:50:49.634Z",
+  "dni": 0,
+  "phone": "string"
+}
+```
+
+* **Shipments**:
+
+| Endpoints                                                    | Methods HTTP |
+| ------------------------------------------------------------ | ------------ |
+| /api/v1/transporter/api/v1/transport/{transportId}/shipments | (GET)        |
+Example Value - Shipments
+
+```json
+[
+  {
+    "shipmentId": 0,
+    "transportId": "string",
+    "requestId": 0,
+    "status": "string"
+  }
+]
+```
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+Esta sección detalla los procesos de despliegue realizados durante el Sprint, abarcando la configuración de recursos en la nube, integración de proyectos y automatización de tareas de despliegue. Incluye los pasos ejecutados para implementar cada producto digital, como la Landing Page, Web Services y Aplicaciones, asegurando su correcto funcionamiento en el entorno de producción.
+
+* Landing Page: 
+Se configuró la rama específica en GitHub Pages para el despliegue de la Landing Page, seleccionando la rama de producción para que el contenido esté disponible públicamente en la URL generada.
+![landing-gitflow](resources/images/capitulo_6/sprint_2/landing1.png)
+Para las futuras implementaciones, se configuraron workflows en GitHub Actions, de modo que cada cambio realizado en la rama de despliegue se publique automáticamente en GitHub Pages sin necesidad de intervención manual.
+![landing-gitflow](resources/images/capitulo_6/sprint_2/landing2.png)
+Enlace Landing Page:  [https://upc-pre-202402-si572-ws71-castores.github.io/landing-page/](https://upc-pre-202402-si572-ws71-castores.github.io/landing-page/)
+
+* Web Services:
+Se creó un servicio en Azure para el backend, seleccionando Linux y Java SE, y asignando recursos de memoria y tamaño básico.
+![service-gitflow](resources/images/capitulo_6/sprint_2/service1.png)
+Se comprobó que el backend esté en ejecución y accesible, revisando el dominio y opciones de monitoreo.
+![service-gitflow](resources/images/capitulo_6/sprint_2/service2.png)
+Enlace Web Services: [https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+* Web Application: 
+Para el despliegue del frontend en Netlify, primero se configuraron los parámetros de despliegue necesarios.
+![web-gitflow](resources/images/capitulo_6/sprint_2/web1.png)
+Luego, se ejecutaron los comandos de despliegue automaticamente, permitiendo que la aplicación web se publique.
+![web-gitflow](resources/images/capitulo_6/sprint_2/web2.png)
+Enlace de la Web Application: [https://transportapp-iot.netlify.app/auth/sign-in](https://transportapp-iot.netlify.app/auth/sign-in)
+
+* Mobile Application:
+El despliegue de la aplicación móvil se realizó en Firebase, donde se configuraron las versiones para Android, iOS, Web y Windows. Esta plataforma permite gestionar y monitorear el rendimiento de la aplicación en múltiples entornos, asegurando una experiencia consistente en cada sistema operativo.
+![mobile-gitflow](resources/images/capitulo_6/sprint_2/mobile2.png)
+
+* Embedded Application:
+El desarrollo de la aplicación embebida se llevó a cabo en Wokwi, donde se simuló el funcionamiento del sistema con los componentes y sensores necesarios. Esta plataforma permitió probar y validar el comportamiento del proyecto antes de su implementación física.
+![iot-gitflow](resources/images/capitulo_6/sprint_2/iot1.png)
+Enlace del proyecto en Wokwi: [https://wokwi.com/projects/412427976219729921](https://wokwi.com/projects/412427976219729921)
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección, se documenta la colaboración del equipo en el desarrollo de los diferentes componentes de la solución, destacando el trabajo realizado en cada uno de ellos. Cada apartado incluye evidencia visual de los commits y analíticos de colaboración en GitHub, mostrando las contribuciones individuales de los miembros del equipo en el Sprint.
+
+* **Landing Page**: Este apartado muestra el trabajo en equipo en el desarrollo de la Landing Page (repositorio: `landing-page`), con evidencia de commits y contribuciones individuales en GitHub, reflejando el esfuerzo conjunto para cumplir los objetivos del Sprint.
+![landing-gitflow](resources/images/capitulo_6/sprint_2/landing.png)
+
+- **Web Services**: En esta sección se documenta la colaboración en el desarrollo de los Web Services (repositorio: `web-services`), incluyendo capturas de los commits realizados y el aporte de cada miembro en las tareas de backend y conexión de servicios.
+![service-gitflow](resources/images/capitulo_6/sprint_2/services.png)
+
+- **Frontend Web Application**: Este apartado presenta la colaboración en el desarrollo del Frontend Web (repositorio: `web-application`), con registros de commits y contribuciones individuales que evidencian la implementación de la interfaz de usuario y la integración de funcionalidades para mejorar la experiencia de usuario.
+![web-gitflow](resources/images/capitulo_6/sprint_2/web.png)
+- **Aplicación Móvil**: Este apartado presenta la participación del equipo en la creación de la aplicación móvil (repositorio: `mobile-application`), con registros de commits y contribuciones individuales que evidencian el desarrollo y la integración de funcionalidades clave en la aplicación.
+![mobile-gitflow](resources/images/capitulo_6/sprint_2/mobile.png)
+- **Aplicación Embebida**: Este apartado muestra el trabajo realizado en la aplicación embebida (repositorio: `embedded-application`), incluyendo capturas de los commits y contribuciones específicas de cada miembro en la implementación de esta funcionalidad.
+![iot-gitflow](resources/images/capitulo_6/sprint_2/iot.png)
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+
+Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
+#### Segmento Transportista
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali1.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali2.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali3.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+
+
+
+
+#### Segmento Cliente
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali4.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br>**Tecnologías actuales:**<br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br><br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali5.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali6.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad:  <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br> |
+
+
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Video About-the-Product
+
+
 ---
-**Conclusión**
+## Conclusión
 
 Los prototipos presentados reflejan las decisiones de diseño basadas en los flujos de usuario establecidos, asegurando una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles. La relación entre la interacción y la arquitectura de información ha sido cuidadosamente diseñada para facilitar la navegación y el acceso a las funciones clave.
+
+Este proyecto ha permitido desarrollar una solución integral, fundamentada en el análisis detallado de la **startup**, el perfil de los usuarios y el contexto del mercado. La implementación del **Lean UX Process** y el análisis competitivo proporcionaron una comprensión profunda de las necesidades del usuario, lo cual guió las decisiones de diseño y desarrollo hacia una experiencia centrada en el usuario y diferenciada en el mercado.
+
+A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos. Los diagramas de arquitectura ayudaron a visualizar y organizar el sistema, asegurando que la estructura del software fuera robusta y fácil de mantener.
+
+El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups fueron diseñados para maximizar la navegación y la accesibilidad, ofreciendo una experiencia de usuario intuitiva y satisfactoria.
+
+Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el flujo de desarrollo y la entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas proporcionó retroalimentación clave, permitiendo realizar ajustes que mejoraron significativamente la calidad de la solución final.
+
+---
+## Bibliografía
+
+
+Holub, A. (s/f). Event storming. O’Reilly Media, Inc. [https://learning.oreilly.com/videos/event-storming/0636920362104/](https://learning.oreilly.com/videos/event-storming/0636920362104/)
+
+Khononov, V. (2021). Learning domain-Driven Design: Aligning software architecture and business strategy. O’Reilly Media. [https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/](https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
+
+Richards, M., & Ford, N. (2020). Fundamentals of software architecture: an engineering approach. O'Reilly Media. 
+
+Brown, S. (2019). The C4 Model for Visualizing Software Architecture. Leanpub. 
+
+Pashchenko, I., Vu, D. L., & Massacci, F. (2020, October). A qualitative study of dependency management and its security implications. In Proceedings of the 2020 ACM SIGSAC conference on computer and communications security (pp. 1513-1531). [https://doi.org/10.1145/3372297.3417232](https://doi.org/10.1145/3372297.3417232)
+
+Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Driven Design. John Wiley & Sons. [https://learning.oreilly.com/library/view/patterns-principles-and/9781118714706/](https://learning.oreilly.com/library/view/patterns-principles-and/9781118714706/)
+
 
 ---
 
@@ -1989,9 +2567,17 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 #### Video de exposición - TP1
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Video de exposición - TB2
+
 #### Video de entrevistas
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### Video de entrevistas de validación
+
+#### Video About The Product
+
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
