@@ -2570,6 +2570,28 @@ Aquí se documenta el registro completo de las entrevistas de validación realiz
 
 ## 6.4. Video About-the-Product
 
+**Descripción del Video:**
+
+En el video "About-the-Product" de TransportApp, presentamos la plataforma que conecta a transportistas con personas y empresas en Perú que necesitan servicios de transporte especializado. Este video está dirigido tanto a los visitantes de nuestra Landing Page, que buscan conocer el modelo de negocio y características principales del software, como a los usuarios de la aplicación, interesados en realizar tareas específicas relacionadas con la solución.
+
+**Contenido del Video:**
+
+El video comienza introduciendo TransportApp como la solución ideal para quienes requieren servicios de transporte con condiciones particulares, desde el control de temperatura para productos delicados hasta el transporte seguro de cargas pesadas. TransportApp permite a los transportistas crear perfiles completos que detallan sus servicios, tipo de vehículos, permisos legales y zonas de operación, mientras que los clientes pueden explorar estos perfiles y revisar las reseñas de otros usuarios para elegir el transportista adecuado.
+
+Además, se destaca la integración de tecnología IoT para monitoreo en tiempo real de temperatura y peso de la carga, garantizando un servicio seguro y ajustado a las necesidades específicas del cliente. Al final, se presentan testimonios de usuarios que han validado el producto, mostrando su satisfacción y confianza en TransportApp para gestionar sus envíos.
+
+**Detalles del Video:**
+
+- **Screenshot:**
+
+![About-product](resources/images/capitulo_6/About-product.jpg)
+
+- **URL en Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- **URL en YouTube:** https://youtu.be/LaqG35U6Lls
+
+- **Duración:** 3 minutos y 9 segundos
+
 
 ---
 ## Conclusión
