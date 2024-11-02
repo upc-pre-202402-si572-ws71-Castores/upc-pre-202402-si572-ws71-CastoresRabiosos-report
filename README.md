@@ -2486,45 +2486,82 @@ En esta sección, se documenta la colaboración del equipo en el desarrollo de l
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+Segmento Transportistas
+
+¿Qué tan frecuentemente utilizas tecnología móvil o web en tu trabajo de transporte y qué expectativas tienes sobre su facilidad de uso?
+
+¿Cómo obtienes pedidos o clientes actualmente? ¿Qué tan útil crees que sería una plataforma que conecte directamente con clientes que necesitan transporte especializado?
+
+¿Qué tan importante es para ti el monitoreo en tiempo real de la ubicación y condiciones de la carga, como la temperatura?
+
+¿Qué opinión se merece TransportApp al permitirte conectar con más clientes que requieren servicios especializados?
+
+¿Qué aspectos de la interfaz de TransportApp te parecen más útiles para organizar tus servicios y qué tan conveniente encuentras el tener versiones tanto móvil como web?
+
+¿Te sientes cómodo utilizando tecnologías avanzadas como el monitoreo en tiempo real con sensores IoT? ¿Qué beneficios crees que podrías obtener con estas tecnologías en tus operaciones de transporte?
+
+¿Crees que TransportApp facilitaría la gestión de tu negocio y mejoraría la relación con tus clientes al ofrecer monitoreo en tiempo real?
+
+¿Considerarías hacer de TransportApp tu herramienta principal para conseguir y gestionar pedidos? ¿Qué características específicas te motivarían a elegirla sobre otros métodos?
+
+¿Qué tan importante es para ti contar con un sistema de pago seguro y confiable dentro de la plataforma?
+
+¿Qué características adicionales o mejoras te gustaría ver en TransportApp para que se adapte mejor a tus necesidades como transportista?
+
+Segmento Clientes
+
+¿Cuáles son los factores más importantes para ti al contratar un servicio de transporte, como la confiabilidad, el costo o el seguimiento de los envíos?
+
+¿Qué tan valioso consideras el poder monitorear en tiempo real la ubicación y condiciones de tus envíos?
+
+¿Qué tan fácil te resulta normalmente encontrar transportistas que cumplan con requisitos específicos como el control de temperatura o la seguridad?
+
+¿Qué aspectos de la interfaz de TransportApp te parecen más útiles? ¿Te resulta conveniente gestionar tus envíos desde una misma plataforma (app y web)?
+
+¿Te resulta importante que TransportApp incluya reseñas y calificaciones de transportistas para una mayor confianza?
+
+¿Qué opinas de la posibilidad de gestionar pagos directamente en TransportApp de manera segura? ¿Te sería útil realizar todas las transacciones dentro de la plataforma?
+
+¿Qué características de TransportApp te llaman más la atención en términos de mejorar la seguridad de tus envíos?
+
+¿Considerarías utilizar TransportApp como tu herramienta principal para gestionar envíos? ¿Por qué?
+
+¿Qué beneficios crees que TransportApp podría ofrecerte en comparación con otros métodos de contratación de transporte?
+
+¿Qué características adicionales te gustaría ver en TransportApp para adaptarse mejor a tus necesidades específicas de transporte?
 ### 6.3.2. Registro de Entrevistas
 
 Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
 #### Segmento Transportista
 
-| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali1.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali2.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali3.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-
-
-
-
 #### Segmento Cliente
-
-| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali4.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br>**Tecnologías actuales:**<br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br><br> |
-
-| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali5.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali6.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad:  <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br> |
-
 
 ### 6.3.3. Evaluaciones según heurísticas
 
 ## 6.4. Video About-the-Product
+
+**Descripción del Video:**
+
+En el video "About-the-Product" de TransportApp, presentamos la plataforma que conecta a transportistas con personas y empresas en Perú que necesitan servicios de transporte especializado. Este video está dirigido tanto a los visitantes de nuestra Landing Page, que buscan conocer el modelo de negocio y características principales del software, como a los usuarios de la aplicación, interesados en realizar tareas específicas relacionadas con la solución.
+
+**Contenido del Video:**
+
+El video comienza introduciendo TransportApp como la solución ideal para quienes requieren servicios de transporte con condiciones particulares, desde el control de temperatura para productos delicados hasta el transporte seguro de cargas pesadas. TransportApp permite a los transportistas crear perfiles completos que detallan sus servicios, tipo de vehículos, permisos legales y zonas de operación, mientras que los clientes pueden explorar estos perfiles y revisar las reseñas de otros usuarios para elegir el transportista adecuado.
+
+Además, se destaca la integración de tecnología IoT para monitoreo en tiempo real de temperatura y peso de la carga, garantizando un servicio seguro y ajustado a las necesidades específicas del cliente. Al final, se presentan testimonios de usuarios que han validado el producto, mostrando su satisfacción y confianza en TransportApp para gestionar sus envíos.
+
+**Detalles del Video:**
+
+- **Screenshot:**
+
+![About-product](resources/images/capitulo_6/About-product.jpg)
+
+- **URL en Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+- **URL en YouTube:** https://youtu.be/LaqG35U6Lls
+
+- **Duración:** 3 minutos y 9 segundos
 
 
 ---
@@ -2570,13 +2607,13 @@ Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Dr
 
 #### Video de exposición - TB2
 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-#### Video de entrevistas de validación
-
 #### Video About The Product
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
