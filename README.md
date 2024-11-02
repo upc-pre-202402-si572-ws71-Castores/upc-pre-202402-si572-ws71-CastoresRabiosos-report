@@ -2145,7 +2145,293 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
+* Landing Page: 
+Para esta entrega se añadió un switch para que el visitante pueda cambiar el idioma del landing page, Asimismo, se actualizo el botón call to action que permite dirigir al visitante al enlace desplegado de la aplicación web
+![landing-gitflow](resources/images/capitulo_6/sprint_2/page1.png)
+* Web Application:
+Para la presente entrega se implementaron las funcionalidades tanto para client como para transportista para que pueda utilizar la web application
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app2.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app3.png)
+
+Client:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app4.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app5.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app6.png)
+
+Carrier:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app7.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app8.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app9.png)
+* Mobile Application:
+En este componente se añadieron la pantallas para que el usuario pueda navegar por la aplicación mobile
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil2.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil3.png)
+
+Client:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil4.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil5.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil6.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil7.png)
+Carrier:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil8.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil9.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil10.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/movil11.png)
+* Web Service:
+En los servicios web se implementaron los endpoints que se utilizaron para la implementación de los demás componentes, y que permiten el correcto funcionamiento de la aplicación
+![landing-gitflow](resources/images/capitulo_6/sprint_2/api1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/api2.png)
+* Embedded Application:
+La aplicación embebida se desarrolló y probó en el entorno de simulación de Wokwi. En esta implementación, se utilizó el sensor DHT22 para medir la temperatura y la humedad, y el sensor HX711 para obtener lecturas de peso.
+![landing-gitflow](resources/images/capitulo_6/sprint_2/iot4.png)
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección, se presenta la documentación de los endpoints desarrollados y documentados en OpenAPI, como parte del alcance de este Sprint. A continuación, se proporciona un resumen de los logros alcanzados en la documentación de los Web Services, detallando las acciones implementadas para cada endpoint, los métodos HTTP utilizados (GET, POST, PUT), la sintaxis de llamada y los parámetros necesarios.
+
+| URL                                                                |
+| ------------------------------------------------------------------ |
+| https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net |
+
+* **Authentication**:
+
+| Endpoints                      | Methods HTTP |
+| ------------------------------ | ------------ |
+| /api/v1/authentication/sign-up | (POST)       |
+| /api/v1/authentication/sign-in | (POST)       |
+
+Example Value - sign-up
+
+```json
+{
+  "username": "rodalex1@gmail.com",
+  "password": "rodalex",
+  "roles": [
+    "ROLE_TRANSPORTER"
+  ]
+}
+```
+
+Request body - sign-up
+
+```json
+{
+  "id": 8,
+  "username": "rodalex1@gmail.com",
+  "roles": [
+    "ROLE_TRANSPORTER"
+  ]
+}
+```
+
+Example Value - sign-in
+
+```json
+{
+  "username": "rodri@gmail.com",
+  "password": "rodalex"
+}
+```
+
+Response body - sign-in
+
+```json
+{
+  "id": 3,
+  "username": "rodri@gmail.com",
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJyb2RyaUBnbWFpbC5jb20iLCJpYXQiOjE3MzA1MjMwNDUsImV4cCI6MTczMTEyNzg0NX0.8IJjc0ZfmVVHXPTVhwXQHLGimxGkkJCExzsat8qYzx4Gfi0j6PZsAM-ID6gvu7Wv"
+}
+```
+
+* **IotProcess**:
+
+| Endpoints          | Method HTTP |
+| ------------------ | ----------- |
+| /api/v1/iotProcess | (POST)      |
+Example Value - iotProcess
+
+```json
+{
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+Response body - iotProcess
+
+```json
+{
+  "id": 0,
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+* **Profiles**:
+
+| Endpoints                    | Methods HTTP |
+| ---------------------------- | ------------ |
+| /api/v1/profiles             | (GET)        |
+| /api/v1/profiles             | (POST)       |
+| /api/v1/profiles/{profileId} | (GET)        |
+Response body - profiles
+```json
+[
+  {
+    "id": 1,
+    "fullName": "Luis Isla",
+    "email": "luisi@gmail.com",
+    "city": "Lima, San Miguel"
+  },
+  {
+    "id": 2,
+    "fullName": "Fernando Quispe",
+    "email": "",
+    "city": "Miraflores"
+  },
+  {
+    "id": 3,
+    "fullName": "Fernando Quispe",
+    "email": "fernandoq@gmail.com",
+    "city": "Lima, Miraflores"
+  }
+]
+```
+
+* **Request**:
+
+| Endpoints                            | Methods HTTP |
+| ------------------------------------ | ------------ |
+| /api/v1/request/{requestId}          | (GET)        |
+| /api/v1/request/{requestId}          | (PUT)        |
+| /api/v1/request                      | (POST)       |
+| /api/v1/request/{requestId}/shipment | (GET)        |
+Example Value - request
+
+```json
+{
+  "id": 0,
+  "startLocation": "string",
+  "arrivalPlace": "string",
+  "descriptionRequest": "string",
+  "idealTemperature": 0,
+  "idealWeight": 0,
+  "offeredPrice": 0
+}
+```
+
+* **Roles**:
+
+| Endpoints     | Methods HTTP |
+| ------------- | ------------ |
+| /api/v1/roles | (GET)        |
+
+Response body - roles
+
+```json
+[
+  {
+    "id": 1,
+    "name": "ROLE_CLIENT"
+  },
+  {
+    "id": 2,
+    "name": "ROLE_ADMIN"
+  },
+  {
+    "id": 3,
+    "name": "ROLE_TRANSPORTER"
+  }
+]
+```
+
+* **Shipment**:
+
+| Endpoints                                   | Methods HTTP |
+| ------------------------------------------- | ------------ |
+| /api/v1/shipment                            | (GET)        |
+| /api/v1/shipment                            | (POST)       |
+| /api/v1/shipment/{shipmentId}/confirmations | (POST)       |
+
+Example Value - shipment
+
+```json
+[
+  {
+    "shipmentId": 0,
+    "transportId": "string",
+    "requestId": 0,
+    "status": "string"
+  }
+]
+```
+
+* **Users**:
+
+| Endpoints              | Methods HTTP |
+| ---------------------- | ------------ |
+| /api/v1/users          | (GET)        |
+| /api/v1/users/{userId} | (GET)        |
+Response body - users
+
+```json
+[
+  {
+    "id": 1,
+    "username": "rod@gmail.com",
+    "roles": [
+      "ROLE_CLIENT"
+    ]
+  },
+  {
+    "id": 2,
+    "username": "luisI@gmail.com",
+    "roles": [
+      "ROLE_CLIENT"
+    ]
+  }
+]
+```
+
+* **Transporters**:
+
+| Endpoints                           | Methods HTTP |
+| ----------------------------------- | ------------ |
+| /api/v1/transporter                 | (POST)       |
+| /api/v1/transporter/{transporterId} | (GET)        |
+Example Value - transporter
+
+```json
+{
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "address": "string",
+  "birthday": "2024-11-02T11:50:49.634Z",
+  "dni": 0,
+  "phone": "string"
+}
+```
+
+* **Shipments**:
+
+| Endpoints                                                    | Methods HTTP |
+| ------------------------------------------------------------ | ------------ |
+| /api/v1/transporter/api/v1/transport/{transportId}/shipments | (GET)        |
+Example Value - Shipments
+
+```json
+[
+  {
+    "shipmentId": 0,
+    "transportId": "string",
+    "requestId": 0,
+    "status": "string"
+  }
+]
+```
+
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
 Esta sección detalla los procesos de despliegue realizados durante el Sprint, abarcando la configuración de recursos en la nube, integración de proyectos y automatización de tareas de despliegue. Incluye los pasos ejecutados para implementar cada producto digital, como la Landing Page, Web Services y Aplicaciones, asegurando su correcto funcionamiento en el entorno de producción.
