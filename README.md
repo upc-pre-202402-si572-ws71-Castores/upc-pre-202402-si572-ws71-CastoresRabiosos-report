@@ -2535,36 +2535,7 @@ Segmento Clientes
 Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
 #### Segmento Transportista
 
-| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali1.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali2.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali3.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-
-
-
-
 #### Segmento Cliente
-
-| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali4.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br>**Tecnologías actuales:**<br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br><br> |
-
-| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali5.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
-
-| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali6.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad:  <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br> |
-
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -2636,13 +2607,13 @@ Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Dr
 
 #### Video de exposición - TB2
 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-#### Video de entrevistas de validación
-
 #### Video About The Product
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
