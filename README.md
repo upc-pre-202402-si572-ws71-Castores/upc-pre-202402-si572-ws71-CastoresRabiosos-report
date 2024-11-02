@@ -2145,6 +2145,8 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
+url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EZIa8h9mAWJOnlztQ9xH3EoBDC6eYt7t4XGKUtu7HNcMDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JxNWll
+
 * Landing Page: 
 Para esta entrega se añadió un switch para que el visitante pueda cambiar el idioma del landing page, Asimismo, se actualizo el botón call to action que permite dirigir al visitante al enlace desplegado de la aplicación web
 ![landing-gitflow](resources/images/capitulo_6/sprint_2/page1.png)
