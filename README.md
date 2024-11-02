@@ -1903,9 +1903,9 @@ Esta esta sección se presentarán avances respecto a las implementaciones segú
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
-En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. Los Acceptance Tests se han diseñado utilizando el enfoque BDD, creando archivos .feature en lenguaje Gherkin. Asimismo, se implementaron Steps en lenguaje de programación para validar el comportamiento esperado.
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en los Web Services relacionados con las User Stories especificadas para este Sprint. 
 
-Se proporciona una tabla que incluye los commits relacionados con el testing, detallando las ramas utilizadas y las integraciones realizadas, así como la descripción de los cambios. Estos commits se almacenaron en el repositorio destinado a los proyectos de Testing y aseguran el cumplimiento de las pruebas para este Sprint.
+En una tabla se evidencian los commits relacionados con el testing, detallando las ramas utilizadas, así como la descripción de los cambios. Estos commits se almacenaron en el repositorio destinado a los proyectos de Testing y aseguran el cumplimiento de las pruebas para este Sprint.
 
 A continuación, se muestra la tabla que agrupa los commits relacionados con el avance de las pruebas y el desarrollo de la suite de testing.
 
@@ -1913,8 +1913,8 @@ A continuación, se muestra la tabla que agrupa los commits relacionados con el 
 | ------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------- |
 | upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 0ccca76   | feat: add .feature files for Sprint 1                                          | Se añaden archivos .feature para el Sprint 1.                      | 25/09/2024          |
 | upc-pre-202402-si572-ws71-Castores/testing-suite | main   | c57d7c1   | Merge pull request #1 from upc-pre-202402-si572-ws71-Castores/feature/sprint_1 | Se realiza el merge de los archivos de la rama sprint_1 a develop. | 25/09/2024          |
-| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 874e99f   | Merge pull request #2 from upc-pre-202402-si572-ws71-Castores/develop          | Se realiza el merge a develop tras verificar los cambios.          | 25/09/2024          |
-| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | e24c96d   | chore: add README for testing suite repository                                 | Se añade el archivo README para la suite de testing.               | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | 874e99f   | Merge pull request #2 from upc-pre-202402-si572-ws71-Castores/develop          | Se realiza el merge a develop tras verificar los cambios.          | 30/11/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | main   | e24c96d   | chore: add README for testing suite repository                                 | Se añade el archivo README para la suite de testing.               | 30/09/2024          |
 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
@@ -2000,7 +2000,63 @@ Durante el **Sprint 2**, se continuó con el desarrollo de **TransportApp**, enf
 #### 6.2.2.1. Sprint Planning 2
 #### 6.2.2.2. Sprint Backlog 2
 #### 6.2.2.3. Development Evidence for Sprint Review
+Esta esta sección se presentarán avances respecto a las implementaciones según el alcance de nuestro Sprint. En la siguiente tabla se mostrarán los commits realizados.
+
+| Repository                                               | Branch                     | commit id | commit message                                                                                              | commit message body | date       |
+| -------------------------------------------------------- | -------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | ------------------- | ---------- |
+| upc-pre-202402-si572-ws71-Castores/embedded-applicatiobn | feature/wokwi-gps-chip     | 48de62d   | feat(neo6m): added chip funtion                                                                             | -                   | 30/11/2024 |
+|                                                          | feature/wokwi-gps-chip     | 51a3ae8   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/sensor-integration | 32f2410   | feat: integrate DHT22 and HX711 sensors for temperature and weight measurement                              | -                   | 30/11/2024 |
+|                                                          | feature/sensor-integration | ddd0ef5   | feat: add DHT22 sensor integration and display temperature on LCD                                           |                     | 30/11/2024 |
+|                                                          | feature/gps-handler        | 48de62d   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/gps-handler        | fe3e21    | feat: add gpshandlers files                                                                                 | -                   | 30/11/2024 |
+|                                                          | feature/device-itegration  | 48de62d   | feat(devices): add initial device setup and configuration files                                             | -                   | 30/11/2024 |
+|                                                          | feature/api-client         | fcba73c   | Feat: add ApiClient                                                                                         | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-services          | feature/profile            | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/profile            | 717b83a   | feat(iot): add domain iot-process                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/profile            | 8fe8139   | feat: add domain iam                                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/profile            | cf88f97   | feat(profile): added profile                                                                                | -                   | 30/11/2024 |
+|                                                          | feature/iot                | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/iot                | 717b83a   | feat(iot): add domain iot-process                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/iam                | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+|                                                          | feature/iam                | 8fe8139   | feat: add domain iam                                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/check              | 749ed71   | feat: add domain checkin                                                                                    | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-application       | feature/sign-up-aim        | b46405b   | feat(create-request): add routes & components                                                               | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 55b8c11   | feat(app): update sidebar, header and dynamic routing with Angular Material icons and role-based navigation | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/sign-up-aim        | 72dfc68   | feat(profile): create view client profile                                                                   | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 1128d54   | feat(create-request): update view                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | a79a363   | feat(offers): overflowing cascade cards                                                                     | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 5aec4ce   | Merge branch 'feature/client-profile' into develop                                                          | -                   | 30/11/2024 |
+|                                                          | feature/login-aim          | 5a030a1   | feat(vehicle-form): added vehicle edit                                                                      | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/create-request-sm  | 72dfc68   | feat(profile): create view client profile                                                                   | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | 4d2ead6   | feat(create-request): add view                                                                              | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | 248dc35   | feat(profile): create profile carrier                                                                       | -                   | 30/11/2024 |
+|                                                          | feature/client-profile     | c8c7ee3   | Merge branch 'carrier-offers' into develop                                                                  | -                   | 30/11/2024 |
+|                                                          | feature/carrier-profile    | cc3c134   | feat(update): fix sidebar and header                                                                        | -                   | 30/11/2024 |
+|                                                          | feature/carrier-profile    | 1128d54   | feat(create-request): update view                                                                           | -                   | 30/11/2024 |
+|                                                          | feature/carrier-offers     | be870b3   | feat(offers): create offers view                                                                            | -                   | 30/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/mobile-application    | feature/profile-user       | ba77ffb   | feat: add history carrier screen                                                                            | -                   | 30/11/2024 |
+|                                                          | feature/dashboard-user     | 76b5be2   | "feat: add dashboard's cards & content"                                                                     | -                   | 30/11/2024 |
+|                                                          |                            |           |                                                                                                             | -                   | 30/11/2024 |
+
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, enfocados en el Mobile Application, Web Application, Web services Y Embeded relacionados con las User Stories especificadas para este Sprint. 
+
+En una tabla se evidencian los commits relacionados con el testing, detallando las ramas utilizadas, así como la descripción de los cambios.
+
+A continuación, se muestra la tabla que agrupa los commits relacionados con el avance de las pruebas y el desarrollo de la suite de testing.
+
+| Repository                                       | Branch           | Commit ID | Commit Message                                                                 | Commit Message Body                                                | Committed on (Date) |
+| ------------------------------------------------ | ---------------- | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------- |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | 0ccca76   | feat: add .feature files for Sprint 1                                          | Se añaden archivos .feature para el Sprint 1.                      | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | c57d7c1   | Merge pull request #1 from upc-pre-202402-si572-ws71-Castores/feature/sprint_1 | Se realiza el merge de los archivos de la rama sprint_1 a develop. | 25/09/2024          |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint_2 | 6a5fabe   | feat: add .feature files for Sprint 2                                          | Se realiza el merge a develop tras verificar los cambios.          | 30/11/2024          |
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
