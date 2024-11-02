@@ -2484,10 +2484,78 @@ En esta sección, se documenta la colaboración del equipo en el desarrollo de l
 - **Aplicación Embebida**: Este apartado muestra el trabajo realizado en la aplicación embebida (repositorio: `embedded-application`), incluyendo capturas de los commits y contribuciones específicas de cada miembro en la implementación de esta funcionalidad.
 ![iot-gitflow](resources/images/capitulo_6/sprint_2/iot.png)
 
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+
+Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
+#### Segmento Transportista
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali1.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali2.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali3.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+
+
+
+
+#### Segmento Cliente
+
+| *Entrevista 1*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali4.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br>**Tecnologías actuales:**<br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br><br> |
+
+| *Entrevista 2*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali5.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad: <br>Distrito:  <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br><br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br><br> |
+
+| *Entrevista 3*<br>![Entrevista 1](resources/images/capitulo_2/entrevistas/vali6.png)<br>URL de entrevistas: <br>Minuto de inicio: <br>Duración:                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>Nombre y apellidos: <br>Edad:  <br>Distrito: <br>Segmento: <br>Personalidad: <br><br>**Resumen de la Entrevista**:<br><br>**Tecnologías actuales:** <br>**Canales de interacción:** <br>**Dispositivos:** <br>**Browser utilizado:** <br> |
+
+
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Video About-the-Product
+
+
 ---
 ## Conclusión
 
 Los prototipos presentados reflejan las decisiones de diseño basadas en los flujos de usuario establecidos, asegurando una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles. La relación entre la interacción y la arquitectura de información ha sido cuidadosamente diseñada para facilitar la navegación y el acceso a las funciones clave.
+
+Este proyecto ha permitido desarrollar una solución integral, fundamentada en el análisis detallado de la **startup**, el perfil de los usuarios y el contexto del mercado. La implementación del **Lean UX Process** y el análisis competitivo proporcionaron una comprensión profunda de las necesidades del usuario, lo cual guió las decisiones de diseño y desarrollo hacia una experiencia centrada en el usuario y diferenciada en el mercado.
+
+A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos. Los diagramas de arquitectura ayudaron a visualizar y organizar el sistema, asegurando que la estructura del software fuera robusta y fácil de mantener.
+
+El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups fueron diseñados para maximizar la navegación y la accesibilidad, ofreciendo una experiencia de usuario intuitiva y satisfactoria.
+
+Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el flujo de desarrollo y la entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas proporcionó retroalimentación clave, permitiendo realizar ajustes que mejoraron significativamente la calidad de la solución final.
+
+---
+## Bibliografía
+
+
+Holub, A. (s/f). Event storming. O’Reilly Media, Inc. [https://learning.oreilly.com/videos/event-storming/0636920362104/](https://learning.oreilly.com/videos/event-storming/0636920362104/)
+
+Khononov, V. (2021). Learning domain-Driven Design: Aligning software architecture and business strategy. O’Reilly Media. [https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/](https://learning.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
+
+Richards, M., & Ford, N. (2020). Fundamentals of software architecture: an engineering approach. O'Reilly Media. 
+
+Brown, S. (2019). The C4 Model for Visualizing Software Architecture. Leanpub. 
+
+Pashchenko, I., Vu, D. L., & Massacci, F. (2020, October). A qualitative study of dependency management and its security implications. In Proceedings of the 2020 ACM SIGSAC conference on computer and communications security (pp. 1513-1531). [https://doi.org/10.1145/3372297.3417232](https://doi.org/10.1145/3372297.3417232)
+
+Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Driven Design. John Wiley & Sons. [https://learning.oreilly.com/library/view/patterns-principles-and/9781118714706/](https://learning.oreilly.com/library/view/patterns-principles-and/9781118714706/)
+
 
 ---
 
@@ -2509,6 +2577,7 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 #### Video de entrevistas de validación
 
 #### Video About The Product
+
 #### Enlace de repositorio de Github
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
