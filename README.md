@@ -2486,6 +2486,50 @@ En esta sección, se documenta la colaboración del equipo en el desarrollo de l
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
+
+Segmento Transportistas
+
+¿Qué tan frecuentemente utilizas tecnología móvil o web en tu trabajo de transporte y qué expectativas tienes sobre su facilidad de uso?
+
+¿Cómo obtienes pedidos o clientes actualmente? ¿Qué tan útil crees que sería una plataforma que conecte directamente con clientes que necesitan transporte especializado?
+
+¿Qué tan importante es para ti el monitoreo en tiempo real de la ubicación y condiciones de la carga, como la temperatura?
+
+¿Qué opinión se merece TransportApp al permitirte conectar con más clientes que requieren servicios especializados?
+
+¿Qué aspectos de la interfaz de TransportApp te parecen más útiles para organizar tus servicios y qué tan conveniente encuentras el tener versiones tanto móvil como web?
+
+¿Te sientes cómodo utilizando tecnologías avanzadas como el monitoreo en tiempo real con sensores IoT? ¿Qué beneficios crees que podrías obtener con estas tecnologías en tus operaciones de transporte?
+
+¿Crees que TransportApp facilitaría la gestión de tu negocio y mejoraría la relación con tus clientes al ofrecer monitoreo en tiempo real?
+
+¿Considerarías hacer de TransportApp tu herramienta principal para conseguir y gestionar pedidos? ¿Qué características específicas te motivarían a elegirla sobre otros métodos?
+
+¿Qué tan importante es para ti contar con un sistema de pago seguro y confiable dentro de la plataforma?
+
+¿Qué características adicionales o mejoras te gustaría ver en TransportApp para que se adapte mejor a tus necesidades como transportista?
+
+Segmento Clientes
+
+¿Cuáles son los factores más importantes para ti al contratar un servicio de transporte, como la confiabilidad, el costo o el seguimiento de los envíos?
+
+¿Qué tan valioso consideras el poder monitorear en tiempo real la ubicación y condiciones de tus envíos?
+
+¿Qué tan fácil te resulta normalmente encontrar transportistas que cumplan con requisitos específicos como el control de temperatura o la seguridad?
+
+¿Qué aspectos de la interfaz de TransportApp te parecen más útiles? ¿Te resulta conveniente gestionar tus envíos desde una misma plataforma (app y web)?
+
+¿Te resulta importante que TransportApp incluya reseñas y calificaciones de transportistas para una mayor confianza?
+
+¿Qué opinas de la posibilidad de gestionar pagos directamente en TransportApp de manera segura? ¿Te sería útil realizar todas las transacciones dentro de la plataforma?
+
+¿Qué características de TransportApp te llaman más la atención en términos de mejorar la seguridad de tus envíos?
+
+¿Considerarías utilizar TransportApp como tu herramienta principal para gestionar envíos? ¿Por qué?
+
+¿Qué beneficios crees que TransportApp podría ofrecerte en comparación con otros métodos de contratación de transporte?
+
+¿Qué características adicionales te gustaría ver en TransportApp para adaptarse mejor a tus necesidades específicas de transporte?
 ### 6.3.2. Registro de Entrevistas
 
 Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
