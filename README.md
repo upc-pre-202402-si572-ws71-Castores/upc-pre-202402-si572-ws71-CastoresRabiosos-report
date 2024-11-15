@@ -178,6 +178,15 @@ Asimismo, se realizaron entrevistas de validación, diseñadas para obtener feed
 	- [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
 	- [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
 	- [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+	- [6.2.3. Sprint 3](#623-sprint-3)
+	- [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+	- [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
+	- [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+	- [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)
+	- [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+	- [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+	- [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+	- [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
 	  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
 	  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2484,7 +2493,25 @@ En esta sección, se documenta la colaboración del equipo en el desarrollo de l
 ![mobile-gitflow](resources/images/capitulo_6/sprint_2/mobile.png)
 - **Aplicación Embebida**: Este apartado muestra el trabajo realizado en la aplicación embebida (repositorio: `embedded-application`), incluyendo capturas de los commits y contribuciones específicas de cada miembro en la implementación de esta funcionalidad.
 ![iot-gitflow](resources/images/capitulo_6/sprint_2/iot.png)
+### 6.2.3. Sprint 3
 
+
+Durante el **Sprint 3**, se continuó con el desarrollo de **TransportApp**, enfocándose en la implementación de funcionalidades esenciales relacionadas con el manejo de vehículos y el historial de servicios. Estas nuevas características permiten a los transportistas registrar vehículos, acceder al historial de sus servicios realizados, y gestionar información clave dentro de la plataforma. Además, se avanzó en la integración de sensores IoT, lo que sentó las bases para la futura gestión de datos en tiempo real y optimización de los servicios de transporte.
+
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Sprint Backlog 3
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+#### 6.2.3.8. Team Collaboration Insights during Sprint
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 
@@ -2563,6 +2590,8 @@ Además, se destaca la integración de tecnología IoT para monitoreo en tiempo 
 - **URL en YouTube:** https://youtu.be/LaqG35U6Lls
 
 - **Duración:** 3 minutos y 9 segundos
+
+## 6.4. Video About-the-Team
 
 
 ---
