@@ -2167,20 +2167,21 @@ Carrier:
 ![landing-gitflow](resources/images/capitulo_6/sprint_2/app9.png)
 * Mobile Application:
 En este componente se añadieron la pantallas para que el usuario pueda navegar por la aplicación mobile
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil1.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil2.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil3.png)
+![[resources/images/capitulo_6/sprint_2/movil1.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil2.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil3.png|300x550]]
+
 
 Client:
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil4.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil5.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil6.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil7.png)
+![[resources/images/capitulo_6/sprint_2/movil4.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil5.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil6.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil7.png|300x550]]
 Carrier:
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil8.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil9.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil10.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil11.png)
+![[resources/images/capitulo_6/sprint_2/movil8.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil9.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil10.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil11.png|300x550]]
 * Web Service:
 En los servicios web se implementaron los endpoints que se utilizaron para la implementación de los demás componentes, y que permiten el correcto funcionamiento de la aplicación
 ![landing-gitflow](resources/images/capitulo_6/sprint_2/api1.png)
@@ -2571,11 +2572,11 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 
 Este proyecto ha permitido desarrollar una solución integral, fundamentada en el análisis detallado de la **startup**, el perfil de los usuarios y el contexto del mercado. La implementación del **Lean UX Process** y el análisis competitivo proporcionaron una comprensión profunda de las necesidades del usuario, lo cual guió las decisiones de diseño y desarrollo hacia una experiencia centrada en el usuario y diferenciada en el mercado.
 
-A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos. Los diagramas de arquitectura ayudaron a visualizar y organizar el sistema, asegurando que la estructura del software fuera robusta y fácil de mantener.
+A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos y asegurando una integración efectiva entre el backend, frontend y los dispositivos IoT. Los diagramas de arquitectura fueron esenciales para garantizar que la estructura del software fuera robusta y sencilla de mantener.
 
-El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups fueron diseñados para maximizar la navegación y la accesibilidad, ofreciendo una experiencia de usuario intuitiva y satisfactoria.
+El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups diseñados ofrecieron una experiencia de usuario intuitiva y satisfactoria, validada en las pruebas realizadas con los usuarios finales.
 
-Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el flujo de desarrollo y la entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas proporcionó retroalimentación clave, permitiendo realizar ajustes que mejoraron significativamente la calidad de la solución final.
+Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el desarrollo y aseguraron una entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas permitió identificar y solucionar problemas críticos de usabilidad, mejorando la calidad de la solución final y garantizando su aceptación por parte de los usuarios.
 
 ---
 ## Bibliografía
@@ -2599,22 +2600,36 @@ Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Dr
 ## ANEXOS
 #### Video de exposición - TB1
 
+Este video corresponde a la exposición del TB1, donde se presenta la definición inicial del proyecto, incluyendo los objetivos, justificación, metodología y las primeras actividades desarrolladas como parte del curso de IoT.
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 #### Video de exposición - TP1
+
+Este video documenta la presentación del Trabajo Parcial 1, que incluye los avances realizados en el desarrollo del proyecto, tales como la implementación inicial de componentes funcionales.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Video de exposición - TB2
 
+En este video se expone el TB2, que detalla los avances logrados en la etapa intermedia del proyecto, con énfasis en el desarrollo de funcionalidades clave, evidencias de integración y mejoras en la solución propuesta.
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas
+
+Este video incluye entrevistas realizadas a usuarios potenciales y expertos, con el objetivo de recopilar información clave para el desarrollo del proyecto, así como validar las necesidades y requerimientos planteados.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Video About The Product
+
+Este video proporciona una descripción general del producto final desarrollado en el proyecto, mostrando las funcionalidades implementadas, su diseño, y cómo estas resuelven las problemáticas identificadas.
+
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### Enlace de repositorio de Github
+
+El repositorio en GitHub contiene todo el código fuente, documentación técnica y evidencia del desarrollo realizado durante el curso.
+
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
