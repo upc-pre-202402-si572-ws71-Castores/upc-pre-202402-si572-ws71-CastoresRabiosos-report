@@ -178,6 +178,15 @@ Asimismo, se realizaron entrevistas de validación, diseñadas para obtener feed
 	- [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
 	- [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
 	- [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+	- [6.2.3. Sprint 3](#623-sprint-3)
+	- [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+	- [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
+	- [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+	- [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)
+	- [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+	- [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+	- [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+	- [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
 	  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
 	  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2167,20 +2176,21 @@ Carrier:
 ![landing-gitflow](resources/images/capitulo_6/sprint_2/app9.png)
 * Mobile Application:
 En este componente se añadieron la pantallas para que el usuario pueda navegar por la aplicación mobile
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil1.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil2.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil3.png)
+![[resources/images/capitulo_6/sprint_2/movil1.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil2.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil3.png|300x550]]
+
 
 Client:
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil4.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil5.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil6.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil7.png)
+![[resources/images/capitulo_6/sprint_2/movil4.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil5.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil6.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil7.png|300x550]]
 Carrier:
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil8.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil9.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil10.png)
-![landing-gitflow](resources/images/capitulo_6/sprint_2/movil11.png)
+![[resources/images/capitulo_6/sprint_2/movil8.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil9.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil10.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil11.png|300x550]]
 * Web Service:
 En los servicios web se implementaron los endpoints que se utilizaron para la implementación de los demás componentes, y que permiten el correcto funcionamiento de la aplicación
 ![landing-gitflow](resources/images/capitulo_6/sprint_2/api1.png)
@@ -2483,7 +2493,25 @@ En esta sección, se documenta la colaboración del equipo en el desarrollo de l
 ![mobile-gitflow](resources/images/capitulo_6/sprint_2/mobile.png)
 - **Aplicación Embebida**: Este apartado muestra el trabajo realizado en la aplicación embebida (repositorio: `embedded-application`), incluyendo capturas de los commits y contribuciones específicas de cada miembro en la implementación de esta funcionalidad.
 ![iot-gitflow](resources/images/capitulo_6/sprint_2/iot.png)
+### 6.2.3. Sprint 3
 
+
+Durante el **Sprint 3**, se continuó con el desarrollo de **TransportApp**, enfocándose en la implementación de funcionalidades esenciales relacionadas con el manejo de vehículos y el historial de servicios. Estas nuevas características permiten a los transportistas registrar vehículos, acceder al historial de sus servicios realizados, y gestionar información clave dentro de la plataforma. Además, se avanzó en la integración de sensores IoT, lo que sentó las bases para la futura gestión de datos en tiempo real y optimización de los servicios de transporte.
+
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Sprint Backlog 3
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+#### 6.2.3.8. Team Collaboration Insights during Sprint
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 
@@ -2533,11 +2561,126 @@ Segmento Clientes
 ### 6.3.2. Registro de Entrevistas
 
 Aquí se documenta el registro completo de las entrevistas de validación realizadas, incluyendo detalles como la fecha, el nombre de los entrevistados, las preguntas realizadas, y las respuestas obtenidas. Este registro es fundamental para llevar un seguimiento preciso de la información recopilada y para facilitar el análisis posterior. Además, ayuda a garantizar que las decisiones de diseño se basen en datos reales proporcionados por los usuarios.
-#### Segmento Transportista
 
 #### Segmento Cliente
 
+| _Entrevista 1_ <br><br>![interview1](resources/images/capitulo_6/client_leonardo.jpg)<br><br>URL de entrevistas: [https://acortar.link/OyoLMD](https://acortar.link/OyoLMD)<br>Minuto de inicio: 00:04<br>Duración: 6:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Leonardo Sebastian Matos Rodríguez<br>**Edad:** 18 años<br>**Distrito:** San Miguel<br>**Segmento:** Cliente<br>**Personalidad:** Estudiante joven y proactivo, interesado en soluciones prácticas.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Leonardo utiliza servicios de transporte esporádicamente pero prioriza confiabilidad y seguridad. Está dispuesto a pagar más por servicios que garanticen puntualidad y condiciones óptimas. Valora altamente el monitoreo en tiempo real, ya que le brinda tranquilidad y capacidad de reacción ante cualquier eventualidad.<br><br>Considera que TransportApp le facilita enormemente la gestión de envíos al centralizar toda la información. Entre las características que más aprecia están las reseñas de transportistas, los pagos seguros y el monitoreo GPS. Le gustaría que la app ofreciera más opciones de seguridad y servicios especializados para envíos delicados.<br><br>**Tecnologías actuales:** GPS, apps básicas de mensajería.<br>**Canales de interacción:** Redes sociales, apps.<br>**Dispositivos:** Smartphone.  <br>**Browser utilizado:** Chrome. |
+
+| _Entrevista 2_ <br><br>![interview1](resources/images/capitulo_6/client_camila.jpg)<br><br>URL de entrevistas: [https://acortar.link/VfmIAm](https://acortar.link/VfmIAm)<br>Minuto de inicio: 06:51<br>Duración: 6:15 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Adriana Camila Tabraj Valdez<br>**Edad:** 20 años<br>**Distrito:** Pueblo Libre<br>**Segmento:** Cliente<br>**Personalidad:** Estudiante responsable, orientada a la calidad y optimización del tiempo.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Adriana es estudiante universitaria y utiliza servicios de transporte para envíos ocasionales. Considera clave la confiabilidad, el costo equilibrado con la calidad del servicio, y el seguimiento en tiempo real para estar informada sobre sus productos. Destaca que, aunque es complicado encontrar transportistas que ofrezcan control de temperatura o seguridad avanzada, valora una app como TransportApp que simplifique este proceso.<br><br>Las funcionalidades que más aprecia son el seguimiento en tiempo real, la gestión de pagos y la posibilidad de comunicación con transportistas. Cree que las reseñas y calificaciones son fundamentales para generar confianza. Adriana también resalta la conveniencia de realizar todas las transacciones dentro de una sola plataforma.<br><br>Sugiere incorporar características como alertas personalizadas de condiciones de envío e integración con otros sistemas que utiliza. Estas mejoras le permitirían optimizar su experiencia de usuario.<br><br>**Tecnologías actuales:** WhatsApp, apps de pago.<br>**Canales de interacción:** Apps móviles, web.<br>**Dispositivos:** Smartphone.  <br>**Browser utilizado:** Chrome. |
+
+| _Entrevista 3_ <br><br>![interview1](resources/images/capitulo_6/client_stefano.jpg)<br><br>URL de entrevistas: [https://acortar.link/62vno2](https://acortar.link/62vno2)  <br>Minuto de inicio: 13:07<br>Duración: 8:32 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Angel Stefano Quispe Rojas<br>**Edad:** 24 años<br>**Distrito:** San Juan de Lurigancho<br>**Segmento:** Cliente<br>**Personalidad:** Estudiante meticuloso, enfocado en la relación costo-beneficio.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Angel utiliza servicios de transporte principalmente para envíos estudiantiles y ocasionales. Considera la confiabilidad, el costo, y el seguimiento en tiempo real como los factores más importantes al contratar transportistas. Valora altamente poder monitorear sus envíos en tiempo real, ya que reduce el estrés y le permite reaccionar rápidamente.<br><br>TransportApp destaca para él por funcionalidades como reseñas de transportistas, pagos seguros y gestión de pedidos centralizada. Le resulta fundamental tener confianza y control sobre los transportistas que selecciona, especialmente por la transparencia que ofrece la app.<br><br>Entre sus sugerencias para mejorar TransportApp, menciona integrar sistemas de gestión de inventario y alertas personalizadas para mayor eficiencia en el proceso de envíos.<br><br>**Tecnologías actuales:** Apps de gestión básica y correo electrónico.<br>**Canales de interacción:** Llamadas y apps móviles.<br>**Dispositivos:** Laptop, smartphone.<br>**Browser utilizado:** Firefox. |
+#### Segmento Transportista
+
+| _Entrevista 1_ <br><br>![interview1](resources/images/capitulo_6/carrier_jamir.jpg)<br><br>URL de entrevistas: [https://acortar.link/rlUck7](https://acortar.link/rlUck7)  <br>Minuto de inicio: 21:44<br>Duración: 9:39 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Jamir Josué Luzón Delgado<br>**Edad:** 22 años<br>**Distrito:** San Martín de Porres<br>**Segmento:** Transportista de diversos materiales<br>**Personalidad:** Organizado y comprometido con ofrecer un servicio confiable.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Jamir organiza rutas y se comunica frecuentemente con clientes a través de tecnología móvil y redes sociales. Aprecia la idea de TransportApp como una plataforma que le permita optimizar tiempo y conectar con clientes especializados. Ve en el monitoreo en tiempo real una oportunidad para ofrecer un servicio de calidad superior, especialmente para mercancías delicadas.<br><br>Le resulta útil una interfaz que centralice la gestión de pedidos y considera vital un sistema de pago seguro. Está cómodo con tecnologías IoT, las cuales percibe como una herramienta para mejorar la transparencia y la confianza con sus clientes. Sugiere características como ajustes automáticos de tarifas, integración con mapas en tiempo real, y una función de reseñas que fortalezca la relación con los clientes.<br><br>**Tecnologías actuales:** Redes sociales y aplicaciones móviles.<br>**Canales de interacción:** Clientes regulares y grupos sociales.<br>**Dispositivos:** Smartphone.  <br>**Browser utilizado:** Chrome. |
+
+| _Entrevista 2_ <br><br>![interview1](resources/images/capitulo_6/carrier_daniel.jpg)<br><br>URL de entrevistas: [https://acortar.link/e03mLT](https://acortar.link/e03mLT)  <br>Minuto de inicio: 31:24<br>Duración: 6:07 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Kevin Rodríguez Espinoza<br>**Edad:** 24 años<br>**Distrito:** Puente Piedra  <br>**Segmento:** Transportista de Carga General Especializada<br>**Personalidad:** Proactivo y orientado a mejorar la calidad de su servicio mediante la tecnología.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Daniel, con experiencia en transporte de carga general especializada, utiliza tecnología móvil diariamente en su trabajo. Aunque actualmente depende de contactos y recomendaciones para conseguir pedidos, está entusiasmado con la posibilidad de una plataforma como TransportApp que le permita conectar directamente con clientes especializados. Considera que el monitoreo en tiempo real es crucial para garantizar la calidad del servicio, especialmente en cargas sensibles como alimentos.<br><br>Valora la facilidad de organizar los pedidos desde una única plataforma y destaca la utilidad de contar con versiones móvil y web para gestionar su trabajo tanto en movimiento como en la oficina. Está cómodo con tecnologías avanzadas como sensores IoT, las cuales mejoran el control y reducen riesgos en sus operaciones.<br><br>Sugiere que TransportApp integre rutas eficientes y perfiles de clientes recurrentes. También considera fundamental un sistema de pago seguro que inspire confianza tanto a transportistas como a clientes.<br><br>**Tecnologías actuales:** WhatsApp y aplicaciones móviles.<br>**Canales de interacción:** Contactos y recomendaciones.<br>**Dispositivos:** Smartphone.  <br>**Browser utilizado:** Chrome. |
+
+| _Entrevista 3_ <br><br>![interview1](resources/images/capitulo_6/carrier_juan_alberto.jpg)<br><br>URL de entrevistas: [https://acortar.link/SWek3J](https://acortar.link/SWek3J)  <br>Minuto de inicio: 37:32<br>Duración: 9:06 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Datos del entrevistado**  <br>**Nombre y apellidos:** Juan Alberto Jiménez Torres<br>**Edad:** 24 años<br>**Distrito:** Jesús María <br>**Segmento:** Conductor de Taxi<br>**Personalidad:** Precavido y enfocado en la seguridad personal y del cliente.<br>  <br>**Resumen de la Entrevista**:  <br>  <br>Juan, conductor de taxi, utiliza aplicaciones móviles para gestionar carreras, especialmente en momentos de baja actividad. Resalta la utilidad de una plataforma como TransportApp para confirmar y organizar pedidos de manera segura, reduciendo riesgos. Considera importante contar con opciones que le permitan decidir a qué pedidos aceptar, un sistema de monitoreo en tiempo real, y confirmación de pagos.<br><br>A pesar de ver el valor en la tecnología, señala que la seguridad personal sigue siendo un reto en contextos urbanos como Lima. Propone mejoras como una función para verificar perfiles de clientes antes de aceptar carreras, y un sistema más robusto de alertas ante posibles riesgos.<br><br><br>**Tecnologías actuales:** Apps de taxi.<br>**Canales de interacción:** Aplicaciones y comunicación directa.<br>**Dispositivos:** Smartphone.  <br>**Browser utilizado:** Chrome. |
+**URL de entrevistas en Microsoft Stream:** [upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding-TB2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=323k1I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Duración:** 46 minutos y 38 segundos
 ### 6.3.3. Evaluaciones según heurísticas
+
+**Evaluación de User Experience según Heurísticas**  
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Soluciones IoT  
+**SECCIÓN**: WS71
+**PROFESORES**: Todos  
+**AUDITOR**: Castores Rabiosos  
+**CLIENTE(S)**: Conductores y Clientes
+
+**SITE o APP A EVALUAR**:  
+TransportApp
+
+**TAREAS A EVALUAR**:
+
+1. Gestión de conductores
+2. Asignación de viajes
+3. Actualización de información de perfil
+4. Mostrar información de los viajes por estado
+5. Creación de cuentas para conductores y supervisores
+
+---
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción                                                                           |
+| ----- | ------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: fácil de superar o poco frecuente. Resolver solo si hay tiempo. |
+| 2     | Problema menor: ocurre ocasionalmente y es más difícil de resolver. Prioridad baja.   |
+| 3     | Problema mayor: frecuente o difícil de superar. Prioridad alta.                       |
+| 4     | Problema grave: impide el uso del sistema. Resolver antes del lanzamiento.            |
+
+---
+
+### **TABLA RESUMEN**
+
+|#|Problema|Escala|Heurística/Principio violado|
+|---|---|---|---|
+|1|No hay alertas sobre cancelaciones en tiempo real|3|Visibilidad del estado del sistema|
+|2|Inconsistencia en el diseño de las pantallas entre supervisores y conductores|2|Consistencia y estándares|
+|3|Campos obligatorios no señalados en formularios de registro|3|Prevención de errores|
+|4|Falta de un sistema de recompensas para conductores|2|Estética y diseño minimalista|
+|5|Información limitada sobre estados de viaje terminados|2|Visibilidad del estado del sistema|
+|6|Errores en el cálculo de distancias sugeridas para viajes|4|Correspondencia entre el sistema y el mundo real|
+
+---
+
+### **DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA 1: Falta de alertas sobre cancelaciones en tiempo real**
+
+- **Severidad**: 3
+- **Heurística violada**: Visibilidad del estado del sistema
+- **Problema**: Los carriers indicaron que no reciben alertas inmediatas sobre cancelaciones de viajes, lo que dificulta tomar decisiones rápidas. Actualmente, las notificaciones solo aparecen en un panel general al actualizarlo.
+- **Recomendación**: Implementar notificaciones push y alertas por correo electrónico en tiempo real para mejorar la visibilidad. Esto garantizará que los supervisores puedan reaccionar rápidamente ante cancelaciones críticas.
+
+**PROBLEMA 2: Inconsistencia en el diseño de pantallas**
+
+- **Severidad**: 2
+- **Heurística violada**: Consistencia y estándares
+- **Problema**: Los usuarios mencionaron que la interfaz es distinta para supervisores y conductores en cuanto a colores, iconos y navegación, lo cual genera confusión al alternar entre roles.
+- **Recomendación**: Unificar los elementos visuales y de navegación para ambos tipos de usuarios. Utilizar guías de estilo consistentes reducirá la curva de aprendizaje y mejorará la experiencia general.
+
+**PROBLEMA 3: Campos obligatorios no señalados en formularios de registro**
+
+- **Severidad**: 3
+- **Heurística violada**: Prevención de errores
+- **Problema**: Los conductores reportaron problemas al completar formularios porque los campos obligatorios no están claramente marcados, lo que ocasiona rechazos sin explicación aparente.
+- **Recomendación**: Marcar visualmente los campos obligatorios y agregar mensajes claros para errores en tiempo real. Esto reducirá la frustración y aumentará la tasa de finalización del registro.
+
+**PROBLEMA 4: Falta de un sistema de recompensas**
+
+- **Severidad**: 2
+- **Heurística violada**: Estética y diseño minimalista
+- **Problema**: Los conductores consideran que no hay incentivos claros que promuevan su buen desempeño, como recompensas por viajes completados o métricas destacadas.
+- **Recomendación**: Agregar un sistema básico de recompensas y gamificación para reconocer a los mejores conductores. Esto podría aumentar la motivación y la retención en la plataforma.
+
+**PROBLEMA 5: Información limitada sobre estados de viaje terminados**
+
+- **Severidad**: 2
+- **Heurística violada**: Visibilidad del estado del sistema
+- **Problema**: Los clientes no pueden acceder fácilmente a información histórica de viajes finalizados, como detalles de la carga o problemas registrados.
+- **Recomendación**: Crear un módulo de reportes históricos accesible desde el panel principal. Esto permitiría una gestión más efectiva de datos y estadísticas.
+
+**PROBLEMA 6: Errores en cálculo de distancias sugeridas**
+
+- **Severidad**: 4
+- **Heurística violada**: Correspondencia entre el sistema y el mundo real
+- **Problema**: Algunos conductores indicaron que las rutas sugeridas incluyen cálculos incorrectos de distancia, lo que genera discrepancias en tiempos estimados.
+- **Recomendación**: Revisar el algoritmo de cálculo de distancias e integrarlo con APIs confiables como Google Maps. Esto reducirá errores y mejorará la confianza en la aplicación.
 
 ## 6.4. Video About-the-Product
 
@@ -2563,6 +2706,8 @@ Además, se destaca la integración de tecnología IoT para monitoreo en tiempo 
 
 - **Duración:** 3 minutos y 9 segundos
 
+## 6.4. Video About-the-Team
+
 
 ---
 ## Conclusión
@@ -2571,11 +2716,11 @@ Los prototipos presentados reflejan las decisiones de diseño basadas en los flu
 
 Este proyecto ha permitido desarrollar una solución integral, fundamentada en el análisis detallado de la **startup**, el perfil de los usuarios y el contexto del mercado. La implementación del **Lean UX Process** y el análisis competitivo proporcionaron una comprensión profunda de las necesidades del usuario, lo cual guió las decisiones de diseño y desarrollo hacia una experiencia centrada en el usuario y diferenciada en el mercado.
 
-A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos. Los diagramas de arquitectura ayudaron a visualizar y organizar el sistema, asegurando que la estructura del software fuera robusta y fácil de mantener.
+A través de un enfoque en **Domain-Driven Design** y la creación de una arquitectura modular y escalable, se definieron estructuras claras para cada componente, facilitando la interacción entre los distintos módulos y asegurando una integración efectiva entre el backend, frontend y los dispositivos IoT. Los diagramas de arquitectura fueron esenciales para garantizar que la estructura del software fuera robusta y sencilla de mantener.
 
-El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups fueron diseñados para maximizar la navegación y la accesibilidad, ofreciendo una experiencia de usuario intuitiva y satisfactoria.
+El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups diseñados ofrecieron una experiencia de usuario intuitiva y satisfactoria, validada en las pruebas realizadas con los usuarios finales.
 
-Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el flujo de desarrollo y la entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas proporcionó retroalimentación clave, permitiendo realizar ajustes que mejoraron significativamente la calidad de la solución final.
+Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el desarrollo y aseguraron una entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas permitió identificar y solucionar problemas críticos de usabilidad, mejorando la calidad de la solución final y garantizando su aceptación por parte de los usuarios.
 
 ---
 ## Bibliografía
@@ -2599,22 +2744,41 @@ Millett, S., & Tune, N. (2015). Patterns, principles, and practices of domain-Dr
 ## ANEXOS
 #### Video de exposición - TB1
 
+Este video corresponde a la exposición del TB1, donde se presenta la definición inicial del proyecto, incluyendo los objetivos, justificación, metodología y las primeras actividades desarrolladas como parte del curso de IoT.
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed-4pn8zScBIpemzIg0M31EB3WS6g71oDokOz3YJh4ETvA?e=rJQvG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 #### Video de exposición - TP1
+
+Este video documenta la presentación del Trabajo Parcial 1, que incluye los avances realizados en el desarrollo del proyecto, tales como la implementación inicial de componentes funcionales.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EVBZOYvubYNEvpuDzphxlIIBiEsAmJPovXotw-jsgZbKpg?e=nVjlfj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### Video de exposición - TB2
 
+En este video se expone el TB2, que detalla los avances logrados en la etapa intermedia del proyecto, con énfasis en el desarrollo de funcionalidades clave, evidencias de integración y mejoras en la solución propuesta.
+
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-#### Video de entrevistas
+#### Video de entrevistas Sprint 1
+
+Este video incluye entrevistas realizadas a usuarios potenciales y expertos, con el objetivo de recopilar información clave para el desarrollo del proyecto, así como validar las necesidades y requerimientos planteados.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+#### Video de entrevistas Sprint 2
+
+Este video incluye entrevistas realizadas a clientes potenciales y conductores, con el objetivo de recopilar información clave para la mejora del proyecto, así como validar sus necesidades y puntos de vista.
+
+[upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding-TB2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)([upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding-TB2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 #### Video About The Product
+
+Este video proporciona una descripción general del producto final desarrollado en el proyecto, mostrando las funcionalidades implementadas, su diseño, y cómo estas resuelven las problemáticas identificadas.
+
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### Enlace de repositorio de Github
+
+El repositorio en GitHub contiene todo el código fuente, documentación técnica y evidencia del desarrollo realizado durante el curso.
+
 [https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report](https://github.com/upc-pre-202402-si572-ws71-Castores/upc-pre-202402-si572-ws71-CastoresRabiosos-report/tree/develop) 
 
