@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a704255684fd71c",
+            "id": "6182b6b6cb981268",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,20 +162,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2a704255684fd71c",
+  "active": "f06b957ffedc4d83",
   "lastOpenFiles": [
-    "resources/images/capitulo_6/carrier_daniel.jpg",
-    "resources/images/capitulo_6/carrier_jamir.jpg",
-    "resources/images/capitulo_6/carrier_juan_alberto.jpg",
-    "resources/images/capitulo_6/client_camila.jpg",
-    "resources/images/capitulo_6/client_leonardo.jpg",
     "resources/images/capitulo_6/client_stefano.jpg",
+    "resources/images/capitulo_6/client_leonardo.jpg",
+    "resources/images/capitulo_6/client_camila.jpg",
+    "resources/images/capitulo_6/carrier_juan_alberto.jpg",
+    "resources/images/capitulo_6/carrier_jamir.jpg",
+    "resources/images/capitulo_6/carrier_daniel.jpg",
     "resources/images/capitulo_6/About-product.jpg",
-    "images/3.png",
-    "images/3.jpg",
-    "README.md",
     "resources/images/capitulo_6/execution_evidence2.jpg",
+    "resources/images/capitulo_6/exectuion_evidence.jpg",
     "resources/images/capitulo_6/sprint_2/app8.png",
+    "resources/images/capitulo_6/sprint_2/app9.png",
     "resources/images/capitulo_6/sprint_2",
     "resources/images/capitulo_6/sprint 2",
     "resources/images/capitulo_6/Nueva carpeta"
