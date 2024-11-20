@@ -88,7 +88,7 @@ _**TF1**_
 En esta cuarta entrega, TF1, se avanzó con el Sprint 3, donde se planificaron y desarrollara mejora continua y la correcion de los artefactos correspondientes a la entrega. Se presentaron evidencias de desarrollo y pruebas realizadas durante la Sprint Review, incluyendo la documentación de servicios y el despliegue del software. Además, se implementaron nuevas integraciones con servicios IoT, asegurando su correcta ejecución y validación.
 
 Asimismo, se presento el video about de team, donde se tiene en cuenta la participacion de cada uno de los integrantes del grupo, su perspectiva de lo que fue el curso y que aprendizajes obtuvieron a lo largo del proyecto. Finalmente, se documentaron las colaboraciones del equipo y se actualizaron los artefactos como el landing page añadiendo las secciones faltantes.
-![TP1](images/3.png)
+![TP1](images/4.png)
 
 ---
 
@@ -3065,6 +3065,7 @@ En este video se expone el TB2, que detalla los avances logrados en la etapa int
 
 En este video se expone el TF1, que detalla los avances logrados en la etapa final del proyecto, con énfasis en el desarrollo de funcionalidades clave, evidencias de integración y mejoras en la solución propuesta.
 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed0CB1GnTtBBiJos_SWT_bMBWsEUFQ85Fcxpu-okEae88g?e=k2Ksyo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/Ed0CB1GnTtBBiJos_SWT_bMBWsEUFQ85Fcxpu-okEae88g?e=k2Ksyo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video de entrevistas - Needfinding
 
 Este video incluye entrevistas realizadas a usuarios potenciales y expertos, con el objetivo de recopilar información clave para el desarrollo del proyecto, así como validar las necesidades y requerimientos planteados.
