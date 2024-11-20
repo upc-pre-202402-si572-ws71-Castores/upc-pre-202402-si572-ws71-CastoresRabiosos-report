@@ -2715,6 +2715,7 @@ El despliegue de la aplicación móvil se realizó en Firebase, donde se configu
 * Embedded Application:
 El desarrollo de la aplicación embebida se llevó a cabo en Wokwi, donde se simuló el funcionamiento del sistema con los componentes y sensores necesarios. Esta plataforma permitió probar y validar el comportamiento del proyecto antes de su implementación física.
 ![iot-gitflow](resources/images/capitulo_6/sprint_3/iot1.png)
+Enlace del proyecto en Wokwi: [https://wokwi.com/projects/414835302614294529](https://wokwi.com/projects/414835302614294529)
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
  En esta sección, se documenta la colaboración del equipo en el desarrollo de los diferentes componentes de la solución, destacando el trabajo realizado en cada uno de ellos. Cada apartado incluye evidencia visual de los commits y analíticos de colaboración en GitHub, mostrando las contribuciones individuales de los miembros del equipo en el Sprint.
