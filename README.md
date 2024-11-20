@@ -2603,6 +2603,44 @@ Esto se confirmará cuando: Las funcionalidades de registro, solicitud y monitor
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
+* Landing Page: 
+Para esta entrega se añadieron las secciones correspondientes a los video about the team y about the product para que el visitante pueda estar mejor informado acerca de la StartUp, Asimismo, se actualizo el botón call to action que permite dirigir al visitante al enlace desplegado de la aplicación web
+![landing-gitflow](resources/images/capitulo_6/sprint_3/page1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_3/page2.png)
+* Web Application:
+Para la presente entrega se implementaron las funcionalidades tanto para client como para transportista para que pueda utilizar la web application, asi mismo se actualizo la conexion a los endpoint correctos del backend.
+Client:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app4.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app5.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app6.png)
+
+Carrier:
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app7.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app8.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_2/app9.png)
+* Mobile Application:
+En este componente se añadieron la pantallas para que el usuario pueda navegar por la aplicación mobile, y se realizo la conexion del mobile app con el backend corregido
+
+Client:
+![[resources/images/capitulo_6/sprint_2/movil4.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil5.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil6.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil7.png|300x550]]
+Carrier:
+
+![[resources/images/capitulo_6/sprint_2/movil9.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil10.png|300x550]]
+![[resources/images/capitulo_6/sprint_2/movil11.png|300x550]]
+* Web Service:
+En los servicios web se implementaron los endpoints que se utilizaron para la implementación de los demás componentes, y que permiten el correcto funcionamiento de la aplicación
+![landing-gitflow](resources/images/capitulo_6/sprint_3/api1.png)
+![landing-gitflow](resources/images/capitulo_6/sprint_3/api2.png)
+* Embedded Application:
+La aplicación embebida se desarrolló y probó en el entorno de simulación de Wokwi. En esta implementación, se mejoro la estructura de archivos corrigiendo errores de la entrega anterior, ademas se realizo la conexion de la aplicacion embebida con los nuevos endpoints correspondientes al backend.
+![landing-gitflow](resources/images/capitulo_6/sprint_3/iot1.png)
+
+
+
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
 En esta sección, se presenta la documentación de los endpoints desarrollados y documentados en OpenAPI, como parte del alcance de este Sprint. A continuación, se proporciona un resumen de los logros alcanzados en la documentación de los Web Services, detallando las acciones implementadas para cada endpoint, los métodos HTTP utilizados (GET, POST, PUT), la sintaxis de llamada y los parámetros necesarios.
@@ -2922,7 +2960,7 @@ Además, se destaca la integración de tecnología IoT para monitoreo en tiempo 
 
 - **URL en Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124146_upc_edu_pe/EdVLX-6zLWJOpeoC17Di8fsBmtNnZvADYLczDM2nb46NYA?e=5J2Gyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-- **URL en YouTube:** https://youtu.be/LaqG35U6Lls
+- **URL en YouTube:** https://youtu.be/yDET0t6DUy0
 
 - **Duración:** 3 minutos y 9 segundos
 
@@ -2945,12 +2983,12 @@ Durante la implementación, la documentación exhaustiva de los endpoints y la i
 
 El video "About-The-Team" destaca el trabajo colaborativo realizado por el equipo en el proyecto _TransportApp_. Incluye imágenes y videos de sesiones reales, narrados en voz en off, y testimonios de los integrantes explicando sus roles y contribuciones clave. Además, presenta los resultados obtenidos y el impacto de nuestras actividades, complementado con enlaces a las versiones publicadas en Microsoft Stream y YouTube para referencia.
 
-![About-tem](resources/images/capitulo_6/About-team.jpg)
-- **URL en Microsoft Stream:**  
+![About-tem](resources/images/capitulo_6/About-team.png)
+- **URL en Microsoft Stream:**  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EfZtUaFlW95CnluV1COo1HkBgFbIERlZSov72PlEYTsmOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hrwyJG](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EfZtUaFlW95CnluV1COo1HkBgFbIERlZSov72PlEYTsmOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hrwyJG)
 
-- **URL en YouTube:** 
+- **URL en YouTube:** https://youtu.be/UzSqXzRmWzQ
 
-- **Duración:** 
+- **Duración:** 7 minutos y 56 segundos
 
 | Pautas                    | Timming       |
 | ------------------------- | ------------- |
@@ -2959,8 +2997,8 @@ El video "About-The-Team" destaca el trabajo colaborativo realizado por el equip
 | Rodrigo Sabino            | Minuto: 2:01  |
 | Sebastian Castro          | Minuto: 3:07  |
 | Luis Isla                 | Minuto: 5:02  |
-| Camila Conde              | Minuto: 5:56  |
-| Diego Portales            | Minuto: 6:57  |
+| Diego Portales            | Minuto: 5:56  |
+| Camila Conde              | Minuto: 6:57  |
 
 ---
 ## Bibliografía
