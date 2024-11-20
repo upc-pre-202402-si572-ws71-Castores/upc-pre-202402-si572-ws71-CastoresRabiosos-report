@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 284.5
   },
   "right": {
     "id": "7f2e0c2fcef5eed6",
@@ -164,18 +164,19 @@
   },
   "active": "2a704255684fd71c",
   "lastOpenFiles": [
-    "resources/images/capitulo_6/About-product.jpg",
-    "images/3.png",
-    "images/3.jpg",
+    "resources/images/capitulo_6/sprint_3/page2.png",
+    "resources/images/capitulo_6/sprint_3/page1.png",
+    "resources/images/capitulo_6/sprint_3/page4.png",
+    "resources/images/capitulo_6/sprint_3/web1.png",
+    "resources/images/capitulo_6/sprint_3/Captura de pantalla 2024-11-20 083239.png",
+    "resources/images/capitulo_6/sprint_3/Captura de pantalla 2024-11-20 083255.png",
+    "resources/images/capitulo_6/About-team.png",
+    "resources/images/capitulo_6/Captura de pantalla 2024-11-20 071705.png",
+    "resources/images/capitulo_6/sprint_3/api2.png",
+    "resources/images/capitulo_6/sprint_3/api1.png",
+    "resources/images/capitulo_6/sprint_3/Captura de pantalla 2024-11-20 070633.png",
+    "resources/images/capitulo_6/sprint_3",
     "README.md",
-    "resources/images/capitulo_6/execution_evidence2.jpg",
-    "resources/images/capitulo_6/sprint_2/app8.png",
-    "resources/images/capitulo_6/sprint_2/app9.png",
-    "resources/images/capitulo_6/sprint_2/page1.png",
-    "resources/images/capitulo_6/sprint_2/api1.png",
-    "resources/images/capitulo_6/sprint_2/api2.png",
-    "resources/images/capitulo_6/sprint_2/iot4.png",
-    "resources/images/capitulo_6/sprint_2/movil1.png",
     "resources/images/capitulo_6/sprint_2",
     "resources/images/capitulo_6/sprint 2",
     "resources/images/capitulo_6/Nueva carpeta"
