@@ -84,7 +84,11 @@ En esta tercer entrega, TB2, se avanzó con el Sprint 2, donde se planificaron y
 
 Asimismo, se realizaron entrevistas de validación, diseñadas para obtener feedback sobre la usabilidad del producto, evaluadas mediante heurísticas de UX. Finalmente, se documentaron las colaboraciones del equipo y se presentó un video promocional sobre el estado actual del producto, resaltando las principales características desarrolladas.
  ![TP1](images/3.png)
+_**TF1**_
+En esta cuarta entrega, TF1, se avanzó con el Sprint 3, donde se planificaron y desarrollara mejora continua y la correcion de los artefactos correspondientes a la entrega. Se presentaron evidencias de desarrollo y pruebas realizadas durante la Sprint Review, incluyendo la documentación de servicios y el despliegue del software. Además, se implementaron nuevas integraciones con servicios IoT, asegurando su correcta ejecución y validación.
 
+Asimismo, se presento el video about de team, donde se tiene en cuenta la participacion de cada uno de los integrantes del grupo, su perspectiva de lo que fue el curso y que aprendizajes obtuvieron a lo largo del proyecto. Finalmente, se documentaron las colaboraciones del equipo y se actualizaron los artefactos como el landing page añadiendo las secciones faltantes.
+![TP1](images/3.png)
 
 ---
 
@@ -1518,20 +1522,20 @@ Esta sección presenta los **wireframes** tanto para la versión web como la ver
 
 **Version Mobile**
 
-![wire1](resources/images/capitulo_5/wireClient1.png)
-![wire1](resources/images/capitulo_5/wireClient2.png)
-![wire1](resources/images/capitulo_5/wireClient3.png)
-![wire1](resources/images/capitulo_5/wireClient4.png)
-![wire1](resources/images/capitulo_5/wireClient5.png)
-![wire1](resources/images/capitulo_5/wireClient7.png)
-![wire1](resources/images/capitulo_5/wireCarrier1.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient1.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient2.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient3.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient4.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient5.png)
+![wire1|300x550](resources/images/capitulo_5/wireClient7.png)
+![wire1|300x550](resources/images/capitulo_5/wireCarrier1.png)
 ![wire1](resources/images/capitulo_5/wireCarrier2.png)
 ![wire1](resources/images/capitulo_5/wireCarrier3.png)
 ![wire1](resources/images/capitulo_5/wireCarrier4.png)
 ![wire1](resources/images/capitulo_5/wireCarrier5.png)
 ![wire1](resources/images/capitulo_5/wireCarrier6.png)
 ![wire1](resources/images/capitulo_5/wireCarrier7.png)
-![wire1](resources/images/capitulo_5/wireCarrier8.png)
+![wire1|300x550](resources/images/capitulo_5/wireCarrier8.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
 Los **diagrams wireflow** muestran el flujo de interacción entre las diferentes pantallas de la aplicación, detallando cómo un usuario típico navegaría a través de la aplicación desde el inicio de sesión hasta la confirmación de una solicitud de transporte o la gestión de ofertas. Utilizando los **wireframes**, se establecieron estos flujos tanto para la versión web como móvil, asegurando una transición fluida entre pasos clave, como recuperación de contraseñas o selección de suscripción. Estas capturas permiten visualizar cómo los usuarios interactuarán con las funcionalidades más importantes, detallando las rutas esperadas y las alternativas disponibles en cada etapa.
@@ -1584,22 +1588,22 @@ Los **mock-ups** son representaciones más detalladas y cercanas al producto fin
 
 **Version Mobile**
 
-![mockup](resources/images/capitulo_5/mockClient1.png)
-![mockup](resources/images/capitulo_5/mockClient2.png)
-![mockup](resources/images/capitulo_5/mockClient3.png)
-![mockup](resources/images/capitulo_5/mockClient4.png)
-![mockup](resources/images/capitulo_5/mockClient5.png)
-![mockup](resources/images/capitulo_5/mockClient6.png)
-![mockup](resources/images/capitulo_5/mockClient7.png)
-![mockup](resources/images/capitulo_5/mockCarrier1.png)
-![mockup](resources/images/capitulo_5/mockCarrier2.png)
-![mockup](resources/images/capitulo_5/mockCarrier3.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient1.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient2.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient3.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient4.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient5.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient6.png)
+![mockup|300x550](resources/images/capitulo_5/mockClient7.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier1.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier2.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier3.png)
 ![mockup](resources/images/capitulo_5/mockCarrier4.png)
-![mockup](resources/images/capitulo_5/mockCarrier5.png)
-![mockup](resources/images/capitulo_5/mockCarrier6.png)
-![mockup](resources/images/capitulo_5/mockCarrier7.png)
-![mockup](resources/images/capitulo_5/mockCarrier8.png)
-![mockup](resources/images/capitulo_5/mockCarrier9.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier5.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier6.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier7.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier8.png)
+![mockup|300x550](resources/images/capitulo_5/mockCarrier9.png)
 
 
 ### 5.4.3. Applications User Flow Diagrams
@@ -2540,7 +2544,7 @@ Esto se confirmará cuando: Las funcionalidades de registro, solicitud y monitor
 
 #### 6.2.3.2. Sprint Backlog 3
 
-
+URL: [https://trello.com/b/9CuZRyzo/sprint-3](https://trello.com/b/9CuZRyzo/sprint-3)
 
 ![isprint3](resources/images/capitulo_6/sprint3.jpg)
 
@@ -3056,17 +3060,22 @@ Este video documenta la presentación del Trabajo Parcial 1, que incluye los ava
 En este video se expone el TB2, que detalla los avances logrados en la etapa intermedia del proyecto, con énfasis en el desarrollo de funcionalidades clave, evidencias de integración y mejoras en la solución propuesta.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EWyE7yfiFK9ItsZFaRtwdvMBkec7_VB6v-OKy8mL07fjBQ?e=X4q6o0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-#### Video de entrevistas Sprint 1
+
+#### Video de exposición - TF1
+
+En este video se expone el TF1, que detalla los avances logrados en la etapa final del proyecto, con énfasis en el desarrollo de funcionalidades clave, evidencias de integración y mejoras en la solución propuesta.
+
+#### Video de entrevistas - Needfinding
 
 Este video incluye entrevistas realizadas a usuarios potenciales y expertos, con el objetivo de recopilar información clave para el desarrollo del proyecto, así como validar las necesidades y requerimientos planteados.
 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b801_upc_edu_pe/EU1mWVHMTjpDoyAw4EHPeoYBJSzX3j8QMCJ-mF2GXmfjFA?e=AWir28&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-#### Video de entrevistas Sprint 2
+#### Video de entrevistas de validación
 
 Este video incluye entrevistas realizadas a clientes potenciales y conductores, con el objetivo de recopilar información clave para la mejora del proyecto, así como validar sus necesidades y puntos de vista.
 
-[upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding-TB2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)([upc-pre-202402-si572-ws71-CastoresRabiosos-needfinding-TB2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202123501_upc_edu_pe/EdrERcfHkC1BmQQdw0CsdI0B13qtbLGWVSycMlQACHH7Gw?e=nTWgWE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 #### Video About The Product
 
 Este video proporciona una descripción general del producto final desarrollado en el proyecto, mostrando las funcionalidades implementadas, su diseño, y cómo estas resuelven las problemáticas identificadas.
