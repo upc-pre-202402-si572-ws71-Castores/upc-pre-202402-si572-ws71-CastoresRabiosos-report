@@ -2599,7 +2599,26 @@ Esto se confirmará cuando: Las funcionalidades de registro, solicitud y monitor
 
 #### 6.2.3.3. Development Evidence for Sprint Review
 
+Durante este Sprint, se completaron avances significativos de todos los productos que se han desarrollado a lo largo del proyecto. Estos responden a los objetivos establecidos para este Sprint. La documentación a continuación detalla los commits relevantes realizados en cada repositorio, proporcionando una visión clara del progreso en cada área. Este registro permite visualizar el trabajo en conjunto y la cohesión de los diferentes componentes que conforman la solución final.
+
+| Repository                                              | Branch                     | commit id | commit message                                         | commit message body | date       |
+| ------------------------------------------------------- | -------------------------- | --------- | ------------------------------------------------------ | ------------------- | ---------- |
+| upc-pre-202402-si572-ws71-Castores/landing-page         | develop                    | 44b27ed   | feat: add seccion team                                 | -                   | 19/11/2024 |
+|                                                         | develop                    | 2608331   | feat: add links about videos                           | -                   | 19/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/embedded-application | main                       | 2b89d2b   | feat: add support for PUT requests with authentication | -                   | 19/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-application      | main                       | e3cb2ed   | feat(auth): implement role routing                     | -                   | 13/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/web-service          | feature/sprint-3           | 48f6268   | feat: service fix sprint 3                             | -                   | 19/11/2024 |
+| upc-pre-202402-si572-ws71-Castores/mobile-application   | feature/services-dashboard | fdfe396   | feat(service-management): Service request & profile v1 | -                   | 19/11/2024 |
+
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de Unit Tests automatizados, enfocados en el Mobile Application, Web Application, Web services Y Embedded relacionados con las User Stories especificadas para este Sprint. 
+
+A continuación, se muestra la tabla que agrupa los commits relacionados con las de las pruebas y el desarrollo de suite de testing.
+
+| Repository                                       | Branch           | Commit ID | Commit Message                        | Commit Message Body                           | Committed on (Date) |
+| ------------------------------------------------ | ---------------- | --------- | ------------------------------------- | --------------------------------------------- | ------------------- |
+| upc-pre-202402-si572-ws71-Castores/testing-suite | feature/sprint-3 | 190dca2   | feat: add .feature files for Sprint 3 | Se añaden archivos .feature para el Sprint 3. | 19/11/2024          |
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
