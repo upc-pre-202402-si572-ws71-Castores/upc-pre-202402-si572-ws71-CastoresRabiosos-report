@@ -2526,6 +2526,89 @@ Durante el **Sprint 3**, se continuó con el desarrollo de **TransportApp**, e
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
+En esta sección, se presenta la documentación de los endpoints desarrollados y documentados en OpenAPI, como parte del alcance de este Sprint. A continuación, se proporciona un resumen de los logros alcanzados en la documentación de los Web Services, detallando las acciones implementadas para cada endpoint, los métodos HTTP utilizados (GET, POST, PUT), la sintaxis de llamada y los parámetros necesarios.
+
+| URL                                                                |
+| ------------------------------------------------------------------ |
+| https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net |
+
+
+* **Iot-process**:
+
+| Endpoints          | Method HTTP |
+| ------------------ | ----------- |
+| /api/v1/iot-process | (POST)      |
+| /api/vl/iot-process/{requestld}| (PUT)      |
+| /api/vl/iot-process/{requestld} | (GET)      |
+
+Example Value - iot-process
+
+```json
+{
+  "requestId": 0,
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+Response body - iot-process
+
+```json
+{
+  "temperature": 0,
+  "weight": 0
+}
+```
+
+* **Profiles**:
+
+| Endpoints                    | Methods HTTP |
+| ---------------------------- | ------------ |
+| /api/v1/profiles             | (GET)        |
+| /api/v1/profiles             | (POST)       |
+| /api/v1/profiles/{profileId} | (GET)        |
+| /api/vl/profiles/{profileld}             | (PUT)       |
+| /api/vl/profiles/users/{userld} | (GET)        |
+
+Response body - profiles
+```json
+[
+  {
+    "id": 0,
+    "fullName": "string",
+    "email": "string",
+    "city": "string",
+    "dni": 0,
+    "phone": "string",
+    "birthday": "2024-11-20T07:13:13.134Z"
+  }
+]
+```
+
+
+
+* **Shippers**:
+
+| Endpoints                           | Methods HTTP |
+| ----------------------------------- | ------------ |
+| /api/vl/shipper                | (POST)       |
+| /api/vl/shipper/{shipperld} | (GET)        |
+
+Example Value - shipper
+
+```json
+{
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "address": "string",
+  "birthday": "2024-11-02T11:50:49.634Z",
+  "dni": 0,
+  "phone": "string"
+}
+```
+
+
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 ## 6.3. Validation Interviews
