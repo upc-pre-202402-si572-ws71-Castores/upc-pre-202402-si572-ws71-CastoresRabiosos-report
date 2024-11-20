@@ -2528,7 +2528,7 @@ Durante el **Sprint 3**, se continuó con el desarrollo de **TransportApp**, e
 | Sprint 2 Review Summary         | En el Sprint anterior (Sprint 2), logramos completar todo lo referenciado a la **web application** (front-end) de **TransportApp**, incluida la parte móvil. Avanzamos parcialmente en el desarrollo del **backend** y trabajamos en la futura comunicación entre el **backend** y el **frontend**, además de sincronizar y documentar el proyecto. Sin embargo, debido a problemas de organización y gestión del tiempo, no logramos completar la funcionalidad total del **backend**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Sprint 2 Retrospective Summary  | Durante la retrospectiva, el equipo expresó una mejora significativa respecto a los Sprints anteriores, incrementando nuestro rendimiento por integrante, lo que resultó en avances mucho mayores en comparación con el Sprint anterior. Aprendimos más sobre la planificación de tareas, lo que permitió un enfoque más eficiente y coordinado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Sprint 2 Goal                   | **Our goal for this sprint is** to complete the development of the **backend** to allow users to access and edit information on **TransportApp** via both the **web application** and **mobile application**. Additionally, we will integrate and synchronize a physical **IoT device** with the **backend** so that sensor data can be processed and displayed in real-time through the interfaces. <br><br>**We believe this sprint will deliver** significant value by enabling effective management of user data, full control over transportation information, and the ability to edit it, as well as optimizing communication between the **backend**, **frontend**, and IoT devices, providing a seamless and accurate experience for users across all platforms. <br><br>**This will be confirmed when** the functionality for accessing and editing data through the web and mobile **frontend** is fully implemented, the **IoT device** is synchronized with the **backend**, and users can view and modify data in real-time effectively and reliably. |
+| Sprint 3 Goal                   | **Our goal for this sprint is** to complete the development of the **backend** to allow users to access and edit information on **TransportApp** via both the **web application** and **mobile application**. Additionally, we will integrate and synchronize a physical **IoT device** with the **backend** so that sensor data can be processed and displayed in real-time through the interfaces. <br><br>**We believe this sprint will deliver** significant value by enabling effective management of user data, full control over transportation information, and the ability to edit it, as well as optimizing communication between the **backend**, **frontend**, and IoT devices, providing a seamless and accurate experience for users across all platforms. <br><br>**This will be confirmed when** the functionality for accessing and editing data through the web and mobile **frontend** is fully implemented, the **IoT device** is synchronized with the **backend**, and users can view and modify data in real-time effectively and reliably. |
 
 Creemos que esta entrega: Demuestra una mejora significativa en la entrega de las funcionalidades requeridas dentro de los plazos establecidos. La aplicación de gestión de transporte para los transportistas está ahora completamente operativa y puede ser utilizada en todas nuestras plataformas, lo que incrementa la eficiencia operativa y proporciona visibilidad en tiempo real de las condiciones de carga.
 
@@ -2689,7 +2689,48 @@ Example Value - shipper
 
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+Esta sección detalla los procesos de despliegue realizados durante el Sprint, abarcando la configuración de recursos en la nube, integración de proyectos y automatización de tareas de despliegue. Incluye los pasos ejecutados para implementar cada producto digital, como la Landing Page, Web Services y Aplicaciones, asegurando su correcto funcionamiento en el entorno de producción.
+
+* Landing Page: 
+Para el despliegue de la Landing Page, se utilizó GitHub Pages. Cada cambio realizado en la rama configurada previamente durante sprints anteriores actualizaba automáticamente el despliegue.
+![landing-gitflow](resources/images/capitulo_6/sprint_3/landing1.png)
+Enlace Landing Page:  [https://upc-pre-202402-si572-ws71-castores.github.io/landing-page/](https://upc-pre-202402-si572-ws71-castores.github.io/landing-page/)
+
+* Web Services:
+Para el despliegue de los servicios web, utilizo una instancia en Azure como hosting, donde previamente en sprints anteriores se configuro el despliegue automatico con github actions por lo que al tener nuevos commits, en la rama Main del repositorio, se creaba un nuevo deploy correspondinte al web service
+![service-gitflow](resources/images/capitulo_6/sprint_3/service1.png)
+
+Enlace Web Services: [https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net/swagger-ui/index.html#/](https://transportapp-crg0gmeuevexfscb.eastus2-01.azurewebsites.net/swagger-ui/index.html#/)
+
+* Web Application: 
+Para el despliegue de la aplicacion web, se utilizo Netlifly como hosting donde inicialmente se realizo la configuraron las variables del proyecto apartir del repositorio que tenemos en la organizacion de GitHub, y luego se realizo el despliegue automatico.
+![web-gitflow](resources/images/capitulo_6/sprint_3/web1.png)
+Enlace de la Web Application: [https://transportapp-tf.netlify.app/auth/sign-in](https://transportapp-tf.netlify.app/auth/sign-in)
+
+* Mobile Application:
+El despliegue de la aplicación móvil se realizó en Firebase, donde se configuraron las versiones para Android, iOS, Web y Windows. Esta plataforma permite gestionar y monitorear el rendimiento de la aplicación en múltiples entornos, asegurando una experiencia consistente en cada sistema operativo.
+![mobile-gitflow](resources/images/capitulo_6/sprint_3/mobile2.png)
+
+* Embedded Application:
+El desarrollo de la aplicación embebida se llevó a cabo en Wokwi, donde se simuló el funcionamiento del sistema con los componentes y sensores necesarios. Esta plataforma permitió probar y validar el comportamiento del proyecto antes de su implementación física.
+![iot-gitflow](resources/images/capitulo_6/sprint_3/iot1.png)
 #### 6.2.3.8. Team Collaboration Insights during Sprint
+
+ En esta sección, se documenta la colaboración del equipo en el desarrollo de los diferentes componentes de la solución, destacando el trabajo realizado en cada uno de ellos. Cada apartado incluye evidencia visual de los commits y analíticos de colaboración en GitHub, mostrando las contribuciones individuales de los miembros del equipo en el Sprint.
+
+* **Landing Page**: Este apartado muestra el trabajo en equipo en el desarrollo de la Landing Page (repositorio: `landing-page`), con evidencia de commits y contribuciones individuales en GitHub, reflejando el esfuerzo conjunto para cumplir los objetivos del Sprint.
+![landing-gitflow](resources/images/capitulo_6/sprint_3/landing.png)
+
+- **Web Services**: En esta sección se documenta la colaboración en el desarrollo de los Web Services (repositorio: `web-services`), incluyendo capturas de los commits realizados y el aporte de cada miembro en las tareas de backend y conexión de servicios.
+![service-gitflow](resources/images/capitulo_6/sprint_3/services.png)
+
+- **Frontend Web Application**: Este apartado presenta la colaboración en el desarrollo del Frontend Web (repositorio: `web-application`), con registros de commits y contribuciones individuales que evidencian la implementación de la interfaz de usuario y la integración de funcionalidades para mejorar la experiencia de usuario.
+![web-gitflow](resources/images/capitulo_6/sprint_3/web.png)
+- **Aplicación Móvil**: Este apartado presenta la participación del equipo en la creación de la aplicación móvil (repositorio: `mobile-application`), con registros de commits y contribuciones individuales que evidencian el desarrollo y la integración de funcionalidades clave en la aplicación.
+![mobile-gitflow](resources/images/capitulo_6/sprint_3/mobile.png)
+- **Aplicación Embebida**: Este apartado muestra el trabajo realizado en la aplicación embebida (repositorio: `embedded-application`), incluyendo capturas de los commits y contribuciones específicas de cada miembro en la implementación de esta funcionalidad.
+![iot-gitflow](resources/images/capitulo_6/sprint_3/iot.png)
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 
@@ -2884,7 +2925,6 @@ Además, se destaca la integración de tecnología IoT para monitoreo en tiempo 
 
 - **Duración:** 3 minutos y 9 segundos
 
-## 6.4. Video About-the-Team
 
 
 ---
@@ -2899,6 +2939,27 @@ A través de un enfoque en **Domain-Driven Design** y la creación de una arquit
 El diseño de la **UI/UX** se centró en la coherencia y la usabilidad, adaptándose tanto a plataformas web como móviles e IoT. Los prototipos y mock-ups diseñados ofrecieron una experiencia de usuario intuitiva y satisfactoria, validada en las pruebas realizadas con los usuarios finales.
 
 Durante la implementación, la documentación exhaustiva de los endpoints y la integración de herramientas de despliegue automático facilitaron el desarrollo y aseguraron una entrega continua. Además, la fase de validación mediante entrevistas y evaluaciones heurísticas permitió identificar y solucionar problemas críticos de usabilidad, mejorando la calidad de la solución final y garantizando su aceptación por parte de los usuarios.
+
+## Video About-the-Team
+
+El video "About-The-Team" destaca el trabajo colaborativo realizado por el equipo en el proyecto _TransportApp_. Incluye imágenes y videos de sesiones reales, narrados en voz en off, y testimonios de los integrantes explicando sus roles y contribuciones clave. Además, presenta los resultados obtenidos y el impacto de nuestras actividades, complementado con enlaces a las versiones publicadas en Microsoft Stream y YouTube para referencia.
+
+![About-tem](resources/images/capitulo_6/About-team.jpg)
+- **URL en Microsoft Stream:**  
+
+- **URL en YouTube:** 
+
+- **Duración:** 
+
+| Pautas                    | Timming       |
+| ------------------------- | ------------- |
+| Introduccion (Voz en off) | Minuto: 00:00 |
+| Edery Abanto              | Minuto: 1:02  |
+| Rodrigo Sabino            | Minuto: 2:01  |
+| Sebastian Castro          | Minuto: 3:07  |
+| Luis Isla                 | Minuto: 5:02  |
+| Camila Conde              | Minuto: 5:56  |
+| Diego Portales            | Minuto: 6:57  |
 
 ---
 ## Bibliografía
